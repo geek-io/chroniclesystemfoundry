@@ -1,42 +1,39 @@
 import SystemUtils from "../utils/systemUtils.js";
 
+/**
+ * A Chronicle System test: roll (test dice + bonus dice) d6, optionally re-roll ones, keep the best
+ * (test dice - penalty dice) and add modifiers.
+ */
 export class CSRoll {
     constructor(title, formula) {
         this.formula = formula;
         this.title = title;
-        this.entityData = undefined;
-        this.rollCard  = "systems/chroniclesystem/templates/chat/cs-stat-rollcard.html";
         this.results = [];
     }
 
-    async doRoll(actor, async = true) {
-        if (this.formula.pool - this.formula.dicePenalty <=0 ) {
+    /**
+     * Evaluate the test and optionally post it to chat.
+     * @param {Actor} actor
+     * @param {boolean} [toChat=true]   Post the result as a chat message.
+     * @returns {Promise<Roll|null>}
+     */
+    async doRoll(actor, toChat = true) {
+        if (this.formula.keptDice <= 0) {
             ui.notifications.info(SystemUtils.localize("CS.notifications.dicePoolInvalid"));
             return null;
         }
-        const pool = Math.max(this.formula.pool, 1);
-        const dices = pool + this.formula.bonusDice;
-        let dieRoll = new Die({faces: 6, number: dices});
-        await dieRoll.evaluate({async : async});
-        this.results = dieRoll.results;
+        const roll = new Roll(this.formula.toRollFormula());
+        await roll.evaluate();
+        this.results = roll.dice[0]?.results ?? [];
 
-        let reRollFormula = "r"+this.formula.reRoll+"=1";
-        dieRoll.reroll(reRollFormula);
-
-        dieRoll.keep('kh' + Math.max(this.formula.pool - this.formula.dicePenalty, 0));
-
-        const plus = new OperatorTerm({operator: "+"});
-        plus.evaluate();
-        const bonus = new NumericTerm({number: this.formula.modifier});
-        bonus.evaluate();
-
-        let resultRoll = Roll.fromTerms([dieRoll, plus, bonus]);
-        const messageId = this.formula.isUserChanged ? "CS.chatMessages.customRoll" : "CS.chatMessages.simpleRoll";
-        let flavor =  SystemUtils.format(messageId, {name: actor.name, test: this.title});
-        resultRoll.toMessage({
-            speaker: ChatMessage.getSpeaker({ actor: actor }),
-            flavor: flavor
-        });
-        return resultRoll;
+        if (toChat) {
+            const messageId = this.formula.isUserChanged ? "CS.chatMessages.customRoll" : "CS.chatMessages.simpleRoll";
+            const flavor = SystemUtils.format(messageId, {name: actor?.name ?? "", test: this.title});
+            await roll.toMessage({
+                speaker: ChatMessage.getSpeaker({actor}),
+                flavor
+            });
+        }
+        return roll;
     }
 }

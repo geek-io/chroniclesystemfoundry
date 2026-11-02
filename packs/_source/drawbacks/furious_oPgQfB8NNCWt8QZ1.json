@@ -1,0 +1,35 @@
+{
+  "_id": "oPgQfB8NNCWt8QZ1",
+  "name": "Furious",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>Your first Persuasion test in an intrigue must use Intimidate; –2D on Seduce.</p><p><em>Full rules: SIFRP p. 93.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 93",
+    "requireSorcerousArt": false,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "—"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!oPgQfB8NNCWt8QZ1"
+}

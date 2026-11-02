@@ -1,0 +1,79 @@
+{
+  "_id": "4Exww4pFvqgrW7FH",
+  "name": "Fighting",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Skill with melee weapons. Specialties match weapon groups.</p>",
+    "type": "",
+    "source": "SIFRP p. 63",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Axes",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Bludgeons",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Brawling",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Fencing",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Long Blades",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Pole-Arms",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Shields",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Short Blades",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Spears",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4Exww4pFvqgrW7FH"
+}

@@ -15,26 +15,26 @@
             <div class="item-controls"></div>
         </li>
         {{#each holdings as |holding index|}}
-            <li class="item" data-item-id="{{_id}}">
+            <li class="item draggable" data-item-id="{{_id}}">
                 <div class="flexrow">
                     <div class="field">
                     {{#if ../owner}}
-                        <div class="item-edit"><a>{{name}}</a></div>
+                        <div class="item-edit" data-action="editItem"><a>{{name}}</a></div>
                     {{else}}
                         <div>{{name}}</div>
                     {{/if}}
                         <div>
                             <ol class="unordered">
-                            {{#each system.features as |feature index|}}
+                            {{#each featureList as |feature index|}}
                                 <li>{{name}} ({{cost}})</li>
                             {{/each}}
                             </ol>
                         </div>
                     </div>
                     <div class="field size50 center">{{system.investment}}</div>
-                    <div class="item-controls"><a><i class="far fa-caret-square-down"></i></a></div>
+                    <div class="item-controls"><a data-action="toggleDescription"><i class="far fa-caret-square-down"></i></a></div>
                 </div>
-                <div class="field description hidden">{{enrich system.description}}</div>
+                <div class="field description hidden">{{{enrichedDescription}}}</div>
             </li>
         {{/each}}
     </ol>

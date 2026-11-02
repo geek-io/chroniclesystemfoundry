@@ -1,14 +1,29 @@
 {
+  "id": "chroniclesystem",
   "title": "Chronicle System (Unofficial)",
-  "description": "An implementation for Green Ronin's Chronicle System, used by SIFRP and Sword Chronicles.",
-  "version": "0.6.0",
+  "description": "An implementation of Green Ronin's Chronicle System, used by A Song of Ice and Fire Roleplaying (SIFRP) and Sword Chronicle. Updated for Foundry VTT v14 by the Geek IO Dev Team.",
+  "version": "14.0.0",
+  "compatibility": {
+    "minimum": "13.346",
+    "verified": "14.368"
+  },
+  "authors": [
+    {
+      "name": "Kirlian '3darkman' Silvestre",
+      "discord": "Kirlian#1814",
+      "flags": {}
+    },
+    {
+      "name": "Geek IO Dev Team",
+      "url": "https://geek-io.net/discord",
+      "flags": {}
+    }
+  ],
   "esmodules": [
     "module/system/config.js"
   ],
   "styles": [
-    "styles/global.css",
-    "styles/actor-sheet.css",
-    "styles/less/global.css"
+    "styles/chronicle.css"
   ],
   "languages": [
     {
@@ -18,24 +33,330 @@
       "flags": {}
     }
   ],
-  "gridDistance": 5,
-  "gridUnits": "ft",
-  "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power",
-  "url": "https://github.com/3darkman/foundryvtt-chroniclesystem/",
-  "manifest": "https://raw.githubusercontent.com/3darkman/foundryvtt-chroniclesystem/master/system.json",
-  "download": "https://raw.githubusercontent.com/3darkman/foundryvtt-chroniclesystem/master/chroniclesystem.zip",
-  "license": "ISC",
-  "id": "chroniclesystem",
-  "authors": [
+  "documentTypes": {
+    "Actor": {
+      "character": {
+        "htmlFields": [
+          "personalHistory",
+          "allies",
+          "enemies",
+          "oaths",
+          "motto"
+        ]
+      },
+      "npc": {
+        "htmlFields": [
+          "personalHistory",
+          "allies",
+          "enemies",
+          "oaths",
+          "motto",
+          "npcNotes"
+        ]
+      },
+      "house": {}
+    },
+    "Item": {
+      "ability": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "armor": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "benefit": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "drawback": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "equipment": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "event": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "holding": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "poison": {
+        "htmlFields": [
+          "description",
+          "effects",
+          "recovery"
+        ]
+      },
+      "technique": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "weapon": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    }
+  },
+  "packs": [
     {
-      "name": "Kirlian '3darkman' Silvestre",
-      "discord": "Kirlian#1814",
+      "name": "abilities",
+      "label": "Abilities",
+      "path": "packs/abilities",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "benefits",
+      "label": "Benefits",
+      "path": "packs/benefits",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "drawbacks",
+      "label": "Drawbacks",
+      "path": "packs/drawbacks",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "weapons",
+      "label": "Weapons",
+      "path": "packs/weapons",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "armor",
+      "label": "Armor",
+      "path": "packs/armor",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment & Mounts",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "poisons",
+      "label": "Poisons",
+      "path": "packs/poisons",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "holdings",
+      "label": "House Holdings & Units",
+      "path": "packs/holdings",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "events",
+      "label": "Historical Events",
+      "path": "packs/events",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "archetypes",
+      "label": "Character Archetypes",
+      "path": "packs/archetypes",
+      "type": "Actor",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pregenerated-characters",
+      "label": "Pregenerated Characters",
+      "path": "packs/pregenerated-characters",
+      "type": "Actor",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "narrator-characters",
+      "label": "Narrator Characters (NPCs)",
+      "path": "packs/narrator-characters",
+      "type": "Actor",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "creatures",
+      "label": "Creatures & Steeds",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "tables",
+      "label": "Roll Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     }
   ],
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11.315"
+  "packFolders": [
+    {
+      "name": "Chronicle System (SIFRP)",
+      "sorting": "m",
+      "color": "#24496e",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Characters",
+          "sorting": "m",
+          "packs": [
+            "archetypes",
+            "pregenerated-characters"
+          ]
+        },
+        {
+          "name": "Rules & Qualities",
+          "sorting": "m",
+          "packs": [
+            "abilities",
+            "benefits",
+            "drawbacks"
+          ]
+        },
+        {
+          "name": "Equipment",
+          "sorting": "m",
+          "packs": [
+            "weapons",
+            "armor",
+            "equipment",
+            "poisons"
+          ]
+        },
+        {
+          "name": "Houses",
+          "sorting": "m",
+          "packs": [
+            "holdings",
+            "events"
+          ]
+        },
+        {
+          "name": "Narrator",
+          "sorting": "m",
+          "packs": [
+            "narrator-characters",
+            "creatures",
+            "tables"
+          ]
+        }
+      ]
+    }
+  ],
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
+  "url": "https://github.com/geek-io/chroniclesystemfoundry",
+  "manifest": "https://raw.githubusercontent.com/geek-io/chroniclesystemfoundry/master/system.json",
+  "download": "https://raw.githubusercontent.com/geek-io/chroniclesystemfoundry/master/chroniclesystem.zip",
+  "changelog": "https://github.com/geek-io/chroniclesystemfoundry/blob/master/CHANGELOG.md",
+  "bugs": "https://github.com/geek-io/chroniclesystemfoundry/issues",
+  "license": "ISC",
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "styles",
+        "templates",
+        "lang"
+      ]
+    }
   }
 }

@@ -1,0 +1,1535 @@
+{
+  "_id": "npBXteEupajwns3K",
+  "name": "Anointed Knight",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "age": 0,
+    "destinyPoints": {
+      "current": 1,
+      "max": 1
+    },
+    "sorceryPoints": {
+      "current": 0,
+      "max": 0
+    },
+    "derivedStats": {
+      "intrigueDefense": {
+        "value": 0,
+        "modifier": 0
+      },
+      "composure": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "frustration": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "combatDefense": {
+        "value": 0,
+        "modifier": 0
+      },
+      "health": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "fatigue": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "armorRating": {
+        "value": 0,
+        "modifier": 0
+      }
+    },
+    "wounds": [],
+    "injuries": [],
+    "currentDisposition": 4,
+    "modifiers": {},
+    "penalties": {},
+    "movement": {
+      "base": 4,
+      "runBonus": 0,
+      "sprintMultiplier": 4,
+      "bulk": 0,
+      "modifier": 0,
+      "total": 0,
+      "sprintTotal": 0
+    },
+    "ancestries": [],
+    "gender": "",
+    "house": "",
+    "height": "1.72",
+    "weight": "70",
+    "eyeColor": "",
+    "hairColor": "",
+    "mannerisms": "",
+    "distinguishingFeatures": "",
+    "personalHistory": "<p>A knight who won his spurs and was anointed with the seven oils. Combat Defense 3 in armor, +2 with shield.</p><p><em>Adult Warrior archetype — SIFRP p. 33</em></p>",
+    "owned": {
+      "equipments": [],
+      "weapons": [],
+      "armors": [],
+      "qualities": [],
+      "drawbacks": [],
+      "abilities": [],
+      "powers": [],
+      "benefits": []
+    },
+    "currentStress": 0,
+    "allies": "",
+    "enemies": "",
+    "oaths": "",
+    "heraldry": "",
+    "portrait": "",
+    "motto": "",
+    "coins": {
+      "coppers": 0,
+      "silvers": 0,
+      "golds": 16
+    },
+    "glory": 0,
+    "vice": "",
+    "virtue": "",
+    "motivation": "",
+    "goal": "",
+    "experience": {
+      "spent": 0,
+      "total": 0
+    }
+  },
+  "items": [
+    {
+      "_id": "Ey4bv4aZEToOJ9zc",
+      "name": "Agility",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Dexterity, reflexes and body control. Used for acrobatics, keeping your footing, slipping free and reacting quickly; adds to Combat Defense.</p>",
+        "type": "",
+        "source": "SIFRP p. 56",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Acrobatics",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Balance",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Contortions",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Dodge",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Quickness",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.OxW0pqOqZ0SMqNwx",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.Ey4bv4aZEToOJ9zc"
+    },
+    {
+      "_id": "ZGYLt6ms5xv4u3ok",
+      "name": "Animal Handling",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Training, riding, driving and calming animals, from warhorses to ravens.</p>",
+        "type": "",
+        "source": "SIFRP p. 57",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Charm",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Drive",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Ride",
+            "rating": 1,
+            "modifier": 0
+          },
+          {
+            "name": "Train",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.yC5wghV6yW3KH0pg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.ZGYLt6ms5xv4u3ok"
+    },
+    {
+      "_id": "HYiJACS0FdxqJRZ0",
+      "name": "Athletics",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Raw physical power and training: climbing, jumping, running, lifting, swimming and throwing. Most melee weapon damage is based on it; adds to Combat Defense.</p>",
+        "type": "",
+        "source": "SIFRP p. 58",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Climb",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Jump",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Run",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Strength",
+            "rating": 2,
+            "modifier": 0
+          },
+          {
+            "name": "Swim",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Throw",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.ogzt2gnNStn6rkRN",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.HYiJACS0FdxqJRZ0"
+    },
+    {
+      "_id": "Ad1Zs5ufvBYMEFDq",
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Perception and reading people. Opposes Stealth and Deception, and adds to both Combat and Intrigue Defense.</p>",
+        "type": "",
+        "source": "SIFRP p. 60",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Empathy",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Notice",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.pRtrqAQMKoASq8GR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.Ad1Zs5ufvBYMEFDq"
+    },
+    {
+      "_id": "Zt8Mqci2661k9pEa",
+      "name": "Cunning",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Intelligence, problem solving and recall. Adds to Intrigue Defense and is the influence for Bargain and Incite.</p>",
+        "type": "",
+        "source": "SIFRP p. 60",
+        "rating": 2,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Decipher",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Logic",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Memory",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.3vo8TMlbY8BQDAVR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.Zt8Mqci2661k9pEa"
+    },
+    {
+      "_id": "PS8SEjWAwBg4waPc",
+      "name": "Deception",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Lying, misdirection, playing a role and cheating. Used for deception rolls in intrigues.</p>",
+        "type": "",
+        "source": "SIFRP p. 61",
+        "rating": 2,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Act",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Bluff",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Cheat",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Disguise",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.xATQdMmNcnkvaDyq",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.PS8SEjWAwBg4waPc"
+    },
+    {
+      "_id": "jNdAT62EhDUyjqd9",
+      "name": "Endurance",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Toughness and staying power. Health is Endurance × 3, and Endurance limits injuries and wounds.</p>",
+        "type": "",
+        "source": "SIFRP p. 62",
+        "rating": 4,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Resilience",
+            "rating": 2,
+            "modifier": 0
+          },
+          {
+            "name": "Stamina",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.R8HQ5KBpWHsxBT8K",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.jNdAT62EhDUyjqd9"
+    },
+    {
+      "_id": "jER5FAdJd4qoyUcC",
+      "name": "Fighting",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Skill with melee weapons. Specialties match weapon groups.</p>",
+        "type": "",
+        "source": "SIFRP p. 63",
+        "rating": 5,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Axes",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Bludgeons",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Brawling",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Fencing",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Long Blades",
+            "rating": 2,
+            "modifier": 0
+          },
+          {
+            "name": "Pole-Arms",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Shields",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Short Blades",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Spears",
+            "rating": 1,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.4Exww4pFvqgrW7FH",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.jER5FAdJd4qoyUcC"
+    },
+    {
+      "_id": "GxKcubl0bM5wCWrM",
+      "name": "Healing",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Diagnosing and treating disease, poison, injuries and wounds.</p>",
+        "type": "",
+        "source": "SIFRP p. 63",
+        "rating": 2,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Diagnose",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Treat Ailment",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Treat Injury",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.VDDAi43DwqwgXwc4",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.GxKcubl0bM5wCWrM"
+    },
+    {
+      "_id": "2z8x5GoZCjsYGyKq",
+      "name": "Knowledge",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Learning, lore and the ways of the streets.</p>",
+        "type": "",
+        "source": "SIFRP p. 63",
+        "rating": 2,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Education",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Research",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Streetwise",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.R4Fa21sszxU3tFUw",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.2z8x5GoZCjsYGyKq"
+    },
+    {
+      "_id": "fJYtpcWJ25hUtgyq",
+      "name": "Language",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Each language is tracked separately (Common Tongue, High Valyrian, Old Tongue...). Rank shows fluency.</p>",
+        "type": "",
+        "source": "SIFRP p. 64",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Common Tongue",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.o4W77AWTr5v1HG3Y",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.fJYtpcWJ25hUtgyq"
+    },
+    {
+      "_id": "N5mMMDoAfAM00EtX",
+      "name": "Marksmanship",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Skill with ranged weapons, from bows to siege engines.</p>",
+        "type": "",
+        "source": "SIFRP p. 65",
+        "rating": 2,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Bows",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Crossbows",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Siege",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Thrown",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.TuhR9OMntFFlwCv7",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.N5mMMDoAfAM00EtX"
+    },
+    {
+      "_id": "sCEWEVDXcw5uEYjf",
+      "name": "Persuasion",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Influencing others. Specialties match the intrigue techniques.</p>",
+        "type": "",
+        "source": "SIFRP p. 65",
+        "rating": 2,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Bargain",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Charm",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Convince",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Incite",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Intimidate",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Seduce",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Taunt",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.Hi5rmvELujzT73er",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.sCEWEVDXcw5uEYjf"
+    },
+    {
+      "_id": "LoLJF3UVugQcawTX",
+      "name": "Status",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Social standing and the knowledge that comes with it. Adds to Intrigue Defense; Stewardship drives House Fortunes.</p>",
+        "type": "",
+        "source": "SIFRP p. 66",
+        "rating": 4,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Breeding",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Reputation",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Stewardship",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Tournaments",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.akWulKGX1cHDbKOD",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.LoLJF3UVugQcawTX"
+    },
+    {
+      "_id": "i4zViLDT1ZVQRuHz",
+      "name": "Stealth",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Moving unseen and going unnoticed in a crowd.</p>",
+        "type": "",
+        "source": "SIFRP p. 67",
+        "rating": 2,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Blend In",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Sneak",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.865NuH6TJwjaEOq4",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.i4zViLDT1ZVQRuHz"
+    },
+    {
+      "_id": "MKZkCg2wn4hLy3Wx",
+      "name": "Survival",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Living off the land, hunting, finding your way and tracking.</p>",
+        "type": "",
+        "source": "SIFRP p. 67",
+        "rating": 2,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Forage",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Hunt",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Orientation",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Track",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.2XdFAbOhNmornj9D",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.MKZkCg2wn4hLy3Wx"
+    },
+    {
+      "_id": "7xfVZ25nasV2hWiu",
+      "name": "Thievery",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Locks, light fingers and theft.</p>",
+        "type": "",
+        "source": "SIFRP p. 69",
+        "rating": 2,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Pick Lock",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Sleight of Hand",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Steal",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.GCmmklePxDeVyOD6",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.7xfVZ25nasV2hWiu"
+    },
+    {
+      "_id": "WDE8QNe3XVQMeF40",
+      "name": "Warfare",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Leading troops and understanding battle. Used heavily in warfare.</p>",
+        "type": "",
+        "source": "SIFRP p. 70",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Command",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Strategy",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Tactics",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.mfeXRQRN4JYkM7ze",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.WDE8QNe3XVQMeF40"
+    },
+    {
+      "_id": "KSbEo6kwh9U3xICP",
+      "name": "Will",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Mental fortitude. Composure is Will × 3 and Frustration equals Will.</p>",
+        "type": "",
+        "source": "SIFRP p. 70",
+        "rating": 2,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Courage",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Coordinate",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Dedication",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.rublFAndGZ8dHm4b",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.KSbEo6kwh9U3xICP"
+    },
+    {
+      "_id": "Kb4Vj1h8z060GFM3",
+      "name": "Anointed",
+      "type": "benefit",
+      "img": "systems/chroniclesystem/assets/icons/benefit.png",
+      "system": {
+        "description": "<p>+2 to Status results; once per day, +5 to defenses and passive results for a round.</p><p><em>Martial quality. Full rules: SIFRP p. 77.</em></p>",
+        "type": "",
+        "source": "SIFRP p. 77",
+        "categories": "Martial",
+        "requirements": "Sponsor",
+        "sorcerousArtAccess": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.benefits.Item.9MAKI3IUwz0OcRhE",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.Kb4Vj1h8z060GFM3"
+    },
+    {
+      "_id": "pJu0sZh6fcbZXEwJ",
+      "name": "Long Blade Fighter I",
+      "type": "benefit",
+      "img": "systems/chroniclesystem/assets/icons/benefit.png",
+      "system": {
+        "description": "<p>Sacrifice bonus dice for a free degree of success.</p><p><em>Martial quality. Full rules: SIFRP p. 84.</em></p>",
+        "type": "",
+        "source": "SIFRP p. 84",
+        "categories": "Martial",
+        "requirements": "Fighting 4 (Long Blades 2B)",
+        "sorcerousArtAccess": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.benefits.Item.4uXt6Jq8v30VVZ30",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.pJu0sZh6fcbZXEwJ"
+    },
+    {
+      "_id": "oSYeZjBtq0yE8mKJ",
+      "name": "Sponsor",
+      "type": "benefit",
+      "img": "systems/chroniclesystem/assets/icons/benefit.png",
+      "system": {
+        "description": "<p>You have a powerful ally.</p><p><em>Fate quality. Full rules: SIFRP p. 89.</em></p>",
+        "type": "",
+        "source": "SIFRP p. 89",
+        "categories": "Fate",
+        "requirements": "—",
+        "sorcerousArtAccess": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.benefits.Item.ZIP4oO0srFQ1c1tw",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.oSYeZjBtq0yE8mKJ"
+    },
+    {
+      "_id": "bBpLe4PUCAs8QCjQ",
+      "name": "Flaw (Thievery –1D)",
+      "type": "drawback",
+      "img": "systems/chroniclesystem/assets/icons/drawback.png",
+      "system": {
+        "description": "<p>–1D on all tests with a specific ability. Most adult characters begin with one.</p><p><em>Full rules: SIFRP p. 93.</em></p>",
+        "type": "",
+        "source": "SIFRP p. 93",
+        "requireSorcerousArt": false,
+        "isAStricture": false,
+        "isAFlaw": true,
+        "flawAttribute": "",
+        "requirements": "—"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.drawbacks.Item.DeJJoVL2FkQfKKYF",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.bBpLe4PUCAs8QCjQ"
+    },
+    {
+      "_id": "WlA4V0vFVFIJ5Wqp",
+      "name": "Full Plate",
+      "type": "armor",
+      "img": "systems/chroniclesystem/assets/icons/armor.png",
+      "system": {
+        "description": "<p>A full harness of articulated steel plate.</p>",
+        "type": "",
+        "source": "SIFRP p. 312",
+        "weight": 50.0,
+        "rating": 10,
+        "penalty": -6,
+        "bulk": 3,
+        "qualities": [],
+        "equipped": 1,
+        "quantity": 1,
+        "cost": "3,000 ss"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.armor.Item.fGIIyodHWPWdz43R",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.WlA4V0vFVFIJ5Wqp"
+    },
+    {
+      "_id": "XeLpNAbGmSg2AXON",
+      "name": "Bastard Sword",
+      "type": "weapon",
+      "img": "systems/chroniclesystem/assets/icons/weapon.png",
+      "system": {
+        "description": "<p>A sword of the knightly sort.</p>",
+        "type": "",
+        "source": "SIFRP p. 310",
+        "weight": 10.0,
+        "quantity": 1,
+        "cost": "700 ss",
+        "specialty": "Fighting:Long Blades",
+        "training": 1,
+        "damage": "@Athletics+1",
+        "qualities": [
+          {
+            "name": "Adaptable",
+            "parameter": ""
+          }
+        ],
+        "reach": "1",
+        "equipped": 2,
+        "range": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.weapons.Item.COCCS8SgENp893m2",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.XeLpNAbGmSg2AXON"
+    },
+    {
+      "_id": "GteA7Je7mIZaQR37",
+      "name": "Shield",
+      "type": "weapon",
+      "img": "systems/chroniclesystem/assets/icons/weapon.png",
+      "system": {
+        "description": "<p>A shield; mostly protective, but it can strike.</p>",
+        "type": "",
+        "source": "SIFRP p. 310",
+        "weight": 5.0,
+        "quantity": 1,
+        "cost": "30 ss",
+        "specialty": "Fighting:Shields",
+        "training": 0,
+        "damage": "@Athletics-2",
+        "qualities": [
+          {
+            "name": "Defensive",
+            "parameter": "+2"
+          }
+        ],
+        "reach": "0",
+        "equipped": 3,
+        "range": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.weapons.Item.U50Knktjp5ebahWd",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.GteA7Je7mIZaQR37"
+    },
+    {
+      "_id": "2vbRvuNeI4gZ2JC3",
+      "name": "War Lance",
+      "type": "weapon",
+      "img": "systems/chroniclesystem/assets/icons/weapon.png",
+      "system": {
+        "description": "<p>A spear or lance.</p>",
+        "type": "",
+        "source": "SIFRP p. 310",
+        "weight": 10.0,
+        "quantity": 1,
+        "cost": "60 ss",
+        "specialty": "Fighting:Spears",
+        "training": 1,
+        "damage": "@Animal Handling+4",
+        "qualities": [
+          {
+            "name": "Bulk",
+            "parameter": "2"
+          },
+          {
+            "name": "Impale",
+            "parameter": ""
+          },
+          {
+            "name": "Mounted",
+            "parameter": ""
+          },
+          {
+            "name": "Powerful",
+            "parameter": ""
+          },
+          {
+            "name": "Slow",
+            "parameter": ""
+          },
+          {
+            "name": "Vicious",
+            "parameter": ""
+          }
+        ],
+        "reach": "3",
+        "equipped": 0,
+        "range": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.weapons.Item.nS51y7kZGOLRW4WP",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.2vbRvuNeI4gZ2JC3"
+    },
+    {
+      "_id": "oYz2MVfkTJ3TxMQF",
+      "name": "Saddle",
+      "type": "equipment",
+      "img": "systems/chroniclesystem/assets/icons/equipment.png",
+      "system": {
+        "description": "",
+        "type": "",
+        "source": "",
+        "quantity": 1,
+        "cost": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.oYz2MVfkTJ3TxMQF"
+    },
+    {
+      "_id": "ubOMYvnfXVnuLbv2",
+      "name": "Destrier",
+      "type": "equipment",
+      "img": "systems/chroniclesystem/assets/icons/equipment.png",
+      "system": {
+        "description": "<p>A great warhorse trained for battle and the joust.</p><p><em>Mounts</em></p>",
+        "type": "",
+        "source": "SIFRP p. 135",
+        "quantity": 1,
+        "cost": "1,000 ss"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.equipment.Item.DmURj2Fs9nlCsHqr",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!npBXteEupajwns3K.ubOMYvnfXVnuLbv2"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Anointed Knight",
+    "displayName": 20,
+    "actorLink": true,
+    "disposition": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!npBXteEupajwns3K"
+}

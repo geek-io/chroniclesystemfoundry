@@ -1,0 +1,35 @@
+{
+  "_id": "4cRMwhP8z2pxV6in",
+  "name": "Small Castle",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>A single keep, a tower or two and a wall. Units defending it gain +6 Defense.</p><p><em>SIFRP p. 106</em></p>",
+    "investment": 30,
+    "buildTime": "72+10d6 months",
+    "resource": "defense",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "SIFRP p. 106"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4cRMwhP8z2pxV6in"
+}

@@ -1,0 +1,237 @@
+{
+  "_id": "aSsd8BLUwNXOXaPg",
+  "name": "Combat: Fumbles (by number of ones)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>When an attack's dice show ones, look up the result by the number of ones (optional Advanced Combat rule). Choose the row rather than rolling.</p><p><em>SIFRP p. 171</em></p>",
+  "results": [
+    {
+      "_id": "fq3D9FqN23ezWV2n",
+      "type": "text",
+      "name": "Injure Self: you take your weapon's damage.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!aSsd8BLUwNXOXaPg.fq3D9FqN23ezWV2n"
+    },
+    {
+      "_id": "AqyavQo2DWUXvkD5",
+      "type": "text",
+      "name": "Strike Ally: you may hit an ally instead.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!aSsd8BLUwNXOXaPg.AqyavQo2DWUXvkD5"
+    },
+    {
+      "_id": "n2JyiC9Gzk0qRgVr",
+      "type": "text",
+      "name": "Drop: the weapon lands 1d6 yards away.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!aSsd8BLUwNXOXaPg.n2JyiC9Gzk0qRgVr"
+    },
+    {
+      "_id": "pnZfCGISb4I7tVV0",
+      "type": "text",
+      "name": "Minor Break: weapon damage –1 (castle-forged or better: treat as Drop).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!aSsd8BLUwNXOXaPg.pnZfCGISb4I7tVV0"
+    },
+    {
+      "_id": "HVguXuFvEuh5I1MB",
+      "type": "text",
+      "name": "Major Break: the weapon is ruined (castle-forged: Minor Break; Valyrian steel: Drop).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!aSsd8BLUwNXOXaPg.HVguXuFvEuh5I1MB"
+    },
+    {
+      "_id": "rjHSo16jipIzhpDJ",
+      "type": "text",
+      "name": "Slippery Grip: –1D on attacks until the end of your next turn.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!aSsd8BLUwNXOXaPg.rjHSo16jipIzhpDJ"
+    },
+    {
+      "_id": "Kd8u9Mri1kpngNL5",
+      "type": "text",
+      "name": "Blood in the Eyes: –1D on all tests until the end of your next turn.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!aSsd8BLUwNXOXaPg.Kd8u9Mri1kpngNL5"
+    },
+    {
+      "_id": "jLhwlZxNgil8xqqR",
+      "type": "text",
+      "name": "Overbalanced: –5 Combat Defense until the start of your next turn.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!aSsd8BLUwNXOXaPg.jLhwlZxNgil8xqqR"
+    }
+  ],
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!aSsd8BLUwNXOXaPg"
+}

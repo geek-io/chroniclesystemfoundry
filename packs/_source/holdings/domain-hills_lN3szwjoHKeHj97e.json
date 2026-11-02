@@ -1,0 +1,35 @@
+{
+  "_id": "lN3szwjoHKeHj97e",
+  "name": "Domain: Hills",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>One league of hilly land. Add features by entering them in the Features list.</p><p>Features (cost added to the domain): Coast +3 · Hamlet +10 · Small Town +20 · Large Town +30 · Small City +40 · Large City +50 · Grassland +1 · Island +10 · Road +5 · Ruin +3 · Stream +1 · River +3 · Pond +5 · Lake +7 · Light Woods +3 · Dense Woods +5.</p><p><em>SIFRP p. 107</em></p>",
+    "investment": 7,
+    "buildTime": "",
+    "resource": "lands",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "SIFRP p. 107"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!lN3szwjoHKeHj97e"
+}

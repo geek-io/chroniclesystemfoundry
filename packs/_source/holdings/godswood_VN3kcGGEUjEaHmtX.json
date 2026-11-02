@@ -1,0 +1,35 @@
+{
+  "_id": "VN3kcGGEUjEaHmtX",
+  "name": "Godswood",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>A grove sacred to the old gods. Add 2d6–6 to House Fortunes. Requires the North.</p><p><em>SIFRP p. 113</em></p>",
+    "investment": 5,
+    "buildTime": "24+2d6 months",
+    "resource": "wealth",
+    "features": [],
+    "fortuneDice": "2d6",
+    "fortuneModifier": -6,
+    "source": "SIFRP p. 113"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VN3kcGGEUjEaHmtX"
+}

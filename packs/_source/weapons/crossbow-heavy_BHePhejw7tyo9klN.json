@@ -1,0 +1,65 @@
+{
+  "_id": "BHePhejw7tyo9klN",
+  "name": "Crossbow, Heavy",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A crossbow; bolts sold by the dozen (10 ss, 1 lb.).</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 9.0,
+    "quantity": 1,
+    "cost": "950 ss",
+    "specialty": "Marksmanship:Crossbows",
+    "training": 0,
+    "damage": "@Agility+2",
+    "qualities": [
+      {
+        "name": "Long Range",
+        "parameter": ""
+      },
+      {
+        "name": "Piercing",
+        "parameter": "2"
+      },
+      {
+        "name": "Reload",
+        "parameter": "(Greater)"
+      },
+      {
+        "name": "Slow",
+        "parameter": ""
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      },
+      {
+        "name": "Vicious",
+        "parameter": ""
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BHePhejw7tyo9klN"
+}

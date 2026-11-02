@@ -1,0 +1,38 @@
+{
+  "_id": "UD74BAnuOWxe9RdC",
+  "name": "Mail",
+  "type": "armor",
+  "img": "systems/chroniclesystem/assets/icons/armor.png",
+  "system": {
+    "description": "<p>A hauberk of interlocking rings.</p>",
+    "type": "",
+    "source": "SIFRP p. 312",
+    "weight": 40.0,
+    "rating": 5,
+    "penalty": -3,
+    "bulk": 2,
+    "qualities": [],
+    "equipped": 0,
+    "quantity": 1,
+    "cost": "500 ss"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UD74BAnuOWxe9RdC"
+}

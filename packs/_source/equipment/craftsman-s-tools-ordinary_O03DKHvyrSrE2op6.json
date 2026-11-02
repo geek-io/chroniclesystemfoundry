@@ -1,0 +1,36 @@
+{
+  "_id": "O03DKHvyrSrE2op6",
+  "name": "Craftsman's Tools (Ordinary)",
+  "type": "equipment",
+  "img": "systems/chroniclesystem/assets/icons/equipment.png",
+  "system": {
+    "description": "<p>Tools for one trade: smithing, carpentry, masonry, locksmithing and so on.</p><p><em>Personal Equipment</em></p>",
+    "type": "",
+    "source": "SIFRP p. 135",
+    "quantity": 1,
+    "cost": "10–200 ss"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "chroniclesystem": {
+      "category": "Personal Equipment"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!O03DKHvyrSrE2op6"
+}

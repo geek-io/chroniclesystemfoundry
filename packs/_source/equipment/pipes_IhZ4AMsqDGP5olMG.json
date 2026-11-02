@@ -1,0 +1,36 @@
+{
+  "_id": "IhZ4AMsqDGP5olMG",
+  "name": "Pipes",
+  "type": "equipment",
+  "img": "systems/chroniclesystem/assets/icons/equipment.png",
+  "system": {
+    "description": "<p><em>Musical Instruments</em></p>",
+    "type": "",
+    "source": "SIFRP p. 135",
+    "quantity": 1,
+    "cost": "3 ss"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "chroniclesystem": {
+      "category": "Musical Instruments"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IhZ4AMsqDGP5olMG"
+}

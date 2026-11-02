@@ -1,0 +1,33 @@
+{
+  "_id": "UyChcfjPbiOvKC7d",
+  "name": "Acrobatic Defense",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>As a Lesser Action add twice your Acrobatics bonus dice to Combat Defense (not in armor with Bulk 1+).</p><p><em>Martial quality. Full rules: SIFRP p. 76.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 76",
+    "categories": "Martial",
+    "requirements": "Agility 4 (Acrobatics 1B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UyChcfjPbiOvKC7d"
+}

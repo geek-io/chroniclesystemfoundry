@@ -1,0 +1,38 @@
+{
+  "_id": "mRSrKkddS0bCMOVq",
+  "name": "Clothing",
+  "type": "armor",
+  "img": "systems/chroniclesystem/assets/icons/armor.png",
+  "system": {
+    "description": "<p>Everyday clothes; no real protection.</p>",
+    "type": "",
+    "source": "SIFRP p. 312",
+    "weight": 0,
+    "rating": 0,
+    "penalty": 0,
+    "bulk": 0,
+    "qualities": [],
+    "equipped": 0,
+    "quantity": 1,
+    "cost": "—"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mRSrKkddS0bCMOVq"
+}

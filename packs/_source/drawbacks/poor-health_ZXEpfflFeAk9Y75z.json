@@ -1,0 +1,35 @@
+{
+  "_id": "ZXEpfflFeAk9Y75z",
+  "name": "Poor Health",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>–3 to Endurance test results.</p><p><em>Full rules: SIFRP p. 95.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 95",
+    "requireSorcerousArt": false,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "—"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ZXEpfflFeAk9Y75z"
+}

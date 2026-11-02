@@ -1,0 +1,445 @@
+{
+  "_id": "j98sooEqVvrOQ7KD",
+  "name": "Courser Wight",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "age": 0,
+    "destinyPoints": {
+      "current": 0,
+      "max": 0
+    },
+    "sorceryPoints": {
+      "current": 0,
+      "max": 0
+    },
+    "derivedStats": {
+      "intrigueDefense": {
+        "value": 0,
+        "modifier": 0
+      },
+      "composure": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "frustration": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "combatDefense": {
+        "value": 0,
+        "modifier": 0
+      },
+      "health": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "fatigue": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "armorRating": {
+        "value": 0,
+        "modifier": 0
+      }
+    },
+    "wounds": [],
+    "injuries": [],
+    "currentDisposition": 4,
+    "modifiers": {},
+    "penalties": {},
+    "movement": {
+      "base": 4,
+      "runBonus": 0,
+      "sprintMultiplier": 4,
+      "bulk": 0,
+      "modifier": 0,
+      "total": 0,
+      "sprintTotal": 0
+    },
+    "ancestries": [],
+    "gender": "",
+    "house": "",
+    "height": "1.72",
+    "weight": "70",
+    "eyeColor": "",
+    "hairColor": "",
+    "mannerisms": "",
+    "distinguishingFeatures": "",
+    "personalHistory": "",
+    "owned": {
+      "equipments": [],
+      "weapons": [],
+      "armors": [],
+      "qualities": [],
+      "drawbacks": [],
+      "abilities": [],
+      "powers": [],
+      "benefits": []
+    },
+    "currentStress": 0,
+    "allies": "",
+    "enemies": "",
+    "oaths": "",
+    "heraldry": "",
+    "portrait": "",
+    "motto": "",
+    "coins": {
+      "coppers": 0,
+      "silvers": 0,
+      "golds": 0
+    },
+    "glory": 0,
+    "vice": "",
+    "virtue": "",
+    "motivation": "",
+    "goal": "",
+    "experience": {
+      "spent": 0,
+      "total": 0
+    },
+    "npcKind": "creature",
+    "npcNotes": "<p><strong>Movement:</strong> 8 yards</p><p><strong>Vulnerable to Fire.</strong> Fire attacks gain an extra degree; fire damage equal to its Health destroys it.</p><p><em>Statistics: Agility 3, Athletics 5, Awareness 3, Cunning 1, Endurance 5. SIFRP p. 223.</em></p>",
+    "source": "SIFRP p. 223"
+  },
+  "items": [
+    {
+      "_id": "IrdpMtp3Pnki8bfH",
+      "name": "Agility",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Dexterity, reflexes and body control. Used for acrobatics, keeping your footing, slipping free and reacting quickly; adds to Combat Defense.</p>",
+        "type": "",
+        "source": "SIFRP p. 56",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Acrobatics",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Balance",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Contortions",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Dodge",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Quickness",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.OxW0pqOqZ0SMqNwx",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!j98sooEqVvrOQ7KD.IrdpMtp3Pnki8bfH"
+    },
+    {
+      "_id": "3jNJPONJsNon8etz",
+      "name": "Athletics",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Raw physical power and training: climbing, jumping, running, lifting, swimming and throwing. Most melee weapon damage is based on it; adds to Combat Defense.</p>",
+        "type": "",
+        "source": "SIFRP p. 58",
+        "rating": 5,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Climb",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Jump",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Run",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Strength",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Swim",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Throw",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.ogzt2gnNStn6rkRN",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!j98sooEqVvrOQ7KD.3jNJPONJsNon8etz"
+    },
+    {
+      "_id": "ey7z7YvMfnSzACl8",
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Perception and reading people. Opposes Stealth and Deception, and adds to both Combat and Intrigue Defense.</p>",
+        "type": "",
+        "source": "SIFRP p. 60",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Empathy",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Notice",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.pRtrqAQMKoASq8GR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!j98sooEqVvrOQ7KD.ey7z7YvMfnSzACl8"
+    },
+    {
+      "_id": "sxsoTcBsy501un8a",
+      "name": "Cunning",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Intelligence, problem solving and recall. Adds to Intrigue Defense and is the influence for Bargain and Incite.</p>",
+        "type": "",
+        "source": "SIFRP p. 60",
+        "rating": 1,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Decipher",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Logic",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Memory",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.3vo8TMlbY8BQDAVR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!j98sooEqVvrOQ7KD.sxsoTcBsy501un8a"
+    },
+    {
+      "_id": "9CJc5VEfFkynqGyz",
+      "name": "Endurance",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Toughness and staying power. Health is Endurance × 3, and Endurance limits injuries and wounds.</p>",
+        "type": "",
+        "source": "SIFRP p. 62",
+        "rating": 5,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Resilience",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Stamina",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.R8HQ5KBpWHsxBT8K",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!j98sooEqVvrOQ7KD.9CJc5VEfFkynqGyz"
+    },
+    {
+      "_id": "MPblFd0MP0d0Zvv9",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "systems/chroniclesystem/assets/icons/weapon.png",
+      "system": {
+        "description": "<p>Natural or special attack: 2D, 5 damage.</p>",
+        "type": "",
+        "source": "",
+        "weight": 0,
+        "quantity": 1,
+        "cost": "",
+        "specialty": "Fighting:",
+        "training": 0,
+        "damage": "5",
+        "qualities": [],
+        "reach": "",
+        "equipped": 2,
+        "range": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "chroniclesystem": {
+          "printed": "2D, 5 damage"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!j98sooEqVvrOQ7KD.MPblFd0MP0d0Zvv9"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Courser Wight",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!j98sooEqVvrOQ7KD"
+}

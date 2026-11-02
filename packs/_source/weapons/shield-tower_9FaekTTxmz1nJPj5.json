@@ -1,0 +1,49 @@
+{
+  "_id": "9FaekTTxmz1nJPj5",
+  "name": "Shield, Tower",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A shield; mostly protective, but it can strike.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 10.0,
+    "quantity": 1,
+    "cost": "60 ss",
+    "specialty": "Fighting:Shields",
+    "training": 2,
+    "damage": "@Athletics-2",
+    "qualities": [
+      {
+        "name": "Bulk",
+        "parameter": "2"
+      },
+      {
+        "name": "Defensive",
+        "parameter": "+6"
+      }
+    ],
+    "reach": "0",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9FaekTTxmz1nJPj5"
+}

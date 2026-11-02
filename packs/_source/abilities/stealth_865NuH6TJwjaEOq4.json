@@ -1,0 +1,44 @@
+{
+  "_id": "865NuH6TJwjaEOq4",
+  "name": "Stealth",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Moving unseen and going unnoticed in a crowd.</p>",
+    "type": "",
+    "source": "SIFRP p. 67",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Blend In",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Sneak",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!865NuH6TJwjaEOq4"
+}

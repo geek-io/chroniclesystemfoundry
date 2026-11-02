@@ -1,0 +1,49 @@
+{
+  "_id": "rublFAndGZ8dHm4b",
+  "name": "Will",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Mental fortitude. Composure is Will × 3 and Frustration equals Will.</p>",
+    "type": "",
+    "source": "SIFRP p. 70",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Courage",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Coordinate",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Dedication",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rublFAndGZ8dHm4b"
+}

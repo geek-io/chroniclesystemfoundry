@@ -1,0 +1,33 @@
+{
+  "_id": "DU71auqKed8rigCf",
+  "name": "Water Dancer I",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Add Fighting rank to Awareness results.</p><p><em>Martial quality. Full rules: SIFRP p. 91.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 91",
+    "categories": "Martial",
+    "requirements": "Fighting 3 (Fencing 1B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DU71auqKed8rigCf"
+}

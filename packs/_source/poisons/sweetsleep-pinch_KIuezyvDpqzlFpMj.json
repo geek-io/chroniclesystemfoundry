@@ -1,0 +1,40 @@
+{
+  "_id": "KIuezyvDpqzlFpMj",
+  "name": "Sweetsleep, Pinch",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>A pinch brings Cunning penalties and dreamless sleep for hours.</p>",
+    "type": "",
+    "source": "SIFRP p. 137",
+    "quantity": 1,
+    "cost": "120 ss",
+    "delivery": "Ingested",
+    "virulence": "5",
+    "frequency": "1/round and 1/5 minutes",
+    "toxicity": 2,
+    "diagnosis": 3,
+    "effects": "<p>Toxicity: 2. Diagnosis: Easy (3).</p>",
+    "recovery": "<p>Penalties fade after the sleep wears off.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KIuezyvDpqzlFpMj"
+}

@@ -42,6 +42,12 @@ export default function factory(entities, baseClass) {
                         }
                         return constructor.create(data, options);
                     };
+                case "getDefaultArtwork":
+                    // Let each subtype pick its own default image.
+                    return (data, ...rest) => {
+                        const constructor = entities[data?.type] ?? baseClass;
+                        return constructor.getDefaultArtwork(data, ...rest);
+                    };
                 case Symbol.hasInstance:
                     // Applying the "instanceof" operator on the instance object
                     return (instance) => {

@@ -1,0 +1,33 @@
+{
+  "_id": "puuwECGxoaR5uDVN",
+  "name": "Blood of the Ironmen",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Seawater flows in your veins.</p><p><em>Heritage quality. Full rules: SIFRP p. 78.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 78",
+    "categories": "Heritage",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!puuwECGxoaR5uDVN"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "U50Knktjp5ebahWd",
+  "name": "Shield",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A shield; mostly protective, but it can strike.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 5.0,
+    "quantity": 1,
+    "cost": "30 ss",
+    "specialty": "Fighting:Shields",
+    "training": 0,
+    "damage": "@Athletics-2",
+    "qualities": [
+      {
+        "name": "Defensive",
+        "parameter": "+2"
+      }
+    ],
+    "reach": "0",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!U50Knktjp5ebahWd"
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "0cLjNsSE39EHnl1q",
+  "name": "Craftsman's Tools (Expertly Crafted)",
+  "type": "equipment",
+  "img": "systems/chroniclesystem/assets/icons/equipment.png",
+  "system": {
+    "description": "<p>A fine, well-honed set of tools for one trade.</p><p><em>Personal Equipment</em></p>",
+    "type": "",
+    "source": "SIFRP p. 135",
+    "quantity": 1,
+    "cost": "100–1,000 ss"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "chroniclesystem": {
+      "category": "Personal Equipment"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0cLjNsSE39EHnl1q"
+}

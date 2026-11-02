@@ -1,0 +1,627 @@
+{
+  "_id": "KesGYc67a6MmHHVH",
+  "name": "Heraldry: Ordinaries",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Coat of arms: a geometric charge.</p><p><em>SIFRP p. 117</em></p>",
+  "results": [
+    {
+      "_id": "s4j9tlAV5WB5KdSO",
+      "type": "text",
+      "name": "Annulet",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.s4j9tlAV5WB5KdSO"
+    },
+    {
+      "_id": "L0CwBMvgQnADgvtG",
+      "type": "text",
+      "name": "Bar",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        6,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.L0CwBMvgQnADgvtG"
+    },
+    {
+      "_id": "GHU5WGxSJsNupNuB",
+      "type": "text",
+      "name": "Bend",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        8,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.GHU5WGxSJsNupNuB"
+    },
+    {
+      "_id": "zlHoR8SLDevwL05A",
+      "type": "text",
+      "name": "Bend sinister",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.zlHoR8SLDevwL05A"
+    },
+    {
+      "_id": "vyKTEga989STQG1J",
+      "type": "text",
+      "name": "Bendlet",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.vyKTEga989STQG1J"
+    },
+    {
+      "_id": "mDMricwwcHAz9BLD",
+      "type": "text",
+      "name": "Bordure",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.mDMricwwcHAz9BLD"
+    },
+    {
+      "_id": "EhEXHywFVsxYLgMG",
+      "type": "text",
+      "name": "Canton",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.EhEXHywFVsxYLgMG"
+    },
+    {
+      "_id": "sbCc4FB3XGYceAyv",
+      "type": "text",
+      "name": "Checky",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.sbCc4FB3XGYceAyv"
+    },
+    {
+      "_id": "heKOSXTpK5dN6b2o",
+      "type": "text",
+      "name": "Chevron",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.heKOSXTpK5dN6b2o"
+    },
+    {
+      "_id": "2J553DUl572VIcF1",
+      "type": "text",
+      "name": "Chevronel",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.2J553DUl572VIcF1"
+    },
+    {
+      "_id": "RIMPxkqisDWLTTzP",
+      "type": "text",
+      "name": "Chief",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.RIMPxkqisDWLTTzP"
+    },
+    {
+      "_id": "nZTwwhACG8CR2A02",
+      "type": "text",
+      "name": "Cross",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.nZTwwhACG8CR2A02"
+    },
+    {
+      "_id": "9GLQ1KqXY1c1S9tt",
+      "type": "text",
+      "name": "Escutcheon",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.9GLQ1KqXY1c1S9tt"
+    },
+    {
+      "_id": "5rCuuRghH5xWKmdF",
+      "type": "text",
+      "name": "Fusil",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.5rCuuRghH5xWKmdF"
+    },
+    {
+      "_id": "XVgJA7hl43QaVTc6",
+      "type": "text",
+      "name": "Gyron",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.XVgJA7hl43QaVTc6"
+    },
+    {
+      "_id": "7VHw3zyl9eBk1Efs",
+      "type": "text",
+      "name": "Lozenge",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.7VHw3zyl9eBk1Efs"
+    },
+    {
+      "_id": "qWUQpC7yiwCH93hr",
+      "type": "text",
+      "name": "Mascle",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.qWUQpC7yiwCH93hr"
+    },
+    {
+      "_id": "pEGpty9tMRfDZlC7",
+      "type": "text",
+      "name": "Pale",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.pEGpty9tMRfDZlC7"
+    },
+    {
+      "_id": "RhSLdjt330iY9SeD",
+      "type": "text",
+      "name": "Pall",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.RhSLdjt330iY9SeD"
+    },
+    {
+      "_id": "1oIHN2hOh6yQWl98",
+      "type": "text",
+      "name": "Pallet",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.1oIHN2hOh6yQWl98"
+    },
+    {
+      "_id": "8O4m5d1LeeKtZf84",
+      "type": "text",
+      "name": "Pile",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.8O4m5d1LeeKtZf84"
+    },
+    {
+      "_id": "1KzgOINh71ssPnH9",
+      "type": "text",
+      "name": "Pile inverted",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.1KzgOINh71ssPnH9"
+    },
+    {
+      "_id": "ihLOFRlvG2A9LjSg",
+      "type": "text",
+      "name": "Roundel",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        29,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!KesGYc67a6MmHHVH.ihLOFRlvG2A9LjSg"
+    }
+  ],
+  "formula": "5d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!KesGYc67a6MmHHVH"
+}

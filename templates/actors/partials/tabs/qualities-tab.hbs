@@ -1,45 +1,51 @@
-<div class="tab flexrow" data-group="primary" data-tab="qualities">
+<div class="tab flexrow {{tabs.[qualities].cssClass}}" data-group="primary" data-tab="qualities">
     <section class="benefits">
         <header class="header-field">
-            <span>Benefits</span>
+            <span>{{localize "CS.sheets.character.benefits"}}</span>
         </header>
         <ol  class="qualities-list">
-            {{#each character.owned.benefits}}
-                <li  class="item quality" data-item-id="{{_id}}">
+            {{#each owned.benefits}}
+                <li  class="item draggable quality" data-item-id="{{_id}}">
                     <div class="quality-label item-name">
-                        <label class="flex3">{{name}} </label>
+                        <label class="flex3" data-action="toggleDescription">{{name}}</label>
                         {{#if ../owner}}
                         <div class='item-controls'>
-                            <button type='button' class='item-edit'>
+                            <button type='button' class='item-delete' data-action="deleteItem" data-tooltip="CS.sheets.generalLabels.delete">
+                            <i class='fas fa-trash'></i>
+                        </button>
+                        <button type='button' class='item-edit' data-action="editItem">
                                 <i class='fas fa-edit'></i>
                             </button>
                         </div>
                         {{/if}}
                     </div>
 
-                    <div class="description">{{enrich system.description}}</div>
+                    <div class="description hidden">{{{enrichedDescription}}}</div>
                 </li>
             {{/each}}
         </ol>
     </section>
     <section class="drawbacks">
         <header class="header-field">
-            <span>Drawbacks</span>
+            <span>{{localize "CS.sheets.character.drawbacks"}}</span>
         </header>
         <ol  class="qualities-list">
-            {{#each character.owned.drawbacks}}
-                <li  class="item quality" data-item-id="{{_id}}">
+            {{#each owned.drawbacks}}
+                <li  class="item draggable quality" data-item-id="{{_id}}">
                     <div class="quality-label item-name">
-                        <label class="flex3">{{name}} </label>
+                        <label class="flex3" data-action="toggleDescription">{{name}}</label>
                         {{#if ../owner}}
                             <div class='item-controls'>
-                                <button type='button' class='item-edit'>
+                                <button type='button' class='item-delete' data-action="deleteItem" data-tooltip="CS.sheets.generalLabels.delete">
+                            <i class='fas fa-trash'></i>
+                        </button>
+                        <button type='button' class='item-edit' data-action="editItem">
                                     <i class='fas fa-edit'></i>
                                 </button>
                             </div>
                         {{/if}}
                     </div>
-                    <div class="description">{{enrich system.description }}</div>
+                    <div class="description hidden">{{{enrichedDescription}}}</div>
                 </li>
             {{/each}}
         </ol>

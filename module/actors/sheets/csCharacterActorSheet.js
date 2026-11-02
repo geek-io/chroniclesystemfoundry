@@ -1,397 +1,208 @@
-/**
- * Extend the basic ActorSheet with some very simple modifications
- * @extends {ActorSheet}
- */
-import { ChronicleSystem } from "../../system/ChronicleSystem.js";
-import { Technique } from "../../technique.js";
+import {ChronicleSystem} from "../../system/ChronicleSystem.js";
+import {Technique} from "../../technique.js";
 import {CSActorSheet} from "./csActorSheet.js";
 import LOGGER from "../../utils/logger.js";
 import SystemUtils from "../../utils/systemUtils.js";
 import {CSConstants} from "../../system/csConstants.js";
 
+const TEMPLATE_PATH = "systems/chroniclesystem/templates/actors";
 
+/**
+ * Character and NPC sheet.
+ */
 export class CSCharacterActorSheet extends CSActorSheet {
-  itemTypesPermitted = [
-      "ability",
-      "weapon",
-      "armor",
-      "equipment",
-      "benefit",
-      "drawback",
-      "technique"
-  ]
+    static ITEM_TYPES = CSConstants.ItemTypesForCharacters;
 
-  /** @override */
-  static get defaultOptions() {
-    return mergeObject(super.defaultOptions, {
-      classes: ["chroniclesystem", "character", "sheet", "actor"],
-      template: "systems/chroniclesystem/templates/actors/characters/character-sheet.hbs",
-      width: 700,
-      height: 900,
-      tabs: [
-        {
-          navSelector: ".tabs",
-          contentSelector: ".sheet-body",
-          initial: "abilities"
+    static ARRAY_FIELDS = ["wounds", "injuries"];
+
+    static DEFAULT_OPTIONS = {
+        classes: ["character"],
+        position: {width: 760, height: 900},
+        actions: {
+            setDisposition: CSCharacterActorSheet.#onSetDisposition,
+            equip: CSCharacterActorSheet.#onEquip,
+            setTrack: CSCharacterActorSheet.#onSetTrack,
+            addInjury: CSCharacterActorSheet.#onAddInjury,
+            deleteInjury: CSCharacterActorSheet.#onDeleteInjury,
+            addWound: CSCharacterActorSheet.#onAddWound,
+            deleteWound: CSCharacterActorSheet.#onDeleteWound
         }
-      ],
-      dragDrop: [{dragSelector: ".item-list .item", dropSelector: null}]
-    });
-  }
-
-  /* -------------------------------------------- */
-
-  /** @override */
-  getData() {
-    const data = super.getData();
-    data.dtypes = ["String", "Number", "Boolean"];
-    this.splitItemsByType(data);
-
-    let character = data.actor.getCSData();
-    this.isOwner = this.actor.isOwner;
-
-    character.owned.equipments = this._checkNull(data.itemsByType['equipment']);
-    character.owned.weapons = this._checkNull(data.itemsByType['weapon']);
-    character.owned.armors = this._checkNull(data.itemsByType['armor']);
-    character.owned.benefits = this._checkNull(data.itemsByType['benefit']);
-    character.owned.drawbacks = this._checkNull(data.itemsByType['drawback']);
-    character.owned.abilities = this._checkNull(data.itemsByType['ability']).sort((a, b) => a.name.localeCompare(b.name));
-    character.owned.techniques = this._checkNull(data.itemsByType['technique']).sort((a, b) => a.name.localeCompare(b.name));
-
-    data.dispositions = ChronicleSystem.dispositions;
-
-    data.notEquipped = ChronicleSystem.equippedConstants.IS_NOT_EQUIPPED;
-
-    data.techniquesTypes = CSConstants.TechniqueType;
-    data.techniquesCosts = CSConstants.TechniqueCost;
-
-    character.owned.weapons.forEach((weapon) => {
-      let weaponData = weapon.system;
-      let info = weaponData.specialty.split(':');
-      if (info.length < 2)
-        return "";
-      let formula = ChronicleSystem.getActorAbilityFormula(data.actor, info[0], info[1]);
-      formula = ChronicleSystem.adjustFormulaByWeapon(data.actor, formula, weapon);
-      weapon.updateDamageValue(this.actor);
-      weapon.formula = formula;
-    });
-
-    character.owned.techniques.forEach((technique) => {
-      let techniqueData = technique.system;
-      let works = data.currentInjuries = Object.values(techniqueData.works);
-      works.forEach((work) => {
-        if (work.type === "SPELL") {
-          work.test.spellcastingFormula = ChronicleSystem.getActorAbilityFormula(data.actor, work.test.spellcasting, null);
-        } else {
-          work.test.alignmentFormula = ChronicleSystem.getActorAbilityFormula(data.actor, work.test.alignment, null);
-          work.test.invocationFormula = ChronicleSystem.getActorAbilityFormula(data.actor, work.test.invocation, null);
-          work.test.unleashingFormula = ChronicleSystem.getActorAbilityFormula(data.actor, work.test.unleashing, null);
-        }
-      });
-    });
-
-    this._calculateIntrigueTechniques(data);
-
-    data.currentInjuries = Object.values(character.injuries).length;
-    data.currentWounds = Object.values(character.wounds).length;
-    data.maxInjuries = this.actor.getMaxInjuries();
-    data.maxWounds = this.actor.getMaxWounds();
-    data.character = character;
-    return data;
-  }
-
-  _calculateIntrigueTechniques(data) {
-    let cunningValue = data.actor.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.CUNNING));
-    let willValue = data.actor.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.WILL));
-    let persuasionValue = data.actor.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.PERSUASION));
-    let awarenessValue = data.actor.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.AWARENESS));
-
-    let bluffFormula = ChronicleSystem.getActorAbilityFormula(data.actor, SystemUtils.localize(ChronicleSystem.keyConstants.DECEPTION), SystemUtils.localize(ChronicleSystem.keyConstants.BLUFF));
-    let actFormula = ChronicleSystem.getActorAbilityFormula(data.actor, SystemUtils.localize(ChronicleSystem.keyConstants.DECEPTION), SystemUtils.localize(ChronicleSystem.keyConstants.ACT));
-    let bargainFormula = ChronicleSystem.getActorAbilityFormula(data.actor, SystemUtils.localize(ChronicleSystem.keyConstants.PERSUASION), SystemUtils.localize(ChronicleSystem.keyConstants.BARGAIN));
-    let charmFormula = ChronicleSystem.getActorAbilityFormula(data.actor, SystemUtils.localize(ChronicleSystem.keyConstants.PERSUASION), SystemUtils.localize(ChronicleSystem.keyConstants.CHARM));
-    let convinceFormula = ChronicleSystem.getActorAbilityFormula(data.actor, SystemUtils.localize(ChronicleSystem.keyConstants.PERSUASION), SystemUtils.localize(ChronicleSystem.keyConstants.CONVINCE));
-    let inciteFormula = ChronicleSystem.getActorAbilityFormula(data.actor, SystemUtils.localize(ChronicleSystem.keyConstants.PERSUASION), SystemUtils.localize(ChronicleSystem.keyConstants.INCITE));
-    let intimidateFormula = ChronicleSystem.getActorAbilityFormula(data.actor, SystemUtils.localize(ChronicleSystem.keyConstants.PERSUASION), SystemUtils.localize(ChronicleSystem.keyConstants.INTIMIDATE));
-    let seduceFormula = ChronicleSystem.getActorAbilityFormula(data.actor, SystemUtils.localize(ChronicleSystem.keyConstants.PERSUASION), SystemUtils.localize(ChronicleSystem.keyConstants.SEDUCE));
-    let tauntFormula = ChronicleSystem.getActorAbilityFormula(data.actor, SystemUtils.localize(ChronicleSystem.keyConstants.PERSUASION), SystemUtils.localize(ChronicleSystem.keyConstants.TAUNT));
-
-    let intimidateDeceptionFormula = actFormula.bonusDice + actFormula.modifier > bluffFormula.bonusDice + bluffFormula.modifier ? actFormula : bluffFormula;
-
-    data.techniques = {
-      bargain: new Technique(SystemUtils.localize(ChronicleSystem.keyConstants.BARGAIN), cunningValue, bargainFormula, bluffFormula),
-      charm: new Technique(SystemUtils.localize(ChronicleSystem.keyConstants.CHARM), persuasionValue, charmFormula, actFormula),
-      convince: new Technique(SystemUtils.localize(ChronicleSystem.keyConstants.CONVINCE), willValue, convinceFormula, actFormula),
-      incite: new Technique(SystemUtils.localize(ChronicleSystem.keyConstants.INCITE), cunningValue, inciteFormula, bluffFormula),
-      intimidate: new Technique(SystemUtils.localize(ChronicleSystem.keyConstants.INTIMIDATE), willValue, intimidateFormula, intimidateDeceptionFormula),
-      seduce: new Technique(SystemUtils.localize(ChronicleSystem.keyConstants.SEDUCE), persuasionValue, seduceFormula, bluffFormula),
-      taunt: new Technique(SystemUtils.localize(ChronicleSystem.keyConstants.TAUNT), awarenessValue, tauntFormula, bluffFormula)
     };
-  }
 
-  /* -------------------------------------------- */
+    static PARTS = {
+        header: {template: `${TEMPLATE_PATH}/characters/character-header.hbs`},
+        tabs: {template: `${TEMPLATE_PATH}/partials/sheet-tabs.hbs`},
+        abilities: {template: `${TEMPLATE_PATH}/partials/tabs/abilities-tab.hbs`, scrollable: [""]},
+        combat: {template: `${TEMPLATE_PATH}/partials/tabs/combat-and-intrigue-tab.hbs`, scrollable: [""]},
+        qualities: {template: `${TEMPLATE_PATH}/partials/tabs/qualities-tab.hbs`, scrollable: [""]},
+        sorcery: {template: `${TEMPLATE_PATH}/partials/tabs/sorcery-tab.hbs`, scrollable: [""]},
+        equipments: {template: `${TEMPLATE_PATH}/partials/tabs/equipments-tab.hbs`, scrollable: [""]},
+        description: {template: `${TEMPLATE_PATH}/partials/tabs/description-tab.hbs`, scrollable: [""]}
+    };
 
-  /** @override */
-  activateListeners(html) {
-    super.activateListeners(html);
-
-    // Everything below here is only needed if the sheet is editable
-    if (!this.options.editable) return;
-
-    html.find('.item .item-name').on('click', (ev) => {
-      $(ev.currentTarget).parents('.item').find('.description').slideToggle();
-    });
-
-    html.find('.disposition.option').click(this._onDispositionChanged.bind(this));
-
-    html.find('.equipped').click(this._onEquippedStateChanged.bind(this));
-
-    html.find('.injury-create').on("click", this._onClickInjuryCreate.bind(this));
-    html.find(".injuries-list").on("click", ".injury-control", this._onclickInjuryControl.bind(this));
-
-    html.find('.wound-create').on("click", this._onClickWoundCreate.bind(this));
-    html.find(".wounds-list").on("click", ".wound-control", this._onclickWoundControl.bind(this));
-
-    html.find(".square").on("click", this._onClickSquare.bind(this));
-
-    // Add or Remove Attribute
-  }
-
-  async setFrustrationValue(newValue) {
-    let value = Math.max(Math.min(parseInt(newValue), this.actor.getCSData().derivedStats.frustration.total), 0);
-
-    this.actor.updateTempPenalties();
-
-    if (value > 0) {
-      this.actor.addPenalty(ChronicleSystem.modifiersConstants.DECEPTION, ChronicleSystem.keyConstants.FRUSTRATION, value, false);
-      this.actor.addPenalty(ChronicleSystem.modifiersConstants.PERSUASION, ChronicleSystem.keyConstants.FRUSTRATION, value, false);
-    } else {
-      this.actor.removePenalty(ChronicleSystem.modifiersConstants.DECEPTION, ChronicleSystem.keyConstants.FRUSTRATION);
-      this.actor.removePenalty(ChronicleSystem.modifiersConstants.PERSUASION, ChronicleSystem.keyConstants.FRUSTRATION);
-    }
-
-    this.actor.update({
-      "data.derivedStats.frustration.current" : value,
-      "data.penalties": this.actor.penalties
-    });
-  }
-
-  async setFatigueValue(newValue) {
-    let value = Math.max(Math.min(parseInt(newValue), this.actor.getCSData().derivedStats.fatigue.total), 0);
-
-    this.actor.updateTempModifiers();
-
-    if (value > 0) {
-      this.actor.addModifier(ChronicleSystem.modifiersConstants.ALL, ChronicleSystem.keyConstants.FATIGUE, -value, false);
-    } else {
-      this.actor.removeModifier(ChronicleSystem.modifiersConstants.ALL, ChronicleSystem.keyConstants.FATIGUE);
-    }
-
-    this.actor.update({
-      "data.derivedStats.fatigue.current" : value,
-      "data.modifiers": this.actor.modifiers
-    });
-  }
-
-  async setStressValue(newValue) {
-    let value = Math.max(Math.min(parseInt(newValue), this.actor.getCSData().derivedStats.frustration.total), 0);
-
-    this.actor.updateTempPenalties();
-
-    if (value > 0) {
-      this.actor.addPenalty(ChronicleSystem.modifiersConstants.AWARENESS, ChronicleSystem.keyConstants.STRESS, value, false);
-      this.actor.addPenalty(ChronicleSystem.modifiersConstants.CUNNING, ChronicleSystem.keyConstants.STRESS, value, false);
-      this.actor.addPenalty(ChronicleSystem.modifiersConstants.STATUS, ChronicleSystem.keyConstants.STRESS, value, false);
-    } else {
-      this.actor.removePenalty(ChronicleSystem.modifiersConstants.AWARENESS, ChronicleSystem.keyConstants.STRESS);
-      this.actor.removePenalty(ChronicleSystem.modifiersConstants.CUNNING, ChronicleSystem.keyConstants.STRESS);
-      this.actor.removePenalty(ChronicleSystem.modifiersConstants.STATUS, ChronicleSystem.keyConstants.STRESS);
-    }
-
-    this.actor.update({
-      "data.currentStress" : value,
-      "data.penalties": this.actor.penalties
-    });
-  }
-
-  async _onClickSquare(ev) {
-    ev.preventDefault();
-    let method = `set${ev.currentTarget.dataset.type}Value`;
-    await this[method](ev.currentTarget.id);
-  }
-
-  async _onClickWoundCreate(ev) {
-    ev.preventDefault();
-    const data = this.actor.getCSData();
-    let wound = "";
-    let wounds = Object.values(data.wounds);
-    if (wounds.length >= this.actor.getMaxWounds())
-      return;
-    wounds.push(wound);
-    this.actor.updateTempPenalties();
-    this.actor.addPenalty(ChronicleSystem.modifiersConstants.ALL, ChronicleSystem.keyConstants.WOUNDS, wounds.length, false);
-    this.actor.update({
-      "data.wounds" : wounds,
-      "data.penalties" : this.actor.penalties
-    });
-  }
-
-  async _onclickWoundControl(event) {
-    event.preventDefault();
-    const a = event.currentTarget;
-    const index = parseInt(a.dataset.id);
-    const action = a.dataset.action;
-
-    if ( action === "delete" ) {
-      const data = this.actor.getCSData();
-      let wounds = Object.values(data.wounds);
-      wounds.splice(index,1);
-
-      this.actor.updateTempPenalties();
-      if (wounds.length === 0) {
-        this.actor.removePenalty(ChronicleSystem.modifiersConstants.ALL, ChronicleSystem.keyConstants.WOUNDS);
-      } else {
-        this.actor.addPenalty(ChronicleSystem.modifiersConstants.ALL, ChronicleSystem.keyConstants.WOUNDS, wounds.length, false);
-      }
-      this.actor.update({
-        "data.wounds" : wounds,
-        "data.penalties" : this.actor.penalties
-      });
-    }
-  }
-
-  async _onClickInjuryCreate(ev) {
-    ev.preventDefault();
-    const data = this.actor.getCSData();
-    let injury = "";
-    let injuries = Object.values(data.injuries);
-    if (injuries.length >= this.actor.getMaxInjuries())
-      return;
-
-    injuries.push(injury);
-
-    this.actor.updateTempModifiers();
-    this.actor.addModifier(ChronicleSystem.modifiersConstants.ALL, ChronicleSystem.keyConstants.INJURY, -injuries.length, false);
-
-    this.actor.update({
-      "data.injuries" : injuries,
-      "data.modifiers" : this.actor.modifiers
-    });
-  }
-
-  async _onclickInjuryControl(event) {
-    event.preventDefault();
-    const a = event.currentTarget;
-    const index = parseInt(a.dataset.id);
-    const action = a.dataset.action;
-
-    if ( action === "delete" ) {
-      const data = this.actor.getCSData();
-      let injuries = Object.values(data.injuries);
-      injuries.splice(index,1);
-
-      this.actor.updateTempModifiers();
-      if (injuries.length === 0) {
-        this.actor.removeModifier(ChronicleSystem.modifiersConstants.ALL, ChronicleSystem.keyConstants.INJURY);
-      } else {
-        this.actor.addModifier(ChronicleSystem.modifiersConstants.ALL, ChronicleSystem.keyConstants.INJURY, -injuries.length, false);
-      }
-
-      this.actor.update({
-        "data.injuries" : injuries,
-        "data.modifiers" : this.actor.modifiers
-      });
-    }
-  }
-
-  async _onEquippedStateChanged(event) {
-    event.preventDefault();
-    const eventData = event.currentTarget.dataset;
-    let currentItem = this.actor.getEmbeddedDocument('Item', eventData.itemId);
-    let collection = [];
-    let tempCollection = [];
-
-    let isArmor = parseInt(eventData.hand) === ChronicleSystem.equippedConstants.WEARING;
-    let isUnequipping = parseInt(eventData.hand) === 0;
-
-    this.actor.updateTempModifiers();
-
-    if (isUnequipping) {
-      let adaptableQuality = Object.values(currentItem.getCSData().qualities).filter((quality) => quality.name.toLowerCase() === "adaptable");
-      if (adaptableQuality.length > 0 && parseInt(eventData.hand) === ChronicleSystem.equippedConstants.IS_NOT_EQUIPPED && currentItem.getCSData().equipped !== ChronicleSystem.equippedConstants.BOTH_HANDS) {
-        collection = this.UnequipsAllItemsInTheSlots([ ChronicleSystem.equippedConstants.MAIN_HAND, ChronicleSystem.equippedConstants.OFFHAND, ChronicleSystem.equippedConstants.BOTH_HANDS], collection);
-        collection = this.ChangeItemEquippedStatus(collection, currentItem, ChronicleSystem.equippedConstants.BOTH_HANDS);
-      } else {
-        collection = this.ChangeItemEquippedStatus(collection, currentItem);
-      }
-    } else {
-      if (isArmor) {
-        collection = this.UnequipsAllItemsInTheSlots([ ChronicleSystem.equippedConstants.WEARING], collection);
-        collection = this.ChangeItemEquippedStatus(collection, currentItem, ChronicleSystem.equippedConstants.WEARING);
-      } else {
-        let twoHandedQuality = Object.values(currentItem.getCSData().qualities).filter((quality) => quality.name.toLowerCase() === "two-handed");
-        if (twoHandedQuality.length > 0) {
-          collection = this.UnequipsAllItemsInTheSlots([ ChronicleSystem.equippedConstants.MAIN_HAND, ChronicleSystem.equippedConstants.OFFHAND, ChronicleSystem.equippedConstants.BOTH_HANDS], collection);
-          collection = this.ChangeItemEquippedStatus(collection, currentItem, ChronicleSystem.equippedConstants.BOTH_HANDS);
-        } else {
-          collection = this.UnequipsAllItemsInTheSlots([ parseInt(eventData.hand), ChronicleSystem.equippedConstants.BOTH_HANDS], collection);
-          collection = this.ChangeItemEquippedStatus(collection, currentItem, parseInt(eventData.hand));
+    static TABS = {
+        primary: {
+            tabs: [
+                {id: "abilities", label: "CS.sheets.character.tabs.abilities"},
+                {id: "combat-and-intrigue", label: "CS.sheets.character.tabs.combat-intrigue"},
+                {id: "qualities", label: "CS.sheets.character.tabs.qualities"},
+                {id: "sorcery", label: "CS.sheets.character.tabs.sorcery"},
+                {id: "equipments", label: "CS.sheets.character.tabs.equipments"},
+                {id: "actor-description", label: "CS.sheets.character.tabs.description"}
+            ],
+            initial: "abilities"
         }
-      }
+    };
+
+    /** @inheritDoc */
+    async _prepareContext(options) {
+        const context = await super._prepareContext(options);
+        const actor = this.actor;
+        const byType = context.itemsByType;
+        const byName = (a, b) => a.name.localeCompare(b.name);
+        const views = async (type, extra = () => ({})) => Promise.all((byType[type] ?? []).map((i) => this._itemView(i, extra(i))));
+
+        context.character = actor.system;
+        context.isNPC = actor.type === "npc";
+        context.npcKinds = CSConstants.NpcKinds;
+
+        const owned = {
+            abilities: (await views("ability")).sort(byName),
+            benefits: await views("benefit"),
+            drawbacks: await views("drawback"),
+            equipments: await views("equipment"),
+            armors: await views("armor"),
+            poisons: await views("poison"),
+            weapons: await views("weapon", (weapon) => {
+                const [ability, specialty] = String(weapon.system.specialty ?? "").split(":");
+                let formula = null;
+                if (ability && specialty) {
+                    formula = ChronicleSystem.getActorAbilityFormula(actor, ability, specialty);
+                    formula = ChronicleSystem.adjustFormulaByWeapon(actor, formula, weapon);
+                }
+                return {formula, damageValue: weapon.calculateDamage(actor), qualityList: weapon.qualities};
+            }),
+            techniques: (await views("technique")).sort(byName)
+        };
+        for (const ability of owned.abilities) ability.specialtyList = SystemUtils.toArray(ability.system.specialties);
+        for (const armor of owned.armors) armor.qualityList = SystemUtils.toArray(armor.system.qualities);
+
+        // Sorcery works
+        for (const technique of owned.techniques) {
+            technique.works = await Promise.all(SystemUtils.toArray(technique.system.works).map(async (work) => {
+                const view = foundry.utils.deepClone(work ?? {});
+                view.test ??= {};
+                if (view.type === "SPELL") {
+                    view.test.spellcastingFormula = ChronicleSystem.getActorAbilityFormula(actor, view.test.spellcasting, null);
+                } else {
+                    view.test.alignmentFormula = ChronicleSystem.getActorAbilityFormula(actor, view.test.alignment, null);
+                    view.test.invocationFormula = ChronicleSystem.getActorAbilityFormula(actor, view.test.invocation, null);
+                    view.test.unleashingFormula = ChronicleSystem.getActorAbilityFormula(actor, view.test.unleashing, null);
+                }
+                view.enrichedDescription = await SystemUtils.enrich(view.description, {relativeTo: actor});
+                return view;
+            }));
+        }
+        context.owned = owned;
+
+        context.dispositions = ChronicleSystem.dispositions;
+        context.notEquipped = ChronicleSystem.equippedConstants.IS_NOT_EQUIPPED;
+        context.techniquesTypes = CSConstants.TechniqueType;
+        context.techniquesCosts = CSConstants.TechniqueCost;
+        context.techniques = this._calculateIntrigueTechniques(actor);
+
+        context.injuries = SystemUtils.toArray(actor.system.injuries);
+        context.wounds = SystemUtils.toArray(actor.system.wounds);
+        context.currentInjuries = context.injuries.length;
+        context.currentWounds = context.wounds.length;
+        context.maxInjuries = actor.getMaxInjuries();
+        context.maxWounds = actor.getMaxWounds();
+
+        const enrich = (field) => SystemUtils.enrich(actor.system[field], {relativeTo: actor, secrets: actor.isOwner});
+        context.enriched = {
+            personalHistory: await enrich("personalHistory"),
+            allies: await enrich("allies"),
+            enemies: await enrich("enemies"),
+            oaths: await enrich("oaths"),
+            motto: await enrich("motto"),
+            npcNotes: await enrich("npcNotes")
+        };
+        return context;
     }
 
-    this.actor.saveModifiers();
+    _calculateIntrigueTechniques(actor) {
+        const K = ChronicleSystem.keyConstants;
+        const L = (key) => SystemUtils.localize(key);
+        const value = (key) => actor.getAbilityValue(L(key));
+        const formula = (ability, specialty) => ChronicleSystem.getActorAbilityFormula(actor, L(ability), L(specialty));
 
-    this.actor.updateEmbeddedDocuments('Item', collection);
-  }
+        const cunningValue = value(K.CUNNING);
+        const willValue = value(K.WILL);
+        const persuasionValue = value(K.PERSUASION);
+        const awarenessValue = value(K.AWARENESS);
 
-  UnequipsAllItemsInTheSlots(slots = [], collection = []) {
-    let tempCollection = this.actor.getEmbeddedCollection('Item').filter((item) => slots.includes(item.getCSData().equipped));
+        const bluffFormula = formula(K.DECEPTION, K.BLUFF);
+        const actFormula = formula(K.DECEPTION, K.ACT);
+        const intimidateDeceptionFormula = actFormula.bonusDice + actFormula.modifier > bluffFormula.bonusDice + bluffFormula.modifier ? actFormula : bluffFormula;
 
-    tempCollection.forEach((item) => {
-      collection.push({_id: item._id, "data.equipped": ChronicleSystem.equippedConstants.IS_NOT_EQUIPPED});
-      item.onEquippedChanged(this.actor, false);
-    });
-
-    return collection;
-  }
-
-  ChangeItemEquippedStatus(collection = [], item, equippedStatus = ChronicleSystem.equippedConstants.IS_NOT_EQUIPPED) {
-    item.getCSData().equipped = equippedStatus;
-
-    collection.push({_id: item._id, "data.equipped": item.getCSData().equipped});
-
-    item.onEquippedChanged(this.actor, equippedStatus > 0);
-
-    return collection;
-  }
-
-  async _onDispositionChanged(event, targets) {
-    event.preventDefault();
-    if (!ChronicleSystem.dispositions.find((disposition) => disposition.rating === parseInt(event.target.dataset.id))) {
-      LOGGER.warn("the informed disposition does not exist.");
-      return;
+        return {
+            bargain: new Technique(L(K.BARGAIN), cunningValue, formula(K.PERSUASION, K.BARGAIN), bluffFormula),
+            charm: new Technique(L(K.CHARM), persuasionValue, formula(K.PERSUASION, K.CHARM), actFormula),
+            convince: new Technique(L(K.CONVINCE), willValue, formula(K.PERSUASION, K.CONVINCE), actFormula),
+            incite: new Technique(L(K.INCITE), cunningValue, formula(K.PERSUASION, K.INCITE), bluffFormula),
+            intimidate: new Technique(L(K.INTIMIDATE), willValue, formula(K.PERSUASION, K.INTIMIDATE), intimidateDeceptionFormula),
+            seduce: new Technique(L(K.SEDUCE), persuasionValue, formula(K.PERSUASION, K.SEDUCE), bluffFormula),
+            taunt: new Technique(L(K.TAUNT), awarenessValue, formula(K.PERSUASION, K.TAUNT), bluffFormula)
+        };
     }
-    this.actor.update({"data.currentDisposition": event.target.dataset.id});
-  }
 
-  /* -------------------------------------------- */
+    /* -------------------------------------------- */
+    /*  Actions                                     */
+    /* -------------------------------------------- */
 
-  async _onDrop(event) {
-    event.preventDefault();
-    let data;
-    try {
-      data = JSON.parse(event.dataTransfer.getData('text/plain'));
-
+    static async #onSetDisposition(event, target) {
+        event.preventDefault();
+        const rating = parseInt(target.dataset.id, 10);
+        if (!ChronicleSystem.dispositions.find((d) => d.rating === rating)) {
+            LOGGER.warn("the informed disposition does not exist.");
+            return;
+        }
+        await this.actor.update({"system.currentDisposition": rating});
     }
-    catch (err) {
-      return;
+
+    static async #onEquip(event, target) {
+        event.preventDefault();
+        const item = this.actor.items.get(target.dataset.itemId);
+        if (item) await this.actor.setEquipped(item, target.dataset.hand);
     }
-    return super._onDrop(event);
-  }
 
-  isItemPermitted(type) {
-    return this.itemTypesPermitted.includes(type);
-  }
+    static async #onSetTrack(event, target) {
+        event.preventDefault();
+        const value = target.dataset.value;
+        switch (target.dataset.type) {
+            case "Frustration": return this.actor.setFrustration(value);
+            case "Fatigue": return this.actor.setFatigue(value);
+            case "Stress": return this.actor.setStress(value);
+        }
+    }
 
+    static async #onAddInjury(event) {
+        event.preventDefault();
+        await this.actor.addInjury();
+    }
+
+    static async #onDeleteInjury(event, target) {
+        event.preventDefault();
+        await this.actor.removeInjury(parseInt(target.dataset.id, 10));
+    }
+
+    static async #onAddWound(event) {
+        event.preventDefault();
+        await this.actor.addWound();
+    }
+
+    static async #onDeleteWound(event, target) {
+        event.preventDefault();
+        await this.actor.removeWound(parseInt(target.dataset.id, 10));
+    }
 }

@@ -1,0 +1,69 @@
+{
+  "_id": "Hi5rmvELujzT73er",
+  "name": "Persuasion",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Influencing others. Specialties match the intrigue techniques.</p>",
+    "type": "",
+    "source": "SIFRP p. 65",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Bargain",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Charm",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Convince",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Incite",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Intimidate",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Seduce",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Taunt",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Hi5rmvELujzT73er"
+}

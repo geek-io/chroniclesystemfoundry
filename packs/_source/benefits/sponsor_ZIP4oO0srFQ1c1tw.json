@@ -1,0 +1,33 @@
+{
+  "_id": "ZIP4oO0srFQ1c1tw",
+  "name": "Sponsor",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>You have a powerful ally.</p><p><em>Fate quality. Full rules: SIFRP p. 89.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 89",
+    "categories": "Fate",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ZIP4oO0srFQ1c1tw"
+}

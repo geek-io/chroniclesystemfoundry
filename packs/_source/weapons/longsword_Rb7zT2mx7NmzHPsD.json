@@ -1,0 +1,40 @@
+{
+  "_id": "Rb7zT2mx7NmzHPsD",
+  "name": "Longsword",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A sword of the knightly sort.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 4.0,
+    "quantity": 1,
+    "cost": "500 ss",
+    "specialty": "Fighting:Long Blades",
+    "training": 0,
+    "damage": "@Athletics+1",
+    "qualities": [],
+    "reach": "1",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Rb7zT2mx7NmzHPsD"
+}

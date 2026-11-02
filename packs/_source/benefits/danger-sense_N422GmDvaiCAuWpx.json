@@ -1,0 +1,33 @@
+{
+  "_id": "N422GmDvaiCAuWpx",
+  "name": "Danger Sense",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Re-roll 1s on initiative; surprising opponents get no +1D to attack you.</p><p><em>Martial quality. Full rules: SIFRP p. 81.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 81",
+    "categories": "Martial",
+    "requirements": "Awareness 4",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!N422GmDvaiCAuWpx"
+}

@@ -1,0 +1,159 @@
+{
+  "_id": "V1k7GgiusEBFstKu",
+  "name": "Starting Status",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Character creation: starting Status rank and typical role within the house.</p><p><em>SIFRP p. 45</em></p>",
+  "results": [
+    {
+      "_id": "qjTc0tLA0sDc2C6Y",
+      "type": "text",
+      "name": "Status 2 — house retainer, common hedge knight, freeman",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!V1k7GgiusEBFstKu.qjTc0tLA0sDc2C6Y"
+    },
+    {
+      "_id": "1y2ssmn8P8UGKCy3",
+      "type": "text",
+      "name": "Status 3 — sworn sword, guardsman, squire",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!V1k7GgiusEBFstKu.1y2ssmn8P8UGKCy3"
+    },
+    {
+      "_id": "xkFq8Yoc8v3CmHkg",
+      "type": "text",
+      "name": "Status 4 — ranking member of the household, maester, junior septon, landed knight, noble bastard",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!V1k7GgiusEBFstKu.xkFq8Yoc8v3CmHkg"
+    },
+    {
+      "_id": "AJFBIDaLwQC33xMA",
+      "type": "text",
+      "name": "Status 5 — banner lord, ward, courtier, septon, advisor",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!V1k7GgiusEBFstKu.AJFBIDaLwQC33xMA"
+    },
+    {
+      "_id": "HJPTIo0j4Aamcmcw",
+      "type": "text",
+      "name": "Status 6 — lord of the house, heir, lady, offspring",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!V1k7GgiusEBFstKu.HJPTIo0j4Aamcmcw"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!V1k7GgiusEBFstKu"
+}

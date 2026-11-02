@@ -1,0 +1,452 @@
+{
+  "_id": "5rVexjqTnwBu2Cn2",
+  "name": "Assassin",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "age": 0,
+    "destinyPoints": {
+      "current": 0,
+      "max": 0
+    },
+    "sorceryPoints": {
+      "current": 0,
+      "max": 0
+    },
+    "derivedStats": {
+      "intrigueDefense": {
+        "value": 0,
+        "modifier": 0
+      },
+      "composure": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "frustration": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "combatDefense": {
+        "value": 0,
+        "modifier": 0
+      },
+      "health": {
+        "value": 0,
+        "modifier": -3,
+        "current": 0
+      },
+      "fatigue": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "armorRating": {
+        "value": 0,
+        "modifier": 0
+      }
+    },
+    "wounds": [],
+    "injuries": [],
+    "currentDisposition": 4,
+    "modifiers": {},
+    "penalties": {},
+    "movement": {
+      "base": 4,
+      "runBonus": 0,
+      "sprintMultiplier": 4,
+      "bulk": 0,
+      "modifier": 0,
+      "total": 0,
+      "sprintTotal": 0
+    },
+    "ancestries": [],
+    "gender": "",
+    "house": "",
+    "height": "1.72",
+    "weight": "70",
+    "eyeColor": "",
+    "hairColor": "",
+    "mannerisms": "",
+    "distinguishingFeatures": "",
+    "personalHistory": "",
+    "owned": {
+      "equipments": [],
+      "weapons": [],
+      "armors": [],
+      "qualities": [],
+      "drawbacks": [],
+      "abilities": [],
+      "powers": [],
+      "benefits": []
+    },
+    "currentStress": 0,
+    "allies": "",
+    "enemies": "",
+    "oaths": "",
+    "heraldry": "",
+    "portrait": "",
+    "motto": "",
+    "coins": {
+      "coppers": 0,
+      "silvers": 0,
+      "golds": 0
+    },
+    "glory": 0,
+    "vice": "",
+    "virtue": "",
+    "motivation": "",
+    "goal": "",
+    "experience": {
+      "spent": 0,
+      "total": 0
+    },
+    "npcKind": "npc",
+    "npcNotes": "<p>A hired killer. For poisoners in intrigues use the Courtier statistics. Combat Defense 6 in armor.</p><p><em>Statistics: Agility 3, Endurance 3, Fighting 4 (Short Blades 1B), Stealth 4 (Sneak 1B). SIFRP p. 216.</em></p>",
+    "source": "SIFRP p. 216"
+  },
+  "items": [
+    {
+      "_id": "qpkU2PaBRfLf6s8g",
+      "name": "Agility",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Dexterity, reflexes and body control. Used for acrobatics, keeping your footing, slipping free and reacting quickly; adds to Combat Defense.</p>",
+        "type": "",
+        "source": "SIFRP p. 56",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Acrobatics",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Balance",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Contortions",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Dodge",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Quickness",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.OxW0pqOqZ0SMqNwx",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!5rVexjqTnwBu2Cn2.qpkU2PaBRfLf6s8g"
+    },
+    {
+      "_id": "pJvKz4K0QoAFMWVZ",
+      "name": "Endurance",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Toughness and staying power. Health is Endurance × 3, and Endurance limits injuries and wounds.</p>",
+        "type": "",
+        "source": "SIFRP p. 62",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Resilience",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Stamina",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.R8HQ5KBpWHsxBT8K",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!5rVexjqTnwBu2Cn2.pJvKz4K0QoAFMWVZ"
+    },
+    {
+      "_id": "tIP4m8BW2ZEQNNSC",
+      "name": "Fighting",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Skill with melee weapons. Specialties match weapon groups.</p>",
+        "type": "",
+        "source": "SIFRP p. 63",
+        "rating": 4,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Axes",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Bludgeons",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Brawling",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Fencing",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Long Blades",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Pole-Arms",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Shields",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Short Blades",
+            "rating": 1,
+            "modifier": 0
+          },
+          {
+            "name": "Spears",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.4Exww4pFvqgrW7FH",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!5rVexjqTnwBu2Cn2.tIP4m8BW2ZEQNNSC"
+    },
+    {
+      "_id": "8d0v8i9Gx9B9q6FE",
+      "name": "Stealth",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Moving unseen and going unnoticed in a crowd.</p>",
+        "type": "",
+        "source": "SIFRP p. 67",
+        "rating": 4,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Blend In",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Sneak",
+            "rating": 1,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.865NuH6TJwjaEOq4",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!5rVexjqTnwBu2Cn2.8d0v8i9Gx9B9q6FE"
+    },
+    {
+      "_id": "jahrPkyghoQUYsO0",
+      "name": "Soft Leather",
+      "type": "armor",
+      "img": "systems/chroniclesystem/assets/icons/armor.png",
+      "system": {
+        "description": "",
+        "type": "",
+        "source": "",
+        "weight": 0,
+        "rating": 2,
+        "penalty": -1,
+        "bulk": 0,
+        "qualities": [],
+        "equipped": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!5rVexjqTnwBu2Cn2.jahrPkyghoQUYsO0"
+    },
+    {
+      "_id": "mRVEarc0Y5wUTnT0",
+      "name": "Stiletto",
+      "type": "weapon",
+      "img": "systems/chroniclesystem/assets/icons/weapon.png",
+      "system": {
+        "description": "<p>A short blade, easy to hide and quick in close.</p>",
+        "type": "",
+        "source": "SIFRP p. 310",
+        "weight": 1.5,
+        "quantity": 1,
+        "cost": "30 ss",
+        "specialty": "Fighting:Short Blades",
+        "training": 1,
+        "damage": "@Agility",
+        "qualities": [
+          {
+            "name": "Piercing",
+            "parameter": "2"
+          }
+        ],
+        "reach": "0",
+        "equipped": 2,
+        "range": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "chroniclesystem": {
+          "printed": "4D, 3 damage"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.weapons.Item.FscwIoTngZUQlVBV",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!5rVexjqTnwBu2Cn2.mRVEarc0Y5wUTnT0"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Assassin",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!5rVexjqTnwBu2Cn2"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "eSa2p8ecqLUSh1zY",
+  "name": "Sept",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>+3 to House Fortunes and the service of a septon or septa. Requires a hall or larger, or a small town or larger.</p><p><em>SIFRP p. 113</em></p>",
+    "investment": 15,
+    "buildTime": "12+2d6 months",
+    "resource": "wealth",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 3,
+    "source": "SIFRP p. 113"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eSa2p8ecqLUSh1zY"
+}

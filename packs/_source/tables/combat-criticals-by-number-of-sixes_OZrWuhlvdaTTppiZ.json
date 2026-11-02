@@ -1,0 +1,237 @@
+{
+  "_id": "OZrWuhlvdaTTppiZ",
+  "name": "Combat: Criticals (by number of sixes)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>When an attack's dice show sixes, look up the result by the number of sixes (optional Advanced Combat rule). Choose the row rather than rolling.</p><p><em>SIFRP p. 171</em></p>",
+  "results": [
+    {
+      "_id": "0u1zHujPSusHQCGc",
+      "type": "text",
+      "name": "Solid Hit: +2 base damage.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!OZrWuhlvdaTTppiZ.0u1zHujPSusHQCGc"
+    },
+    {
+      "_id": "JYxDAgglZmuGGsqK",
+      "type": "text",
+      "name": "Powerful Hit: +4 base damage.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!OZrWuhlvdaTTppiZ.JYxDAgglZmuGGsqK"
+    },
+    {
+      "_id": "FwaSpJSvzXEH2oAK",
+      "type": "text",
+      "name": "Bloody Wound: the target also gains an injury (a wound if it cannot, death if neither).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!OZrWuhlvdaTTppiZ.FwaSpJSvzXEH2oAK"
+    },
+    {
+      "_id": "7zjyNKKg0rzqzwRX",
+      "type": "text",
+      "name": "Crippling Wound: the target also gains a wound (death if it cannot).",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!OZrWuhlvdaTTppiZ.7zjyNKKg0rzqzwRX"
+    },
+    {
+      "_id": "IuJA6da7MVSPOGrZ",
+      "type": "text",
+      "name": "Killing Blow: the target dies.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!OZrWuhlvdaTTppiZ.IuJA6da7MVSPOGrZ"
+    },
+    {
+      "_id": "ruDYeEAGbYKVfYUW",
+      "type": "text",
+      "name": "Terrible Blow: the target dies and adjacent foes take your base damage.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!OZrWuhlvdaTTppiZ.ruDYeEAGbYKVfYUW"
+    },
+    {
+      "_id": "bqNGPChqK7Tqy3ZD",
+      "type": "text",
+      "name": "Impressive Death: the target dies; your allies gain +1B for the rest of the combat.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!OZrWuhlvdaTTppiZ.bqNGPChqK7Tqy3ZD"
+    },
+    {
+      "_id": "d1XaVFGWkV15uKV2",
+      "type": "text",
+      "name": "Horrible Death: the target dies; witnesses must pass a Challenging (9) Will test or take –1D for a round; you gain +1B for the combat.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!OZrWuhlvdaTTppiZ.d1XaVFGWkV15uKV2"
+    }
+  ],
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!OZrWuhlvdaTTppiZ"
+}

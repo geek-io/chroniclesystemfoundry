@@ -1,0 +1,33 @@
+{
+  "_id": "5yVmnv16P2TwFAb6",
+  "name": "Famous",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Your fame gives you advantages in intrigues.</p><p><em>Fate quality. Full rules: SIFRP p. 81.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 81",
+    "categories": "Fate",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5yVmnv16P2TwFAb6"
+}

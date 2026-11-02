@@ -1,0 +1,53 @@
+{
+  "_id": "ysIvf4gz7rvLayHZ",
+  "name": "Peasant Tool",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A long-hafted weapon favored by foot soldiers.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 9.0,
+    "quantity": 1,
+    "cost": "10 ss",
+    "specialty": "Fighting:Pole-Arms",
+    "training": 0,
+    "damage": "@Athletics+2",
+    "qualities": [
+      {
+        "name": "Fragile",
+        "parameter": ""
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      },
+      {
+        "name": "Unwieldy",
+        "parameter": ""
+      }
+    ],
+    "reach": "1",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ysIvf4gz7rvLayHZ"
+}

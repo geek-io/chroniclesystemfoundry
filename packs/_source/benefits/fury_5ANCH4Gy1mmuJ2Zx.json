@@ -1,0 +1,33 @@
+{
+  "_id": "5ANCH4Gy1mmuJ2Zx",
+  "name": "Fury",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Take –2D on an attack to deal +4 damage.</p><p><em>Martial quality. Full rules: SIFRP p. 82.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 82",
+    "categories": "Martial",
+    "requirements": "Athletics 4 (Strength 2B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5ANCH4Gy1mmuJ2Zx"
+}

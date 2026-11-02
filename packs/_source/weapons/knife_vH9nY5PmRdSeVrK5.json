@@ -1,0 +1,49 @@
+{
+  "_id": "vH9nY5PmRdSeVrK5",
+  "name": "Knife",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A close-quarters or improvised attack.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 1.0,
+    "quantity": 1,
+    "cost": "5 ss",
+    "specialty": "Fighting:Brawling",
+    "training": 0,
+    "damage": "@Athletics-2",
+    "qualities": [
+      {
+        "name": "Fast",
+        "parameter": ""
+      },
+      {
+        "name": "Off-hand",
+        "parameter": "+1"
+      }
+    ],
+    "reach": "0",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vH9nY5PmRdSeVrK5"
+}

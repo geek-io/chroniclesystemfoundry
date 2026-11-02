@@ -1,0 +1,33 @@
+{
+  "_id": "cWGwpunhpBtYS7SH",
+  "name": "Terrain Specialist",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Add Education bonus dice to Survival results in a chosen terrain. May be taken more than once.</p><p><em>Ability quality. Full rules: SIFRP p. 89.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 89",
+    "categories": "Ability",
+    "requirements": "Survival 4",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cWGwpunhpBtYS7SH"
+}

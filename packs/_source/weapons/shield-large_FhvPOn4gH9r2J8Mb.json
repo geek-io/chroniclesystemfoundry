@@ -1,0 +1,49 @@
+{
+  "_id": "FhvPOn4gH9r2J8Mb",
+  "name": "Shield, Large",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A shield; mostly protective, but it can strike.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 6.0,
+    "quantity": 1,
+    "cost": "40 ss",
+    "specialty": "Fighting:Shields",
+    "training": 1,
+    "damage": "@Athletics-2",
+    "qualities": [
+      {
+        "name": "Bulk",
+        "parameter": "1"
+      },
+      {
+        "name": "Defensive",
+        "parameter": "+4"
+      }
+    ],
+    "reach": "0",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FhvPOn4gH9r2J8Mb"
+}

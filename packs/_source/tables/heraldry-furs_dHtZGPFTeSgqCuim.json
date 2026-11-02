@@ -1,0 +1,159 @@
+{
+  "_id": "dHtZGPFTeSgqCuim",
+  "name": "Heraldry: Furs",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Coat of arms: whether a fur pattern is used.</p><p><em>SIFRP p. 116</em></p>",
+  "results": [
+    {
+      "_id": "Hk4okGT5qlcrulE7",
+      "type": "text",
+      "name": "None",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!dHtZGPFTeSgqCuim.Hk4okGT5qlcrulE7"
+    },
+    {
+      "_id": "D0M1xPhVddH9UrUO",
+      "type": "text",
+      "name": "Ermine (white with black spots)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!dHtZGPFTeSgqCuim.D0M1xPhVddH9UrUO"
+    },
+    {
+      "_id": "EjLjYls5BuvMFXI9",
+      "type": "text",
+      "name": "Counter-ermine (black with white spots)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!dHtZGPFTeSgqCuim.EjLjYls5BuvMFXI9"
+    },
+    {
+      "_id": "ievyzG6yAXZAOffI",
+      "type": "text",
+      "name": "Pean (black with gold spots)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!dHtZGPFTeSgqCuim.ievyzG6yAXZAOffI"
+    },
+    {
+      "_id": "EZ7ISqmcz6TWV77T",
+      "type": "text",
+      "name": "Erminois (gold with black spots)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!dHtZGPFTeSgqCuim.EZ7ISqmcz6TWV77T"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!dHtZGPFTeSgqCuim"
+}

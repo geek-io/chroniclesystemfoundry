@@ -1,0 +1,40 @@
+{
+  "_id": "ftPvKv0P1uMfbL9j",
+  "name": "Tears of Lys",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>A colorless, tasteless assassin's poison that destroys the bowels over days and leaves no trace.</p>",
+    "type": "",
+    "source": "SIFRP p. 138",
+    "quantity": 1,
+    "cost": "100 gd",
+    "delivery": "Ingested",
+    "virulence": "6",
+    "frequency": "1/hour and 1/day",
+    "toxicity": 6,
+    "diagnosis": 18,
+    "effects": "<p>Toxicity: 6. Diagnosis: Very Hard (18).</p>",
+    "recovery": "<p>Almost always fatal unless a Destiny Point is burned (then recover after 3d6 days).</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ftPvKv0P1uMfbL9j"
+}

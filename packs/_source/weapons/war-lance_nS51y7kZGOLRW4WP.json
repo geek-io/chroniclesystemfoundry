@@ -1,0 +1,65 @@
+{
+  "_id": "nS51y7kZGOLRW4WP",
+  "name": "War Lance",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A spear or lance.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 10.0,
+    "quantity": 1,
+    "cost": "60 ss",
+    "specialty": "Fighting:Spears",
+    "training": 1,
+    "damage": "@Animal Handling+4",
+    "qualities": [
+      {
+        "name": "Bulk",
+        "parameter": "2"
+      },
+      {
+        "name": "Impale",
+        "parameter": ""
+      },
+      {
+        "name": "Mounted",
+        "parameter": ""
+      },
+      {
+        "name": "Powerful",
+        "parameter": ""
+      },
+      {
+        "name": "Slow",
+        "parameter": ""
+      },
+      {
+        "name": "Vicious",
+        "parameter": ""
+      }
+    ],
+    "reach": "3",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nS51y7kZGOLRW4WP"
+}

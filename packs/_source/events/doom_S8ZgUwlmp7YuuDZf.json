@@ -1,0 +1,50 @@
+{
+  "_id": "S8ZgUwlmp7YuuDZf",
+  "name": "Doom",
+  "type": "event",
+  "img": "systems/chroniclesystem/assets/icons/event.png",
+  "system": {
+    "description": "<p>A catastrophic run of disasters nearly wiped the house out.</p><p><em>Historical Events table roll 3 (SIFRP p. 102).</em></p>",
+    "formulas": {
+      "defense": "-2d6",
+      "influence": "-2d6",
+      "lands": "-2d6",
+      "law": "-2d6",
+      "population": "-2d6",
+      "power": "-2d6",
+      "wealth": "-2d6"
+    },
+    "modifiers": {
+      "defense": 0,
+      "influence": 0,
+      "lands": 0,
+      "law": 0,
+      "population": 0,
+      "power": 0,
+      "wealth": 0
+    },
+    "playerChoice": false,
+    "numberOfChoices": 0,
+    "bonusToChoices": "",
+    "source": "SIFRP p. 102"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!S8ZgUwlmp7YuuDZf"
+}

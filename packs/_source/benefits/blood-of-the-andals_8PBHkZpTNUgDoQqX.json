@@ -1,0 +1,33 @@
+{
+  "_id": "8PBHkZpTNUgDoQqX",
+  "name": "Blood of the Andals",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>You are uncommonly lucky.</p><p><em>Heritage quality. Full rules: SIFRP p. 77.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 77",
+    "categories": "Heritage",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8PBHkZpTNUgDoQqX"
+}

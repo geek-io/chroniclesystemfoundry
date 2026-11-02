@@ -1,0 +1,40 @@
+{
+  "_id": "7Dpnf2BmHdlYpvWO",
+  "name": "Sweetsleep, 3 Pinches",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>A lethal dose: penalties to Cunning and Endurance and a day-long sleep that may never end.</p>",
+    "type": "",
+    "source": "SIFRP p. 137",
+    "quantity": 1,
+    "cost": "360 ss",
+    "delivery": "Ingested",
+    "virulence": "6",
+    "frequency": "1/round",
+    "toxicity": 3,
+    "diagnosis": 3,
+    "effects": "<p>Toxicity: 3. Diagnosis: Easy (3).</p>",
+    "recovery": "<p>Penalties fade after the sleep wears off.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7Dpnf2BmHdlYpvWO"
+}

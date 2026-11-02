@@ -1,0 +1,33 @@
+{
+  "_id": "mflyuIWQAe4Jc4kx",
+  "name": "Braavosi Fighter III",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Free attack when an opponent misses you.</p><p><em>Martial quality. Full rules: SIFRP p. 79.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 79",
+    "categories": "Martial",
+    "requirements": "Fighting 6 (Fencing 3B), Braavosi Fighter II",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mflyuIWQAe4Jc4kx"
+}

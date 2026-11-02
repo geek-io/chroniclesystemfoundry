@@ -1,0 +1,40 @@
+{
+  "_id": "FdQrAwtJlcCSAF0x",
+  "name": "Widow's Blood",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>Cripples the bowels and bladder; the victim slowly drowns in their own toxins.</p>",
+    "type": "",
+    "source": "SIFRP p. 138",
+    "quantity": 1,
+    "cost": "1,000 ss",
+    "delivery": "Ingested",
+    "virulence": "5",
+    "frequency": "1/hour",
+    "toxicity": 1,
+    "diagnosis": 9,
+    "effects": "<p>Toxicity: 1. Diagnosis: Challenging (9).</p>",
+    "recovery": "<p>A healer can halt it with Challenging (9) Healing tests.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FdQrAwtJlcCSAF0x"
+}

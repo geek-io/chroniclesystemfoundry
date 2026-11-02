@@ -1,0 +1,49 @@
+{
+  "_id": "2nSbLQqvjxjjM9t8",
+  "name": "Left-hand Dagger",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A light, quick Braavosi-style blade.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 1.0,
+    "quantity": 1,
+    "cost": "20 ss",
+    "specialty": "Fighting:Fencing",
+    "training": 1,
+    "damage": "@Agility-1",
+    "qualities": [
+      {
+        "name": "Defensive",
+        "parameter": "+2"
+      },
+      {
+        "name": "Off-hand",
+        "parameter": "+1"
+      }
+    ],
+    "reach": "0",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2nSbLQqvjxjjM9t8"
+}

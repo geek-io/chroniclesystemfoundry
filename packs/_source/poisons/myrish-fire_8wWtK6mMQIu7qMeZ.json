@@ -1,0 +1,40 @@
+{
+  "_id": "8wWtK6mMQIu7qMeZ",
+  "name": "Myrish Fire",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>A stinging antiseptic ointment. Penalizes Agility but helps recovery from injuries and wounds.</p>",
+    "type": "",
+    "source": "SIFRP p. 136",
+    "quantity": 1,
+    "cost": "100 ss",
+    "delivery": "Contact",
+    "virulence": "4",
+    "frequency": "1/round",
+    "toxicity": 2,
+    "diagnosis": 6,
+    "effects": "<p>Toxicity: 2. Diagnosis: Routine (6).</p>",
+    "recovery": "<p>Penalty fades after 24 hours.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8wWtK6mMQIu7qMeZ"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "VDDAi43DwqwgXwc4",
+  "name": "Healing",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Diagnosing and treating disease, poison, injuries and wounds.</p>",
+    "type": "",
+    "source": "SIFRP p. 63",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Diagnose",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Treat Ailment",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Treat Injury",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VDDAi43DwqwgXwc4"
+}

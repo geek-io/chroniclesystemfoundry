@@ -1,79 +1,124 @@
+import {applySheetTheme, toggleSheetTheme, mergeArrayFormData} from "../../utils/sheetUtils.js";
+import SystemUtils from "../../utils/systemUtils.js";
+
+const {HandlebarsApplicationMixin} = foundry.applications.api;
+const {ItemSheetV2} = foundry.applications.sheets;
+
 /**
- * Extend the basic ItemSheet with some very simple modifications
- * @extends {ItemSheet}
+ * Base Chronicle System item sheet (ApplicationV2). The template is picked from the item type.
  */
-export class CSItemSheet extends ItemSheet {
-    /** @override */
-    static get defaultOptions() {
-        return mergeObject(super.defaultOptions, {
-            classes: ["worldbuilding","chroniclesystem", "sheet", "item"],
-            width: 650,
-            height: 560,
-        });
-    }
+export class CSItemSheet extends HandlebarsApplicationMixin(ItemSheetV2) {
+    static ARRAY_FIELDS = ["qualities", "specialties", "features", "arts", "works"];
 
-    get template() {
-        const path = 'systems/chroniclesystem/templates/items';
-        return `${path}/${this.item.type}.hbs`;
-    }
-
-    activateListeners(html) {
-        super.activateListeners(html);
-
-        html.find('.item-delete').click((ev) => {
-            if (this.item.actor) {
-                this.item.actor.deleteEmbeddedDocuments("Item", [this.item._id,]);
-            }
-        });
-
-        html.find(".item-qualities-control").on("click", this._onClickItemQualityControl.bind(this));
-        html.find('.item-quality-create').on("click", this._onClickItemQualityCreate.bind(this));
-    }
-
-    async _onClickItemQualityCreate(ev) {
-        const item = this.item;
-        let quality = {
-            name: "",
-            parameter: ""
-        };
-        let newQuality = Object.values(item.getCSData().qualities);
-        newQuality.push(quality);
-        item.update({"data.qualities" : newQuality});
-    }
-
-    async _onClickItemQualityControl(event) {
-        event.preventDefault();
-        const a = event.currentTarget;
-        const index = parseInt(a.dataset.id);
-        const action = a.dataset.action;
-
-        // Remove existing specialty
-        if ( action === "delete" ) {
-            const item = this.item;
-            let qualities = Object.values(item.getCSData().qualities);
-            qualities.splice(index,1);
-            item.update({"data.qualities" : qualities});
+    static DEFAULT_OPTIONS = {
+        classes: ["chroniclesystem", "sheet", "item"],
+        position: {width: 680, height: 580},
+        form: {submitOnChange: true},
+        window: {
+            resizable: true,
+            controls: [{
+                action: "toggleTheme",
+                icon: "fa-solid fa-circle-half-stroke",
+                label: "CS.sheets.toggleTheme"
+            }]
+        },
+        actions: {
+            deleteItem: CSItemSheet.#onDeleteItem,
+            addListEntry: CSItemSheet.#onAddListEntry,
+            deleteListEntry: CSItemSheet.#onDeleteListEntry,
+            toggleTheme: CSItemSheet.#onToggleTheme
         }
+    };
+
+    static PARTS = {
+        body: {template: "systems/chroniclesystem/templates/items/equipment.hbs", scrollable: [".sheet-body"]}
+    };
+
+    /** Blank entries created by the "+" buttons of each list. */
+    static LIST_TEMPLATES = {
+        qualities: () => ({name: "", parameter: ""}),
+        specialties: () => ({name: "", rating: 0, modifier: 0}),
+        features: () => ({name: "", cost: 0}),
+        arts: () => ({name: ""}),
+        works: () => ({
+            name: "",
+            type: "SPELL",
+            description: "",
+            test: {alignment: "", invocation: "", unleashing: "", spellcasting: ""},
+            cost: "NONE",
+            resonance: ""
+        })
+    };
+
+    /** @inheritDoc */
+    _configureRenderParts(options) {
+        const parts = super._configureRenderParts(options);
+        parts.body.template = `systems/chroniclesystem/templates/items/${this.item.type}.hbs`;
+        return parts;
     }
 
+    /** @inheritDoc */
+    async _prepareContext(options) {
+        const context = await super._prepareContext(options);
+        const item = this.item;
+        context.item = item;
+        context.system = item.system;
+        context.owner = item.isOwner;
+        context.cssClass = this.isEditable ? "editable" : "locked";
+        context.qualities = SystemUtils.toArray(item.system.qualities);
+        context.specialties = SystemUtils.toArray(item.system.specialties);
+        context.features = SystemUtils.toArray(item.system.features);
+        context.arts = SystemUtils.toArray(item.system.arts);
+        const enrich = (value) => SystemUtils.enrich(value, {relativeTo: item, secrets: item.isOwner});
+        context.enriched = {
+            description: await enrich(item.system.description),
+            effects: await enrich(item.system.effects),
+            recovery: await enrich(item.system.recovery)
+        };
+        return context;
+    }
 
-    /* -------------------------------------------- */
+    /** @inheritDoc */
+    async _onRender(context, options) {
+        await super._onRender(context, options);
+        applySheetTheme(this);
+    }
 
-    /** @override */
-    getData() {
-        const data = super.getData();
-        data.dtypes = ["String", "Number", "Boolean"];
+    /** @inheritDoc */
+    _processFormData(event, form, formData) {
+        const data = super._processFormData(event, form, formData);
+        mergeArrayFormData(data, this.item._source, this.constructor.ARRAY_FIELDS);
         return data;
     }
 
-    /* -------------------------------------------- */
+    static async #onDeleteItem(event) {
+        event.preventDefault();
+        if (!this.item.actor) return;
+        await this.close();
+        await this.item.delete();
+    }
 
-    /** @override */
-    setPosition(options={}) {
-        const position = super.setPosition(options);
-        const sheetBody = this.element.find(".sheet-body");
-        const bodyHeight = position.height - 142;
-        sheetBody.css("height", bodyHeight);
-        return position;
+    static async #onAddListEntry(event, target) {
+        event.preventDefault();
+        const list = target.dataset.list;
+        const factory = this.constructor.LIST_TEMPLATES[list];
+        if (!factory) return;
+        const entries = SystemUtils.toArray(this.item._source.system?.[list]);
+        entries.push(factory());
+        await this.item.update({[`system.${list}`]: entries});
+    }
+
+    static async #onDeleteListEntry(event, target) {
+        event.preventDefault();
+        const list = target.dataset.list;
+        const index = parseInt(target.dataset.id, 10);
+        const entries = SystemUtils.toArray(this.item._source.system?.[list]);
+        if (!Number.isInteger(index) || index < 0 || index >= entries.length) return;
+        entries.splice(index, 1);
+        await this.item.update({[`system.${list}`]: entries});
+    }
+
+    static async #onToggleTheme() {
+        await toggleSheetTheme();
     }
 }

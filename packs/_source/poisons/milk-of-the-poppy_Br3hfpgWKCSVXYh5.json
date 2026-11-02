@@ -1,0 +1,40 @@
+{
+  "_id": "Br3hfpgWKCSVXYh5",
+  "name": "Milk of the Poppy",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>Painkiller and sleeping draught. Halves penalties from injuries and wounds; a successful attack knocks the victim out for hours.</p>",
+    "type": "",
+    "source": "SIFRP p. 136",
+    "quantity": 1,
+    "cost": "200 ss",
+    "delivery": "Ingested",
+    "virulence": "4",
+    "frequency": "1/minute",
+    "toxicity": 1,
+    "diagnosis": 3,
+    "effects": "<p>Toxicity: 1. Diagnosis: Easy (3).</p>",
+    "recovery": "<p>Effects last about 8 hours.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Br3hfpgWKCSVXYh5"
+}

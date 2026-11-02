@@ -1,13 +1,13 @@
 import {CSItemSheet} from "./csItemSheet.js";
 
 export class CSEventItemSheet extends CSItemSheet {
-    activateListeners(html) {
-        super.activateListeners(html);
+    static DEFAULT_OPTIONS = {
+        classes: ["event"],
+        actions: {togglePlayerChoice: CSEventItemSheet.#onTogglePlayerChoice}
+    };
 
-        html.find('.checkButton').on("click", this._onClickPlayerChoice.bind(this));
-    }
-    async _onClickPlayerChoice(ev) {
-        ev.preventDefault();
-        this.item.update({"data.playerChoice": !this.item.getCSData().playerChoice});
+    static async #onTogglePlayerChoice(event) {
+        event.preventDefault();
+        await this.item.update({"system.playerChoice": !this.item.system.playerChoice});
     }
 }

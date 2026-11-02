@@ -1,0 +1,38 @@
+{
+  "_id": "QxRlnQRDQygubY1r",
+  "name": "Leather, Soft",
+  "type": "armor",
+  "img": "systems/chroniclesystem/assets/icons/armor.png",
+  "system": {
+    "description": "<p>Supple leather jerkin and leggings.</p>",
+    "type": "",
+    "source": "SIFRP p. 312",
+    "weight": 15.0,
+    "rating": 2,
+    "penalty": -1,
+    "bulk": 0,
+    "qualities": [],
+    "equipped": 0,
+    "quantity": 1,
+    "cost": "300 ss"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QxRlnQRDQygubY1r"
+}

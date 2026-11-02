@@ -1,0 +1,678 @@
+/* ==========================================================================
+   Chronicle System — sheet styles (Foundry VTT v13 / v14)
+   Colors are CSS custom properties so the same rules serve light and dark.
+   Dark applies when Foundry's applications theme is dark (body.theme-dark), when a sheet is
+   configured dark (Configure Sheet → Theme, .themed.theme-dark), or when the system's
+   "Sheet Theme" client setting forces it.
+   ========================================================================== */
+
+.chroniclesystem {
+  --cs-primary: #005390;
+  --cs-primary-text: #ffffff;
+  --cs-secondary: #4178b7;
+  --cs-secondary-text: #ffffff;
+  --cs-subheader: #111111;
+  --cs-subheader-text: #ffffff;
+  --cs-bg: #dce2ef;
+  --cs-panel: rgba(255, 255, 255, 0.35);
+  --cs-field: #ffffff;
+  --cs-field-text: #191813;
+  --cs-text: #191813;
+  --cs-muted: #6b6f78;
+  --cs-readonly-bg: #c9d1e2;
+  --cs-readonly-text: #4b4f57;
+  --cs-border: #aab4c8;
+  --cs-tab: #bbbbbb;
+  --cs-tab-text: #191813;
+  --cs-disabled: #9a9a9a;
+  --cs-alert: #aa0000;
+  --cs-row-alt: rgba(255, 255, 255, 0.3);
+  --cs-hover: #4178b7;
+  --cs-hover-text: #ffffff;
+  --cs-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  --cs-check: #111111;
+  --cs-check-text: #ffffff;
+  --cs-link: #005390;
+
+  --cs-gap-s: 3px;
+  --cs-gap-m: 5px;
+  --cs-gap-l: 8px;
+  --cs-gap-xl: 10px;
+}
+
+/* Dark palette — applied by Foundry's dark theme or the system setting. */
+body.theme-dark .chroniclesystem,
+.chroniclesystem.themed.theme-dark {
+  --cs-primary: #24496e;
+  --cs-primary-text: #e8edf4;
+  --cs-secondary: #3d6b9e;
+  --cs-secondary-text: #f1f4f8;
+  --cs-subheader: #0b0d11;
+  --cs-subheader-text: #d6dbe3;
+  --cs-bg: #1b1f26;
+  --cs-panel: rgba(255, 255, 255, 0.03);
+  --cs-field: #2a2f38;
+  --cs-field-text: #e4e7ec;
+  --cs-text: #d9dde4;
+  --cs-muted: #8d96a3;
+  --cs-readonly-bg: #20252d;
+  --cs-readonly-text: #97a0ac;
+  --cs-border: #3a414c;
+  --cs-tab: #2c323c;
+  --cs-tab-text: #c9ced6;
+  --cs-disabled: #5d6470;
+  --cs-alert: #ff6b6b;
+  --cs-row-alt: rgba(255, 255, 255, 0.04);
+  --cs-hover: #3d6b9e;
+  --cs-hover-text: #ffffff;
+  --cs-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.55);
+  --cs-check: #c9a74a;
+  --cs-check-text: #111111;
+  --cs-link: #8fb8e8;
+}
+
+/* An explicitly light sheet inside a dark UI stays light. */
+.chroniclesystem.themed.theme-light {
+  --cs-primary: #005390;
+  --cs-primary-text: #ffffff;
+  --cs-secondary: #4178b7;
+  --cs-secondary-text: #ffffff;
+  --cs-subheader: #111111;
+  --cs-subheader-text: #ffffff;
+  --cs-bg: #dce2ef;
+  --cs-panel: rgba(255, 255, 255, 0.35);
+  --cs-field: #ffffff;
+  --cs-field-text: #191813;
+  --cs-text: #191813;
+  --cs-muted: #6b6f78;
+  --cs-readonly-bg: #c9d1e2;
+  --cs-readonly-text: #4b4f57;
+  --cs-border: #aab4c8;
+  --cs-tab: #bbbbbb;
+  --cs-tab-text: #191813;
+  --cs-disabled: #9a9a9a;
+  --cs-alert: #aa0000;
+  --cs-row-alt: rgba(255, 255, 255, 0.3);
+  --cs-hover: #4178b7;
+  --cs-hover-text: #ffffff;
+  --cs-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  --cs-check: #111111;
+  --cs-check-text: #ffffff;
+  --cs-link: #005390;
+}
+
+/* --------------------------------------------------------------------------
+   Utilities
+   -------------------------------------------------------------------------- */
+.chroniclesystem .capitalize { text-transform: capitalize; }
+.chroniclesystem .center { text-align: center; justify-content: center; }
+.chroniclesystem .hidden { display: none !important; }
+.chroniclesystem .alert { color: var(--cs-alert); }
+.chroniclesystem .bottom { vertical-align: bottom; align-self: flex-end; }
+.chroniclesystem .no-margin { margin: 0 !important; padding: 0 !important; }
+.chroniclesystem .size25 { width: 25px; flex: 0.25; }
+.chroniclesystem .small-field, .chroniclesystem .size50 { width: 50px; flex: 0.5; }
+.chroniclesystem .size75 { width: 75px; flex: 0.75; }
+.chroniclesystem .medium-field, .chroniclesystem .size100 { width: 100px; flex: 1; }
+.chroniclesystem .size125 { width: 125px; flex: 1.25; }
+.chroniclesystem .big-field, .chroniclesystem .size150 { width: 150px; flex: 1.5; }
+.chroniclesystem .biggest-field, .chroniclesystem .size200 { width: 200px; flex: 2; }
+.chroniclesystem .size300 { width: 300px; flex: 3; }
+.chroniclesystem .size400 { width: 400px; flex: 4; }
+
+/* --------------------------------------------------------------------------
+   Window frame & layout
+   -------------------------------------------------------------------------- */
+.chroniclesystem.sheet .window-content {
+  display: flex;
+  flex-direction: column;
+  padding: var(--cs-gap-m) var(--cs-gap-xl) var(--cs-gap-m) var(--cs-gap-m);
+  overflow: hidden;
+  background: var(--cs-bg);
+  color: var(--cs-text);
+  gap: 0;
+}
+
+.chroniclesystem.sheet .window-content > .tab {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  align-content: flex-start;
+}
+
+.chroniclesystem.sheet .tab[data-tab]:not(.active) { display: none; }
+
+.chroniclesystem.sheet .cs-item-sheet {
+  height: 100%;
+  min-height: 0;
+}
+
+.chroniclesystem.sheet .cs-item-sheet > .sheet-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  align-items: stretch;
+}
+
+.chroniclesystem.sheet a { color: var(--cs-link); }
+.chroniclesystem.sheet a:hover { text-shadow: none; }
+.chroniclesystem.sheet label { color: var(--cs-text); }
+
+/* Headers --------------------------------------------------------------- */
+.chroniclesystem.sheet .header-field {
+  background: var(--cs-primary);
+  color: var(--cs-primary-text);
+  padding: var(--cs-gap-m);
+  margin: var(--cs-gap-m) 0 0 0;
+  text-align: center;
+  border: none;
+}
+.chroniclesystem.sheet .header-field a { color: var(--cs-primary-text); }
+.chroniclesystem.sheet .header-field.header-title { flex: 1.95; }
+.chroniclesystem.sheet .header-field .header-title { flex: 1.95; }
+.chroniclesystem.sheet .header-field-add { flex: 0 0 24px; text-align: right; }
+
+.chroniclesystem.sheet .subheader-field {
+  background: var(--cs-subheader);
+  color: var(--cs-subheader-text);
+  padding: var(--cs-gap-m);
+  margin: var(--cs-gap-m) 0 0 0;
+  text-align: center;
+}
+.chroniclesystem.sheet .subheader-field a { color: var(--cs-subheader-text); }
+.chroniclesystem.sheet .subheader-value { padding: var(--cs-gap-m); text-align: center; }
+
+/* Sheet header ----------------------------------------------------------- */
+.chroniclesystem.sheet .sheet-header {
+  flex: 0 0 auto;
+  align-items: center;
+  gap: var(--cs-gap-l);
+  margin-bottom: var(--cs-gap-m);
+  border: none;
+}
+
+.chroniclesystem.sheet .sheet-header .header-portrait {
+  flex: 0 0 72px;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border: 2px solid var(--cs-primary);
+  border-radius: 4px;
+  background: var(--cs-field);
+  cursor: pointer;
+}
+
+.chroniclesystem.sheet .sheet-header .header-fields { flex: 1; min-width: 0; }
+
+.chroniclesystem.sheet .sheet-header h1.charname,
+.chroniclesystem.sheet .sheet-header h1.itemname {
+  height: 44px;
+  padding: 0;
+  margin: 0;
+  border-bottom: 0;
+}
+
+.chroniclesystem.sheet .sheet-header h1 input {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 1.6em;
+  font-family: var(--font-h1, inherit);
+}
+
+.chroniclesystem.sheet .sheet-header .complements {
+  margin: var(--cs-gap-m) 0 0 0;
+  gap: var(--cs-gap-m);
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.chroniclesystem.sheet .sheet-header .complements input,
+.chroniclesystem.sheet .sheet-header .complements select { height: 27px; margin: 0; }
+
+.chroniclesystem.sheet .sheet-header .attribute-label {
+  background: var(--cs-primary);
+  color: var(--cs-primary-text);
+  padding: var(--cs-gap-m) var(--cs-gap-xl);
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.chroniclesystem.sheet .sheet-header .link-field { margin: 0 var(--cs-gap-m); cursor: pointer; }
+
+.chroniclesystem.sheet .item-subtitle { color: var(--cs-muted); font-size: 0.9em; margin-top: 2px; }
+
+/* Tabs ------------------------------------------------------------------ */
+.chroniclesystem.sheet nav.sheet-tabs {
+  flex: 0 0 auto;
+  padding: 4px 0;
+  gap: 4px;
+  border-top: 1px solid var(--cs-border);
+  border-bottom: 1px solid var(--cs-border);
+  margin-bottom: var(--cs-gap-s);
+}
+
+.chroniclesystem.sheet nav.sheet-tabs .item {
+  padding: 3px 6px;
+  background: var(--cs-tab);
+  color: var(--cs-tab-text);
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.chroniclesystem.sheet nav.sheet-tabs .item.active {
+  background: var(--cs-primary);
+  color: var(--cs-primary-text);
+  text-decoration: none;
+  text-shadow: none;
+}
+
+/* Inputs ---------------------------------------------------------------- */
+.chroniclesystem.sheet input,
+.chroniclesystem.sheet select,
+.chroniclesystem.sheet textarea {
+  background: var(--cs-field);
+  color: var(--cs-field-text);
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.chroniclesystem.sheet input:focus,
+.chroniclesystem.sheet select:focus,
+.chroniclesystem.sheet textarea:focus {
+  border-color: var(--cs-secondary);
+  box-shadow: 0 0 4px var(--cs-secondary);
+  outline: none;
+}
+
+.chroniclesystem.sheet input:read-only {
+  background: var(--cs-readonly-bg);
+  color: var(--cs-readonly-text);
+  box-shadow: none;
+}
+
+.chroniclesystem.sheet input::placeholder { color: var(--cs-muted); }
+.chroniclesystem.sheet select option { background: var(--cs-field); color: var(--cs-field-text); }
+
+.chroniclesystem.sheet .form-group { margin: var(--cs-gap-m) 0 0 0; align-items: center; }
+.chroniclesystem.sheet .form-group > label { flex: 1; }
+
+/* Rich text --------------------------------------------------------------- */
+.chroniclesystem.sheet prose-mirror {
+  display: block;
+  min-height: 120px;
+  width: 100%;
+  background: var(--cs-field);
+  color: var(--cs-field-text);
+  padding: 0 var(--cs-gap-s);
+  border-radius: 2px;
+}
+
+.chroniclesystem.sheet prose-mirror .editor-content { color: var(--cs-field-text); }
+.chroniclesystem.sheet prose-mirror .editor-menu { background: var(--cs-readonly-bg); }
+
+/* Lists ------------------------------------------------------------------ */
+.chroniclesystem.sheet .list {
+  list-style: none;
+  padding: 0;
+  margin: var(--cs-gap-m) var(--cs-gap-m) var(--cs-gap-m) var(--cs-gap-s);
+}
+
+.chroniclesystem.sheet .list .item { margin: var(--cs-gap-s); align-items: center; }
+.chroniclesystem.sheet .list .item > * { margin-left: var(--cs-gap-m); }
+.chroniclesystem.sheet .list .item > *:first-child { margin-left: 0; }
+.chroniclesystem.sheet .list .item .item-controls { flex: 0 0 auto; align-self: center; }
+.chroniclesystem.sheet .list .list-header .item-controls { flex: 0 0 12.25px; }
+
+.chroniclesystem.sheet .list-header {
+  font-weight: bold;
+  margin: 3px;
+  padding: 3px;
+  background: var(--cs-subheader);
+  color: var(--cs-subheader-text);
+}
+.chroniclesystem.sheet .list-header div { margin: 2px; }
+
+.chroniclesystem.sheet .item-controls {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.chroniclesystem.sheet .item-controls a { margin-left: 4px; color: var(--cs-muted); cursor: pointer; }
+.chroniclesystem.sheet .item-controls a:hover { color: var(--cs-secondary); }
+
+.chroniclesystem.sheet .item-controls button {
+  border: none;
+  background-color: transparent;
+  color: var(--cs-secondary-text);
+  font-weight: normal;
+  padding: 0 2px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 17px;
+  cursor: pointer;
+  width: auto;
+}
+
+.chroniclesystem.sheet .item-controls button:hover { border: none; box-shadow: none; }
+
+.chroniclesystem.sheet .unordered { list-style: circle; margin: var(--cs-gap-s) 0; }
+
+.chroniclesystem.sheet .draggable { cursor: grab; }
+
+.chroniclesystem.sheet a.checkButton {
+  color: var(--cs-disabled);
+  padding: 2px;
+  text-align: right;
+  cursor: pointer;
+}
+.chroniclesystem.sheet a.checkButton.activated { color: var(--cs-secondary); }
+
+.chroniclesystem.sheet .ps { margin: var(--cs-gap-m); font-style: italic; color: var(--cs-muted); }
+
+.chroniclesystem.sheet .profile-img { max-width: 100%; max-height: 100%; border: none; cursor: pointer; }
+
+.chroniclesystem.sheet .profile-img-container {
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: var(--cs-shadow);
+  background-color: var(--cs-field);
+}
+
+.chroniclesystem.sheet table {
+  margin: 5px 0 0 0;
+  background: transparent;
+  border: none;
+  color: var(--cs-text);
+  text-align: center;
+}
+
+.chroniclesystem.sheet table thead {
+  background: var(--cs-subheader);
+  color: var(--cs-subheader-text);
+  text-shadow: none;
+  border-bottom: none;
+}
+
+.chroniclesystem.sheet table tbody tr:nth-child(odd) { background: var(--cs-row-alt); }
+
+.chroniclesystem.sheet .rollable { cursor: pointer; }
+.chroniclesystem.sheet .rollable:hover a { color: var(--cs-secondary); text-shadow: 0 0 6px var(--cs-secondary); }
+
+/* --------------------------------------------------------------------------
+   Character sheet
+   -------------------------------------------------------------------------- */
+.chroniclesystem.sheet.actor { min-width: 560px; min-height: 420px; }
+
+.chroniclesystem.sheet.actor .abilities { margin-right: var(--cs-gap-l); }
+
+.chroniclesystem.sheet .abilities-list { list-style: none; padding: 0; width: 100%; margin-top: 3px; }
+
+.chroniclesystem.sheet.actor .abilities-list .item { align-items: stretch; margin: 0; }
+
+.chroniclesystem.sheet.actor .ability-value {
+  display: flex;
+  align-items: center;
+  background: var(--cs-field);
+  flex: 0.2;
+  margin: 3px;
+}
+.chroniclesystem.sheet.actor .ability-value a { font-size: 16px; text-align: center; flex: 1; color: var(--cs-field-text); }
+
+.chroniclesystem.sheet.actor .ability-label {
+  display: flex;
+  align-items: center;
+  background: var(--cs-primary);
+  flex: 0.5;
+  margin: 3px;
+  cursor: pointer;
+}
+.chroniclesystem.sheet.actor .ability-label a {
+  font-size: 10px;
+  text-align: center;
+  flex: 1;
+  margin: 3px;
+  color: var(--cs-primary-text);
+  text-transform: uppercase;
+}
+.chroniclesystem.sheet.actor .ability-label a:first-letter { font-size: 12px; }
+
+.chroniclesystem.sheet .ability-specialities {
+  display: flex;
+  background: var(--cs-field);
+  color: var(--cs-field-text);
+  min-height: 31px;
+  margin: 3px;
+  flex: 1;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.chroniclesystem.sheet .ability-specialities div { display: inline-block; margin: 3px; }
+.chroniclesystem.sheet .ability-specialities a { color: var(--cs-field-text); }
+
+.chroniclesystem.sheet .qualities-list { list-style: none; margin: 0; padding: 0; }
+.chroniclesystem.sheet .item.quality { margin: var(--cs-gap-m); }
+.chroniclesystem.sheet .item .quality-label {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  background-color: var(--cs-secondary);
+  color: var(--cs-secondary-text);
+  cursor: pointer;
+  padding: 5px;
+}
+.chroniclesystem.sheet .item .quality-label label { color: var(--cs-secondary-text); cursor: pointer; }
+.chroniclesystem.sheet .item.quality .description { background: var(--cs-field); color: var(--cs-field-text); padding: var(--cs-gap-m); }
+.chroniclesystem.sheet .benefits { margin-right: var(--cs-gap-xl); flex: 1; }
+.chroniclesystem.sheet .drawbacks { flex: 1; }
+
+.chroniclesystem.sheet .derived-statistics .form-group { margin: 5px 0 0 0; align-items: stretch; }
+.chroniclesystem.sheet .derived-statistics input { text-align: center; }
+.chroniclesystem.sheet .derived-statistics label { margin-right: 5px; }
+.chroniclesystem.sheet .derived-statistics b { text-align: center; }
+
+.chroniclesystem.sheet.actor .content section { flex: 0 0 150px; margin: 3px; }
+.chroniclesystem.sheet.actor .content .techniques,
+.chroniclesystem.sheet.actor .content .weapons,
+.chroniclesystem.sheet.actor .content .healthState { flex: 1; margin: 3px; }
+.chroniclesystem.sheet.character section.disposition { flex: 0 0 170px; }
+
+.chroniclesystem.sheet.actor .disposition-list .disposition.option {
+  padding: 3px;
+  margin: 5px;
+  background: var(--cs-field);
+  color: var(--cs-field-text);
+  cursor: pointer;
+}
+.chroniclesystem.sheet.actor .disposition-list .disposition.option:hover,
+.chroniclesystem.sheet.actor .disposition-list .disposition.option.selected {
+  background: var(--cs-hover);
+  color: var(--cs-hover-text);
+}
+
+.chroniclesystem.sheet.actor .custom-checkbox { justify-content: center; display: flex; flex-wrap: wrap; }
+.chroniclesystem.sheet.actor .custom-checkbox .square {
+  text-align: center;
+  font-size: smaller;
+  margin: 1px;
+  height: 15px;
+  line-height: 15px;
+  flex: 0 0 15px;
+  background: var(--cs-field);
+  color: var(--cs-field-text);
+  cursor: pointer;
+}
+.chroniclesystem.sheet.actor .custom-checkbox .square.checked { background: var(--cs-check); color: var(--cs-check-text); }
+.chroniclesystem.sheet.actor .custom-checkbox .square:hover { background: var(--cs-hover); color: var(--cs-hover-text); }
+.chroniclesystem.sheet.actor section.stress .custom-checkbox { margin: 10px 0 0 0; height: fit-content; }
+
+.chroniclesystem.sheet.actor .destiny,
+.chroniclesystem.sheet.actor .sorcery-points { margin: 5px 0 0 0; }
+.chroniclesystem.sheet.actor .destiny .form-group,
+.chroniclesystem.sheet.actor .sorcery-points .form-group { flex: 0.5; margin: 0 3px; }
+.chroniclesystem.sheet.actor .destiny input,
+.chroniclesystem.sheet.actor .sorcery-points input { flex: 0 0 50px; text-align: right; }
+
+.chroniclesystem.sheet.actor .off-hand i { transform: scale(-1, 1); }
+
+/* Equipment */
+.chroniclesystem.sheet.actor .equipment-list .item { margin: 3px; background-color: var(--cs-field); color: var(--cs-field-text); padding: 3px; }
+.chroniclesystem.sheet.actor .equipment-list .item a { color: var(--cs-field-text); }
+.chroniclesystem.sheet.actor .equipment-list .item .field { margin: 2px; }
+.chroniclesystem.sheet.actor .equipment-list .list-header .item-qualities div { margin: 0 0 0 8px; padding: 0; }
+.chroniclesystem.sheet.actor .item.equipment,
+.chroniclesystem.sheet.actor .equipment.list-header { flex: 0 0 48%; }
+.chroniclesystem.sheet.actor .equipment-quantity,
+.chroniclesystem.sheet.actor .equipment-cost,
+.chroniclesystem.sheet.actor .equipment-weight { flex: 0 0 62px; text-align: right; }
+.chroniclesystem.sheet.actor .equipment-quantity { text-align: center; }
+.chroniclesystem.sheet.actor .weapon-damage { flex: 0.3; text-align: center; }
+.chroniclesystem.sheet.actor .weapon-testdice { flex: 0.5; text-align: center; }
+.chroniclesystem.sheet.actor .armor-rating,
+.chroniclesystem.sheet.actor .armor-penalty,
+.chroniclesystem.sheet.actor .armor-bulk { flex: 0 0 50px; text-align: center; }
+.chroniclesystem.sheet.actor .poison-virulence,
+.chroniclesystem.sheet.actor .poison-toxicity { flex: 0 0 80px; text-align: center; }
+.chroniclesystem.sheet.actor .item-qualities { flex: 0 0 200px; height: auto; }
+.chroniclesystem.sheet.actor .item-qualities .item-quality { display: inline-block; margin-left: 8px; }
+.chroniclesystem.sheet.actor .equipments .weapons .item-controls,
+.chroniclesystem.sheet.actor .equipments .armors .item-controls { flex: 0 0 64px; }
+.chroniclesystem.sheet.actor .equipments .currency { margin: 5px 0 0 0; }
+.chroniclesystem.sheet.actor .equipments .currency .form-group { flex: 0.5; display: inline-flex; margin: 0 3px; }
+.chroniclesystem.sheet.actor .equipments .currency .small-field { flex: 0 0 50px; margin: 0 3px; text-align: right; }
+
+/* Description tab */
+.chroniclesystem.sheet.actor .tab.description { flex-wrap: wrap; }
+.chroniclesystem.sheet.actor .tab.description section { margin: 5px; flex: 0 0 48%; }
+.chroniclesystem.sheet.actor .tab.description .general { flex: 0 0 66%; }
+.chroniclesystem.sheet.actor .tab.description .section-split { margin: 0; }
+.chroniclesystem.sheet.actor .tab.description .section-split section { margin: 0; flex: 1; }
+.chroniclesystem.sheet.actor .tab.description .section-split .appearance { margin-right: 8px; flex: 0.5; }
+.chroniclesystem.sheet.actor .tab.description .profile-picture { flex: 0 0 200px; height: 300px; }
+.chroniclesystem.sheet.actor .tab.description .concept .form-fields { flex: 6; }
+.chroniclesystem.sheet.actor .tab.description .npc-notes { flex: 0 0 98%; }
+.chroniclesystem.sheet.actor .tab.description prose-mirror { min-height: 200px; }
+.chroniclesystem.sheet.actor .general .experience .form-group { flex: 0.35; display: inline-flex; margin: 0 3px; }
+.chroniclesystem.sheet.actor .general .experience .form-group.glory { flex: 0.3; }
+
+/* Sorcery tab */
+.chroniclesystem.sheet.character section.sorcery { margin-right: 9px; flex: 1; }
+.chroniclesystem.sheet.character .techniques-list .technique-header {
+  background-color: var(--cs-secondary);
+  color: var(--cs-secondary-text);
+  padding: var(--cs-gap-m);
+  margin: var(--cs-gap-m) 0;
+  cursor: pointer;
+}
+.chroniclesystem.sheet.character .techniques-list .technique-header a { color: var(--cs-secondary-text); }
+.chroniclesystem.sheet.character .techniques-list .item.work {
+  margin: var(--cs-gap-s);
+  background-color: var(--cs-field);
+  color: var(--cs-field-text);
+  padding: var(--cs-gap-s);
+  display: block;
+}
+.chroniclesystem.sheet.character .techniques-list .item.work .resonance { font-style: italic; }
+.chroniclesystem.sheet.character .techniques-list .list-header .item-controls { flex: 0 0 7px; }
+
+/* --------------------------------------------------------------------------
+   House sheet
+   -------------------------------------------------------------------------- */
+.chroniclesystem.sheet.house .profile-picture { margin-right: var(--cs-gap-l); flex: 0 0 240px; }
+.chroniclesystem.sheet.house .holdings { align-content: flex-start; flex-wrap: wrap; }
+.chroniclesystem.sheet.house .members > * { margin-left: var(--cs-gap-l); flex: 1; }
+.chroniclesystem.sheet.house .members > *:first-child { margin-left: 0; }
+.chroniclesystem.sheet.house .family-list .age,
+.chroniclesystem.sheet.house .servants-list .age { flex: 0 0 30px; }
+.chroniclesystem.sheet.house .member-name { cursor: pointer; }
+.chroniclesystem.sheet.house .resource-holdings { flex: 0 0 32%; margin: var(--cs-gap-m); height: fit-content; }
+.chroniclesystem.sheet.house .resource-holdings .holdings-header { margin: var(--cs-gap-m) 6px; }
+.chroniclesystem.sheet.house .resource-holdings .holdings-header .subheader-field { margin: 0; }
+.chroniclesystem.sheet.house .list .list-header .event-name { padding-top: 12px; padding-left: var(--cs-gap-s); }
+.chroniclesystem.sheet.house .list .item { margin: var(--cs-gap-s); padding: var(--cs-gap-m); }
+.chroniclesystem.sheet.house .list .item:nth-child(even) { background-color: var(--cs-row-alt); }
+.chroniclesystem.sheet.house .list .event .event-name { padding-left: var(--cs-gap-s); }
+.chroniclesystem.sheet.house .list .event .modifiers { margin: 0 4px; }
+.chroniclesystem.sheet.house .resource-item .resource-label { cursor: pointer; }
+.chroniclesystem.sheet.house .header-field.motto { margin-top: var(--cs-gap-l); }
+
+/* --------------------------------------------------------------------------
+   Item sheets
+   -------------------------------------------------------------------------- */
+.chroniclesystem.sheet.item { min-width: 460px; min-height: 400px; }
+.chroniclesystem.sheet.item .sheet-header { flex: 0 0 72px; flex-wrap: nowrap; }
+.chroniclesystem.sheet.item .sheet-header .profile-img-container {
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  margin: 4px;
+}
+.chroniclesystem.sheet.item .sheet-header .item-control {
+  flex: 0 0 36px;
+  margin-left: 10px;
+  color: var(--cs-muted);
+  cursor: pointer;
+}
+.chroniclesystem.sheet.item .sheet-body .form-group { margin: 5px 0 0 5px; }
+.chroniclesystem.sheet.item .sheet-body .form-group input { margin: 0 0 0 5px; height: 30px; }
+.chroniclesystem.sheet.item .sheet-body { flex-wrap: nowrap; }
+.chroniclesystem.sheet.item .sheet-body .item-stats { flex: 1 1 38%; min-width: 0; margin-right: 10px; }
+.chroniclesystem.sheet.item .sheet-body .description { flex: 1.6 1 58%; min-width: 0; display: flex; flex-direction: column; }
+.chroniclesystem.sheet.item .sheet-body .description .description-text { flex: 1 1 auto; align-items: stretch; }
+.chroniclesystem.sheet.item .sheet-body .description prose-mirror { min-height: 160px; }
+.chroniclesystem.sheet.item.technique select { height: 30px; padding: var(--cs-gap-s); }
+.chroniclesystem.sheet.item.technique .work.item { margin-bottom: var(--cs-gap-l); align-items: flex-start; }
+.chroniclesystem.sheet.item.technique .works > div { flex: 1; }
+
+/* --------------------------------------------------------------------------
+   Dialogs
+   -------------------------------------------------------------------------- */
+.chroniclesystem.cs-dialog .cs-dialog-body .form-group { margin: var(--cs-gap-m) 0; }
+.chroniclesystem.cs-dialog .cs-dialog-body input[type="text"] { text-align: center; }
+
+/* --------------------------------------------------------------------------
+   Importer
+   -------------------------------------------------------------------------- */
+.chroniclesystem.cs-importer .window-content {
+  background: var(--cs-bg);
+  color: var(--cs-text);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cs-gap-m);
+  overflow: hidden;
+}
+.chroniclesystem.cs-importer .importer-root { height: 100%; min-height: 0; gap: var(--cs-gap-m); }
+.chroniclesystem.cs-importer .importer-modes { gap: 4px; flex: 0 0 auto; }
+.chroniclesystem.cs-importer .importer-modes button {
+  background: var(--cs-tab);
+  color: var(--cs-tab-text);
+  border: none;
+}
+.chroniclesystem.cs-importer .importer-modes button.active { background: var(--cs-primary); color: var(--cs-primary-text); }
+.chroniclesystem.cs-importer .importer-body { flex: 1 1 auto; min-height: 0; overflow-y: auto; gap: var(--cs-gap-m); }
+.chroniclesystem.cs-importer textarea.importer-input {
+  width: 100%;
+  min-height: 220px;
+  font-family: var(--font-mono, monospace);
+  font-size: 12px;
+  background: var(--cs-field);
+  color: var(--cs-field-text);
+  resize: vertical;
+}
+.chroniclesystem.cs-importer .hint { color: var(--cs-muted); font-size: 0.9em; margin: 0; }
+.chroniclesystem.cs-importer .importer-options { gap: var(--cs-gap-l); flex-wrap: wrap; align-items: center; }
+.chroniclesystem.cs-importer .importer-options label { flex: 0 0 auto; }
+.chroniclesystem.cs-importer .importer-options select,
+.chroniclesystem.cs-importer .importer-options input[type="text"] { flex: 0 1 220px; background: var(--cs-field); color: var(--cs-field-text); }
+.chroniclesystem.cs-importer .preview { border: 1px solid var(--cs-border); background: var(--cs-panel); max-height: 260px; overflow-y: auto; }
+.chroniclesystem.cs-importer .preview table { width: 100%; margin: 0; }
+.chroniclesystem.cs-importer .preview td, .chroniclesystem.cs-importer .preview th { padding: 2px 6px; text-align: left; }
+.chroniclesystem.cs-importer .preview .warn { color: var(--cs-alert); }
+.chroniclesystem.cs-importer .progress { color: var(--cs-muted); font-style: italic; min-height: 1.2em; }
+.chroniclesystem.cs-importer .importer-footer { flex: 0 0 auto; gap: var(--cs-gap-m); }
+
+/* Sidebar button */
+.directory .header-actions .cs-open-importer { flex: 0 0 100%; }

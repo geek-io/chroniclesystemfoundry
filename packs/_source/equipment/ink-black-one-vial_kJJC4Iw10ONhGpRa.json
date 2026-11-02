@@ -1,0 +1,36 @@
+{
+  "_id": "kJJC4Iw10ONhGpRa",
+  "name": "Ink (Black, one vial)",
+  "type": "equipment",
+  "img": "systems/chroniclesystem/assets/icons/equipment.png",
+  "system": {
+    "description": "<p>Colored inks cost more.</p><p><em>Personal Equipment</em></p>",
+    "type": "",
+    "source": "SIFRP p. 135",
+    "quantity": 1,
+    "cost": "20 cp"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "chroniclesystem": {
+      "category": "Personal Equipment"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kJJC4Iw10ONhGpRa"
+}

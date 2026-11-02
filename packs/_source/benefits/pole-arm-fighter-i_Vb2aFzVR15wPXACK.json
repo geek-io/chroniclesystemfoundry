@@ -1,0 +1,33 @@
+{
+  "_id": "Vb2aFzVR15wPXACK",
+  "name": "Pole-Arm Fighter I",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Knock foes to the ground with a sweep.</p><p><em>Martial quality. Full rules: SIFRP p. 87.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 87",
+    "categories": "Martial",
+    "requirements": "Fighting 4 (Pole-Arms 2B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Vb2aFzVR15wPXACK"
+}

@@ -1,7 +1,11 @@
 {
   "CS": {
     "notifications": {
-      "dicePoolInvalid": "you cannot roll this test because your dice pool results in less than 1 die being kept."
+      "dicePoolInvalid": "you cannot roll this test because your dice pool results in less than 1 die being kept.",
+      "migrationStart": "Chronicle System: beginning {version} data migration. Please don't close the world.",
+      "migrationDone": "Chronicle System: {version} data migration complete.",
+      "migrationFailed": "Chronicle System: the {version} data migration failed. Check the console (F12) for details.",
+      "itemTypeNotAllowed": "{type} items can't be added to this sheet."
     },
     "dialogs": {
       "characterRole": {
@@ -38,6 +42,10 @@
         "save": "Save",
         "cancel": "Cancel",
         "confirm": "Confirm"
+      },
+      "deleteItem": {
+        "title": "Delete {name}?",
+        "content": "Delete <strong>{name}</strong> from this sheet? This can't be undone."
       }
     },
     "messages": {
@@ -66,6 +74,19 @@
       "isModifierDialogDefault": {
         "name": "Modifier Dialog as Default?",
         "hint": "if checked, when clicking on dice rolls on an actor's sheet, it will show the modifiers window, and will make the roll without showing the window when holding the SHIFT key. Each player defines his configuration."
+      },
+      "sheetTheme": {
+        "name": "Sheet Theme",
+        "hint": "Color theme for Chronicle System sheets on this computer. \"Follow Foundry\" uses Foundry's own setting (Configure Settings → Core → User Interface) and each sheet's Configure Sheet → Theme option. You can also flip it with the half-moon button in a sheet's header.",
+        "choices": {
+          "foundry": "Follow Foundry",
+          "light": "Light",
+          "dark": "Dark"
+        }
+      },
+      "ocrLanguage": {
+        "name": "Importer OCR Language",
+        "hint": "Tesseract language code(s) used when the importer reads images or scanned PDF pages, e.g. \"eng\" or \"eng+spa\"."
       }
     },
     "sheets": {
@@ -79,7 +100,16 @@
         "details": "Details",
         "name": "Name",
         "total": "Total",
-        "others": "Others"
+        "others": "Others",
+        "delete": "Delete",
+        "add": "Add",
+        "rating": "Rating",
+        "modifier": "Modifier",
+        "cost": "Cost",
+        "source": "Source",
+        "qualities": "Qualities",
+        "qualityName": "Quality name",
+        "parameter": "Parameter"
       },
       "house": {
         "character": {
@@ -116,7 +146,8 @@
           "wealth": "Wealth",
           "title": "Resources",
           "invested": "Invested",
-          "cost": "Cost"
+          "cost": "Cost",
+          "regenerate": "Re-roll starting resources"
         },
         "labels": {
           "members": "Members",
@@ -152,7 +183,12 @@
           "sorcery": "Sorcery",
           "equipments": "Equipments",
           "description": "Description"
-        }
+        },
+        "ancestry": "Ancestry",
+        "age": "Age",
+        "gender": "Gender",
+        "benefits": "Benefits",
+        "drawbacks": "Drawbacks"
       },
       "eventItem": {
         "playerChoice": "Is a player choice?",
@@ -198,6 +234,50 @@
           "alignment": "Alignment",
           "unleashing": "Unleashing"
         }
+      },
+      "toggleTheme": "Toggle light / dark",
+      "eventItemSheet": "Historical Event Sheet",
+      "holdingItemSheet": "Holding Sheet",
+      "techniqueItemSheet": "Technique Sheet",
+      "npc": {
+        "kind": "Kind",
+        "notes": "Notes",
+        "kinds": {
+          "npc": "NPC",
+          "creature": "Creature",
+          "animal": "Animal"
+        }
+      },
+      "abilityItem": {
+        "specialties": "Specialties",
+        "specialtyName": "Specialty name"
+      },
+      "armorItem": {
+        "rating": "Armor Rating",
+        "penalty": "Armor Penalty",
+        "bulk": "Bulk"
+      },
+      "weaponItem": {
+        "specialty": "Specialty",
+        "specialtyHint": "Ability:Specialty, e.g. Fighting:Long Blades",
+        "damage": "Damage",
+        "damageHint": "@Ability+N, e.g. @Athletics+1",
+        "training": "Training",
+        "reach": "Reach",
+        "range": "Range"
+      },
+      "benefitItem": {
+        "categories": "Categories",
+        "requirements": "Requirements"
+      },
+      "poison": {
+        "delivery": "Delivery",
+        "virulence": "Virulence",
+        "frequency": "Frequency",
+        "toxicity": "Toxicity",
+        "diagnosis": "Diagnosis",
+        "effects": "Effects",
+        "recovery": "Recovery"
       }
     },
     "constants": {
@@ -235,6 +315,62 @@
         "stress": "Stress",
         "fatigue": "Fatigue"
       }
+    },
+    "importer": {
+      "open": "Chronicle Importer",
+      "title": "Chronicle System Importer",
+      "hint": "Paste a stat block, a table (CSV, TSV or | separated, first row = headers) or JSON, or load a file. PDFs are read from their text layer, and pages without text (scans) and images go through OCR. PDF and OCR support is downloaded from the jsDelivr CDN the first time you use it. Your files are processed on this computer and are not uploaded.",
+      "modes": {
+        "auto": "Auto-detect",
+        "statblock": "Stat block",
+        "table": "Table / CSV",
+        "json": "JSON"
+      },
+      "loadFile": "Load file…",
+      "pages": "PDF pages",
+      "ocrFallback": "OCR scanned pages",
+      "placeholder": "Paste text here…",
+      "actorType": "Create as",
+      "multipleBlocks": "Several stat blocks",
+      "itemType": "Item type",
+      "destination": "Import into",
+      "destinationWorld": "World (sidebar)",
+      "folder": "Folder",
+      "folderPlaceholder": "optional",
+      "linkCompendium": "Use system compendium entries when names match",
+      "examples": "Examples:",
+      "type": "Type",
+      "contents": "Contents",
+      "preview": "Preview",
+      "import": "Import",
+      "clear": "Clear",
+      "nothingToImport": "Nothing to import — check the format or pick a different mode.",
+      "unknownFormat": "Couldn't tell what this text is. Choose Stat block, Table or JSON.",
+      "done": "Imported {count} document(s).",
+      "failed": "Import failed: {error}",
+      "creating": "Creating {count} {type}…",
+      "readingPdf": "Reading PDF…",
+      "runningOcr": "Running OCR…",
+      "loaded": "Loaded {name}."
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "npc": "NPC / Creature",
+      "house": "House"
+    },
+    "Item": {
+      "ability": "Ability",
+      "armor": "Armor",
+      "benefit": "Benefit",
+      "drawback": "Drawback",
+      "equipment": "Equipment",
+      "event": "Historical Event",
+      "holding": "Holding",
+      "technique": "Sorcery Technique",
+      "weapon": "Weapon",
+      "poison": "Poison"
     }
   }
 }

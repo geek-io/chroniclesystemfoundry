@@ -1,0 +1,33 @@
+{
+  "_id": "DjhvkYhfp8FgPWwg",
+  "name": "Gifted Athlete",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Convert half your Athletics bonus dice to test dice. May be taken more than once.</p><p><em>Ability quality. Full rules: SIFRP p. 82.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 82",
+    "categories": "Ability",
+    "requirements": "Athletics 4",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DjhvkYhfp8FgPWwg"
+}

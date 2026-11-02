@@ -1,0 +1,20 @@
+<header class="sheet-header flexrow">
+    <img class="header-portrait" src="{{actor.img}}" data-edit="img" data-action="editImage" title="{{actor.name}}" alt="{{actor.name}}"/>
+    <div class="header-fields">
+        <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "CS.sheets.generalLabels.name"}}"/></h1>
+        <div class="complements flexrow">
+            <label class="attribute-label">{{localize "CS.sheets.character.ancestry"}}</label>
+            <input class="medium-field flex2" type="text" name="system.ancestries" value="{{character.ancestries}}" data-dtype="String"/>
+            <label class="attribute-label">{{localize "CS.sheets.character.age"}}</label>
+            <input class="small-field" type="text" name="system.age" value="{{character.age}}" data-dtype="Number"/>
+            <label class="attribute-label">{{localize "CS.sheets.character.gender"}}</label>
+            <input class="medium-field" type="text" name="system.gender" value="{{character.gender}}" data-dtype="String"/>
+            {{#if isNPC}}
+                <label class="attribute-label">{{localize "CS.sheets.npc.kind"}}</label>
+                <select class="medium-field" name="system.npcKind">
+                    {{selectOptions npcKinds selected=character.npcKind localize=true}}
+                </select>
+            {{/if}}
+        </div>
+    </div>
+</header>

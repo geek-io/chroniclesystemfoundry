@@ -1,0 +1,40 @@
+{
+  "_id": "JhKMNMrvKAYamzzi",
+  "name": "Wolfsbane",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>A buttercup relative: a painkiller in careful hands, a skin irritant to the touch and a slow suffocating poison when swallowed.</p>",
+    "type": "",
+    "source": "SIFRP p. 138",
+    "quantity": 1,
+    "cost": "100 ss",
+    "delivery": "Contact or Ingested",
+    "virulence": "3 (contact) or 5 (ingested)",
+    "frequency": "1/round (contact); 1/round and 1/hour (ingested)",
+    "toxicity": 4,
+    "diagnosis": 6,
+    "effects": "<p>Toxicity: 4. Diagnosis: Routine (6).</p>",
+    "recovery": "<p>See the book.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JhKMNMrvKAYamzzi"
+}

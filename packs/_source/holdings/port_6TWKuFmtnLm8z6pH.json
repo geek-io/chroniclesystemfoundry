@@ -1,0 +1,35 @@
+{
+  "_id": "6TWKuFmtnLm8z6pH",
+  "name": "Port",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>+5 to House Fortunes; with a Marketplace, Wealth increases from fortunes become +1d6. Requires a coastline.</p><p><em>SIFRP p. 113</em></p>",
+    "investment": 10,
+    "buildTime": "3d6 months",
+    "resource": "wealth",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 5,
+    "source": "SIFRP p. 113"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6TWKuFmtnLm8z6pH"
+}

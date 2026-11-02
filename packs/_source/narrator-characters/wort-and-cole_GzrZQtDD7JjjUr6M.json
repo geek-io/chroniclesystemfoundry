@@ -1,0 +1,458 @@
+{
+  "_id": "GzrZQtDD7JjjUr6M",
+  "name": "Wort and Cole",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "age": 0,
+    "destinyPoints": {
+      "current": 0,
+      "max": 0
+    },
+    "sorceryPoints": {
+      "current": 0,
+      "max": 0
+    },
+    "derivedStats": {
+      "intrigueDefense": {
+        "value": 0,
+        "modifier": 0
+      },
+      "composure": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "frustration": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "combatDefense": {
+        "value": 0,
+        "modifier": -2
+      },
+      "health": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "fatigue": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "armorRating": {
+        "value": 0,
+        "modifier": 0
+      }
+    },
+    "wounds": [],
+    "injuries": [],
+    "currentDisposition": 4,
+    "modifiers": {},
+    "penalties": {},
+    "movement": {
+      "base": 4,
+      "runBonus": 0,
+      "sprintMultiplier": 4,
+      "bulk": 0,
+      "modifier": 0,
+      "total": 0,
+      "sprintTotal": 0
+    },
+    "ancestries": [],
+    "gender": "",
+    "house": "",
+    "height": "1.72",
+    "weight": "70",
+    "eyeColor": "",
+    "hairColor": "",
+    "mannerisms": "",
+    "distinguishingFeatures": "",
+    "personalHistory": "",
+    "owned": {
+      "equipments": [],
+      "weapons": [],
+      "armors": [],
+      "qualities": [],
+      "drawbacks": [],
+      "abilities": [],
+      "powers": [],
+      "benefits": []
+    },
+    "currentStress": 0,
+    "allies": "",
+    "enemies": "",
+    "oaths": "",
+    "heraldry": "",
+    "portrait": "",
+    "motto": "",
+    "coins": {
+      "coppers": 0,
+      "silvers": 0,
+      "golds": 0
+    },
+    "glory": 0,
+    "vice": "",
+    "virtue": "",
+    "motivation": "",
+    "goal": "",
+    "experience": {
+      "spent": 0,
+      "total": 0
+    },
+    "npcKind": "npc",
+    "npcNotes": "<p>Ex-soldiers and poachers in Ander's band (statistics for each).</p><p><em>Statistics: Fighting 3 (Axes 1B), Stealth 4 (Sneak 1B), Survival 3. SIFRP p. 231.</em></p>",
+    "source": "SIFRP p. 231"
+  },
+  "items": [
+    {
+      "_id": "FwuxQSgiJA4qyrgB",
+      "name": "Fighting",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Skill with melee weapons. Specialties match weapon groups.</p>",
+        "type": "",
+        "source": "SIFRP p. 63",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Axes",
+            "rating": 1,
+            "modifier": 0
+          },
+          {
+            "name": "Bludgeons",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Brawling",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Fencing",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Long Blades",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Pole-Arms",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Shields",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Short Blades",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Spears",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.4Exww4pFvqgrW7FH",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!GzrZQtDD7JjjUr6M.FwuxQSgiJA4qyrgB"
+    },
+    {
+      "_id": "OWzYUYOT3IqmNr5Q",
+      "name": "Stealth",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Moving unseen and going unnoticed in a crowd.</p>",
+        "type": "",
+        "source": "SIFRP p. 67",
+        "rating": 4,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Blend In",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Sneak",
+            "rating": 1,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.865NuH6TJwjaEOq4",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!GzrZQtDD7JjjUr6M.OWzYUYOT3IqmNr5Q"
+    },
+    {
+      "_id": "dYm9q2nsPu7yvdrk",
+      "name": "Survival",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Living off the land, hunting, finding your way and tracking.</p>",
+        "type": "",
+        "source": "SIFRP p. 67",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Forage",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Hunt",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Orientation",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Track",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.2XdFAbOhNmornj9D",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!GzrZQtDD7JjjUr6M.dYm9q2nsPu7yvdrk"
+    },
+    {
+      "_id": "ozkD2z4rKYk1CNcV",
+      "name": "Mail",
+      "type": "armor",
+      "img": "systems/chroniclesystem/assets/icons/armor.png",
+      "system": {
+        "description": "<p>A hauberk of interlocking rings.</p>",
+        "type": "",
+        "source": "SIFRP p. 312",
+        "weight": 40.0,
+        "rating": 5,
+        "penalty": -3,
+        "bulk": 2,
+        "qualities": [],
+        "equipped": 1,
+        "quantity": 1,
+        "cost": "500 ss"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.armor.Item.UD74BAnuOWxe9RdC",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!GzrZQtDD7JjjUr6M.ozkD2z4rKYk1CNcV"
+    },
+    {
+      "_id": "LwpGRfRBv4VOIaM7",
+      "name": "Battleaxe",
+      "type": "weapon",
+      "img": "systems/chroniclesystem/assets/icons/weapon.png",
+      "system": {
+        "description": "<p>An axe; axes hit hard and some can be used one- or two-handed.</p>",
+        "type": "",
+        "source": "SIFRP p. 310",
+        "weight": 7.0,
+        "quantity": 1,
+        "cost": "50 ss",
+        "specialty": "Fighting:Axes",
+        "training": 0,
+        "damage": "@Athletics",
+        "qualities": [
+          {
+            "name": "Adaptable",
+            "parameter": ""
+          }
+        ],
+        "reach": "0",
+        "equipped": 2,
+        "range": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "chroniclesystem": {
+          "printed": "3D+1B, 2 damage"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.weapons.Item.CoyNpD6a8mEW8EMs",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!GzrZQtDD7JjjUr6M.LwpGRfRBv4VOIaM7"
+    },
+    {
+      "_id": "7WvfBewPDL6Pg4wP",
+      "name": "Bow, Hunting",
+      "type": "weapon",
+      "img": "systems/chroniclesystem/assets/icons/weapon.png",
+      "system": {
+        "description": "<p>A bow; arrows sold by the dozen (10 ss, 1 lb.).</p>",
+        "type": "",
+        "source": "SIFRP p. 310",
+        "weight": 3.0,
+        "quantity": 1,
+        "cost": "100 ss",
+        "specialty": "Marksmanship:Bows",
+        "training": 0,
+        "damage": "@Agility",
+        "qualities": [
+          {
+            "name": "Long Range",
+            "parameter": ""
+          },
+          {
+            "name": "Two-handed",
+            "parameter": ""
+          }
+        ],
+        "reach": "",
+        "equipped": 0,
+        "range": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "chroniclesystem": {
+          "printed": "4D+1B, 6 damage"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.weapons.Item.OltpKdIbwNrRvPa8",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!GzrZQtDD7JjjUr6M.7WvfBewPDL6Pg4wP"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Wort and Cole",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!GzrZQtDD7JjjUr6M"
+}

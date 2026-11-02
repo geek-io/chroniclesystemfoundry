@@ -1,0 +1,49 @@
+{
+  "_id": "BWeoGUqgbwC39SFD",
+  "name": "Knife (Thrown)",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A thrown weapon.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 1.0,
+    "quantity": 1,
+    "cost": "5 ss",
+    "specialty": "Marksmanship:Thrown",
+    "training": 0,
+    "damage": "@Agility-1",
+    "qualities": [
+      {
+        "name": "Close Range",
+        "parameter": ""
+      },
+      {
+        "name": "Fast",
+        "parameter": ""
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BWeoGUqgbwC39SFD"
+}

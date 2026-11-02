@@ -1,0 +1,19 @@
+<header class="header-field flexrow">
+    <div class="header-title">
+        <span>{{localize "CS.sheets.generalLabels.qualities"}}</span>
+    </div>
+    <div class="header-field-add">
+        <a data-action="addListEntry" data-list="qualities" data-tooltip="CS.sheets.generalLabels.add"><i class="fa fa-plus"></i></a>
+    </div>
+</header>
+<ol class="qualities-list list">
+    {{#each qualities as |quality index|}}
+        <li class="weapon-quality item flexrow">
+            <input class="big-field" type="text" name="system.qualities.{{index}}.name" value="{{quality.name}}"
+                   placeholder="{{localize "CS.sheets.generalLabels.qualityName"}}" data-dtype="String"/>
+            <input class="small-field" type="text" name="system.qualities.{{index}}.parameter" value="{{quality.parameter}}"
+                   placeholder="{{localize "CS.sheets.generalLabels.parameter"}}" data-dtype="String"/>
+            <a class="item-controls" data-action="deleteListEntry" data-list="qualities" data-id="{{index}}"><i class="fas fa-trash"></i></a>
+        </li>
+    {{/each}}
+</ol>

@@ -1,0 +1,289 @@
+{
+  "_id": "njsA6nUHBe8SChMD",
+  "name": "Starting Realm",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>House creation: the realm your house calls home. Each result lists the realm's modifiers to the 7d6 starting resources (minimum 1).</p><p><em>SIFRP p. 97</em></p>",
+  "results": [
+    {
+      "_id": "n2PlKPSlQAdMIpdT",
+      "type": "text",
+      "name": "King's Landing (Defense +5, Influence –5, Lands –5, Law +20, Population +5, Power –5, Wealth –5)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!njsA6nUHBe8SChMD.n2PlKPSlQAdMIpdT"
+    },
+    {
+      "_id": "69ZMXZEC3pgfmCkM",
+      "type": "text",
+      "name": "Dragonstone (Defense +20, Influence –5, Lands –5, Law +5, Population +0, Power +0, Wealth –5)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!njsA6nUHBe8SChMD.69ZMXZEC3pgfmCkM"
+    },
+    {
+      "_id": "CICKrz633SToxpdX",
+      "type": "text",
+      "name": "The North (Defense +5, Influence +10, Lands +20, Law –10, Population –5, Power –5, Wealth –5)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!njsA6nUHBe8SChMD.CICKrz633SToxpdX"
+    },
+    {
+      "_id": "6SJGGWD98RxF0d9t",
+      "type": "text",
+      "name": "The Iron Islands (Defense +10, Influence –5, Lands –5, Law +0, Population +0, Power +10, Wealth +0)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!njsA6nUHBe8SChMD.6SJGGWD98RxF0d9t"
+    },
+    {
+      "_id": "u6C2HWuW0blGUbir",
+      "type": "text",
+      "name": "The Riverlands (Defense –5, Influence –5, Lands +5, Law +0, Population +10, Power +0, Wealth +5)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        8,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!njsA6nUHBe8SChMD.u6C2HWuW0blGUbir"
+    },
+    {
+      "_id": "aw1hqmBaDrtMinr3",
+      "type": "text",
+      "name": "The Mountains of the Moon (Defense +20, Influence +10, Lands –5, Law –10, Population –5, Power +0, Wealth +0)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!njsA6nUHBe8SChMD.aw1hqmBaDrtMinr3"
+    },
+    {
+      "_id": "Q7IsfQrd5pMHaWoD",
+      "type": "text",
+      "name": "The Westerlands (Defense –5, Influence +10, Lands –5, Law –5, Population –5, Power +0, Wealth +20)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        12,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!njsA6nUHBe8SChMD.Q7IsfQrd5pMHaWoD"
+    },
+    {
+      "_id": "7i0zWpO6FNhWJBXs",
+      "type": "text",
+      "name": "The Reach (Defense –5, Influence +10, Lands +0, Law –5, Population +5, Power +0, Wealth +5)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        14,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!njsA6nUHBe8SChMD.7i0zWpO6FNhWJBXs"
+    },
+    {
+      "_id": "eCHovAKJSD0nbQwc",
+      "type": "text",
+      "name": "The Stormlands (Defense +5, Influence +0, Lands –5, Law +10, Population –5, Power +5, Wealth +0)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        16,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!njsA6nUHBe8SChMD.eCHovAKJSD0nbQwc"
+    },
+    {
+      "_id": "zt7jteiYzymRrd6o",
+      "type": "text",
+      "name": "Dorne (Defense +0, Influence –5, Lands +10, Law –5, Population +0, Power +10, Wealth +0)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!njsA6nUHBe8SChMD.zt7jteiYzymRrd6o"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!njsA6nUHBe8SChMD"
+}

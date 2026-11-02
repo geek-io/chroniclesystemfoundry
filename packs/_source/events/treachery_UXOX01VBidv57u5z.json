@@ -1,0 +1,50 @@
+{
+  "_id": "UXOX01VBidv57u5z",
+  "name": "Treachery",
+  "type": "event",
+  "img": "systems/chroniclesystem/assets/icons/event.png",
+  "system": {
+    "description": "<p>Betrayal from within or without.</p><p><em>Historical Events table roll 9 (SIFRP p. 102).</em></p>",
+    "formulas": {
+      "defense": "",
+      "influence": "-1d6",
+      "lands": "",
+      "law": "-1d6",
+      "population": "",
+      "power": "+1d6",
+      "wealth": ""
+    },
+    "modifiers": {
+      "defense": 0,
+      "influence": 0,
+      "lands": 0,
+      "law": 0,
+      "population": 0,
+      "power": 0,
+      "wealth": 0
+    },
+    "playerChoice": false,
+    "numberOfChoices": 0,
+    "bonusToChoices": "",
+    "source": "SIFRP p. 102"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UXOX01VBidv57u5z"
+}

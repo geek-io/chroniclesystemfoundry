@@ -1,0 +1,33 @@
+{
+  "_id": "0yNVcLsCyhi0eABE",
+  "name": "Adept Negotiator",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>While your disposition stays hidden, take no Persuasion penalty from it.</p><p><em>Social quality. Full rules: SIFRP p. 76.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 76",
+    "categories": "Social",
+    "requirements": "Deception 3",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0yNVcLsCyhi0eABE"
+}

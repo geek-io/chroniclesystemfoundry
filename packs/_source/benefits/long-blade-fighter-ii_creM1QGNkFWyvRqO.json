@@ -1,0 +1,33 @@
+{
+  "_id": "creM1QGNkFWyvRqO",
+  "name": "Long Blade Fighter II",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Sacrifice bonus dice to move the target with a hit.</p><p><em>Martial quality. Full rules: SIFRP p. 86.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 86",
+    "categories": "Martial",
+    "requirements": "Fighting 5, Long Blade Fighter I",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!creM1QGNkFWyvRqO"
+}

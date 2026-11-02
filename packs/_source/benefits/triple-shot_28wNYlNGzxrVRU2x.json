@@ -1,0 +1,33 @@
+{
+  "_id": "28wNYlNGzxrVRU2x",
+  "name": "Triple Shot",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Fire three arrows at once.</p><p><em>Martial quality. Full rules: SIFRP p. 90.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 90",
+    "categories": "Martial",
+    "requirements": "Marksmanship 7 (Bows 5B), Double Shot",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!28wNYlNGzxrVRU2x"
+}

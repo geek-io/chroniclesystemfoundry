@@ -1,0 +1,59 @@
+{
+  "_id": "OxW0pqOqZ0SMqNwx",
+  "name": "Agility",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Dexterity, reflexes and body control. Used for acrobatics, keeping your footing, slipping free and reacting quickly; adds to Combat Defense.</p>",
+    "type": "",
+    "source": "SIFRP p. 56",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Acrobatics",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Balance",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Contortions",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Dodge",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Quickness",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OxW0pqOqZ0SMqNwx"
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "JDjUEN9GBRuZrM8O",
+  "name": "Hide",
+  "type": "armor",
+  "img": "systems/chroniclesystem/assets/icons/armor.png",
+  "system": {
+    "description": "<p>Thick layered hides and furs.</p>",
+    "type": "",
+    "source": "SIFRP p. 312",
+    "weight": 25.0,
+    "rating": 5,
+    "penalty": -3,
+    "bulk": 3,
+    "qualities": [],
+    "equipped": 0,
+    "quantity": 1,
+    "cost": "400 ss"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JDjUEN9GBRuZrM8O"
+}

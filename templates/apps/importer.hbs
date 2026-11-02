@@ -1,0 +1,75 @@
+<div class="importer-root flexcol">
+    <nav class="importer-modes flexrow">
+        {{#each modes as |mode|}}
+            <button type="button" class="{{#if mode.active}}active{{/if}}" data-action="setMode" data-mode="{{mode.id}}">{{localize mode.label}}</button>
+        {{/each}}
+    </nav>
+
+    <section class="importer-body flexcol">
+        <p class="hint">{{localize "CS.importer.hint"}}</p>
+
+        <div class="importer-options flexrow">
+            <button type="button" data-action="loadFile"><i class="fa-solid fa-folder-open"></i> {{localize "CS.importer.loadFile"}}</button>
+            <input type="file" class="hidden" accept=".json,.csv,.tsv,.txt,.md,.pdf,.png,.jpg,.jpeg,.webp,.gif,.bmp,.tif,.tiff"/>
+            <label>{{localize "CS.importer.pages"}}</label>
+            <input type="text" name="pages" value="{{state.pages}}" placeholder="1-10, 14"/>
+            <label><input type="checkbox" name="ocr" {{checked state.ocr}}/> {{localize "CS.importer.ocrFallback"}}</label>
+        </div>
+
+        <textarea class="importer-input" name="text" placeholder="{{localize "CS.importer.placeholder"}}">{{state.text}}</textarea>
+
+        <div class="importer-options flexrow">
+            {{#if showActorOptions}}
+                <label>{{localize "CS.importer.actorType"}}</label>
+                <select name="actorType">{{selectOptions actorTypes selected=state.actorType localize=true}}</select>
+                <label><input type="checkbox" name="multiple" {{checked state.multiple}}/> {{localize "CS.importer.multipleBlocks"}}</label>
+            {{/if}}
+            {{#if showItemOptions}}
+                <label>{{localize "CS.importer.itemType"}}</label>
+                <select name="itemType">{{selectOptions itemTypes selected=state.itemType localize=true}}</select>
+            {{/if}}
+        </div>
+
+        <div class="importer-options flexrow">
+            <label>{{localize "CS.importer.destination"}}</label>
+            <select name="destination">{{selectOptions destinations selected=state.destination localize=true}}</select>
+            {{#if (eq state.destination "world")}}
+                <label>{{localize "CS.importer.folder"}}</label>
+                <input type="text" name="folder" value="{{state.folder}}" placeholder="{{localize "CS.importer.folderPlaceholder"}}"/>
+            {{/if}}
+        </div>
+        <div class="importer-options flexrow">
+            <label>{{localize "CS.sheets.generalLabels.source"}}</label>
+            <input type="text" name="source" value="{{state.source}}" placeholder="SIFRP p. 000"/>
+            <label><input type="checkbox" name="linkCompendium" {{checked state.linkCompendium}}/> {{localize "CS.importer.linkCompendium"}}</label>
+        </div>
+
+        <div class="importer-options flexrow">
+            <span class="hint">{{localize "CS.importer.examples"}}</span>
+            <a data-action="example" data-example="statblock" data-mode="statblock">{{localize "CS.importer.modes.statblock"}}</a>
+            <a data-action="example" data-example="table" data-mode="table">{{localize "CS.importer.modes.table"}}</a>
+            <a data-action="example" data-example="json" data-mode="json">{{localize "CS.importer.modes.json"}}</a>
+        </div>
+
+        {{#if preview}}
+            <div class="preview">
+                <table>
+                    <thead><tr><th>{{localize "CS.sheets.generalLabels.name"}}</th><th>{{localize "CS.importer.type"}}</th><th>{{localize "CS.importer.contents"}}</th></tr></thead>
+                    <tbody>
+                    {{#each preview.actors}}<tr><td>{{name}}</td><td>{{type}}</td><td>{{summary}}</td></tr>{{/each}}
+                    {{#each preview.items}}<tr><td>{{name}}</td><td>{{type}}</td><td>{{summary}}</td></tr>{{/each}}
+                    {{#unless preview.count}}<tr><td colspan="3">{{localize "CS.importer.nothingToImport"}}</td></tr>{{/unless}}
+                    </tbody>
+                </table>
+                {{#each preview.warnings}}<p class="warn"><i class="fa-solid fa-triangle-exclamation"></i> {{this}}</p>{{/each}}
+            </div>
+        {{/if}}
+        <p class="progress">{{state.progress}}</p>
+    </section>
+
+    <footer class="importer-footer flexrow">
+        <button type="button" data-action="clear"><i class="fa-solid fa-eraser"></i> {{localize "CS.importer.clear"}}</button>
+        <button type="button" data-action="preview"><i class="fa-solid fa-eye"></i> {{localize "CS.importer.preview"}}</button>
+        <button type="button" data-action="import"><i class="fa-solid fa-file-import"></i> {{localize "CS.importer.import"}}</button>
+    </footer>
+</div>

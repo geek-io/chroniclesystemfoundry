@@ -1,7 +1,7 @@
-<div class="tab description flexrow" data-group="primary" data-tab="actor-description">
+<div class="tab description flexrow {{tabs.[actor-description].cssClass}}" data-group="primary" data-tab="actor-description">
     <section class="profile-picture">
         <div class="profile-img-container flex">
-            <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" alt="{{actor.name}} Picture" />
+            <img class="profile-img" src="{{actor.img}}" data-edit="img" data-action="editImage" title="{{actor.name}}" alt="{{actor.name}} Picture" />
         </div>
     </section>
     <section class="general">
@@ -215,7 +215,7 @@
             <span>Personal History</span>
         </header>
         <div class="form-group">
-            {{editor character.personalHistory target="system.personalHistory" button=true owner=owner editable=editable}}
+            {{csEditor character.personalHistory target="system.personalHistory" enriched=enriched.personalHistory uuid=actor.uuid editable=editable}}
         </div>
     </section>
     <section class="allies">
@@ -223,7 +223,7 @@
             <span>Allies</span>
         </header>
         <div class="form-group">
-            {{editor character.allies target="system.allies" button=true owner=owner editable=editable}}
+            {{csEditor character.allies target="system.allies" enriched=enriched.allies uuid=actor.uuid editable=editable}}
         </div>
     </section>
     <section class="enemies">
@@ -231,7 +231,7 @@
             <span>Enemies</span>
         </header>
         <div class="form-group">
-            {{editor character.enemies target="system.enemies" button=true owner=owner editable=editable}}
+            {{csEditor character.enemies target="system.enemies" enriched=enriched.enemies uuid=actor.uuid editable=editable}}
         </div>
     </section>
     <section class="oaths">
@@ -239,7 +239,7 @@
             <span>Oaths</span>
         </header>
         <div class="form-group">
-            {{editor character.oaths target="system.oaths" button=true owner=owner editable=editable}}
+            {{csEditor character.oaths target="system.oaths" enriched=enriched.oaths uuid=actor.uuid editable=editable}}
         </div>
     </section>
     <section class="motto">
@@ -247,8 +247,19 @@
             <span>Motto</span>
         </header>
         <div class="form-group">
-            {{editor character.motto target="system.motto" button=true owner=owner editable=editable}}
+            {{csEditor character.motto target="system.motto" enriched=enriched.motto uuid=actor.uuid editable=editable}}
         </div>
     </section>
 
+    {{#if isNPC}}
+    <section class="npc-notes">
+        <header class="header-field">
+            <span>{{localize "CS.sheets.npc.notes"}}</span>
+        </header>
+        <div class="form-group">
+            {{csEditor character.npcNotes target="system.npcNotes" enriched=enriched.npcNotes uuid=actor.uuid editable=editable}}
+        </div>
+        {{> (csFormGroup) labelText="CS.sheets.generalLabels.source" id="system.source" value=character.source inputCssClass="big-field" dataType="String"}}
+    </section>
+    {{/if}}
 </div>

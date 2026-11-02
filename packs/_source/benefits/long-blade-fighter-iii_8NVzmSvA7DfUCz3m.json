@@ -1,0 +1,33 @@
+{
+  "_id": "8NVzmSvA7DfUCz3m",
+  "name": "Long Blade Fighter III",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Sacrifice bonus dice to maim an opponent.</p><p><em>Martial quality. Full rules: SIFRP p. 86.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 86",
+    "categories": "Martial",
+    "requirements": "Fighting 6, Long Blade Fighter II",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8NVzmSvA7DfUCz3m"
+}

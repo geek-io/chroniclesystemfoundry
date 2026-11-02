@@ -1,0 +1,40 @@
+{
+  "_id": "7WO9cfPoyciQqMgZ",
+  "name": "Basilisk Venom",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>Fast-acting venom: deals wounds and can leave the victim mute and permanently weakened.</p>",
+    "type": "",
+    "source": "SIFRP p. 136",
+    "quantity": 1,
+    "cost": "5–10 gd",
+    "delivery": "Contact",
+    "virulence": "5",
+    "frequency": "1/round",
+    "toxicity": 2,
+    "diagnosis": 9,
+    "effects": "<p>Toxicity: 2. Diagnosis: Challenging (9).</p>",
+    "recovery": "<p>Injuries and wounds heal normally; the Endurance penalty is permanent unless a Destiny Point is burned.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7WO9cfPoyciQqMgZ"
+}

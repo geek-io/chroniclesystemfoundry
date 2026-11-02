@@ -1,0 +1,35 @@
+{
+  "_id": "G8n56DAnw8r0X0r7",
+  "name": "Eunuch",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>You have been gelded.</p><p><em>Full rules: SIFRP p. 93.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 93",
+    "requireSorcerousArt": false,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "Male (once)"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!G8n56DAnw8r0X0r7"
+}

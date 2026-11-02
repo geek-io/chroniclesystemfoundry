@@ -1,19 +1,19 @@
-<div class="tab flexrow" data-group="primary" data-tab="abilities">
+<div class="tab flexrow {{tabs.[abilities].cssClass}}" data-group="primary" data-tab="abilities">
     <section class="abilities flex3">
         <header class="header-field">
-            <span>Abilities</span>
+            <span>{{localize "CS.sheets.character.tabs.abilities"}}</span>
         </header>
         <ol  class="abilities-list">
-            {{#each character.owned.abilities as |ability key|}}
-                <li  class="item ability flexrow" data-item-id="{{ability._id}}">
-                    <div class="ability-value rollable" id="ability:{{ability.name}}">
+            {{#each owned.abilities as |ability key|}}
+                <li  class="item draggable ability flexrow" data-item-id="{{ability._id}}">
+                    <div class="ability-value rollable" data-action="roll" data-roll="ability:{{ability.name}}">
                         <a>{{ability.system.rating}}d{{modifier ability.system.modifier}}</a>
                     </div>
-                    <label class="ability-label item-edit"><a >{{ability.name}}</a></label>
+                    <label class="ability-label item-edit" data-action="editItem"><a >{{ability.name}}</a></label>
                     <div class="ability-specialities">
-                        {{#each ability.system.specialties as |specialty key|}}
+                        {{#each ability.specialtyList as |specialty key|}}
                             {{#if specialty.rating}}
-                            <div class="rollable" id="specialty:{{specialty.name}}:{{../this.name}}">
+                            <div class="rollable" data-action="roll" data-roll="specialty:{{specialty.name}}:{{../this.name}}">
                                 <a>{{specialty.name}} {{specialty.rating}}B{{modifier specialty.modifier}}</a>&nbsp;
                             </div>
                             {{/if}}

@@ -1,0 +1,64 @@
+{
+  "_id": "ogzt2gnNStn6rkRN",
+  "name": "Athletics",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Raw physical power and training: climbing, jumping, running, lifting, swimming and throwing. Most melee weapon damage is based on it; adds to Combat Defense.</p>",
+    "type": "",
+    "source": "SIFRP p. 58",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Climb",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Jump",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Run",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Strength",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Swim",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Throw",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ogzt2gnNStn6rkRN"
+}

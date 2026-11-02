@@ -10,7 +10,7 @@ export class DiceRollFormula {
     constructor() {
         this.pool = 2;
         this.bonusDice = 0;
-        this.reroll = 0;
+        this.reRoll = 0;
         this.modifier = 0;
         this.dicePenalty = 0;
         this.difficult = 0;
@@ -38,7 +38,7 @@ export class DiceRollFormula {
     }
 
     set pool(value) {
-        this.#pool = parseInt(value);
+        this.#pool = DiceRollFormula.#int(value);
     }
 
     get bonusDice() {
@@ -46,7 +46,7 @@ export class DiceRollFormula {
     }
 
     set bonusDice(value) {
-        this.#bonusDice = parseInt(value);
+        this.#bonusDice = DiceRollFormula.#int(value);
     }
 
     get reRoll() {
@@ -54,7 +54,7 @@ export class DiceRollFormula {
     }
 
     set reRoll(value) {
-        this.#reRoll = parseInt(value);
+        this.#reRoll = DiceRollFormula.#int(value);
     }
 
     get modifier() {
@@ -62,7 +62,7 @@ export class DiceRollFormula {
     }
 
     set modifier(value) {
-        this.#modifier = parseInt(value);
+        this.#modifier = DiceRollFormula.#int(value);
     }
 
     get dicePenalty() {
@@ -70,7 +70,40 @@ export class DiceRollFormula {
     }
 
     set dicePenalty(value) {
-        this.#dicePenalty = parseInt(value);
+        this.#dicePenalty = DiceRollFormula.#int(value);
+    }
+
+    static #int(value) {
+        const n = parseInt(value, 10);
+        return Number.isFinite(n) ? n : 0;
+    }
+
+    /** Number of dice actually kept once penalties are applied. */
+    get keptDice() {
+        return Math.max(this.pool - this.dicePenalty, 0);
+    }
+
+    /** Number of dice thrown (test dice plus bonus dice). */
+    get totalDice() {
+        return Math.max(this.pool, 1) + Math.max(this.bonusDice, 0);
+    }
+
+    /**
+     * Foundry dice expression for this test: roll test + bonus dice, re-roll up to N ones, keep the highest
+     * (test dice - penalty dice), add the flat modifier.
+     * @returns {string}
+     */
+    toRollFormula() {
+        let formula = `${this.totalDice}d6`;
+        if (this.reRoll > 0) formula += `r${this.reRoll}=1`;
+        formula += `kh${this.keptDice}`;
+        if (this.modifier > 0) formula += ` + ${this.modifier}`;
+        else if (this.modifier < 0) formula += ` - ${Math.abs(this.modifier)}`;
+        return formula;
+    }
+
+    clone() {
+        return DiceRollFormula.fromStr(this.toStr());
     }
 
     toStr() {

@@ -1,0 +1,81 @@
+{
+  "_id": "Qlm164tOpxd4dRfS",
+  "name": "Heraldry: Metals",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Coat of arms: a metal.</p><p><em>SIFRP p. 116</em></p>",
+  "results": [
+    {
+      "_id": "Ozzsdt9ZhcV1ThuC",
+      "type": "text",
+      "name": "White or silver (Argent) — peace, sincerity",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        1,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!Qlm164tOpxd4dRfS.Ozzsdt9ZhcV1ThuC"
+    },
+    {
+      "_id": "nAlzfnqUEC8dj3pi",
+      "type": "text",
+      "name": "Yellow or gold (Or) — generosity",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        4,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!Qlm164tOpxd4dRfS.nAlzfnqUEC8dj3pi"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!Qlm164tOpxd4dRfS"
+}

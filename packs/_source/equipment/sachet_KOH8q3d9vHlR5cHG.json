@@ -1,0 +1,36 @@
+{
+  "_id": "KOH8q3d9vHlR5cHG",
+  "name": "Sachet",
+  "type": "equipment",
+  "img": "systems/chroniclesystem/assets/icons/equipment.png",
+  "system": {
+    "description": "<p>A small scented bag carried against foul odors.</p><p><em>Personal Equipment</em></p>",
+    "type": "",
+    "source": "SIFRP p. 135",
+    "quantity": 1,
+    "cost": "1 ss"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "chroniclesystem": {
+      "category": "Personal Equipment"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KOH8q3d9vHlR5cHG"
+}

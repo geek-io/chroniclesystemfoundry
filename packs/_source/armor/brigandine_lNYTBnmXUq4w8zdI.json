@@ -1,0 +1,38 @@
+{
+  "_id": "lNYTBnmXUq4w8zdI",
+  "name": "Brigandine",
+  "type": "armor",
+  "img": "systems/chroniclesystem/assets/icons/armor.png",
+  "system": {
+    "description": "<p>Cloth or leather lined with small steel plates.</p>",
+    "type": "",
+    "source": "SIFRP p. 312",
+    "weight": 50.0,
+    "rating": 8,
+    "penalty": -4,
+    "bulk": 3,
+    "qualities": [],
+    "equipped": 0,
+    "quantity": 1,
+    "cost": "1,200 ss"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!lNYTBnmXUq4w8zdI"
+}

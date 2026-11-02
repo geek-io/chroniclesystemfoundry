@@ -1,0 +1,33 @@
+{
+  "_id": "XrW97yHzjBd80qmf",
+  "name": "Heirloom",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>You hold a Valyrian steel weapon.</p><p><em>Fate quality. Full rules: SIFRP p. 83.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 83",
+    "categories": "Fate",
+    "requirements": "Head of House or Heir",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XrW97yHzjBd80qmf"
+}

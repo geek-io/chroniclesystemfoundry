@@ -1,0 +1,49 @@
+{
+  "_id": "YlXPsLYS51MzcmD0",
+  "name": "Trident",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A spear or lance.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 5.0,
+    "quantity": 1,
+    "cost": "30 ss",
+    "specialty": "Fighting:Spears",
+    "training": 0,
+    "damage": "@Athletics",
+    "qualities": [
+      {
+        "name": "Adaptable",
+        "parameter": ""
+      },
+      {
+        "name": "Slow",
+        "parameter": ""
+      }
+    ],
+    "reach": "2",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YlXPsLYS51MzcmD0"
+}

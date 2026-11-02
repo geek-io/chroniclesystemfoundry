@@ -1,18 +1,18 @@
-<form class="{{cssClass}}" autocomplete="off">
+<div class="cs-item-sheet flexcol {{cssClass}}">
     {{> "systems/chroniclesystem/templates/items/partials/header-delete.hbs"}}
     <main class="sheet-body flexrow">
         <section class="item-stats">
             <header class="header-field">
                 <span>{{localize "CS.sheets.generalLabels.details"}}</span>
             </header>
-            {{> (formGroup)
+            {{> (csFormGroup)
                     id="system.investment"
                     labelText="CS.sheets.holdingItem.investment"
                     inputCssClass="small-field"
                     value=item.system.investment
                     dataType="Number"
             }}
-            {{> (formGroup)
+            {{> (csFormGroup)
                     id="system.buildTime"
                     labelText="CS.sheets.holdingItem.buildTime"
                     inputCssClass="big-field"
@@ -25,20 +25,21 @@
                     {{selectOptions resourceChoices selected=item.system.resource localize=true}}
                 </select>
             </div>
-            {{> (formGroup)
+            {{> (csFormGroup)
                     id="system.fortuneDice"
                     labelText="CS.sheets.holdingItem.fortuneDice"
                     inputCssClass="big-field"
                     value=item.system.fortuneDice
                     dataType="String"
             }}
-            {{> (formGroup)
+            {{> (csFormGroup)
                     id="system.fortuneModifier"
                     labelText="CS.sheets.holdingItem.fortuneModifier"
                     inputCssClass="big-field"
                     value=item.system.fortuneModifier
                     dataType="String"
             }}
+            {{> "systems/chroniclesystem/templates/items/partials/source-field.hbs"}}
         </section>
         <section class="description">
             {{> "systems/chroniclesystem/templates/items/partials/description.hbs"}}
@@ -48,16 +49,16 @@
                         <span>{{localize "CS.sheets.holdingItem.features"}}</span>
                     </div>
                     <div class="header-field-add">
-                        <a class="item-feature-create" data-type="skill"><i class="fa fa-plus"></i></a>
+                        <a data-action="addListEntry" data-list="features" data-tooltip="CS.sheets.generalLabels.add"><i class="fa fa-plus"></i></a>
                     </div>
                 </header>
-                <ol class="feature-list list resizable" data-base-size="150">
+                <ol class="feature-list list">
                     <li class="list-header flexrow">
                         <div class="size150">{{localize "CS.sheets.generalLabels.name"}}</div>
                         <div class="size50 center">{{localize "CS.sheets.house.resources.cost"}}</div>
                         <div class="item-controls"></div>
                     </li>
-                    {{#each item.system.features as |feature index|}}
+                    {{#each features as |feature index|}}
                         <li class="holding-feature item flexrow" data-item-id="{{index}}">
                             <!--suppress HtmlFormInputWithoutLabel -->
                             <input
@@ -75,9 +76,9 @@
                                     name="system.features.{{index}}.cost"
                                     value="{{feature.cost}}"
                                     placeholder="{{localize "CS.sheets.holdingItem.featureCost"}}"
-                                    data-dtype="String"
+                                    data-dtype="Number"
                             />
-                            <a class="item-features-control item-controls" data-id="{{index}}" data-action="delete"><i class="fas fa-trash"></i></a>
+                            <a class="item-controls" data-action="deleteListEntry" data-list="features" data-id="{{index}}"><i class="fas fa-trash"></i></a>
                         </li>
                     {{/each}}
                 </ol>
@@ -86,4 +87,4 @@
             {{/if}}
         </section>
     </main>
-</form>
+</div>

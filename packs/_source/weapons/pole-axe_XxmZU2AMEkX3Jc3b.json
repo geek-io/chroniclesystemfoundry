@@ -1,0 +1,61 @@
+{
+  "_id": "XxmZU2AMEkX3Jc3b",
+  "name": "Pole-axe",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A long-hafted weapon favored by foot soldiers.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 9.0,
+    "quantity": 1,
+    "cost": "80 ss",
+    "specialty": "Fighting:Pole-Arms",
+    "training": 1,
+    "damage": "@Athletics+3",
+    "qualities": [
+      {
+        "name": "Bulk",
+        "parameter": "1"
+      },
+      {
+        "name": "Powerful",
+        "parameter": ""
+      },
+      {
+        "name": "Reach",
+        "parameter": ""
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      },
+      {
+        "name": "Unwieldy",
+        "parameter": ""
+      }
+    ],
+    "reach": "2",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XxmZU2AMEkX3Jc3b"
+}

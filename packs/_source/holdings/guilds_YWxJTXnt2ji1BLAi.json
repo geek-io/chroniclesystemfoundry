@@ -1,0 +1,35 @@
+{
+  "_id": "YWxJTXnt2ji1BLAi",
+  "name": "Guilds",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>Controls manufacturing and prices. The household gets 10% off goods bought in its own lands. Requires a small town or larger.</p><p><em>SIFRP p. 113</em></p>",
+    "investment": 15,
+    "buildTime": "2d6 months",
+    "resource": "wealth",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "SIFRP p. 113"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YWxJTXnt2ji1BLAi"
+}

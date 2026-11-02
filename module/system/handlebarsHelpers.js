@@ -4,8 +4,8 @@ import LOGGER from "../utils/logger.js";
 
 export const registerCustomHelpers = function () {
     Handlebars.registerHelper('modifier', (str) => {
-        str = str === '' || str === null ? '0' : str;
-        let value = typeof str == 'string' ? parseInt(str) : str;
+        let value = parseInt(str, 10);
+        if (!Number.isFinite(value)) value = 0;
         return value === 0 ? '' : value > 0 ? ` + ${value}` : ` - ${-value}`;
     });
 
@@ -44,8 +44,29 @@ export const registerCustomHelpers = function () {
         LOGGER.trace(content);
     });
 
+    // Content is enriched asynchronously while preparing sheet context; this helper only marks it safe.
     Handlebars.registerHelper('enrich', (content) => {
-        return new Handlebars.SafeString(TextEditor.enrichHTML(content, {async: false}));
+        return new Handlebars.SafeString(content ?? "");
+    });
+
+    /**
+     * Rich text editor (ProseMirror) for AppV2 sheets.
+     * {{csEditor rawContent target="system.description" enriched=enrichedHtml uuid=document.uuid editable=editable}}
+     */
+    Handlebars.registerHelper('csEditor', (content, options) => {
+        const {target, enriched, uuid, editable = true, compact = false, height} = options.hash;
+        const config = {
+            name: target,
+            value: content ?? "",
+            enriched: enriched ?? content ?? "",
+            toggled: true,
+            compact,
+            disabled: !editable
+        };
+        if (uuid) config.documentUUID = uuid;
+        if (height) config.height = height;
+        const element = foundry.applications.elements.HTMLProseMirrorElement.create(config);
+        return new Handlebars.SafeString(element.outerHTML);
     });
 
     Handlebars.registerHelper('str', (content) => {
@@ -63,7 +84,7 @@ export const registerCustomHelpers = function () {
     });
 
     Handlebars.registerHelper('weapon-test', function(actor, weapon) {
-        let data = weapon.specialty.split(':');
+        let data = String(weapon?.specialty ?? "").split(':');
         if (data.length < 2)
             return "";
         let formula = ChronicleSystem.getActorAbilityFormula(actor, data[0], data[1]);
@@ -90,22 +111,24 @@ export const registerCustomHelpers = function () {
     });
 
     Handlebars.registerHelper('showIfContains', function(arg1, arg2, result, result2 = "", options) {
-        let array = arg1.split('|');
-        return array.includes(arg2.toString()) ? result : result2;
+        let array = String(arg1).split('|');
+        return array.includes(String(arg2)) ? result : result2;
     });
 
     Handlebars.registerHelper('showIfDifferent', function(arg1, arg2, result1, result2 = "", options) {
         return arg1 != arg2 ? result1 : result2;
     });
 
-    Handlebars.registerHelper('concat',function(...positional) {
+    // Named csConcat so the core {{concat}} helper is not replaced.
+    Handlebars.registerHelper('csConcat',function(...positional) {
         const options = positional.splice(-1,1);
         return positional
             .map(SystemUtils.normalizeTextValue)
             .join('');
     })
 
-    Handlebars.registerHelper('formGroup', function(options) {
+    // Named csFormGroup: overriding the core {{formGroup}} helper breaks Foundry's own config forms.
+    Handlebars.registerHelper('csFormGroup', function(options) {
         return "systems/chroniclesystem/templates/actors/partials/form-group.hbs";
     });
 
@@ -127,6 +150,9 @@ export const registerCustomHelpers = function () {
 
     Handlebars.registerHelper('for', function (from, to, incr, block) {
         let accum = '';
+        from = Number(from) || 0;
+        to = Number(to) || 0;
+        incr = Number(incr) || 1;
         for (let i = from; i <= to; i += incr)
             accum += block.fn({index: i});
         return accum;

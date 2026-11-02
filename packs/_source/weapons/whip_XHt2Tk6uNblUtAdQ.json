@@ -1,0 +1,49 @@
+{
+  "_id": "XHt2Tk6uNblUtAdQ",
+  "name": "Whip",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A close-quarters or improvised attack.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 2.0,
+    "quantity": 1,
+    "cost": "5 ss",
+    "specialty": "Fighting:Brawling",
+    "training": 2,
+    "damage": "@Agility-1",
+    "qualities": [
+      {
+        "name": "Entangling",
+        "parameter": ""
+      },
+      {
+        "name": "Reach",
+        "parameter": ""
+      }
+    ],
+    "reach": "3",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XHt2Tk6uNblUtAdQ"
+}

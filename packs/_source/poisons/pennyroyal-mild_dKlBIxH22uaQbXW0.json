@@ -1,0 +1,40 @@
+{
+  "_id": "dKlBIxH22uaQbXW0",
+  "name": "Pennyroyal, Mild",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>An aromatic herb. Too much brings penalties to Agility, Athletics and Awareness.</p>",
+    "type": "",
+    "source": "SIFRP p. 137",
+    "quantity": 1,
+    "cost": "5 ss",
+    "delivery": "Ingested",
+    "virulence": "3",
+    "frequency": "1/hour and 1/2 hours",
+    "toxicity": 2,
+    "diagnosis": 6,
+    "effects": "<p>Toxicity: 2. Diagnosis: Routine (6).</p>",
+    "recovery": "<p>Penalties fade after 24 hours.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dKlBIxH22uaQbXW0"
+}

@@ -1,24 +1,10 @@
-<form class="{{cssClass}}" autocomplete="off">
-    {{!-- Item Sheet Header --}} {{>
-"systems/chroniclesystem/templates/items/partials/header-delete.hbs"}}
+<div class="cs-item-sheet flexcol {{cssClass}}">
+    {{> "systems/chroniclesystem/templates/items/partials/header-delete.hbs"}}
     <main class="sheet-body flexrow">
         <section class="description">
-            <div class="form-group">
-                <label for="system.requirements">Requirements:</label>
-                <span class="form-fields">
-                  <input
-                          id="system.requirements"
-                          class="small-field"
-                          name="system.requirements"
-                          type="text"
-                          value="{{item.system.requirements}}"
-                          placeholder="Requirements"
-                          data-dtype="String"
-                  />
-                </span>
-            </div>
+            {{> (csFormGroup) id="system.requirements" labelText="CS.sheets.benefitItem.requirements" inputCssClass="medium-field" value=system.requirements dataType="String"}}
+            {{> "systems/chroniclesystem/templates/items/partials/source-field.hbs"}}
             {{> "systems/chroniclesystem/templates/items/partials/description.hbs"}}
-
         </section>
     </main>
-</form>
+</div>

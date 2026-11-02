@@ -1,0 +1,415 @@
+{
+  "_id": "eIrz7W2kIzlKsqfI",
+  "name": "Smallfolk",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "age": 0,
+    "destinyPoints": {
+      "current": 0,
+      "max": 0
+    },
+    "sorceryPoints": {
+      "current": 0,
+      "max": 0
+    },
+    "derivedStats": {
+      "intrigueDefense": {
+        "value": 0,
+        "modifier": 0
+      },
+      "composure": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "frustration": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "combatDefense": {
+        "value": 0,
+        "modifier": 0
+      },
+      "health": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "fatigue": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "armorRating": {
+        "value": 0,
+        "modifier": 0
+      }
+    },
+    "wounds": [],
+    "injuries": [],
+    "currentDisposition": 4,
+    "modifiers": {},
+    "penalties": {},
+    "movement": {
+      "base": 4,
+      "runBonus": 0,
+      "sprintMultiplier": 4,
+      "bulk": 0,
+      "modifier": 0,
+      "total": 0,
+      "sprintTotal": 0
+    },
+    "ancestries": [],
+    "gender": "",
+    "house": "",
+    "height": "1.72",
+    "weight": "70",
+    "eyeColor": "",
+    "hairColor": "",
+    "mannerisms": "",
+    "distinguishingFeatures": "",
+    "personalHistory": "",
+    "owned": {
+      "equipments": [],
+      "weapons": [],
+      "armors": [],
+      "qualities": [],
+      "drawbacks": [],
+      "abilities": [],
+      "powers": [],
+      "benefits": []
+    },
+    "currentStress": 0,
+    "allies": "",
+    "enemies": "",
+    "oaths": "",
+    "heraldry": "",
+    "portrait": "",
+    "motto": "",
+    "coins": {
+      "coppers": 0,
+      "silvers": 0,
+      "golds": 0
+    },
+    "glory": 0,
+    "vice": "",
+    "virtue": "",
+    "motivation": "",
+    "goal": "",
+    "experience": {
+      "spent": 0,
+      "total": 0
+    },
+    "npcKind": "npc",
+    "npcNotes": "<p>Common folk of the Seven Kingdoms.</p><p><em>Statistics: Fighting 1, Status 1, Survival 2 (Forage 1B), Warfare 1. SIFRP p. 218.</em></p>",
+    "source": "SIFRP p. 218"
+  },
+  "items": [
+    {
+      "_id": "DHy25JnkrVqcn9uE",
+      "name": "Fighting",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Skill with melee weapons. Specialties match weapon groups.</p>",
+        "type": "",
+        "source": "SIFRP p. 63",
+        "rating": 1,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Axes",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Bludgeons",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Brawling",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Fencing",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Long Blades",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Pole-Arms",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Shields",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Short Blades",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Spears",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.4Exww4pFvqgrW7FH",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!eIrz7W2kIzlKsqfI.DHy25JnkrVqcn9uE"
+    },
+    {
+      "_id": "CaCYPkBxdruJAsxl",
+      "name": "Status",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Social standing and the knowledge that comes with it. Adds to Intrigue Defense; Stewardship drives House Fortunes.</p>",
+        "type": "",
+        "source": "SIFRP p. 66",
+        "rating": 1,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Breeding",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Reputation",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Stewardship",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Tournaments",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.akWulKGX1cHDbKOD",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!eIrz7W2kIzlKsqfI.CaCYPkBxdruJAsxl"
+    },
+    {
+      "_id": "B9dxY8WAL1avXjri",
+      "name": "Survival",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Living off the land, hunting, finding your way and tracking.</p>",
+        "type": "",
+        "source": "SIFRP p. 67",
+        "rating": 2,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Forage",
+            "rating": 1,
+            "modifier": 0
+          },
+          {
+            "name": "Hunt",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Orientation",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Track",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.2XdFAbOhNmornj9D",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!eIrz7W2kIzlKsqfI.B9dxY8WAL1avXjri"
+    },
+    {
+      "_id": "Mi5lAAAVu3QjTiBE",
+      "name": "Warfare",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Leading troops and understanding battle. Used heavily in warfare.</p>",
+        "type": "",
+        "source": "SIFRP p. 70",
+        "rating": 1,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Command",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Strategy",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Tactics",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.mfeXRQRN4JYkM7ze",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!eIrz7W2kIzlKsqfI.Mi5lAAAVu3QjTiBE"
+    },
+    {
+      "_id": "FUONrYupAWDG9S7f",
+      "name": "Clothing",
+      "type": "armor",
+      "img": "systems/chroniclesystem/assets/icons/armor.png",
+      "system": {
+        "description": "<p>Everyday clothes; no real protection.</p>",
+        "type": "",
+        "source": "SIFRP p. 312",
+        "weight": 0,
+        "rating": 0,
+        "penalty": 0,
+        "bulk": 0,
+        "qualities": [],
+        "equipped": 1,
+        "quantity": 1,
+        "cost": "—"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.armor.Item.mRSrKkddS0bCMOVq",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!eIrz7W2kIzlKsqfI.FUONrYupAWDG9S7f"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Smallfolk",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!eIrz7W2kIzlKsqfI"
+}

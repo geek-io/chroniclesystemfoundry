@@ -1,0 +1,35 @@
+{
+  "_id": "ZDvvuKfvEkZZZTE3",
+  "name": "Castle",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>A fortified keep with towers and walls (Riverrun, the Twins). Units defending it gain +8 Defense.</p><p><em>SIFRP p. 106</em></p>",
+    "investment": 40,
+    "buildTime": "96+10d6 months",
+    "resource": "defense",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "SIFRP p. 106"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ZDvvuKfvEkZZZTE3"
+}

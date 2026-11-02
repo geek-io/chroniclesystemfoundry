@@ -1,0 +1,49 @@
+{
+  "_id": "oBXHvvKgungpF1Xy",
+  "name": "Buckler",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A shield; mostly protective, but it can strike.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 3.0,
+    "quantity": 1,
+    "cost": "25 ss",
+    "specialty": "Fighting:Shields",
+    "training": 0,
+    "damage": "@Athletics-2",
+    "qualities": [
+      {
+        "name": "Defensive",
+        "parameter": "+1"
+      },
+      {
+        "name": "Off-hand",
+        "parameter": "+1"
+      }
+    ],
+    "reach": "0",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!oBXHvvKgungpF1Xy"
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "gKNDJx5liF7c3nZF",
+  "name": "Splint",
+  "type": "armor",
+  "img": "systems/chroniclesystem/assets/icons/armor.png",
+  "system": {
+    "description": "<p>Strips of metal riveted to leather or cloth.</p>",
+    "type": "",
+    "source": "SIFRP p. 312",
+    "weight": 50.0,
+    "rating": 7,
+    "penalty": -3,
+    "bulk": 3,
+    "qualities": [],
+    "equipped": 0,
+    "quantity": 1,
+    "cost": "1,000 ss"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!gKNDJx5liF7c3nZF"
+}

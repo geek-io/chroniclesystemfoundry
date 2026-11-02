@@ -1,0 +1,40 @@
+{
+  "_id": "ykKJSH4P2GZ9DonS",
+  "name": "Firemilk",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>A maester's antiseptic. Weakens Athletics for a day but helps the patient recover from injuries and wounds.</p>",
+    "type": "",
+    "source": "SIFRP p. 136",
+    "quantity": 1,
+    "cost": "25 ss",
+    "delivery": "Contact",
+    "virulence": "3",
+    "frequency": "1/round",
+    "toxicity": 2,
+    "diagnosis": 3,
+    "effects": "<p>Toxicity: 2. Diagnosis: Easy (3).</p>",
+    "recovery": "<p>Penalty fades after 24 hours.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ykKJSH4P2GZ9DonS"
+}

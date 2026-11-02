@@ -1,0 +1,54 @@
+{
+  "_id": "xATQdMmNcnkvaDyq",
+  "name": "Deception",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Lying, misdirection, playing a role and cheating. Used for deception rolls in intrigues.</p>",
+    "type": "",
+    "source": "SIFRP p. 61",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Act",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Bluff",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Cheat",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Disguise",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xATQdMmNcnkvaDyq"
+}

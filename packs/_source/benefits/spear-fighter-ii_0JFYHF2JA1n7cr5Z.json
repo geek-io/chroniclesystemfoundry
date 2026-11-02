@@ -1,0 +1,33 @@
+{
+  "_id": "0JFYHF2JA1n7cr5Z",
+  "name": "Spear Fighter II",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>+1D on Knockdown; attack foes up to 1 extra yard away.</p><p><em>Martial quality. Full rules: SIFRP p. 89.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 89",
+    "categories": "Martial",
+    "requirements": "Spear Fighter I",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0JFYHF2JA1n7cr5Z"
+}

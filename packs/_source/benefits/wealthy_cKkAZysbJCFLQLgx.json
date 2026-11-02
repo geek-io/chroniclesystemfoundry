@@ -1,0 +1,33 @@
+{
+  "_id": "cKkAZysbJCFLQLgx",
+  "name": "Wealthy",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Replenish your coffers each month.</p><p><em>Fate quality. Full rules: SIFRP p. 91.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 91",
+    "categories": "Fate",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cKkAZysbJCFLQLgx"
+}

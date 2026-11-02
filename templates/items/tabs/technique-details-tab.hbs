@@ -1,15 +1,14 @@
-{{csTrace "technique tab"}}
-<div class="tab flexrow details" data-group="primary" data-tab="details">
+<div class="tab flexrow details {{tabs.details.cssClass}}" data-group="primary" data-tab="details">
     <section class="item-stats">
         <header class="header-field flexrow">
             <span>{{localize "CS.sheets.techniqueItem.arts"}}</span>
             <div class="header-field-add">
-                <a class="art-create" data-type="art"><i class="fa fa-plus"></i></a>
+                <a data-action="addListEntry" data-list="arts" data-tooltip="CS.sheets.generalLabels.add"><i class="fa fa-plus"></i></a>
             </div>
         </header>
-        <ol class="art-list list resizable" data-base-size="150">
-            {{#each item.system.arts as |art id|}}
-                <li class="art item flexrow" data-item-id="{{id}}">
+        <ol class="art-list list">
+            {{#each arts as |art id|}}
+                <li class="art item flexrow">
                     <!--suppress HtmlFormInputWithoutLabel -->
                     <input
                             class="big-field"
@@ -18,21 +17,21 @@
                             value="{{art.name}}"
                             data-dtype="String"
                     />
-                    <a class="art-control item-controls" data-id="{{id}}" data-action="delete"><i class="fas fa-trash"></i></a>
+                    <a class="item-controls" data-action="deleteListEntry" data-list="arts" data-id="{{id}}"><i class="fas fa-trash"></i></a>
                 </li>
             {{/each}}
         </ol>
         <header class="header-field">
             <span>{{localize "CS.sheets.techniqueItem.learning"}}</span>
         </header>
-        {{> (formGroup)
+        {{> (csFormGroup)
                 id="system.learning.time"
                 labelText="CS.sheets.techniqueItem.learningTime"
                 inputCssClass="size150"
                 value=item.system.learning.time
                 dataType="String"
         }}
-        {{> (formGroup)
+        {{> (csFormGroup)
                 id="system.learning.difficult"
                 labelText="CS.sheets.techniqueItem.learningDifficult"
                 inputCssClass="size150"
@@ -41,14 +40,14 @@
         }}
     </section>
     <section class="description">
-        {{> (formGroup)
+        {{> (csFormGroup)
                 id="system.type"
                 labelText="CS.sheets.techniqueItem.type"
                 inputCssClass="size400"
                 value=item.system.type
                 dataType="String"
         }}
-        {{> (formGroup)
+        {{> (csFormGroup)
                 id="system.scales"
                 labelText="CS.sheets.techniqueItem.scales"
                 inputCssClass="size400"
@@ -58,4 +57,3 @@
         {{> "systems/chroniclesystem/templates/items/partials/description.hbs"}}
     </section>
 </div>
-{{csTrace "/technique tab"}}

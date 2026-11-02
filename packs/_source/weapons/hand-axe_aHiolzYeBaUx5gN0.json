@@ -1,0 +1,49 @@
+{
+  "_id": "aHiolzYeBaUx5gN0",
+  "name": "Hand Axe",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>An axe; axes hit hard and some can be used one- or two-handed.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 4.0,
+    "quantity": 1,
+    "cost": "30 ss",
+    "specialty": "Fighting:Axes",
+    "training": 0,
+    "damage": "@Athletics-1",
+    "qualities": [
+      {
+        "name": "Defensive",
+        "parameter": "+1"
+      },
+      {
+        "name": "Off-hand",
+        "parameter": "+1"
+      }
+    ],
+    "reach": "0",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aHiolzYeBaUx5gN0"
+}

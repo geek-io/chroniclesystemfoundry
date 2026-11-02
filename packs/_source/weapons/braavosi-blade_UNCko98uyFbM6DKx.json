@@ -1,0 +1,49 @@
+{
+  "_id": "UNCko98uyFbM6DKx",
+  "name": "Braavosi Blade",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A light, quick Braavosi-style blade.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 3.0,
+    "quantity": 1,
+    "cost": "800 ss",
+    "specialty": "Fighting:Fencing",
+    "training": 1,
+    "damage": "@Agility",
+    "qualities": [
+      {
+        "name": "Defensive",
+        "parameter": "+1"
+      },
+      {
+        "name": "Fast",
+        "parameter": ""
+      }
+    ],
+    "reach": "1",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UNCko98uyFbM6DKx"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "iR60CFmc7p1CDFw6",
+  "name": "Small Sword",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A light, quick Braavosi-style blade.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 3.0,
+    "quantity": 1,
+    "cost": "300 ss",
+    "specialty": "Fighting:Fencing",
+    "training": 0,
+    "damage": "@Agility-1",
+    "qualities": [
+      {
+        "name": "Fast",
+        "parameter": ""
+      }
+    ],
+    "reach": "0",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!iR60CFmc7p1CDFw6"
+}

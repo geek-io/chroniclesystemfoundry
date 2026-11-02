@@ -1,0 +1,38 @@
+{
+  "_id": "BLNv6C0BxWhIDDx6",
+  "name": "Bone or Wood",
+  "type": "armor",
+  "img": "systems/chroniclesystem/assets/icons/armor.png",
+  "system": {
+    "description": "<p>Plates of bone or wood laced together; common beyond the Wall.</p>",
+    "type": "",
+    "source": "SIFRP p. 312",
+    "weight": 25.0,
+    "rating": 4,
+    "penalty": -3,
+    "bulk": 1,
+    "qualities": [],
+    "equipped": 0,
+    "quantity": 1,
+    "cost": "300 ss"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BLNv6C0BxWhIDDx6"
+}

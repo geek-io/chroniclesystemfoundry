@@ -1,15 +1,14 @@
-<header class="sheet-header" data-item-id="{{item._id}}">
-    <div class=" profile-img-container">
-        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" alt="{{item.name}} Picture" />
+<header class="sheet-header flexrow" data-item-id="{{item.id}}">
+    <div class="profile-img-container">
+        <img class="profile-img" src="{{item.img}}" data-edit="img" data-action="editImage" title="{{item.name}}" alt="{{item.name}}"/>
     </div>
     <div class="header-fields">
         <h1 class="itemname">
-            <input name="name" type="text" value="{{item.name}}" placeholder="Name"
-                   data-dtype="String" />
+            <input name="name" type="text" value="{{item.name}}" placeholder="{{localize "CS.sheets.generalLabels.name"}}" data-dtype="String"/>
         </h1>
-        {{#if item.isOwned}}
-        <a class="item-control item-delete" title="Delete"><i
-                class="fas fa-trash fa-2x"></i></a>
-        {{/if}}
+        <div class="item-subtitle">{{localize (concat "TYPES.Item." item.type)}}{{#if system.source}} · <span class="item-source">{{system.source}}</span>{{/if}}</div>
     </div>
+    {{#if item.isOwned}}
+        <a class="item-control item-delete" data-action="deleteItem" data-tooltip="CS.sheets.generalLabels.delete"><i class="fas fa-trash fa-2x"></i></a>
+    {{/if}}
 </header>

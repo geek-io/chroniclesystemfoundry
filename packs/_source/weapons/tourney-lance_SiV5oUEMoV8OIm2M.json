@@ -1,0 +1,65 @@
+{
+  "_id": "SiV5oUEMoV8OIm2M",
+  "name": "Tourney Lance",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A spear or lance.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 8.0,
+    "quantity": 1,
+    "cost": "40 ss",
+    "specialty": "Fighting:Spears",
+    "training": 1,
+    "damage": "@Animal Handling+3",
+    "qualities": [
+      {
+        "name": "Bulk",
+        "parameter": "1"
+      },
+      {
+        "name": "Fragile",
+        "parameter": ""
+      },
+      {
+        "name": "Mounted",
+        "parameter": ""
+      },
+      {
+        "name": "Powerful",
+        "parameter": ""
+      },
+      {
+        "name": "Reach",
+        "parameter": ""
+      },
+      {
+        "name": "Slow",
+        "parameter": ""
+      }
+    ],
+    "reach": "4",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!SiV5oUEMoV8OIm2M"
+}

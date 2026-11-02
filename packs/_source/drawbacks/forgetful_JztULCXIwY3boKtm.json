@@ -1,0 +1,35 @@
+{
+  "_id": "JztULCXIwY3boKtm",
+  "name": "Forgetful",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>Re-roll 6s on Cunning tests.</p><p><em>Full rules: SIFRP p. 93.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 93",
+    "requireSorcerousArt": false,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "—"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JztULCXIwY3boKtm"
+}

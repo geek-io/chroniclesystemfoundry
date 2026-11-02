@@ -1,22 +1,35 @@
-import {ChronicleSystem} from "../system/ChronicleSystem.js";
+import SystemUtils from "../utils/systemUtils.js";
 
+const ICON_TYPES = ["ability", "armor", "benefit", "drawback", "equipment", "event", "holding", "poison", "technique", "weapon"];
+
+/**
+ * Base item for the Chronicle System.
+ */
 export class CSItem extends Item {
-
     getCSData() {
         return this.system;
     }
 
-    prepareData() {
-        super.prepareData();
+    /** @override */
+    static getDefaultArtwork(itemData) {
+        if (ICON_TYPES.includes(itemData?.type)) return {img: `systems/chroniclesystem/assets/icons/${itemData.type}.png`};
+        return super.getDefaultArtwork(itemData);
     }
 
-    onEquippedChanged(actor, isEquipped) { }
-
-    onObtained(actor) { }
-
-    onDiscardedFromActor(actor, oldId) { }
-
-    _onArmorEquippedChanged(actor, isEquipped) {
-
+    /** Qualities as a clean array (forms store them as index-keyed objects). */
+    get qualities() {
+        return SystemUtils.toArray(this.system.qualities);
     }
+
+    hasQuality(name) {
+        const wanted = String(name).toLowerCase();
+        return this.qualities.some((q) => String(q?.name ?? "").toLowerCase() === wanted);
+    }
+
+    // Lifecycle callbacks kept for compatibility with world macros. Gear effects are now derived on the actor.
+    onEquippedChanged(actor, isEquipped) {}
+
+    onObtained(actor) {}
+
+    onDiscardedFromActor(actor, oldId) {}
 }

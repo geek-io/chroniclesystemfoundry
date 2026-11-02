@@ -1,0 +1,40 @@
+{
+  "_id": "GoAvC7Hyn6WkTMrU",
+  "name": "Greycap",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>Powdered poisonous mushroom. Slowly cripples Athletics, Cunning and Endurance; can kill over days.</p>",
+    "type": "",
+    "source": "SIFRP p. 136",
+    "quantity": 1,
+    "cost": "25 ss",
+    "delivery": "Ingested or Inhaled",
+    "virulence": "5",
+    "frequency": "1/6 hours and 1/day",
+    "toxicity": 2,
+    "diagnosis": 9,
+    "effects": "<p>Toxicity: 2. Diagnosis: Challenging (9).</p>",
+    "recovery": "<p>Cunning penalties fade daily; others are permanent unless a Destiny Point is burned.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!GoAvC7Hyn6WkTMrU"
+}

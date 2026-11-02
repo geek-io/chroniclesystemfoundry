@@ -1,0 +1,40 @@
+{
+  "_id": "CFwH10vDxABVA8Vo",
+  "name": "Basilisk Blood",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>A paste from a Yi Tish lizard, mixed into food. It erodes the victim's reason (penalties to Cunning) and drives them to violence.</p>",
+    "type": "",
+    "source": "SIFRP p. 135",
+    "quantity": 1,
+    "cost": "5–10 gd",
+    "delivery": "Ingested",
+    "virulence": "6",
+    "frequency": "Once/5 minutes",
+    "toxicity": 3,
+    "diagnosis": 12,
+    "effects": "<p>Toxicity: 3. Diagnosis: Formidable (12).</p>",
+    "recovery": "<p>See the book.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!CFwH10vDxABVA8Vo"
+}

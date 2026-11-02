@@ -1,0 +1,33 @@
+{
+  "_id": "pBoEy6ZR80BcFUDP",
+  "name": "Double Shot",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Fire two arrows at once.</p><p><em>Martial quality. Full rules: SIFRP p. 81.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 81",
+    "categories": "Martial",
+    "requirements": "Marksmanship 5 (Bows 3B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pBoEy6ZR80BcFUDP"
+}

@@ -1,0 +1,380 @@
+{
+  "_id": "aqsr7SgTnAaa1d0X",
+  "name": "Courtier",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "age": 0,
+    "destinyPoints": {
+      "current": 0,
+      "max": 0
+    },
+    "sorceryPoints": {
+      "current": 0,
+      "max": 0
+    },
+    "derivedStats": {
+      "intrigueDefense": {
+        "value": 0,
+        "modifier": 0
+      },
+      "composure": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "frustration": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "combatDefense": {
+        "value": 0,
+        "modifier": 0
+      },
+      "health": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "fatigue": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "armorRating": {
+        "value": 0,
+        "modifier": 0
+      }
+    },
+    "wounds": [],
+    "injuries": [],
+    "currentDisposition": 4,
+    "modifiers": {},
+    "penalties": {},
+    "movement": {
+      "base": 4,
+      "runBonus": 0,
+      "sprintMultiplier": 4,
+      "bulk": 0,
+      "modifier": 0,
+      "total": 0,
+      "sprintTotal": 0
+    },
+    "ancestries": [],
+    "gender": "",
+    "house": "",
+    "height": "1.72",
+    "weight": "70",
+    "eyeColor": "",
+    "hairColor": "",
+    "mannerisms": "",
+    "distinguishingFeatures": "",
+    "personalHistory": "",
+    "owned": {
+      "equipments": [],
+      "weapons": [],
+      "armors": [],
+      "qualities": [],
+      "drawbacks": [],
+      "abilities": [],
+      "powers": [],
+      "benefits": []
+    },
+    "currentStress": 0,
+    "allies": "",
+    "enemies": "",
+    "oaths": "",
+    "heraldry": "",
+    "portrait": "",
+    "motto": "",
+    "coins": {
+      "coppers": 0,
+      "silvers": 0,
+      "golds": 0
+    },
+    "glory": 0,
+    "vice": "",
+    "virtue": "",
+    "motivation": "",
+    "goal": "",
+    "experience": {
+      "spent": 0,
+      "total": 0
+    },
+    "npcKind": "npc",
+    "npcNotes": "<p>Lesser nobles, envoys, ladies in waiting and other people of quality at court.</p><p><em>Statistics: Awareness 2 (Empathy 1B), Cunning 3, Deception 3 (Bluff 1B), Status 4. SIFRP p. 216.</em></p>",
+    "source": "SIFRP p. 216"
+  },
+  "items": [
+    {
+      "_id": "GsH86NvopqtsjBMs",
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Perception and reading people. Opposes Stealth and Deception, and adds to both Combat and Intrigue Defense.</p>",
+        "type": "",
+        "source": "SIFRP p. 60",
+        "rating": 2,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Empathy",
+            "rating": 1,
+            "modifier": 0
+          },
+          {
+            "name": "Notice",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.pRtrqAQMKoASq8GR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!aqsr7SgTnAaa1d0X.GsH86NvopqtsjBMs"
+    },
+    {
+      "_id": "Xod68Oa4gc2WMbxw",
+      "name": "Cunning",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Intelligence, problem solving and recall. Adds to Intrigue Defense and is the influence for Bargain and Incite.</p>",
+        "type": "",
+        "source": "SIFRP p. 60",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Decipher",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Logic",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Memory",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.3vo8TMlbY8BQDAVR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!aqsr7SgTnAaa1d0X.Xod68Oa4gc2WMbxw"
+    },
+    {
+      "_id": "lF2j7ZotzPnGr0ky",
+      "name": "Deception",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Lying, misdirection, playing a role and cheating. Used for deception rolls in intrigues.</p>",
+        "type": "",
+        "source": "SIFRP p. 61",
+        "rating": 3,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Act",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Bluff",
+            "rating": 1,
+            "modifier": 0
+          },
+          {
+            "name": "Cheat",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Disguise",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.xATQdMmNcnkvaDyq",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!aqsr7SgTnAaa1d0X.lF2j7ZotzPnGr0ky"
+    },
+    {
+      "_id": "KlpGN1UXfaPS1ybW",
+      "name": "Status",
+      "type": "ability",
+      "img": "systems/chroniclesystem/assets/icons/ability.png",
+      "system": {
+        "description": "<p>Social standing and the knowledge that comes with it. Adds to Intrigue Defense; Stewardship drives House Fortunes.</p>",
+        "type": "",
+        "source": "SIFRP p. 66",
+        "rating": 4,
+        "modifier": 0,
+        "specialties": [
+          {
+            "name": "Breeding",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Reputation",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Stewardship",
+            "rating": 0,
+            "modifier": 0
+          },
+          {
+            "name": "Tournaments",
+            "rating": 0,
+            "modifier": 0
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.abilities.Item.akWulKGX1cHDbKOD",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!aqsr7SgTnAaa1d0X.KlpGN1UXfaPS1ybW"
+    },
+    {
+      "_id": "FHS8EizXbdi8IlGy",
+      "name": "Clothing",
+      "type": "armor",
+      "img": "systems/chroniclesystem/assets/icons/armor.png",
+      "system": {
+        "description": "<p>Everyday clothes; no real protection.</p>",
+        "type": "",
+        "source": "SIFRP p. 312",
+        "weight": 0,
+        "rating": 0,
+        "penalty": 0,
+        "bulk": 0,
+        "qualities": [],
+        "equipped": 1,
+        "quantity": 1,
+        "cost": "—"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.armor.Item.mRSrKkddS0bCMOVq",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!aqsr7SgTnAaa1d0X.FHS8EizXbdi8IlGy"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Courtier",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!aqsr7SgTnAaa1d0X"
+}

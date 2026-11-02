@@ -1,6 +1,10 @@
 {
   "Actor": {
-    "types": ["character", "house"],
+    "types": [
+      "character",
+      "npc",
+      "house"
+    ],
     "templates": {
       "common": {
         "age": 0,
@@ -106,7 +110,10 @@
       }
     },
     "character": {
-      "templates": ["common", "character-common"]
+      "templates": [
+        "common",
+        "character-common"
+      ]
     },
     "house": {
       "realm": "",
@@ -156,10 +163,30 @@
         "retainers": [],
         "servants": []
       }
+    },
+    "npc": {
+      "templates": [
+        "common",
+        "character-common"
+      ],
+      "npcKind": "npc",
+      "npcNotes": "",
+      "source": ""
     }
   },
   "Item": {
-    "types": ["armor", "weapon", "ability", "equipment", "benefit", "drawback", "event", "holding", "technique"],
+    "types": [
+      "armor",
+      "weapon",
+      "ability",
+      "equipment",
+      "benefit",
+      "drawback",
+      "event",
+      "holding",
+      "technique",
+      "poison"
+    ],
     "templates": {
       "physicalItem": {
         "weight": 0
@@ -170,7 +197,8 @@
       },
       "itemDescription": {
         "description": "",
-        "type": ""
+        "type": "",
+        "source": ""
       }
     },
     "armor": {
@@ -195,7 +223,8 @@
       "toxicity": 0,
       "diagnosis": 0,
       "effects": "",
-      "recovery": ""
+      "recovery": "",
+      "weight": 0
     },
     "weapon": {
       "templates": [
@@ -208,7 +237,8 @@
       "damage": "",
       "qualities": [],
       "reach": "",
-      "equipped": 0
+      "equipped": 0,
+      "range": ""
     },
     "ability": {
       "templates": [

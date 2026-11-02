@@ -1,0 +1,33 @@
+{
+  "_id": "4uXt6Jq8v30VVZ30",
+  "name": "Long Blade Fighter I",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Sacrifice bonus dice for a free degree of success.</p><p><em>Martial quality. Full rules: SIFRP p. 84.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 84",
+    "categories": "Martial",
+    "requirements": "Fighting 4 (Long Blades 2B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4uXt6Jq8v30VVZ30"
+}

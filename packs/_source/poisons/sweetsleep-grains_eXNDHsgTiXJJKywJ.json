@@ -1,0 +1,40 @@
+{
+  "_id": "eXNDHsgTiXJJKywJ",
+  "name": "Sweetsleep, Grains",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>A few grains calm the nerves: small Cunning penalty but +2 Composure.</p>",
+    "type": "",
+    "source": "SIFRP p. 137",
+    "quantity": 1,
+    "cost": "—",
+    "delivery": "Ingested",
+    "virulence": "4",
+    "frequency": "1/5 minutes",
+    "toxicity": 1,
+    "diagnosis": 3,
+    "effects": "<p>Toxicity: 1. Diagnosis: Easy (3).</p>",
+    "recovery": "<p>Fades with time.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eXNDHsgTiXJJKywJ"
+}

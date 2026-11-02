@@ -1,0 +1,33 @@
+{
+  "_id": "xO0xjW3FkRlqGE4g",
+  "name": "Bludgeon Fighter II",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>A hit costs the foe a Lesser Action and imposes –1 on tests.</p><p><em>Martial quality. Full rules: SIFRP p. 78.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 78",
+    "categories": "Martial",
+    "requirements": "Fighting 5 (Bludgeons 3B), Bludgeon Fighter I",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xO0xjW3FkRlqGE4g"
+}

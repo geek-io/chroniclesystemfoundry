@@ -1,0 +1,54 @@
+{
+  "_id": "2XdFAbOhNmornj9D",
+  "name": "Survival",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Living off the land, hunting, finding your way and tracking.</p>",
+    "type": "",
+    "source": "SIFRP p. 67",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Forage",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Hunt",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Orientation",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Track",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2XdFAbOhNmornj9D"
+}

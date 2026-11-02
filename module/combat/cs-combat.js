@@ -1,92 +1,68 @@
 import {CSConstants} from "../system/csConstants.js";
 import SystemUtils from "../utils/systemUtils.js";
 
+/**
+ * Combat with Chronicle System initiative: the GM/player picks the conflict type (combat, intrigue, warfare) and each
+ * combatant rolls the matching test.
+ */
 export class CsCombat extends Combat {
-    constructor(...args) {
-        super(...args);
-    }
-    async rollInitiative(ids, {formula=null, updateTurn=true, messageOptions={}}={}) {
-        // Structure input data
+    /** @override */
+    async rollInitiative(ids, {formula = null, updateTurn = true, messageOptions = {}} = {}) {
         ids = typeof ids === "string" ? [ids] : ids;
         const currentId = this.combatant?.id;
-        const chatRollMode = game.settings.get("core", "rollMode");
 
-        let result = await this._showInitiativeSelector();
-        formula = "";
-        let type = "";
-        if (result && !result.cancelled) {
-            formula = CSConstants.InitiativeTypeRolls[result.data.initiativeType.value];
-            type = SystemUtils.localize(CSConstants.InitiativeTypes[result.data.initiativeType.value]);
-        }
+        const choice = await this._showInitiativeSelector();
+        if (!choice || choice.cancelled) return this;
+        formula = CSConstants.InitiativeTypeRolls[choice.type];
+        const type = SystemUtils.localize(CSConstants.InitiativeTypes[choice.type]);
 
-        // Iterate over Combatants, performing an initiative roll for each
         const updates = [];
         const messages = [];
-        for ( let [i, id] of ids.entries() ) {
-
-            // Get Combatant data (non-strictly)
+        for (const [i, id] of ids.entries()) {
             const combatant = this.combatants.get(id);
-            if ( !combatant?.isOwner ) continue;
+            if (!combatant?.isOwner) continue;
 
-            // Produce an initiative roll for the Combatant
             const roll = await combatant.getInitiativeRoll(formula);
+            if (!roll) continue;
             updates.push({_id: id, initiative: roll.total});
-            // Construct chat message data
-            let messageData = foundry.utils.mergeObject({
-                speaker: ChatMessage.getSpeaker({
-                    actor: combatant.actor,
-                    token: combatant.token,
-                    alias: combatant.name
-                }),
-                flavor: game.i18n.format("CS.chatMessages.initiativeRolls", {name: combatant.name, type: type }),
+
+            const messageData = foundry.utils.mergeObject({
+                speaker: ChatMessage.getSpeaker({actor: combatant.actor, token: combatant.token, alias: combatant.name}),
+                flavor: game.i18n.format("CS.chatMessages.initiativeRolls", {name: combatant.name, type}),
                 flags: {"core.initiativeRoll": true}
             }, messageOptions);
-            const chatData = await roll.toMessage(messageData, {create: false});
-
-            // If the combatant is hidden, use a private roll unless an alternative rollMode was explicitly requested
-            chatData.rollMode = "rollMode" in messageOptions ? messageOptions.rollMode
-                : (combatant.hidden ? CONST.DICE_ROLL_MODES.PRIVATE : chatRollMode );
-
-            // Play 1 sound for the whole rolled set
-            if ( i > 0 ) chatData.sound = null;
+            const rollMode = messageOptions.rollMode ?? (combatant.hidden ? CONST.DICE_ROLL_MODES.PRIVATE : undefined);
+            const chatData = await roll.toMessage(messageData, {create: false, rollMode});
+            if (i > 0) chatData.sound = null;
             messages.push(chatData);
         }
-        if ( !updates.length ) return this;
+        if (!updates.length) return this;
 
-        // Update multiple combatants
         await this.updateEmbeddedDocuments("Combatant", updates);
-
-        // Ensure the turn order remains with the same combatant
-        if ( updateTurn && currentId ) {
-            await this.update({turn: this.turns.findIndex(t => t.id === currentId)});
-        }
-
-        // Create multiple chat messages
+        if (updateTurn && currentId) await this.update({turn: this.turns.findIndex((t) => t.id === currentId)});
         await ChatMessage.implementation.create(messages);
         return this;
     }
 
     async _showInitiativeSelector() {
-        const template = CSConstants.Templates.Dialogs.INITIATIVE_SELECTOR;
-        const html = await renderTemplate(template, {choices: CSConstants.InitiativeTypes});
-        return new Promise(resolve => {
-            const data = {
-                title: SystemUtils.localize("CS.dialogs.initiativeSelector.title"),
-                content: html,
-                buttons: {
-                    normal: {
-                        label: SystemUtils.localize("CS.dialogs.actions.confirm"),
-                        callback: html => resolve({data: html[0].querySelector("form")})
-                    },
-                    cancel: {
-                        label: SystemUtils.localize("CS.dialogs.actions.cancel"),
-                        callback: html => resolve({cancelled: true})
-                    }
+        const content = await SystemUtils.renderTemplate(CSConstants.Templates.Dialogs.INITIATIVE_SELECTOR, {
+            choices: CSConstants.InitiativeTypes,
+            value: "COMBAT"
+        });
+        const result = await foundry.applications.api.DialogV2.wait({
+            window: {title: "CS.dialogs.initiativeSelector.title"},
+            classes: ["chroniclesystem", "cs-dialog"],
+            content,
+            buttons: [
+                {
+                    action: "normal",
+                    label: "CS.dialogs.actions.confirm",
+                    default: true,
+                    callback: (event, button) => ({type: button.form.elements.initiativeType.value})
                 },
-                default: "normal",
-                close: () => resolve({cancelled: true})
-            };
-            new Dialog(data, null).render(true);
-        })
+                {action: "cancel", label: "CS.dialogs.actions.cancel", callback: () => ({cancelled: true})}
+            ]
+        });
+        return result ?? {cancelled: true};
     }
 }

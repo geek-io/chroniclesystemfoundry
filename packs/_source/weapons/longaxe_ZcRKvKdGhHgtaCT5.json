@@ -1,0 +1,61 @@
+{
+  "_id": "ZcRKvKdGhHgtaCT5",
+  "name": "Longaxe",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>An axe; axes hit hard and some can be used one- or two-handed.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 20.0,
+    "quantity": 1,
+    "cost": "500 ss",
+    "specialty": "Fighting:Axes",
+    "training": 1,
+    "damage": "@Athletics+3",
+    "qualities": [
+      {
+        "name": "Bulk",
+        "parameter": "1"
+      },
+      {
+        "name": "Powerful",
+        "parameter": ""
+      },
+      {
+        "name": "Reach",
+        "parameter": ""
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      },
+      {
+        "name": "Vicious",
+        "parameter": ""
+      }
+    ],
+    "reach": "2",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ZcRKvKdGhHgtaCT5"
+}

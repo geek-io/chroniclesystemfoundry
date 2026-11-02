@@ -1,0 +1,54 @@
+{
+  "_id": "yC5wghV6yW3KH0pg",
+  "name": "Animal Handling",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Training, riding, driving and calming animals, from warhorses to ravens.</p>",
+    "type": "",
+    "source": "SIFRP p. 57",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Charm",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Drive",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Ride",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Train",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yC5wghV6yW3KH0pg"
+}

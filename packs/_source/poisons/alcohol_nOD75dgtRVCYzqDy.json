@@ -1,0 +1,40 @@
+{
+  "_id": "nOD75dgtRVCYzqDy",
+  "name": "Alcohol",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>Safe up to a number of servings equal to Endurance (half that for spirits). Beyond that it acts as a poison: –1D per degree on all tests, though the first attack grants +3 on Endurance and Will tests.</p>",
+    "type": "",
+    "source": "SIFRP p. 135",
+    "quantity": 1,
+    "cost": "—",
+    "delivery": "Ingested",
+    "virulence": "1 per drink beyond your limit",
+    "frequency": "1/hour",
+    "toxicity": 2,
+    "diagnosis": 0,
+    "effects": "<p>Toxicity: 2 (ale/beer), 3 (wine), 4 (spirits). Diagnosis: —.</p>",
+    "recovery": "<p>Regain 1D each hour after the drink runs its course.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nOD75dgtRVCYzqDy"
+}

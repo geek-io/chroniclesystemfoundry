@@ -1,0 +1,33 @@
+{
+  "_id": "8803o6MpGauQ0Wws",
+  "name": "Improved Armor Mastery",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Increase AR by another 1 (total +2).</p><p><em>Martial quality. Full rules: SIFRP p. 84.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 84",
+    "categories": "Martial",
+    "requirements": "Armor Mastery",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8803o6MpGauQ0Wws"
+}

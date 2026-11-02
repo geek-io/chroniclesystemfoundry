@@ -1,4 +1,4 @@
-<div class="tab" data-group="primary" data-tab="sorcery">
+<div class="tab {{tabs.[sorcery].cssClass}}" data-group="primary" data-tab="sorcery">
     <section class="sorcery">
         <header class="header-field">
             <span>Sorcery Points</span>
@@ -9,8 +9,8 @@
             <section class="">
             </section>
             <section class="flexrow">
-                {{> (formGroup) labelText="Current:" id="data.sorceryPoints.current" value=character.sorceryPoints.current inputCssClass="small-field" placeHOlder="Current" dataType="Number" }}
-                {{> (formGroup) labelText="Max:" id="data.sorceryPoints.max" value=character.sorceryPoints.max inputCssClass="small-field" placeHOlder="Max" dataType="Number" }}
+                {{> (csFormGroup) labelText="Current:" id="system.sorceryPoints.current" value=character.sorceryPoints.current inputCssClass="small-field" placeHolder="Current" dataType="Number" }}
+                {{> (csFormGroup) labelText="Max:" id="system.sorceryPoints.max" value=character.sorceryPoints.max inputCssClass="small-field" placeHolder="Max" dataType="Number" }}
             </section>
         </section>
         <header class="header-field">
@@ -33,40 +33,40 @@
                     <div class="item-controls"></div>
                 </div>
             </li>
-            {{#each character.owned.techniques as |technique|}}
-                <li  class="item technique" data-item-id="{{_id}}">
-                    <div class="item-edit technique-header"><a>{{technique.name}}</a></div>
+            {{#each owned.techniques as |technique|}}
+                <li  class="item draggable technique" data-item-id="{{_id}}">
+                    <div class="item-edit technique-header" data-action="editItem"><a>{{technique.name}}</a></div>
                 </li>
-                {{#each technique.system.works as |work|}}
-                    <li  class="item work" data-item-id="{{_id}}">
+                {{#each technique.works as |work|}}
+                    <li  class="item work" data-item-id="{{../_id}}">
                         <div class="flexrow">
                             <div class="field size150"><B>{{work.name}}</B></div>
                             <div class="field size75 center">{{localize (lookup ../../techniquesTypes work.type)}}</div>
                             {{#ifEquals work.type "SPELL"}}
-                                <div class="field size200 rollable center" id="formula:{{work.test.spellcasting}}:{{formulaToStr work.test.spellcastingFormula}}">
+                                <div class="field size200 rollable center" data-action="roll" data-roll="formula:{{work.test.spellcasting}}:{{formulaToStr work.test.spellcastingFormula}}">
                                     <a>{{format-formula work.test.spellcastingFormula}}</a>
                                 </div>
                             {{else}}
                                 <div class="field flexrow size200">
-                                    <div class="field size150 rollable center" id="formula:{{work.test.alignment}}:{{formulaToStr work.test.alignmentFormula}}">
+                                    <div class="field size150 rollable center" data-action="roll" data-roll="formula:{{work.test.alignment}}:{{formulaToStr work.test.alignmentFormula}}">
                                         <a>{{format-formula work.test.alignmentFormula}}</a>
                                     </div>
-                                    <div class="field size150 rollable center" id="formula:{{work.test.invocation}}:{{formulaToStr work.test.invocationFormula}}">
+                                    <div class="field size150 rollable center" data-action="roll" data-roll="formula:{{work.test.invocation}}:{{formulaToStr work.test.invocationFormula}}">
                                         <a>{{format-formula work.test.invocationFormula}}</a>
                                     </div>
-                                    <div class="field size150 rollable center" id="formula:{{work.test.unleashing}}:{{formulaToStr work.test.unleashingFormula}}">
+                                    <div class="field size150 rollable center" data-action="roll" data-roll="formula:{{work.test.unleashing}}:{{formulaToStr work.test.unleashingFormula}}">
                                         <a>{{format-formula work.test.unleashingFormula}}</a>
                                     </div>
                                 </div>
                             {{/ifEquals}}
                             <div class="field">{{localize (lookup ../../techniquesCosts work.cost)}}</div>
-                            <div class="item-controls"><a><i class="far fa-caret-square-down"></i></a></div>
+                            <div class="item-controls"><a data-action="toggleDescription"><i class="far fa-caret-square-down"></i></a></div>
                         </div>
                         <div class="flexrow">
                             <div class="field"></div>
                             <div class="field size300 resonance"><b>{{localize "CS.sheets.techniqueItem.resonance"}}:</b> {{work.resonance}}</div>
                         </div>
-                        <div class="description hidden">{{enrich work.description}}</div>
+                        <div class="description hidden">{{{work.enrichedDescription}}}</div>
                     </li>
                 {{/each}}
             {{/each}}

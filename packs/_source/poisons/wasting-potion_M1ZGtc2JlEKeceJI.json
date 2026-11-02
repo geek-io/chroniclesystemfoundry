@@ -1,0 +1,40 @@
+{
+  "_id": "M1ZGtc2JlEKeceJI",
+  "name": "Wasting Potion",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>A purgative given to expel poisons: +5 to passive Endurance against poison and disease, but a successful attack imposes –1D on Athletics and Endurance tests.</p>",
+    "type": "",
+    "source": "SIFRP p. 138",
+    "quantity": 1,
+    "cost": "50 ss",
+    "delivery": "Ingested",
+    "virulence": "4",
+    "frequency": "1/round",
+    "toxicity": 2,
+    "diagnosis": 6,
+    "effects": "<p>Toxicity: 2. Diagnosis: Routine (6).</p>",
+    "recovery": "<p>Recovers after 1 day.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!M1ZGtc2JlEKeceJI"
+}

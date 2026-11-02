@@ -1,0 +1,53 @@
+{
+  "_id": "IssyzHf3E3BNl9GA",
+  "name": "Mattock",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>An axe; axes hit hard and some can be used one- or two-handed.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 10.0,
+    "quantity": 1,
+    "cost": "50 ss",
+    "specialty": "Fighting:Axes",
+    "training": 0,
+    "damage": "@Athletics+1",
+    "qualities": [
+      {
+        "name": "Powerful",
+        "parameter": ""
+      },
+      {
+        "name": "Slow",
+        "parameter": ""
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      }
+    ],
+    "reach": "1",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IssyzHf3E3BNl9GA"
+}

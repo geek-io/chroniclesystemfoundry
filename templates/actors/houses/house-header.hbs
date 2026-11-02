@@ -1,0 +1,14 @@
+<header class="sheet-header flexrow">
+    <img class="header-portrait" src="{{actor.img}}" data-edit="img" data-action="editImage" title="{{actor.name}}" alt="{{actor.name}}"/>
+    <div class="header-fields">
+        <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "CS.sheets.generalLabels.name"}}"/></h1>
+        <div class="complements flexrow">
+            <label class="attribute-label">{{localize "CS.sheets.house.labels.head"}}</label>
+            <label class="link-field member-name size75" data-action="openActor" data-id="{{house.head.id}}"><a>{{house.head.name}}</a></label>
+            <label class="attribute-label">{{localize "CS.sheets.house.labels.realm"}}</label>
+            <input class="size75" type="text" name="system.realm" value="{{house.realm}}" data-dtype="String"/>
+            <label class="attribute-label">{{localize "CS.sheets.house.labels.liege"}}</label>
+            <input class="size75" type="text" name="system.liege" value="{{house.liege}}" data-dtype="String"/>
+        </div>
+    </div>
+</header>

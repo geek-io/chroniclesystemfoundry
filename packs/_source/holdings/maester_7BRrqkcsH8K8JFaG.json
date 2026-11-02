@@ -1,0 +1,35 @@
+{
+  "_id": "7BRrqkcsH8K8JFaG",
+  "name": "Maester",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>+3 to House Fortunes and the service of a maester. Requires Influence 20+.</p><p><em>SIFRP p. 113</em></p>",
+    "investment": 10,
+    "buildTime": "1d6 months",
+    "resource": "wealth",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 3,
+    "source": "SIFRP p. 113"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7BRrqkcsH8K8JFaG"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "dVoxAmCNQYiMTmMg",
+  "name": "Conquest",
+  "type": "event",
+  "img": "systems/chroniclesystem/assets/icons/event.png",
+  "system": {
+    "description": "<p>The house took an enemy's lands, along with old loyalties.</p><p><em>Historical Events table roll 17 (SIFRP p. 102).</em></p>",
+    "formulas": {
+      "defense": "-1d6",
+      "influence": "+1d6",
+      "lands": "+1d6",
+      "law": "-1d6",
+      "population": "+1d6",
+      "power": "",
+      "wealth": "+1d6"
+    },
+    "modifiers": {
+      "defense": 0,
+      "influence": 0,
+      "lands": 0,
+      "law": 0,
+      "population": 0,
+      "power": 0,
+      "wealth": 0
+    },
+    "playerChoice": false,
+    "numberOfChoices": 0,
+    "bonusToChoices": "",
+    "source": "SIFRP p. 102"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dVoxAmCNQYiMTmMg"
+}

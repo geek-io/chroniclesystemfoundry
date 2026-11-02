@@ -1,0 +1,49 @@
+{
+  "_id": "OltpKdIbwNrRvPa8",
+  "name": "Bow, Hunting",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A bow; arrows sold by the dozen (10 ss, 1 lb.).</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 3.0,
+    "quantity": 1,
+    "cost": "100 ss",
+    "specialty": "Marksmanship:Bows",
+    "training": 0,
+    "damage": "@Agility",
+    "qualities": [
+      {
+        "name": "Long Range",
+        "parameter": ""
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OltpKdIbwNrRvPa8"
+}

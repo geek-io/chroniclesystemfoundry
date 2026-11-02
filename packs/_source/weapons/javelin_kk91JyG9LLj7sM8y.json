@@ -1,0 +1,45 @@
+{
+  "_id": "kk91JyG9LLj7sM8y",
+  "name": "Javelin",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A thrown weapon.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 3.0,
+    "quantity": 1,
+    "cost": "20 ss",
+    "specialty": "Marksmanship:Thrown",
+    "training": 0,
+    "damage": "@Athletics",
+    "qualities": [
+      {
+        "name": "Close Range",
+        "parameter": ""
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kk91JyG9LLj7sM8y"
+}

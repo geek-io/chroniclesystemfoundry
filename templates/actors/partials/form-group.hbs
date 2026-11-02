@@ -1,12 +1,5 @@
 <div class="form-group">
     <label for="{{id}}">{{localize labelText}}</label>
-       <input
-           id="{{id}}"
-           class="{{inputCssClass}}"
-           name="{{id}}"
-           type="text"
-           value="{{value}}"
-           placeholder="{{localize placeHolder}}"
-           data-dtype="{{dataType}}"
-       />
+    <input id="{{id}}" class="{{inputCssClass}}" name="{{id}}" type="text" value="{{value}}"
+           {{#if placeHolder}}placeholder="{{localize placeHolder}}"{{/if}} data-dtype="{{#if dataType}}{{dataType}}{{else}}String{{/if}}"/>
 </div>

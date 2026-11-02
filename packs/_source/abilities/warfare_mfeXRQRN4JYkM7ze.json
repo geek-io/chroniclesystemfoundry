@@ -1,0 +1,49 @@
+{
+  "_id": "mfeXRQRN4JYkM7ze",
+  "name": "Warfare",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Leading troops and understanding battle. Used heavily in warfare.</p>",
+    "type": "",
+    "source": "SIFRP p. 70",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Command",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Strategy",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Tactics",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mfeXRQRN4JYkM7ze"
+}

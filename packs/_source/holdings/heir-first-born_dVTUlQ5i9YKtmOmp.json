@@ -1,0 +1,35 @@
+{
+  "_id": "dVTUlQ5i9YKtmOmp",
+  "name": "Heir: First-born",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>The first-born son (or daughter in Dorne). Status equals the house's maximum Status –1 (minimum 3).</p><p><em>SIFRP p. 107</em></p>",
+    "investment": 20,
+    "buildTime": "",
+    "resource": "influence",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "SIFRP p. 107"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dVTUlQ5i9YKtmOmp"
+}

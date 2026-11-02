@@ -1,67 +1,85 @@
-/* global game */
 import LOGGER from "../utils/logger.js";
 import {CSConstants} from "./csConstants.js";
 
 /**
- * This file defines user settings for the system module.
+ * Register the system settings.
  */
 const registerSystemSettings = () => {
-    game.settings.register(CSConstants.Settings.SYSTEM_NAME, CSConstants.Settings.DEBUG_LOGS, {
+    const S = CSConstants.Settings;
+
+    game.settings.register(S.SYSTEM_NAME, S.DEBUG_LOGS, {
         name: "CS.settings.debugLogs.name",
         hint: "CS.settings.debugLogs.hint",
         scope: "client",
         config: true,
         type: Boolean,
         default: false,
-        onChange: (value) => {
-            LOGGER.log(`Changed ${CSConstants.Settings.DEBUG_LOGS} to ${value}`);
-        },
+        onChange: (value) => LOGGER.log(`Changed ${S.DEBUG_LOGS} to ${value}`)
     });
 
-    game.settings.register(CSConstants.Settings.SYSTEM_NAME, CSConstants.Settings.TRACE_LOGS, {
+    game.settings.register(S.SYSTEM_NAME, S.TRACE_LOGS, {
         name: "CS.settings.traceLogs.name",
         hint: "CS.settings.traceLogs.hint",
         scope: "client",
         config: true,
         type: Boolean,
         default: false,
-        onChange: (value) => {
-            LOGGER.log(`Changed ${CSConstants.Settings.TRACE_LOGS} to ${value}`);
-        },
+        onChange: (value) => LOGGER.log(`Changed ${S.TRACE_LOGS} to ${value}`)
     });
 
-    game.settings.register(CSConstants.Settings.SYSTEM_NAME, CSConstants.Settings.ASOIAF_DEFENSE_STYLE, {
+    game.settings.register(S.SYSTEM_NAME, S.ASOIAF_DEFENSE_STYLE, {
         name: "CS.settings.asoiafDefenseStyle.name",
         hint: "CS.settings.asoiafDefenseStyle.hint",
         scope: "world",
         config: true,
         type: Boolean,
         default: false,
-        onChange: (value) => {
-            LOGGER.log(`Changed ${CSConstants.Settings.ASOIAF_DEFENSE_STYLE} to ${value}`);
-        },
+        requiresReload: true
     });
 
-    game.settings.register(CSConstants.Settings.SYSTEM_NAME, CSConstants.Settings.CURRENT_VERSION, {
+    game.settings.register(S.SYSTEM_NAME, S.CURRENT_VERSION, {
         name: "Current Version",
         scope: "world",
         config: false,
         type: String,
-        onChange: (value) => {
-            LOGGER.log(`Changed ${CSConstants.Settings.CURRENT_VERSION} to ${value}`);
-        },
+        default: "0.0.0"
     });
 
-    game.settings.register(CSConstants.Settings.SYSTEM_NAME, CSConstants.Settings.MODIFIER_DIALOG_AS_DEFAULT, {
+    game.settings.register(S.SYSTEM_NAME, S.MODIFIER_DIALOG_AS_DEFAULT, {
         name: "CS.settings.isModifierDialogDefault.name",
         hint: "CS.settings.isModifierDialogDefault.hint",
         scope: "client",
         config: true,
         type: Boolean,
-        default: false,
-        onChange: (value) => {
-            LOGGER.log(`Changed ${CSConstants.Settings.MODIFIER_DIALOG_AS_DEFAULT} to ${value}`);
+        default: false
+    });
+
+    game.settings.register(S.SYSTEM_NAME, S.SHEET_THEME, {
+        name: "CS.settings.sheetTheme.name",
+        hint: "CS.settings.sheetTheme.hint",
+        scope: "client",
+        config: true,
+        type: String,
+        choices: {
+            [CSConstants.SheetThemes.FOUNDRY]: "CS.settings.sheetTheme.choices.foundry",
+            [CSConstants.SheetThemes.LIGHT]: "CS.settings.sheetTheme.choices.light",
+            [CSConstants.SheetThemes.DARK]: "CS.settings.sheetTheme.choices.dark"
         },
+        default: CSConstants.SheetThemes.FOUNDRY,
+        onChange: () => {
+            for (const app of foundry.applications.instances.values()) {
+                if (app.options?.classes?.includes("chroniclesystem")) app.render();
+            }
+        }
+    });
+
+    game.settings.register(S.SYSTEM_NAME, S.OCR_LANGUAGE, {
+        name: "CS.settings.ocrLanguage.name",
+        hint: "CS.settings.ocrLanguage.hint",
+        scope: "client",
+        config: true,
+        type: String,
+        default: "eng"
     });
 };
 

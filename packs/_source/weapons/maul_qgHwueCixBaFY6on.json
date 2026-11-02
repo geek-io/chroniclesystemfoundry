@@ -1,0 +1,61 @@
+{
+  "_id": "qgHwueCixBaFY6on",
+  "name": "Maul",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A crushing weapon, good against armor.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 13.0,
+    "quantity": 1,
+    "cost": "80 ss",
+    "specialty": "Fighting:Bludgeons",
+    "training": 0,
+    "damage": "@Athletics+1",
+    "qualities": [
+      {
+        "name": "Bulk",
+        "parameter": "1"
+      },
+      {
+        "name": "Shattering",
+        "parameter": "1"
+      },
+      {
+        "name": "Slow",
+        "parameter": ""
+      },
+      {
+        "name": "Staggering",
+        "parameter": ""
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      }
+    ],
+    "reach": "1",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!qgHwueCixBaFY6on"
+}

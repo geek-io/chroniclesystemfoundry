@@ -1,0 +1,44 @@
+{
+  "_id": "pRtrqAQMKoASq8GR",
+  "name": "Awareness",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Perception and reading people. Opposes Stealth and Deception, and adds to both Combat and Intrigue Defense.</p>",
+    "type": "",
+    "source": "SIFRP p. 60",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Empathy",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Notice",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pRtrqAQMKoASq8GR"
+}

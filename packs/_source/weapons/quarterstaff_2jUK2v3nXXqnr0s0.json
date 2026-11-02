@@ -1,0 +1,49 @@
+{
+  "_id": "2jUK2v3nXXqnr0s0",
+  "name": "Quarterstaff",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A crushing weapon, good against armor.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 4.0,
+    "quantity": 1,
+    "cost": "—",
+    "specialty": "Fighting:Bludgeons",
+    "training": 0,
+    "damage": "@Athletics",
+    "qualities": [
+      {
+        "name": "Fast",
+        "parameter": ""
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      }
+    ],
+    "reach": "2",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2jUK2v3nXXqnr0s0"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "WA5PBklDCOo8IDeR",
+  "name": "Strangler",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>Purple crystals from the Jade Sea that close the throat. Heavy penalties to every ability; usually fatal.</p>",
+    "type": "",
+    "source": "SIFRP p. 137",
+    "quantity": 1,
+    "cost": "150 gd",
+    "delivery": "Ingested",
+    "virulence": "7",
+    "frequency": "1/round",
+    "toxicity": 4,
+    "diagnosis": 15,
+    "effects": "<p>Toxicity: 4. Diagnosis: Hard (15).</p>",
+    "recovery": "<p>Lose one penalty die per week of bed rest; burning a Destiny Point is often the only hope.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!WA5PBklDCOo8IDeR"
+}

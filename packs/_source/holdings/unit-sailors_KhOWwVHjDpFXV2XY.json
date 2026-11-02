@@ -1,0 +1,40 @@
+{
+  "_id": "KhOWwVHjDpFXV2XY",
+  "name": "Unit: Sailors",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>Unit type. Discipline modifier +0. Key abilities: Agility, Awareness, Fighting.</p><p>Trained to fight at sea.</p><p>Training adds to the cost (enter it as a Feature): Green +1 (Discipline Challenging 9, 20 XP) · Trained +3 (Routine 6, 60 XP) · Veteran +5 (Easy 3, 100 XP) · Elite +7 (Automatic 0, 140 XP). Each unit is 100 men, 20 horse or 5 ships.</p><p><em>SIFRP p. 111</em></p>",
+    "investment": 4,
+    "buildTime": "",
+    "resource": "power",
+    "features": [
+      {
+        "name": "Training: Trained",
+        "cost": 3
+      }
+    ],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "SIFRP p. 111"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KhOWwVHjDpFXV2XY"
+}

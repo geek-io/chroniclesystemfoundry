@@ -1,0 +1,49 @@
+{
+  "_id": "R4Fa21sszxU3tFUw",
+  "name": "Knowledge",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Learning, lore and the ways of the streets.</p>",
+    "type": "",
+    "source": "SIFRP p. 63",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Education",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Research",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Streetwise",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!R4Fa21sszxU3tFUw"
+}

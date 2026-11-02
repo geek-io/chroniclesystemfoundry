@@ -1,0 +1,53 @@
+{
+  "_id": "2NtufIcvZdzIjvFW",
+  "name": "Crossbow, Light",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A crossbow; bolts sold by the dozen (10 ss, 1 lb.).</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 6.0,
+    "quantity": 1,
+    "cost": "150 ss",
+    "specialty": "Marksmanship:Crossbows",
+    "training": 0,
+    "damage": "@Agility+1",
+    "qualities": [
+      {
+        "name": "Long Range",
+        "parameter": ""
+      },
+      {
+        "name": "Reload",
+        "parameter": "(Lesser)"
+      },
+      {
+        "name": "Slow",
+        "parameter": ""
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2NtufIcvZdzIjvFW"
+}

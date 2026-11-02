@@ -1,0 +1,33 @@
+{
+  "_id": "4a59GuwLUKtvPSPz",
+  "name": "Tourney Knight",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Add Tournaments bonus dice to Fighting and Animal Handling results when jousting.</p><p><em>Martial quality. Full rules: SIFRP p. 90.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 90",
+    "categories": "Martial",
+    "requirements": "Fighting 3 (Spears 1B), Status 3 (Tournaments 1B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4a59GuwLUKtvPSPz"
+}

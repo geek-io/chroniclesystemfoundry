@@ -4,6 +4,7 @@ import {CSHouseActor} from "./csHouseActor.js";
 
 const actorTypes = {};
 actorTypes.character = CSCharacterActor;
+actorTypes.npc = CSCharacterActor;
 actorTypes.house = CSHouseActor;
 const actorConstructor = factory(actorTypes, Actor);
 export default actorConstructor;

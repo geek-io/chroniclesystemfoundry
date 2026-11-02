@@ -1,0 +1,461 @@
+{
+  "_id": "YH2k9HnXyfZY6cSR",
+  "name": "Historical Events",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>House creation: roll once per historical event. Each result matches an item in the Historical Events compendium; drag it onto the house sheet to roll its resource changes.</p><p><em>SIFRP p. 102</em></p>",
+  "results": [
+    {
+      "_id": "naJh4dUCzwHBGsG1",
+      "type": "document",
+      "name": "Doom",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.S8ZgUwlmp7YuuDZf",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.naJh4dUCzwHBGsG1"
+    },
+    {
+      "_id": "7kaVZ9HIYlAi5AoC",
+      "type": "document",
+      "name": "Defeat",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.iF7y9RR0PSdOrBPT",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.7kaVZ9HIYlAi5AoC"
+    },
+    {
+      "_id": "fSVWrA31LCqpu80t",
+      "type": "document",
+      "name": "Catastrophe",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.4De0m70uxPAyoWV5",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.fSVWrA31LCqpu80t"
+    },
+    {
+      "_id": "M7xIG3XJH7Rs1JgI",
+      "type": "document",
+      "name": "Madness",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.naQxRj9gh2eSILp2",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.M7xIG3XJH7Rs1JgI"
+    },
+    {
+      "_id": "0bZGJxTkwJgossqS",
+      "type": "document",
+      "name": "Invasion/Revolt",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.SKorKLZzWbpfSUDA",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.0bZGJxTkwJgossqS"
+    },
+    {
+      "_id": "GZbN0UqAEeFenQ7J",
+      "type": "document",
+      "name": "Scandal",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.Pir8sQ9BBwtISFRf",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.GZbN0UqAEeFenQ7J"
+    },
+    {
+      "_id": "KLOmEXCNCh0mNvl8",
+      "type": "document",
+      "name": "Treachery",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.UXOX01VBidv57u5z",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.KLOmEXCNCh0mNvl8"
+    },
+    {
+      "_id": "RKjShFKylGSeFoXA",
+      "type": "document",
+      "name": "Decline",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.2im1Oj3zgj3xbSuS",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.RKjShFKylGSeFoXA"
+    },
+    {
+      "_id": "3I2uoQGj33dVi0dJ",
+      "type": "document",
+      "name": "Infrastructure",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.hz4G4LYhXsEo6JK1",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.3I2uoQGj33dVi0dJ"
+    },
+    {
+      "_id": "vcqOObXnmQEjbZGa",
+      "type": "document",
+      "name": "Ascent",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.CTNY85X82XLKwGBu",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.vcqOObXnmQEjbZGa"
+    },
+    {
+      "_id": "HgnD3Wt5qyOsm83z",
+      "type": "document",
+      "name": "Favor",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.SCY5PWlVavLOEkXl",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.HgnD3Wt5qyOsm83z"
+    },
+    {
+      "_id": "buZkB3sOgOU2ob04",
+      "type": "document",
+      "name": "Victory",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.NqL4dVIK9L5EznYV",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.buZkB3sOgOU2ob04"
+    },
+    {
+      "_id": "WzV22vgT1EgL1mLc",
+      "type": "document",
+      "name": "Villain",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.qJAhAFQ8p9oLDBMI",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.WzV22vgT1EgL1mLc"
+    },
+    {
+      "_id": "cfWG22Bzb3g245XD",
+      "type": "document",
+      "name": "Glory",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.qojFa9YIkMhWx00G",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.cfWG22Bzb3g245XD"
+    },
+    {
+      "_id": "9Tcm1P8P8HiU3xi8",
+      "type": "document",
+      "name": "Conquest",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.dVoxAmCNQYiMTmMg",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.9Tcm1P8P8HiU3xi8"
+    },
+    {
+      "_id": "ziyFDsRR9QLOfjsQ",
+      "type": "document",
+      "name": "Windfall",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "description": "",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.chroniclesystem.events.Item.nJDFrtSjJuPvjlNg",
+      "_key": "!tables.results!YH2k9HnXyfZY6cSR.ziyFDsRR9QLOfjsQ"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!YH2k9HnXyfZY6cSR"
+}

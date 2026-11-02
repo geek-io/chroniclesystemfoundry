@@ -1,0 +1,185 @@
+{
+  "_id": "74r2h8dacXE9UVMO",
+  "name": "First Founding",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>House creation: when the house was founded and how many historical events it has (minimum one).</p><p><em>SIFRP p. 103</em></p>",
+  "results": [
+    {
+      "_id": "6FkhbTS8qs7hpvwt",
+      "type": "text",
+      "name": "Ancient (Age of Heroes) — 1d6+3 historical events",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!74r2h8dacXE9UVMO.6FkhbTS8qs7hpvwt"
+    },
+    {
+      "_id": "zSyDt8vAkR0oa5rm",
+      "type": "text",
+      "name": "Very Old (Andal Invasion) — 1d6+2 historical events",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!74r2h8dacXE9UVMO.zSyDt8vAkR0oa5rm"
+    },
+    {
+      "_id": "FRdVZDTlzcluKc3p",
+      "type": "text",
+      "name": "Old (Rhoynar Invasion) — 1d6+1 historical events",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!74r2h8dacXE9UVMO.FRdVZDTlzcluKc3p"
+    },
+    {
+      "_id": "raNSY2OCWC5YgecH",
+      "type": "text",
+      "name": "Established (Aegon's Conquest) — 1d6 historical events",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!74r2h8dacXE9UVMO.raNSY2OCWC5YgecH"
+    },
+    {
+      "_id": "3HT6v0Jympxvr1Pb",
+      "type": "text",
+      "name": "Recent (Blackfyre Rebellion) — 1d6–1 historical events",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!74r2h8dacXE9UVMO.3HT6v0Jympxvr1Pb"
+    },
+    {
+      "_id": "NlIpATsAjZ7wkrHp",
+      "type": "text",
+      "name": "New (War of the Usurper) — 1d6–2 historical events",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!74r2h8dacXE9UVMO.NlIpATsAjZ7wkrHp"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!74r2h8dacXE9UVMO"
+}

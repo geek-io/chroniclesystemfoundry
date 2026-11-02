@@ -1,0 +1,53 @@
+{
+  "_id": "vS1XlEUarEssj7dX",
+  "name": "Flail",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A crushing weapon, good against armor.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 12.0,
+    "quantity": 1,
+    "cost": "100 ss",
+    "specialty": "Fighting:Bludgeons",
+    "training": 2,
+    "damage": "@Athletics+3",
+    "qualities": [
+      {
+        "name": "Powerful",
+        "parameter": ""
+      },
+      {
+        "name": "Shattering",
+        "parameter": "1"
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      }
+    ],
+    "reach": "2",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vS1XlEUarEssj7dX"
+}

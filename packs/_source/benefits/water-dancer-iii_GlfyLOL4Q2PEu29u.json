@@ -1,0 +1,33 @@
+{
+  "_id": "GlfyLOL4Q2PEu29u",
+  "name": "Water Dancer III",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Add Fencing bonus dice to Combat Defense (not in armor with Bulk 1+).</p><p><em>Martial quality. Full rules: SIFRP p. 91.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 91",
+    "categories": "Martial",
+    "requirements": "Water Dancer II",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!GlfyLOL4Q2PEu29u"
+}

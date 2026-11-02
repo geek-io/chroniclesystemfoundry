@@ -1,0 +1,40 @@
+{
+  "_id": "EndlfeQxgc7DW6sn",
+  "name": "Milk of the Poppy, Large Dose",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>A heavy dose: as Milk of the Poppy, plus –3 to all test results and a longer sleep.</p>",
+    "type": "",
+    "source": "SIFRP p. 136",
+    "quantity": 1,
+    "cost": "500 ss",
+    "delivery": "Ingested",
+    "virulence": "6",
+    "frequency": "1/minute",
+    "toxicity": 1,
+    "diagnosis": 3,
+    "effects": "<p>Toxicity: 1. Diagnosis: Easy (3).</p>",
+    "recovery": "<p>Effects last about 8 hours.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EndlfeQxgc7DW6sn"
+}

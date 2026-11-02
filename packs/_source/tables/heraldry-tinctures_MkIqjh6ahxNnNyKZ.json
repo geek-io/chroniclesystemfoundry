@@ -1,0 +1,211 @@
+{
+  "_id": "MkIqjh6ahxNnNyKZ",
+  "name": "Heraldry: Tinctures",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Coat of arms: a color for the field or charges.</p><p><em>SIFRP p. 116</em></p>",
+  "results": [
+    {
+      "_id": "XQKtU6uxbvHZw5vD",
+      "type": "text",
+      "name": "Black (Sable) — constancy, grief",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        2,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!MkIqjh6ahxNnNyKZ.XQKtU6uxbvHZw5vD"
+    },
+    {
+      "_id": "pNPY6lSmJHMbiBHP",
+      "type": "text",
+      "name": "Blue (Azure) — loyalty, truth, service",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!MkIqjh6ahxNnNyKZ.pNPY6lSmJHMbiBHP"
+    },
+    {
+      "_id": "P8vGCCjUc3YqnPiQ",
+      "type": "text",
+      "name": "Purple (Purpure) — justice, sovereignty",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!MkIqjh6ahxNnNyKZ.P8vGCCjUc3YqnPiQ"
+    },
+    {
+      "_id": "8ccrsTYajMtNFS20",
+      "type": "text",
+      "name": "Red (Gules) — military strength, magnanimity, sacrifice",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!MkIqjh6ahxNnNyKZ.8ccrsTYajMtNFS20"
+    },
+    {
+      "_id": "9RhRZSd0NlChndKF",
+      "type": "text",
+      "name": "Green (Vert) — hope, joy, loyalty in love",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!MkIqjh6ahxNnNyKZ.9RhRZSd0NlChndKF"
+    },
+    {
+      "_id": "opGpta3fagh5puDV",
+      "type": "text",
+      "name": "Orange (Tawny) — worthy ambition",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!MkIqjh6ahxNnNyKZ.opGpta3fagh5puDV"
+    },
+    {
+      "_id": "4AcFaNkVODYFyAHJ",
+      "type": "text",
+      "name": "Maroon (Sanguine) — patience and victory in battle",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!MkIqjh6ahxNnNyKZ.4AcFaNkVODYFyAHJ"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!MkIqjh6ahxNnNyKZ"
+}

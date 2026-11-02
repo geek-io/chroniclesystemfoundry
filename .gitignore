@@ -3,3 +3,7 @@
 .vs/
 /chroniclesystem.lock
 node_modules/
+# LevelDB runtime files
+packs/*/LOCK
+packs/*/LOG
+packs/*/LOG.old

@@ -1,54 +1,32 @@
 import {CSItem} from "./csItem.js";
 import {ChronicleSystem} from "../system/ChronicleSystem.js";
-import LOGGER from "../utils/logger.js";
 
 export class CSWeaponItem extends CSItem {
-    onEquippedChanged(actor, isEquipped) {
-        LOGGER.trace(`Weapon ${this._id} ${isEquipped? "equipped" : "unequipped" } by the actor ${actor.name} | csWeaponItem.js`);
-        super.onEquippedChanged(actor, isEquipped);
-        //TODO: implement the onEquippedChanged from CSWeaponItem
-    }
-
-    updateDamageValue(actor) {
-        let matches = this.getCSData().damage.match('@([a-z\sA-Z]*)([-\+\/\*]*)([0-9]*)');
-        if (matches) {
-            if (matches.length === 4) {
-                let ability = actor.getAbilityValue(matches[1]);
-                this.damageValue = eval(`${ability}${matches[2]}${matches[3]}`);
-                let adaptableQuality = Object.values(this.getCSData().qualities).filter((quality) => quality.name.toLowerCase() === "adaptable");
-                if(adaptableQuality.length > 0 && this.getCSData().equipped === ChronicleSystem.equippedConstants.BOTH_HANDS) {
-                    this.damageValue += 1;
-                }
-            }
+    /**
+     * Resolve the damage expression ("@Athletics+1", "@Fighting-2", "@Agility") against an actor.
+     * @param {Actor} actor
+     * @returns {number|string}
+     */
+    calculateDamage(actor) {
+        const expression = String(this.system.damage ?? "").trim();
+        const match = expression.match(/^@([a-zA-Z\s]+?)\s*([-+*/])?\s*(\d+)?$/);
+        if (!match) return expression;
+        const ability = actor?.getAbilityValue?.(match[1].trim()) ?? 2;
+        const operand = parseInt(match[3] ?? "0", 10);
+        let value;
+        switch (match[2]) {
+            case "+": value = ability + operand; break;
+            case "-": value = ability - operand; break;
+            case "*": value = ability * (operand || 1); break;
+            case "/": value = Math.floor(ability / (operand || 1)); break;
+            default: value = ability;
         }
+        if (this.hasQuality("adaptable") && Number(this.system.equipped) === ChronicleSystem.equippedConstants.BOTH_HANDS) value += 1;
+        return value;
     }
 
-    onObtained(actor) {
-        LOGGER.trace(`Weapon ${this._id} obtained by the actor ${actor.name} | csWeaponItem.js`);
-        super.onObtained(actor);
-        let qualities = this.getCSData().qualities;
-        Object.values(qualities).forEach(quality => {
-            switch (quality.name.toLowerCase())
-            {
-                case ChronicleSystem.modifiersConstants.BULK:
-                    actor.addModifier(ChronicleSystem.modifiersConstants.BULK, this._id, parseInt(quality.parameter));
-                    break;
-            }
-        });
-    }
-
-    onDiscardedFromActor(actor, oldId) {
-        LOGGER.trace(`Weapon ${oldId} Discarded from actor | csWeaponItem.js`);
-        super.onDiscardedFromActor(actor, oldId);
-        let qualities = this.getCSData().qualities;
-        console.log(qualities);
-        Object.values(qualities).forEach(quality => {
-            switch (quality.name.toLowerCase())
-            {
-                case ChronicleSystem.modifiersConstants.BULK:
-                    actor.removeModifier(ChronicleSystem.modifiersConstants.BULK, oldId);
-                    break;
-            }
-        });
+    /** @deprecated use calculateDamage */
+    updateDamageValue(actor) {
+        this.damageValue = this.calculateDamage(actor);
     }
 }

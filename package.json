@@ -1,11 +1,20 @@
 {
+  "name": "chroniclesystem",
+  "version": "14.0.0",
+  "private": true,
+  "description": "Chronicle System (Unofficial) for Foundry VTT v14",
+  "scripts": {
+    "build:sources": "python3 tools/sifrp-data/build.py packs/_source",
+    "build:packs": "node tools/compile-packs.mjs",
+    "build": "npm run build:sources && npm run build:packs",
+    "lint": "eslint module"
+  },
   "devDependencies": {
-    "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
+    "classic-level": "^2.0.0",
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.2",
-    "pixi": "^0.3.1",
     "prettier": "^2.7.1"
   },
   "husky": {

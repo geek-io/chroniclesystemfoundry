@@ -1,0 +1,45 @@
+{
+  "_id": "COCCS8SgENp893m2",
+  "name": "Bastard Sword",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A sword of the knightly sort.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 10.0,
+    "quantity": 1,
+    "cost": "700 ss",
+    "specialty": "Fighting:Long Blades",
+    "training": 1,
+    "damage": "@Athletics+1",
+    "qualities": [
+      {
+        "name": "Adaptable",
+        "parameter": ""
+      }
+    ],
+    "reach": "1",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!COCCS8SgENp893m2"
+}

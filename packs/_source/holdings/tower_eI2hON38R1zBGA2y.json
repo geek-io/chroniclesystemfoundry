@@ -1,0 +1,35 @@
+{
+  "_id": "eI2hON38R1zBGA2y",
+  "name": "Tower",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>A single free-standing tower. Units defending it gain +3 Defense.</p><p><em>SIFRP p. 106</em></p>",
+    "investment": 10,
+    "buildTime": "36+10d6 months",
+    "resource": "defense",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "SIFRP p. 106"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eI2hON38R1zBGA2y"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "dCFlR9TVV0ZWRsg2",
+  "name": "Greatsword",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>A sword of the knightly sort.</p>",
+    "type": "",
+    "source": "SIFRP p. 310",
+    "weight": 15.0,
+    "quantity": 1,
+    "cost": "800 ss",
+    "specialty": "Fighting:Long Blades",
+    "training": 0,
+    "damage": "@Athletics+3",
+    "qualities": [
+      {
+        "name": "Powerful",
+        "parameter": ""
+      },
+      {
+        "name": "Slow",
+        "parameter": ""
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      },
+      {
+        "name": "Unwieldy",
+        "parameter": ""
+      },
+      {
+        "name": "Vicious",
+        "parameter": ""
+      }
+    ],
+    "reach": "2",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dCFlR9TVV0ZWRsg2"
+}

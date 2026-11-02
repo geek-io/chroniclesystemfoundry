@@ -1,0 +1,33 @@
+{
+  "_id": "4EoCNGCyCEPovKBH",
+  "name": "Mummer",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>You can entertain audiences and earn coin doing it.</p><p><em>Ability quality. Full rules: SIFRP p. 87.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 87",
+    "categories": "Ability",
+    "requirements": "Persuasion 3",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4EoCNGCyCEPovKBH"
+}

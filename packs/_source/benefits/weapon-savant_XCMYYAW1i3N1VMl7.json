@@ -1,0 +1,33 @@
+{
+  "_id": "XCMYYAW1i3N1VMl7",
+  "name": "Weapon Savant",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Ignore training requirements and penalties with weapons.</p><p><em>Martial quality. Full rules: SIFRP p. 91.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 91",
+    "categories": "Martial",
+    "requirements": "Agility 4, Cunning 4, Fighting 5",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XCMYYAW1i3N1VMl7"
+}

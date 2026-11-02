@@ -1,0 +1,33 @@
+{
+  "_id": "vtLh7fMYtRjdf8F3",
+  "name": "Fast",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>+1 yard Movement; sprint at ×5 Movement.</p><p><em>Martial quality. Full rules: SIFRP p. 82.</em></p>",
+    "type": "",
+    "source": "SIFRP p. 82",
+    "categories": "Martial",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vtLh7fMYtRjdf8F3"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "nJDFrtSjJuPvjlNg",
+  "name": "Windfall",
+  "type": "event",
+  "img": "systems/chroniclesystem/assets/icons/event.png",
+  "system": {
+    "description": "<p>Extraordinary good fortune.</p><p><em>Historical Events table roll 18 (SIFRP p. 102).</em></p>",
+    "formulas": {
+      "defense": "+1d6",
+      "influence": "+2d6",
+      "lands": "+1d6",
+      "law": "+1d6",
+      "population": "+1d6",
+      "power": "+2d6",
+      "wealth": "+2d6"
+    },
+    "modifiers": {
+      "defense": 0,
+      "influence": 0,
+      "lands": 0,
+      "law": 0,
+      "population": 0,
+      "power": 0,
+      "wealth": 0
+    },
+    "playerChoice": false,
+    "numberOfChoices": 0,
+    "bonusToChoices": "",
+    "source": "SIFRP p. 102"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nJDFrtSjJuPvjlNg"
+}

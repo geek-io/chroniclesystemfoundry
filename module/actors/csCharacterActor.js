@@ -5,235 +5,246 @@ import LOGGER from "../utils/logger.js";
 import {CSConstants} from "../system/csConstants.js";
 
 /**
- * Extend the base Actor entity by defining a custom roll data structure which is ideal for the Simple system.
+ * Character (and NPC) actor.
+ *
+ * Modifiers (flat bonuses/penalties to the test result) and penalties (dice removed from the test) are derived every
+ * time the actor is prepared, from equipped gear and the current fatigue / injuries / wounds / frustration / stress.
+ * Nothing about them is written back to the database, so there is no risk of every connected client issuing the same
+ * update, and they can never drift out of sync with the items on the sheet.
  * @extends {CSActor}
  */
 export class CSCharacterActor extends CSActor {
-    modifiers;
-    penalties;
+    /** @type {Record<string, {_id: string, source: string, mod: number}[]>} */
+    modifiers = {};
 
-    prepareData() {
-        super.prepareData();
-        this.calculateMovementData();
-    }
+    /** @type {Record<string, {_id: string, source: string, mod: number}[]>} */
+    penalties = {};
 
-    prepareEmbeddedDocuments() {
-        super.prepareEmbeddedDocuments();
-    }
-
-    prepareDerivedData() {
-        super.prepareDerivedData()
-        this.calculateDerivedValues()
-
+    /**
+     * A brand-new, empty character starts with every standard ability at rank 2 (from the Abilities compendium).
+     * @override
+     */
+    async _preCreate(data, options, user) {
+        const allowed = await super._preCreate(data, options, user);
+        if (allowed === false) return false;
+        if (this.type !== "character" || data.items?.length || this._source.items?.length || options.fromCompendium) return allowed;
+        const pack = game.packs.get(`${CSConstants.SYSTEM_ID}.abilities`);
+        if (!pack) return allowed;
+        try {
+            const abilities = (await pack.getDocuments()).map((doc) => {
+                const item = doc.toObject();
+                item._stats = {compendiumSource: doc.uuid};
+                return item;
+            });
+            this.updateSource({items: abilities});
+        } catch (err) {
+            LOGGER.warn(`Could not add starting abilities: ${err.message}`);
+        }
+        return allowed;
     }
 
     /** @override */
-    getRollData() {
-        return super.getRollData();
+    prepareDerivedData() {
+        super.prepareDerivedData();
+        this._prepareModifiersAndPenalties();
+        this.calculateDerivedValues();
+        this.calculateMovementData();
     }
 
+    /* -------------------------------------------- */
+    /*  Modifiers & penalties                       */
+    /* -------------------------------------------- */
+
+    _prepareModifiersAndPenalties() {
+        const M = ChronicleSystem.modifiersConstants;
+        const K = ChronicleSystem.keyConstants;
+        const data = this.system;
+        this.modifiers = {};
+        this.penalties = {};
+
+        // Gear
+        for (const item of this.items) {
+            const sys = item.system ?? {};
+            if (item.type === "armor") {
+                const bulk = SystemUtils.int(sys.bulk);
+                if (bulk > 0) this._push(this.modifiers, M.BULK, item.id, item.name, bulk);
+                if (SystemUtils.int(sys.equipped) > 0) {
+                    const penalty = SystemUtils.int(sys.penalty);
+                    this._push(this.modifiers, M.AGILITY, item.id, item.name, penalty);
+                    this._push(this.modifiers, M.COMBAT_DEFENSE, item.id, item.name, penalty);
+                    this._push(this.modifiers, M.DAMAGE_TAKEN, item.id, item.name, SystemUtils.int(sys.rating));
+                }
+            } else if (item.type === "weapon") {
+                for (const quality of SystemUtils.toArray(sys.qualities)) {
+                    if (String(quality?.name ?? "").toLowerCase() === M.BULK) {
+                        this._push(this.modifiers, M.BULK, item.id, item.name, SystemUtils.int(quality.parameter));
+                    }
+                }
+            }
+        }
+
+        // Conditions
+        const fatigue = SystemUtils.int(data.derivedStats?.fatigue?.current);
+        if (fatigue > 0) this._push(this.modifiers, M.ALL, K.FATIGUE, SystemUtils.localize(K.FATIGUE), -fatigue);
+
+        const injuries = SystemUtils.toArray(data.injuries).length;
+        if (injuries > 0) this._push(this.modifiers, M.ALL, K.INJURY, SystemUtils.localize(K.INJURY), -injuries);
+
+        const wounds = SystemUtils.toArray(data.wounds).length;
+        if (wounds > 0) this._push(this.penalties, M.ALL, K.WOUNDS, SystemUtils.localize(K.WOUNDS), wounds);
+
+        const frustration = SystemUtils.int(data.derivedStats?.frustration?.current);
+        if (frustration > 0) {
+            this._push(this.penalties, M.DECEPTION, K.FRUSTRATION, SystemUtils.localize(K.FRUSTRATION), frustration);
+            this._push(this.penalties, M.PERSUASION, K.FRUSTRATION, SystemUtils.localize(K.FRUSTRATION), frustration);
+        }
+
+        const stress = SystemUtils.int(data.currentStress);
+        if (stress > 0) {
+            for (const type of [M.AWARENESS, M.CUNNING, M.STATUS]) {
+                this._push(this.penalties, type, K.STRESS, SystemUtils.localize(K.STRESS), stress);
+            }
+        }
+    }
+
+    _push(target, type, id, source, mod) {
+        if (!mod) return;
+        (target[type] ??= []).push({_id: id, source, mod});
+    }
+
+    _sum(collection, type, includeDetail, includeGlobal) {
+        let total = 0;
+        const detail = [];
+        const lists = [collection[type] ?? []];
+        if (includeGlobal && type !== ChronicleSystem.modifiersConstants.ALL) {
+            lists.push(collection[ChronicleSystem.modifiersConstants.ALL] ?? []);
+        }
+        for (const list of lists) {
+            for (const entry of list) {
+                total += entry.mod;
+                if (includeDetail) detail.push({docName: entry.source, mod: entry.mod});
+            }
+        }
+        return {total, detail};
+    }
+
+    getModifier(type, includeDetail = false, includeModifierGlobal = false) {
+        return this._sum(this.modifiers, String(type).toLowerCase(), includeDetail, includeModifierGlobal);
+    }
+
+    getPenalty(type, includeDetail = false, includeModifierGlobal = false) {
+        return this._sum(this.penalties, String(type).toLowerCase(), includeDetail, includeModifierGlobal);
+    }
+
+    /** @deprecated Modifiers are derived automatically; kept so old macros do not throw. */
+    updateTempModifiers() {}
+
+    /** @deprecated Penalties are derived automatically; kept so old macros do not throw. */
+    updateTempPenalties() {}
+
+    /** @deprecated */
+    saveModifiers() {}
+
+    /** @deprecated */
+    savePenalties() {}
+
+    /* -------------------------------------------- */
+    /*  Derived statistics                          */
+    /* -------------------------------------------- */
 
     calculateDerivedValues() {
-        let data = this.getCSData();
-        data.derivedStats.intrigueDefense.value = this.calcIntrigueDefense();
-        data.derivedStats.intrigueDefense.total = data.derivedStats.intrigueDefense.value + parseInt(data.derivedStats.intrigueDefense.modifier);
-        data.derivedStats.composure.value = this.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.WILL)) * 3;
-        data.derivedStats.composure.total = data.derivedStats.composure.value + parseInt(data.derivedStats.composure.modifier);
-        data.derivedStats.combatDefense.value = this.calcCombatDefense();
+        const ds = this.system.derivedStats;
+        const K = ChronicleSystem.keyConstants;
+        const mod = (stat) => SystemUtils.int(stat.modifier);
 
+        ds.intrigueDefense.value = this.calcIntrigueDefense();
+        ds.intrigueDefense.total = ds.intrigueDefense.value + mod(ds.intrigueDefense);
 
-        data.derivedStats.combatDefense.total = data.derivedStats.combatDefense.value + parseInt(data.derivedStats.combatDefense.modifier);
-        data.derivedStats.health.value = this.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.ENDURANCE)) * 3;
-        data.derivedStats.health.total = data.derivedStats.health.value + parseInt(data.derivedStats.health.modifier);
-        data.derivedStats.frustration.value = this.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.WILL));
-        data.derivedStats.frustration.total = data.derivedStats.frustration.value + parseInt(data.derivedStats.frustration.modifier);
-        data.derivedStats.fatigue.value = this.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.ENDURANCE));
-        data.derivedStats.fatigue.total = data.derivedStats.fatigue.value + parseInt(data.derivedStats.fatigue.modifier);
+        ds.composure.value = this.getAbilityValue(SystemUtils.localize(K.WILL)) * 3;
+        ds.composure.total = ds.composure.value + mod(ds.composure);
+
+        ds.combatDefense.value = this.calcCombatDefense();
+        ds.combatDefense.total = ds.combatDefense.value + mod(ds.combatDefense);
+
+        ds.health.value = this.getAbilityValue(SystemUtils.localize(K.ENDURANCE)) * 3;
+        ds.health.total = ds.health.value + mod(ds.health);
+
+        ds.frustration.value = this.getAbilityValue(SystemUtils.localize(K.WILL));
+        ds.frustration.total = ds.frustration.value + mod(ds.frustration);
+
+        ds.fatigue.value = this.getAbilityValue(SystemUtils.localize(K.ENDURANCE));
+        ds.fatigue.total = ds.fatigue.value + mod(ds.fatigue);
+
+        // Armor rating of the equipped armor, for convenience on the sheet and in macros.
+        ds.armorRating.value = this.getModifier(ChronicleSystem.modifiersConstants.DAMAGE_TAKEN).total;
+        ds.armorRating.total = ds.armorRating.value + mod(ds.armorRating);
     }
 
+    calculateMovementData() {
+        const movement = this.system.movement;
+        const K = ChronicleSystem.keyConstants;
+        movement.base = ChronicleSystem.defaultMovement;
+        const runFormula = ChronicleSystem.getActorAbilityFormula(this, SystemUtils.localize(K.ATHLETICS), SystemUtils.localize(K.RUN));
+        movement.runBonus = Math.floor(runFormula.bonusDice / 2);
+        const bulkMod = this.getModifier(ChronicleSystem.modifiersConstants.BULK);
+        movement.bulk = Math.floor(bulkMod.total / 2);
+        movement.total = Math.max(movement.base + movement.runBonus - movement.bulk + SystemUtils.int(movement.modifier), 1);
+        movement.sprintTotal = movement.total * SystemUtils.int(movement.sprintMultiplier, 4) - movement.bulk;
+    }
+
+    calcIntrigueDefense() {
+        const K = ChronicleSystem.keyConstants;
+        return this.getAbilityValue(SystemUtils.localize(K.AWARENESS)) +
+            this.getAbilityValue(SystemUtils.localize(K.CUNNING)) +
+            this.getAbilityValue(SystemUtils.localize(K.STATUS));
+    }
+
+    calcCombatDefense() {
+        const K = ChronicleSystem.keyConstants;
+        let value = this.getAbilityValue(SystemUtils.localize(K.AWARENESS)) +
+            this.getAbilityValue(SystemUtils.localize(K.AGILITY)) +
+            this.getAbilityValue(SystemUtils.localize(K.ATHLETICS));
+
+        let asoiafStyle = false;
+        try {
+            asoiafStyle = game.settings.get(CSConstants.Settings.SYSTEM_NAME, CSConstants.Settings.ASOIAF_DEFENSE_STYLE);
+        } catch (err) {
+            asoiafStyle = false;
+        }
+        if (asoiafStyle) value += this.getModifier(ChronicleSystem.modifiersConstants.COMBAT_DEFENSE).total;
+        return value;
+    }
+
+    /* -------------------------------------------- */
+    /*  Abilities                                   */
+    /* -------------------------------------------- */
+
     getAbilities() {
-        let items = this.getEmbeddedCollection("Item");
-        return items.filter((item) => item.type === 'ability');
+        return this.items.filter((item) => item.type === "ability");
     }
 
     getAbility(abilityName) {
-        let items = this.getEmbeddedCollection("Item");
-        const ability = items.find((item) => item.name.toLowerCase() === abilityName.toString().toLowerCase() && item.type === 'ability');
+        const name = String(abilityName ?? "").toLowerCase();
+        const ability = this.items.find((item) => item.type === "ability" && item.name.toLowerCase() === name);
         return [ability, undefined];
     }
 
     getAbilityBySpecialty(abilityName, specialtyName) {
-        let items = this.getEmbeddedCollection("Item");
-        let specialty = null;
-        const ability = items.filter((item) => item.type === 'ability' && item.name.toLowerCase() === abilityName.toString().toLowerCase()).find(function (ability) {
-            let data = ability.getCSData();
-            if (data.specialties === undefined)
-                return false;
-
-            // convert specialties list to array
-            let specialties = data.specialties;
-            let specialtiesArray = Object.keys(specialties).map((key) => specialties[key]);
-
-            specialty = specialtiesArray.find((specialty) => specialty.name.toLowerCase() === specialtyName.toString().toLowerCase());
-            if (specialty !== null && specialty !== undefined) {
-                return true;
-            }
+        const name = String(abilityName ?? "").toLowerCase();
+        const spec = String(specialtyName ?? "").toLowerCase();
+        let specialty;
+        const ability = this.items.find((item) => {
+            if (item.type !== "ability" || item.name.toLowerCase() !== name) return false;
+            specialty = SystemUtils.toArray(item.system.specialties)
+                .find((s) => String(s?.name ?? "").toLowerCase() === spec);
+            return !!specialty;
         });
-
         return [ability, specialty];
     }
 
-    getModifier(type, includeDetail = false, includeModifierGlobal = false) {
-        this.updateTempModifiers();
-
-        let total = 0;
-        let detail = [];
-
-        if (this.modifiers[type]) {
-            this.modifiers[type].forEach((modifier) => {
-                total += modifier.mod;
-                if (includeDetail) {
-                    let tempItem = modifier._id;
-                    if (modifier.isDocument) {
-                        tempItem = this.getEmbeddedDocument('Item', modifier._id);
-                    }
-                    if (tempItem) {
-                        detail.push({docName: tempItem.name, mod: modifier.mod});
-                    }
-                }
-            });
-        }
-
-        if (includeModifierGlobal && this.modifiers[ChronicleSystem.modifiersConstants.ALL]) {
-            this.modifiers[ChronicleSystem.modifiersConstants.ALL].forEach((modifier) => {
-                total += modifier.mod;
-                if (includeDetail) {
-                    let tempItem = modifier._id;
-                    if (modifier.isDocument) {
-                        tempItem = this.getEmbeddedDocument('Item', modifier._id);
-                    }
-                    if (tempItem)
-                        detail.push({docName: tempItem.name, mod: modifier.mod});
-                }
-            });
-        }
-
-        return { total: total, detail: detail};
-    }
-
-    getPenalty(type, includeDetail = false, includeModifierGlobal = false) {
-        this.updateTempPenalties();
-
-        let total = 0;
-        let detail = [];
-
-        if (this.penalties[type]) {
-            this.penalties[type].forEach((penalty) => {
-                total += penalty.mod;
-                if (includeDetail) {
-                    let tempItem = penalty._id;
-                    if (penalty.isDocument) {
-                        tempItem = this.getEmbeddedDocument('Item', penalty._id);
-                    }
-                    if (tempItem) {
-                        detail.push({docName: tempItem.name, mod: penalty.mod});
-                    }
-                }
-            });
-        }
-
-        if (includeModifierGlobal && this.penalties[ChronicleSystem.modifiersConstants.ALL]) {
-            this.penalties[ChronicleSystem.modifiersConstants.ALL].forEach((penalty) => {
-                total += penalty.mod;
-                if (includeDetail) {
-                    let tempItem = penalty._id;
-                    if (penalty.isDocument) {
-                        tempItem = this.getEmbeddedDocument('Item', penalty._id);
-                    }
-                    if (tempItem)
-                        detail.push({docName: tempItem.name, mod: penalty.mod});
-                }
-            });
-        }
-
-        return { total: total, detail: detail};
-    }
-
-    addModifier(type, documentId, value, isDocument = true, save = false) {
-        LOGGER.trace(`add ${documentId} modifier to ${type} | csCharacterActor.js`);
-
-        console.assert(this.modifiers, "call actor.updateTempModifiers before adding a modifier!");
-
-        if (!this.modifiers[type]) {
-            this.modifiers[type] = [];
-        }
-
-        let index = this.modifiers[type].findIndex((mod) => {
-            return mod._id === documentId
-        });
-        if (index >= 0) {
-            this.modifiers[type][index].mod = value;
-        } else {
-            this.modifiers[type].push({_id: documentId, mod: value, isDocument: isDocument});
-        }
-
-        if (save) {
-            this.update({"data.modifiers": this.modifiers});
-        }
-    }
-
-    addPenalty(type, documentId, value, isDocument = true, save = false) {
-        LOGGER.trace(`add ${documentId} penalty to ${type} | csCharacterActor.js`);
-
-        console.assert(this.penalties, "call actor.updateTempPenalties before adding a penalty!");
-
-        if (!this.penalties[type]) {
-            this.penalties[type] = [];
-        }
-
-        let index = this.penalties[type].findIndex((mod) => {
-            return mod._id === documentId
-        });
-
-        if (index >= 0) {
-            this.penalties[type][index].mod = value;
-        } else {
-            this.penalties[type].push({
-                _id: documentId,
-                mod: value,
-                isDocument: isDocument
-            });
-        }
-
-        if (save) {
-            this.update({"data.penalties": this.penalties});
-        }
-    }
-
-    removeModifier(type, documentId, save = false) {
-        LOGGER.trace(`remove ${documentId} modifier to ${type} | csCharacterActor.js`);
-
-        console.assert(this.modifiers, "call actor.updateTempModifiers before removing a modifier!");
-
-        if (this.modifiers[type]) {
-            let index = this.modifiers[type].indexOf((mod) => mod._id === documentId);
-            this.modifiers[type].splice(index, 1);
-        }
-        if (save)
-            this.update({"data.modifiers" : this.modifiers});
-    }
-
-    removePenalty(type, documentId, save = false) {
-        LOGGER.trace(`remove ${documentId} penalty to ${type} | csCharacterActor.js`);
-
-        console.assert(this.penalties, "call actor.updateTempPenalties before removing a penalty!");
-
-        if (this.penalties[type]) {
-            let index = this.penalties[type].indexOf((mod) => mod._id === documentId);
-            this.penalties[type].splice(index, 1);
-        }
-        if (save)
-            this.update({"data.penalties" : this.penalties});
+    getAbilityValue(abilityName) {
+        const [ability] = this.getAbility(abilityName);
+        return ability !== undefined ? SystemUtils.int(ability.system.rating, 2) : 2;
     }
 
     getMaxInjuries() {
@@ -244,90 +255,94 @@ export class CSCharacterActor extends CSActor {
         return this.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.ENDURANCE));
     }
 
-    saveModifiers() {
-        console.assert(this.modifiers, "call actor.updateTempModifiers before saving the modifiers!");
-        this.update({"data.modifiers" : this.modifiers}, {diff:false});
+    /* -------------------------------------------- */
+    /*  Condition tracks (used by the sheet)        */
+    /* -------------------------------------------- */
+
+    async setFrustration(value) {
+        const v = Math.clamp(SystemUtils.int(value), 0, this.system.derivedStats.frustration.total);
+        return this.update({"system.derivedStats.frustration.current": v});
     }
 
-    savePenalties() {
-        console.assert(this.penalties, "call actor.updateTempPenalties before saving the penalties!");
-        this.update({"data.penalties" : this.penalties}, {diff:false});
+    async setFatigue(value) {
+        const v = Math.clamp(SystemUtils.int(value), 0, this.system.derivedStats.fatigue.total);
+        return this.update({"system.derivedStats.fatigue.current": v});
     }
 
-    getAbilityValue(abilityName) {
-        const [ability,] = this.getAbility(abilityName);
-        return ability !== undefined? ability.getCSData().rating : 2;
+    async setStress(value) {
+        const v = Math.clamp(SystemUtils.int(value), 0, this.system.derivedStats.frustration.total);
+        return this.update({"system.currentStress": v});
     }
 
-    calcIntrigueDefense() {
-        return this.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.AWARENESS)) +
-            this.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.CUNNING)) +
-            this.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.STATUS));
+    async addInjury(text = "") {
+        const injuries = SystemUtils.toArray(this.system.injuries);
+        if (injuries.length >= this.getMaxInjuries()) return null;
+        injuries.push(text);
+        return this.update({"system.injuries": injuries});
     }
 
-    calcCombatDefense() {
-        let value = this.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.AWARENESS)) +
-            this.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.AGILITY)) +
-            this.getAbilityValue(SystemUtils.localize(ChronicleSystem.keyConstants.ATHLETICS));
-
-        if (game.settings.get(CSConstants.Settings.SYSTEM_NAME, CSConstants.Settings.ASOIAF_DEFENSE_STYLE)){
-            let mod = this.getModifier(ChronicleSystem.modifiersConstants.COMBAT_DEFENSE);
-            value += mod.total;
-        }
-
-        return value;
+    async removeInjury(index) {
+        const injuries = SystemUtils.toArray(this.system.injuries);
+        injuries.splice(index, 1);
+        return this.update({"system.injuries": injuries});
     }
 
-    calculateMovementData() {
-        let data = this.getCSData();
-        data.movement.base = ChronicleSystem.defaultMovement;
-        let runFormula = ChronicleSystem.getActorAbilityFormula(this, SystemUtils.localize(ChronicleSystem.keyConstants.ATHLETICS), SystemUtils.localize(ChronicleSystem.keyConstants.RUN));
-        data.movement.runBonus = Math.floor(runFormula.bonusDice / 2);
-        let bulkMod = this.getModifier(SystemUtils.localize(ChronicleSystem.modifiersConstants.BULK));
-        data.movement.bulk = Math.floor(bulkMod.total/2);
-        data.movement.total = Math.max(data.movement.base + data.movement.runBonus - data.movement.bulk + parseInt(data.movement.modifier), 1);
-        data.movement.sprintTotal = data.movement.total * data.movement.sprintMultiplier - data.movement.bulk;
+    async addWound(text = "") {
+        const wounds = SystemUtils.toArray(this.system.wounds);
+        if (wounds.length >= this.getMaxWounds()) return null;
+        wounds.push(text);
+        return this.update({"system.wounds": wounds});
     }
 
-    _onDeleteEmbeddedDocuments(embeddedName, documents, result, options, userId) {
-        super._onDeleteEmbeddedDocuments(embeddedName, documents, result, options, userId);
-        this.updateTempModifiers();
-        for (let i = 0; i < documents.length; i++) {
-            documents[i].onDiscardedFromActor(this, result[0]);
-        }
-        this.saveModifiers();
+    async removeWound(index) {
+        const wounds = SystemUtils.toArray(this.system.wounds);
+        wounds.splice(index, 1);
+        return this.update({"system.wounds": wounds});
     }
 
-    _onCreateEmbeddedDocuments(embeddedName, documents, result, options, userId) {
-        super._onCreateEmbeddedDocuments(embeddedName, documents, result, options, userId);
-        this.updateTempModifiers();
-        for (let i = 0; i < documents.length; i++) {
-            documents[i].onObtained(this);
-        }
+    /* -------------------------------------------- */
+    /*  Equipment                                   */
+    /* -------------------------------------------- */
 
-        this.saveModifiers();
-    }
-
-    _onUpdateDescendantDocuments(embeddedName, documents, result, options, userId) {
-        super._onUpdateDescendantDocuments(embeddedName, documents, result, options, userId);
-        this.updateTempModifiers();
-        result.forEach((doc) => {
-            let item = this.items.find((item) => item._id === doc._id);
-            if (item) {
-                item.onObtained(this);
-                item.onEquippedChanged(this, item.getCSData().equipped > 0);
+    /**
+     * Change what an item is equipped in, unequipping whatever else occupies the slot(s).
+     * @param {Item} item
+     * @param {number} hand   One of ChronicleSystem.equippedConstants (0 to unequip).
+     */
+    async setEquipped(item, hand) {
+        const E = ChronicleSystem.equippedConstants;
+        hand = SystemUtils.int(hand);
+        const qualities = SystemUtils.toArray(item.system.qualities).map((q) => String(q?.name ?? "").toLowerCase());
+        const isAdaptable = qualities.includes("adaptable");
+        const isTwoHanded = qualities.includes("two-handed");
+        const current = SystemUtils.int(item.system.equipped);
+        const updates = [];
+        const unequipSlots = (slots) => {
+            for (const other of this.items) {
+                if (other.id === item.id) continue;
+                if (slots.includes(SystemUtils.int(other.system.equipped))) {
+                    updates.push({_id: other.id, "system.equipped": E.IS_NOT_EQUIPPED});
+                }
             }
-        })
-        this.saveModifiers();
-    }
+        };
 
-    updateTempModifiers() {
-        let data = this.getCSData()
-        this.modifiers = data.modifiers;
-    }
-
-    updateTempPenalties() {
-        let data = this.getCSData()
-        this.penalties = data.penalties;
+        let target = hand;
+        if (hand === E.IS_NOT_EQUIPPED) {
+            // Clicking the off hand of an adaptable weapon held in one hand switches it to both hands.
+            if (isAdaptable && current !== E.BOTH_HANDS && current !== E.IS_NOT_EQUIPPED && item.type === "weapon") {
+                unequipSlots([E.MAIN_HAND, E.OFFHAND, E.BOTH_HANDS]);
+                target = E.BOTH_HANDS;
+            }
+        } else if (hand === E.WEARING) {
+            unequipSlots([E.WEARING]);
+        } else if (isTwoHanded) {
+            unequipSlots([E.MAIN_HAND, E.OFFHAND, E.BOTH_HANDS]);
+            target = E.BOTH_HANDS;
+        } else {
+            unequipSlots([hand, E.BOTH_HANDS]);
+        }
+        updates.push({_id: item.id, "system.equipped": target});
+        LOGGER.trace(`setEquipped ${item.name} -> ${target} | csCharacterActor.js`);
+        return this.updateEmbeddedDocuments("Item", updates);
     }
 }

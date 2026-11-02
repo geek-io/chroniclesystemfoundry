@@ -1,0 +1,33 @@
+{
+  "_id": "o4W77AWTr5v1HG3Y",
+  "name": "Language",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Each language is tracked separately (Common Tongue, High Valyrian, Old Tongue...). Rank shows fluency.</p>",
+    "type": "",
+    "source": "SIFRP p. 64",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!o4W77AWTr5v1HG3Y"
+}

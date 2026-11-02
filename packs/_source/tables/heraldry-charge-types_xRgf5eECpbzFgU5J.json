@@ -1,0 +1,185 @@
+{
+  "_id": "xRgf5eECpbzFgU5J",
+  "name": "Heraldry: Charge Types",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Coat of arms: what kind of charge to add, then roll on the matching table.</p><p><em>SIFRP p. 116</em></p>",
+  "results": [
+    {
+      "_id": "CEmUMIW6UnbMkGmF",
+      "type": "text",
+      "name": "Heraldic line — roll on Heraldry: Heraldic Lines",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!xRgf5eECpbzFgU5J.CEmUMIW6UnbMkGmF"
+    },
+    {
+      "_id": "HjC3vAP5tstVuzHA",
+      "type": "text",
+      "name": "Plant — roll on Heraldry: Plants",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!xRgf5eECpbzFgU5J.HjC3vAP5tstVuzHA"
+    },
+    {
+      "_id": "KizUAmnree39wwvU",
+      "type": "text",
+      "name": "Animal — roll on Heraldry: Animals",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        6,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!xRgf5eECpbzFgU5J.KizUAmnree39wwvU"
+    },
+    {
+      "_id": "hdp98jKMSoMq1wTC",
+      "type": "text",
+      "name": "Ordinary — roll on Heraldry: Ordinaries",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        8,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!xRgf5eECpbzFgU5J.hdp98jKMSoMq1wTC"
+    },
+    {
+      "_id": "EdQ1fbsqI8DhffAC",
+      "type": "text",
+      "name": "Subordinary (see the book)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        14,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!xRgf5eECpbzFgU5J.EdQ1fbsqI8DhffAC"
+    },
+    {
+      "_id": "hYOjFGA1BGBWO2KH",
+      "type": "text",
+      "name": "Object (see the book)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.0",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!xRgf5eECpbzFgU5J.hYOjFGA1BGBWO2KH"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!xRgf5eECpbzFgU5J"
+}

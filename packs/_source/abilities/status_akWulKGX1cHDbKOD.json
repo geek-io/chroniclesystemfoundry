@@ -1,0 +1,54 @@
+{
+  "_id": "akWulKGX1cHDbKOD",
+  "name": "Status",
+  "type": "ability",
+  "img": "systems/chroniclesystem/assets/icons/ability.png",
+  "system": {
+    "description": "<p>Social standing and the knowledge that comes with it. Adds to Intrigue Defense; Stewardship drives House Fortunes.</p>",
+    "type": "",
+    "source": "SIFRP p. 66",
+    "rating": 2,
+    "modifier": 0,
+    "specialties": [
+      {
+        "name": "Breeding",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Reputation",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Stewardship",
+        "rating": 0,
+        "modifier": 0
+      },
+      {
+        "name": "Tournaments",
+        "rating": 0,
+        "modifier": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.0",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!akWulKGX1cHDbKOD"
+}
