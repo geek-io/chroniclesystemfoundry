@@ -2,9 +2,9 @@
 
 This is a fan-created implementation of **Green Ronin's Chronicle System** for **Foundry VTT**, this system is used in Swords Chronicle RPG and Song of Ice and Fire RPG. 
 
-v14 version for created by: Geek IO Dev Team
-Official Geek IO Discord Server: [https://geek-io.net/discord](https://geek-io.net/discord])
-All my work is always free, but a little bit of help is always appreciated:
+v14 version for created by: Geek IO Dev Team  
+Official Geek IO Discord Server: [https://geek-io.net/discord](https://geek-io.net/discord])  
+All my work is always free, but a little bit of help is always appreciated:  
 [![All my work is always free, but a little bit of help is always appreciated](assets/Patreon-Logo.png)][https://patreon.com/geekioshow]
 
 
