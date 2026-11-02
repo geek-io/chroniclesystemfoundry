@@ -206,18 +206,26 @@ body.theme-dark .chroniclesystem,
 
 .chroniclesystem.sheet .sheet-header h1.charname,
 .chroniclesystem.sheet .sheet-header h1.itemname {
-  height: 44px;
+  height: 40px;
   padding: 0;
   margin: 0;
   border-bottom: 0;
+  font-size: 1rem; /* reset Foundry's large h1 size so the input em below stays predictable */
+  line-height: 1;
+  overflow: hidden;
 }
 
 .chroniclesystem.sheet .sheet-header h1 input {
   width: 100%;
   height: 100%;
   margin: 0;
-  font-size: 1.6em;
+  padding: 0 var(--cs-gap-l);
+  font-size: 1.75rem;
+  line-height: 1;
   font-family: var(--font-h1, inherit);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .chroniclesystem.sheet .sheet-header .complements {
@@ -252,8 +260,21 @@ body.theme-dark .chroniclesystem,
   margin-bottom: var(--cs-gap-s);
 }
 
+.chroniclesystem.sheet nav.sheet-tabs {
+  display: flex;
+  flex-wrap: wrap; /* whole tabs drop to a second row on very narrow sheets; labels never wrap */
+  align-items: stretch;
+}
+
 .chroniclesystem.sheet nav.sheet-tabs .item {
-  padding: 3px 6px;
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+  line-height: 1.2;
+  white-space: nowrap;
+  padding: 4px 10px;
   background: var(--cs-tab);
   color: var(--cs-tab-text);
   font-weight: normal;
