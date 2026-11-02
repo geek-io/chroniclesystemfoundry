@@ -599,6 +599,59 @@ body.theme-dark .chroniclesystem,
 .chroniclesystem.sheet.character .techniques-list .item.work .resonance { font-style: italic; }
 .chroniclesystem.sheet.character .techniques-list .list-header .item-controls { flex: 0 0 7px; }
 
+/* Ancestries row on the Qualities tab */
+.chroniclesystem.sheet.actor .tab[data-tab="qualities"] { flex-wrap: wrap; align-content: flex-start; }
+.chroniclesystem.sheet.actor .tab[data-tab="qualities"] section.ancestries { flex: 0 0 100%; margin-bottom: var(--cs-gap-l); }
+.chroniclesystem.sheet.actor .tab[data-tab="qualities"] section.ancestries .qualities-list { display: flex; flex-wrap: wrap; }
+.chroniclesystem.sheet.actor .tab[data-tab="qualities"] section.ancestries .item.quality { flex: 1 1 45%; }
+
+/* Sorcery: defense, arts, traditions, works */
+.chroniclesystem.sheet.character .sorcery-stats { gap: var(--cs-gap-xl); align-items: flex-start; margin-bottom: var(--cs-gap-l); }
+.chroniclesystem.sheet.character .sorcery-stat { flex: 1; }
+.chroniclesystem.sheet.character .sorcery-defense { align-items: center; gap: var(--cs-gap-l); margin-top: 5px; }
+.chroniclesystem.sheet.character .sorcery-defense .stat-value {
+  flex: 0 0 48px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  background: var(--cs-field);
+  color: var(--cs-field-text);
+  border-radius: 3px;
+  padding: 2px 0;
+}
+.chroniclesystem.sheet.character .sorcery-defense .form-group { flex: 1; margin: 0; }
+.chroniclesystem.sheet.character .sorcery-defense input { flex: 0 0 50px; text-align: right; }
+.chroniclesystem.sheet.character .works-list { list-style: none; margin: 0 0 var(--cs-gap-l) 0; padding: 0; }
+.chroniclesystem.sheet.character .works-list .list-header { font-weight: bold; padding: 0 var(--cs-gap-s); align-items: flex-end; }
+.chroniclesystem.sheet.character .works-list .list-header .item-controls { flex: 0 0 56px; }
+.chroniclesystem.sheet.character .works-list .item.work {
+  display: block;
+  margin: var(--cs-gap-s) 0;
+  padding: var(--cs-gap-s) var(--cs-gap-m);
+  background: var(--cs-field);
+  color: var(--cs-field-text);
+}
+.chroniclesystem.sheet.character .works-list .work-row { align-items: center; gap: var(--cs-gap-m); }
+.chroniclesystem.sheet.character .works-list .work-name { cursor: pointer; }
+.chroniclesystem.sheet.character .works-list .work-name a { color: var(--cs-field-text); }
+.chroniclesystem.sheet.character .works-list .work-art { font-size: 0.85em; color: var(--cs-muted); }
+.chroniclesystem.sheet.character .works-list .work-rolls { flex-wrap: wrap; gap: 4px; justify-content: center; }
+.chroniclesystem.sheet.character .works-list .work-rolls a.rollable {
+  flex: 0 0 auto;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: var(--cs-secondary);
+  color: var(--cs-secondary-text);
+  white-space: nowrap;
+}
+.chroniclesystem.sheet.character .works-list .work-rolls a.rollable:hover { background: var(--cs-hover); color: var(--cs-hover-text); }
+.chroniclesystem.sheet.character .works-list .work-meta { font-size: 0.9em; margin-bottom: var(--cs-gap-s); }
+.chroniclesystem.sheet.character .works-list .item-controls { flex: 0 0 56px; }
+.chroniclesystem.sheet.character .works-list .empty-note { font-style: italic; color: var(--cs-muted); padding: var(--cs-gap-m); }
+.chroniclesystem.sheet .form-group.stacked { flex-direction: column; align-items: stretch; }
+.chroniclesystem.sheet .form-group.stacked label { margin-bottom: 2px; }
+.chroniclesystem.sheet .form-group.stacked textarea { width: 100%; min-height: 2.6em; resize: vertical; }
+
 /* --------------------------------------------------------------------------
    House sheet
    -------------------------------------------------------------------------- */

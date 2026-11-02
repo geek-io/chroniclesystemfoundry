@@ -1,0 +1,33 @@
+{
+  "_id": "ulOx5irAJHDfDlLB",
+  "name": "Triple Shot",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Greater Action: three Marksmanship attacks at –2D each, against up to three adjacent targets.</p><p><em>Martial. Full rules: Sword Chronicle p. 59.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 59",
+    "categories": "Martial",
+    "requirements": "Marksmanship 7 (Bows 5B), Double Shot",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ulOx5irAJHDfDlLB"
+}

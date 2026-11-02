@@ -82,8 +82,16 @@ export class CSCharacterActorSheet extends CSActorSheet {
                 }
                 return {formula, damageValue: weapon.calculateDamage(actor), qualityList: weapon.qualities};
             }),
-            techniques: (await views("technique")).sort(byName)
+            techniques: (await views("technique")).sort(byName),
+            ancestries: await views("ancestry", (a) => ({enrichedRules: ""})),
+            traditions: (await views("tradition")).sort(byName),
+            arts: (await views("art")).sort(byName),
+            works: (await views("work", (w) => CSCharacterActorSheet.workView(w))).sort((a, b) =>
+                String(a.system.art).localeCompare(String(b.system.art)) || a.name.localeCompare(b.name))
         };
+        for (const ancestry of owned.ancestries) {
+            ancestry.enrichedRules = await SystemUtils.enrich(ancestry.system.rules, {relativeTo: actor, secrets: actor.isOwner});
+        }
         for (const ability of owned.abilities) ability.specialtyList = SystemUtils.toArray(ability.system.specialties);
         for (const armor of owned.armors) armor.qualityList = SystemUtils.toArray(armor.system.qualities);
 
@@ -128,6 +136,32 @@ export class CSCharacterActorSheet extends CSActorSheet {
             npcNotes: await enrich("npcNotes")
         };
         return context;
+    }
+
+    /** Roll targets and labels for a Sorcerous Work row. */
+    static workView(work) {
+        const s = work.system;
+        const type = s.workType ?? "SPELL";
+        const test = s.testAbility || "Will";
+        return {
+            typeLabel: CSConstants.WorkTypes[type] ?? type,
+            hasSpell: type !== "RITUAL",
+            hasRitual: type !== "SPELL",
+            spellAbility: test,
+            alignmentAbility: s.ritual?.alignmentAbility || "Knowledge",
+            invocationAbility: test,
+            unleashingAbility: "Will"
+        };
+    }
+
+    /** Dropping an Ancestry fills the header's Ancestry field from the owned ancestry items. */
+    async _createDroppedItem(event, item) {
+        const created = await super._createDroppedItem(event, item);
+        if (created?.type === "ancestry") {
+            const names = this.actor.items.filter((i) => i.type === "ancestry").map((i) => i.name);
+            await this.actor.update({"system.ancestries": names.join(" / ")});
+        }
+        return created;
     }
 
     _calculateIntrigueTechniques(actor) {

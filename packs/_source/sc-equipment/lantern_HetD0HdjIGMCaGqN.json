@@ -1,0 +1,36 @@
+{
+  "_id": "HetD0HdjIGMCaGqN",
+  "name": "Lantern",
+  "type": "equipment",
+  "img": "systems/chroniclesystem/assets/icons/equipment.png",
+  "system": {
+    "description": "<p>A shuttered, glass-enclosed lamp lighting about a 30-foot radius for 6 hours.</p><p><em>Personal Equipment — Sword Chronicle p. 109. Coinage (p. 108): copper penny (cp); silver drachma (sd) = 50 cp; gold piece (gp) = 200 sd or 1,000 cp.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 109",
+    "quantity": 1,
+    "cost": "2 sd"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "chroniclesystem": {
+      "category": "Personal Equipment"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HetD0HdjIGMCaGqN"
+}

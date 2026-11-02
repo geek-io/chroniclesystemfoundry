@@ -1,0 +1,48 @@
+{
+  "_id": "vwQDaTpij8I1AQvv",
+  "name": "Castigate",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Inflicts pain and harm with needles of occult power: an instant Wrack in combat, or a slow Doom worked through a poppet.</p><p><strong>Spell.</strong> Wrack: Will test against the target's Sorcery Defense, Close Range. Damage equal to Will × degrees, ignoring armor; trade a degree to deny the target's next Greater Action. Once paid for, keep wracking for the rest of the combat.</p><p><strong>Ritual.</strong> Alignment: Doom: Challenging (9) Knowledge, 1 hour. Invocation: Formidable (12) Will, 6 hours. Unleashing: Will against the target's Sorcery Defense: slow, agonizing harm that can doom the victim to death.</p><p><em>Art of Malediction — full rules: Sword Chronicle p. 100.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 100",
+    "art": "Art of Malediction",
+    "workType": "BOTH",
+    "testAbility": "Will",
+    "test": "Will",
+    "learningTime": "3 weeks",
+    "learningDifficulty": 9,
+    "price": "Spent",
+    "resonances": "None (spell), or a prepared poppet with a link to the target (ritual).",
+    "spell": {
+      "difficulty": "Wrack: Will test against the target's Sorcery Defense, Close Range.",
+      "notes": "Damage equal to Will × degrees, ignoring armor; trade a degree to deny the target's next Greater Action. Once paid for, keep wracking for the rest of the combat."
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "Doom: Challenging (9) Knowledge, 1 hour.",
+      "invocation": "Formidable (12) Will, 6 hours.",
+      "unleashing": "Will against the target's Sorcery Defense: slow, agonizing harm that can doom the victim to death."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vwQDaTpij8I1AQvv"
+}

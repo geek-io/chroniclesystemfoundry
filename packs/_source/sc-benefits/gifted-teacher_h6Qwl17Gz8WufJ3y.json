@@ -1,0 +1,33 @@
+{
+  "_id": "h6Qwl17Gz8WufJ3y",
+  "name": "Gifted Teacher",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>An hour's instruction and a Persuasion test (Routine for 1B up to Heroic for 6B) give a student a pool of bonus dice for Knowledge tests on the subject, drawn on with Cunning (Memory) tests.</p><p><em>Ability. Full rules: Sword Chronicle p. 53.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 53",
+    "categories": "Ability",
+    "requirements": "Knowledge 4, Persuasion 3",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!h6Qwl17Gz8WufJ3y"
+}

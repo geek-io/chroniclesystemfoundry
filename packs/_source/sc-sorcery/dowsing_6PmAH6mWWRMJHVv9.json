@@ -1,0 +1,48 @@
+{
+  "_id": "6PmAH6mWWRMJHVv9",
+  "name": "Dowsing",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Seeks out one kind of substance or object nearby (gold, water, a lost item...). Each kind is learned separately; a new version can be devised in double the time.</p><p><strong>Spell.</strong> By distance: within 50 feet Routine (6), 100 feet Challenging (9), 500 feet Formidable (12), Hard (15), 2,000 feet Very Hard (18), one mile Heroic (21). More degrees mean a faster, surer trail, from a 10-yard search area at one degree to the exact spot at four.</p><p><em>Art of Divination — full rules: Sword Chronicle p. 98.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 98",
+    "art": "Art of Divination",
+    "workType": "SPELL",
+    "testAbility": "Awareness",
+    "test": "Awareness",
+    "learningTime": "2 weeks",
+    "learningDifficulty": 6,
+    "price": "Spent",
+    "resonances": "The Method's resonances.",
+    "spell": {
+      "difficulty": "By distance: within 50 feet Routine (6), 100 feet Challenging (9), 500 feet Formidable (12), Hard (15), 2,000 feet Very Hard (18), one mile Heroic (21).",
+      "notes": "More degrees mean a faster, surer trail, from a 10-yard search area at one degree to the exact spot at four."
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "",
+      "invocation": "",
+      "unleashing": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6PmAH6mWWRMJHVv9"
+}

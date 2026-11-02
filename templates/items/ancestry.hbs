@@ -1,0 +1,40 @@
+<div class="cs-item-sheet flexcol {{cssClass}}">
+    {{> "systems/chroniclesystem/templates/items/partials/header-delete.hbs"}}
+    <main class="sheet-body flexrow">
+        <section class="item-stats">
+            <header class="header-field">
+                <span>{{localize "CS.sheets.ancestry.ages"}}</span>
+            </header>
+            {{> (csFormGroup) id="system.ages.youth" labelText="CS.sheets.ancestry.age.youth" inputCssClass="medium-field" value=system.ages.youth dataType="String"}}
+            {{> (csFormGroup) id="system.ages.adolescent" labelText="CS.sheets.ancestry.age.adolescent" inputCssClass="medium-field" value=system.ages.adolescent dataType="String"}}
+            {{> (csFormGroup) id="system.ages.youngAdult" labelText="CS.sheets.ancestry.age.youngAdult" inputCssClass="medium-field" value=system.ages.youngAdult dataType="String"}}
+            {{> (csFormGroup) id="system.ages.adult" labelText="CS.sheets.ancestry.age.adult" inputCssClass="medium-field" value=system.ages.adult dataType="String"}}
+            {{> (csFormGroup) id="system.ages.middleAge" labelText="CS.sheets.ancestry.age.middleAge" inputCssClass="medium-field" value=system.ages.middleAge dataType="String"}}
+            {{> (csFormGroup) id="system.ages.old" labelText="CS.sheets.ancestry.age.old" inputCssClass="medium-field" value=system.ages.old dataType="String"}}
+            {{> (csFormGroup) id="system.ages.veryOld" labelText="CS.sheets.ancestry.age.veryOld" inputCssClass="medium-field" value=system.ages.veryOld dataType="String"}}
+            {{> (csFormGroup) id="system.ages.venerable" labelText="CS.sheets.ancestry.age.venerable" inputCssClass="medium-field" value=system.ages.venerable dataType="String"}}
+            <header class="header-field flexrow">
+                <span>{{localize "CS.sheets.ancestry.benefits"}}</span>
+                <div class="header-field-add">
+                    <a data-action="addListEntry" data-list="benefitList" data-tooltip="CS.sheets.generalLabels.add"><i class="fa fa-plus"></i></a>
+                </div>
+            </header>
+            <ol class="list name-list">
+                {{#each benefitList as |entry id|}}
+                    <li class="item flexrow">
+                        <input class="big-field" type="text" name="system.benefitList.{{id}}.name" value="{{entry.name}}" data-dtype="String"/>
+                        <a class="item-controls" data-action="deleteListEntry" data-list="benefitList" data-id="{{id}}"><i class="fas fa-trash"></i></a>
+                    </li>
+                {{/each}}
+            </ol>
+            {{> "systems/chroniclesystem/templates/items/partials/source-field.hbs"}}
+        </section>
+        <section class="description">
+            {{> "systems/chroniclesystem/templates/items/partials/description.hbs"}}
+            <header class="header-field"><span>{{localize "CS.sheets.ancestry.rules"}}</span></header>
+            <div class="form-group description-text">
+                {{csEditor system.rules target="system.rules" enriched=enriched.rules uuid=item.uuid editable=editable}}
+            </div>
+        </section>
+    </main>
+</div>

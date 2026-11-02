@@ -1,0 +1,53 @@
+{
+  "_id": "yEpU7SAxCxf4EBXK",
+  "name": "Bow, Double-curved",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>Bows of wood, horn or bone, from hunting bows to tall longbows and horse archers' double-curved bows.</p><p><em>Sword Chronicle p. 136; cost Sword Chronicle p. 113.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 136",
+    "weight": 2.0,
+    "quantity": 1,
+    "cost": "500 sd",
+    "specialty": "Marksmanship:Bows",
+    "training": 1,
+    "damage": "@Agility+1",
+    "qualities": [
+      {
+        "name": "Long Range",
+        "parameter": ""
+      },
+      {
+        "name": "Powerful",
+        "parameter": ""
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yEpU7SAxCxf4EBXK"
+}

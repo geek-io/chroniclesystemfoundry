@@ -1,0 +1,33 @@
+{
+  "_id": "b4DD8mR4iQsas3fd",
+  "name": "Blood of the Ancient Ones",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>+2 Health and +2 to all Endurance test results.</p><p><em>Ancestry (Human). Full rules: Sword Chronicle p. 48.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 48",
+    "categories": "Ancestry (Human)",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!b4DD8mR4iQsas3fd"
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "I8XkNuOaDP05xt4z",
+  "name": "Tough",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Add your Resilience bonus dice to Health.</p><p><em>Ancestry (Ogre), Martial. Full rules: Sword Chronicle p. 59.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 59",
+    "categories": "Ancestry (Ogre), Martial",
+    "requirements": "Resilience 1B",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!I8XkNuOaDP05xt4z"
+}

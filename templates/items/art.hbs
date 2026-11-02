@@ -1,0 +1,40 @@
+<div class="cs-item-sheet flexcol {{cssClass}}">
+    {{> "systems/chroniclesystem/templates/items/partials/header-delete.hbs"}}
+    <main class="sheet-body flexrow">
+        <section class="item-stats">
+            <header class="header-field">
+                <span>{{localize "CS.sheets.generalLabels.details"}}</span>
+            </header>
+            <div class="form-group stacked">
+                <label>{{localize "CS.sheets.art.tools"}}</label>
+                <textarea name="system.tools" rows="3">{{system.tools}}</textarea>
+            </div>
+            <div class="form-group stacked">
+                <label>{{localize "CS.sheets.art.initiation"}}</label>
+                <textarea name="system.initiation" rows="3">{{system.initiation}}</textarea>
+            </div>
+            <div class="form-group stacked">
+                <label>{{localize "CS.sheets.art.resonances"}}</label>
+                <textarea name="system.resonances" rows="2">{{system.resonances}}</textarea>
+            </div>
+            <header class="header-field flexrow">
+                <span>{{localize "CS.sheets.art.works"}}</span>
+                <div class="header-field-add">
+                    <a data-action="addListEntry" data-list="workList" data-tooltip="CS.sheets.generalLabels.add"><i class="fa fa-plus"></i></a>
+                </div>
+            </header>
+            <ol class="list name-list">
+                {{#each workList as |entry id|}}
+                    <li class="item flexrow">
+                        <input class="big-field" type="text" name="system.workList.{{id}}.name" value="{{entry.name}}" data-dtype="String"/>
+                        <a class="item-controls" data-action="deleteListEntry" data-list="workList" data-id="{{id}}"><i class="fas fa-trash"></i></a>
+                    </li>
+                {{/each}}
+            </ol>
+            {{> "systems/chroniclesystem/templates/items/partials/source-field.hbs"}}
+        </section>
+        <section class="description">
+            {{> "systems/chroniclesystem/templates/items/partials/description.hbs"}}
+        </section>
+    </main>
+</div>

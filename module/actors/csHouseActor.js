@@ -20,7 +20,17 @@ export class CSHouseActor extends CSActor {
     static SINGLE_ROLES = ["HEAD", "STEWARD"];
 
     /** Starting resources are rolled on 7d6 each (SIFRP p. 99); realm modifiers are applied by hand. */
+    /** Default starting-resource roll (SIFRP p. 99); the world setting can switch it to Sword Chronicle's 8d6 − 2d6. */
     static RESOURCE_FORMULA = "7d6";
+
+    /** The starting-resource formula chosen in the system settings. */
+    static get resourceFormula() {
+        let key = "sifrp";
+        try {
+            key = game.settings.get(CSConstants.Settings.SYSTEM_NAME, CSConstants.Settings.HOUSE_RESOURCE_FORMULA);
+        } catch { /* settings not ready */ }
+        return CSConstants.HouseResourceFormulas[key]?.formula ?? CSHouseActor.RESOURCE_FORMULA;
+    }
 
     /** @override */
     prepareDerivedData() {
@@ -131,9 +141,9 @@ export class CSHouseActor extends CSActor {
     async regenerateAllStartingResources() {
         const update = {};
         for (const resource of CSConstants.HouseResourceKeys) {
-            const roll = new Roll(CSHouseActor.RESOURCE_FORMULA);
+            const roll = new Roll(CSHouseActor.resourceFormula);
             await roll.evaluate();
-            update[`system.${resource}.startingValue`] = roll.total;
+            update[`system.${resource}.startingValue`] = Math.max(roll.total, 1);
         }
         return this.update(update);
     }

@@ -1,0 +1,33 @@
+{
+  "_id": "51bd5NgqeQDv3dnL",
+  "name": "Polyglot",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Read any language you have at rank 1; a Formidable (12) Cunning test gives temporary ranks in an unfamiliar language for the scene.</p><p><em>Ability. Full rules: Sword Chronicle p. 56.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 56",
+    "categories": "Ability",
+    "requirements": "Cunning 4 (Decipher 1B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!51bd5NgqeQDv3dnL"
+}

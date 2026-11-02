@@ -1,0 +1,33 @@
+{
+  "_id": "V203QOPLheo0dId7",
+  "name": "Courteous",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Add half your Persuasion rank to Deception results, and your Cunning rank to passive Deception against Read Target.</p><p><em>Social. Full rules: Sword Chronicle p. 50.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 50",
+    "categories": "Social",
+    "requirements": "Persuasion 3",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!V203QOPLheo0dId7"
+}

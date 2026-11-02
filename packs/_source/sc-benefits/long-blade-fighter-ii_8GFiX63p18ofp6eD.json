@@ -1,0 +1,33 @@
+{
+  "_id": "8GFiX63p18ofp6eD",
+  "name": "Long Blade Fighter II",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Sacrifice bonus dice on a long blade hit to move yourself and your foe 1 yard per two dice (a dangerous push can be resisted with a Challenging 9 Agility test).</p><p><em>Martial. Full rules: Sword Chronicle p. 54.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 54",
+    "categories": "Martial",
+    "requirements": "Fighting 5, Long Blade Fighter I",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8GFiX63p18ofp6eD"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "Cdm73bGFKBSGGhGl",
+  "name": "Heir: Second Child",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>Status equals the house maximum –2 (minimum 3).</p><p><em>Sword Chronicle p. 73</em></p>",
+    "investment": 10,
+    "buildTime": "",
+    "resource": "influence",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "Sword Chronicle p. 73"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Cdm73bGFKBSGGhGl"
+}

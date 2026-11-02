@@ -1,0 +1,33 @@
+{
+  "_id": "OVgHvDF925e0uSQn",
+  "name": "Evaluation",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>A minute and a Challenging (9) Cunning test reveals an object's worth; extra degrees reveal its maker and history.</p><p><em>Ability, Ancestry (Dwarf). Full rules: Sword Chronicle p. 52.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 52",
+    "categories": "Ability, Ancestry (Dwarf)",
+    "requirements": "Knowledge 3",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OVgHvDF925e0uSQn"
+}

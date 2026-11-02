@@ -1,0 +1,33 @@
+{
+  "_id": "vD9DvH1fFX5GS4QQ",
+  "name": "Eloquent",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>In an intrigue held in a language you know at rank 4+, you always act first.</p><p><em>Social. Full rules: Sword Chronicle p. 52.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 52",
+    "categories": "Social",
+    "requirements": "Language 4, Persuasion 4",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vD9DvH1fFX5GS4QQ"
+}

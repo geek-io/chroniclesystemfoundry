@@ -1,0 +1,35 @@
+{
+  "_id": "UCJlYRxHHJf45CuA",
+  "name": "Maimed",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>As Marked, and you have lost a limb: a leg halves Movement and gives –1D on Athletics; an arm prevents two-handed weapons and gives –2D on two-handed tasks.</p><p><em>Full rules: Sword Chronicle p. 62.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 62",
+    "requireSorcerousArt": false,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "—"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UCJlYRxHHJf45CuA"
+}

@@ -87,6 +87,14 @@
       "ocrLanguage": {
         "name": "Importer OCR Language",
         "hint": "Tesseract language code(s) used when the importer reads images or scanned PDF pages, e.g. \"eng\" or \"eng+spa\"."
+      },
+      "houseResourceFormula": {
+        "name": "House starting resources",
+        "hint": "Dice rolled for each resource when a house regenerates its starting resources.",
+        "choices": {
+          "sifrp": "SIFRP: 7d6",
+          "swordChronicle": "Sword Chronicle: 8d6 − 2d6 (minimum 1)"
+        }
       }
     },
     "sheets": {
@@ -109,7 +117,9 @@
         "source": "Source",
         "qualities": "Qualities",
         "qualityName": "Quality name",
-        "parameter": "Parameter"
+        "parameter": "Parameter",
+        "current": "Current",
+        "max": "Max"
       },
       "house": {
         "character": {
@@ -188,7 +198,16 @@
         "age": "Age",
         "gender": "Gender",
         "benefits": "Benefits",
-        "drawbacks": "Drawbacks"
+        "drawbacks": "Drawbacks",
+        "ancestries": "Ancestries",
+        "traditions": "Traditions",
+        "arts": "Sorcerous Arts",
+        "works": "Sorcerous Works",
+        "sorceryDefense": "Sorcery Defense",
+        "averting": "Averting bonus",
+        "legacyTechniques": "Techniques (legacy)",
+        "noWorks": "No sorcerous works yet. Drag Works from the Sword Chronicle compendiums onto this sheet.",
+        "sorceryPoints": "Sorcery Points"
       },
       "eventItem": {
         "playerChoice": "Is a player choice?",
@@ -278,6 +297,56 @@
         "diagnosis": "Diagnosis",
         "effects": "Effects",
         "recovery": "Recovery"
+      },
+      "ancestry": {
+        "benefits": "Ancestry Benefits",
+        "rules": "Special Rules",
+        "ages": "Age Categories",
+        "age": {
+          "youth": "Youth",
+          "adolescent": "Adolescent",
+          "youngAdult": "Young Adult",
+          "adult": "Adult",
+          "middleAge": "Middle Age",
+          "old": "Old",
+          "veryOld": "Very Old",
+          "venerable": "Venerable"
+        }
+      },
+      "art": {
+        "tools": "Tools",
+        "initiation": "Initiation",
+        "resonances": "Common Resonances",
+        "works": "Works"
+      },
+      "work": {
+        "art": "Art",
+        "type": "Type",
+        "test": "Test",
+        "testAbility": "Test Ability",
+        "learning": "Learning",
+        "learningTime": "Learning Time",
+        "learningDifficulty": "Learning Difficulty",
+        "price": "Price",
+        "resonances": "Resonances",
+        "spell": "Spell",
+        "spellDifficulty": "Spellcasting Difficulty",
+        "spellNotes": "Spell Notes",
+        "ritual": "Ritual",
+        "alignment": "Alignment",
+        "alignmentAbility": "Alignment Ability",
+        "invocation": "Invocation",
+        "unleashing": "Unleashing (Will)",
+        "roll": "Roll",
+        "types": {
+          "spell": "Spell",
+          "ritual": "Ritual",
+          "both": "Ritual & Spell"
+        }
+      },
+      "tradition": {
+        "resonances": "Resonances",
+        "arts": "Favoured Arts"
       }
     },
     "constants": {
@@ -370,7 +439,11 @@
       "holding": "Holding",
       "technique": "Sorcery Technique",
       "weapon": "Weapon",
-      "poison": "Poison"
+      "poison": "Poison",
+      "ancestry": "Ancestry",
+      "art": "Sorcerous Art",
+      "work": "Sorcerous Work",
+      "tradition": "Sorcerous Tradition"
     }
   }
 }

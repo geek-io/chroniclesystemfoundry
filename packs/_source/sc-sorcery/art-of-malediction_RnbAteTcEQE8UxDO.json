@@ -1,0 +1,47 @@
+{
+  "_id": "RnbAteTcEQE8UxDO",
+  "name": "Art of Malediction",
+  "type": "art",
+  "img": "systems/chroniclesystem/assets/icons/art.png",
+  "system": {
+    "description": "<p>Brings ill fortune and harm on enemies: curses, pain, bewitchment and ruin. The most feared and often the most corrupt Art.</p><p><em>Sword Chronicle p. 100. A Sorcerous Benefit (Blood of the Sorcerers, Blood of the Far Isles, Natural Sorcerer or Sorcerous Initiation) grants access.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 100",
+    "tools": "Poppets and symbolic representations of the target, hair, nail parings, blood and other bodily links.",
+    "initiation": "Use Will instead of Status for your Intrigue Defense and intrigue initiative.",
+    "resonances": "A link to the target for Rituals.",
+    "workList": [
+      {
+        "name": "Castigate"
+      },
+      {
+        "name": "Curse"
+      },
+      {
+        "name": "Ensorcell"
+      },
+      {
+        "name": "Ruination"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!RnbAteTcEQE8UxDO"
+}

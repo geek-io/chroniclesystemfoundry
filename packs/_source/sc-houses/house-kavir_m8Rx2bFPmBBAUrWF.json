@@ -1,0 +1,86 @@
+{
+  "_id": "m8Rx2bFPmBBAUrWF",
+  "name": "House Kavir",
+  "type": "house",
+  "img": "icons/svg/castle.svg",
+  "system": {
+    "realm": "Aglam",
+    "liege": "",
+    "defense": {
+      "startingValue": 40,
+      "description": "<p>A Aglam house of the Breachlands (The Shattered Era).</p><p><em>Sword Chronicle p. 206. Resources are set just below the next category so the Narrator can raise them as the chronicle unfolds.</em></p>",
+      "total": 0
+    },
+    "influence": {
+      "startingValue": 65,
+      "description": "",
+      "total": 0
+    },
+    "lands": {
+      "startingValue": 40,
+      "description": "",
+      "total": 0
+    },
+    "law": {
+      "startingValue": 45,
+      "description": "",
+      "total": 0
+    },
+    "population": {
+      "startingValue": 40,
+      "description": "",
+      "total": 0
+    },
+    "power": {
+      "startingValue": 50,
+      "description": "",
+      "total": 0
+    },
+    "wealth": {
+      "startingValue": 55,
+      "description": "",
+      "total": 0
+    },
+    "historicalEvents": [],
+    "motto": "",
+    "members": {
+      "head": "",
+      "steward": "",
+      "heirs": [],
+      "family": [],
+      "retainers": [],
+      "servants": []
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "House Kavir",
+    "displayName": 20,
+    "actorLink": true,
+    "disposition": 0,
+    "texture": {
+      "src": "icons/svg/castle.svg"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!m8Rx2bFPmBBAUrWF"
+}

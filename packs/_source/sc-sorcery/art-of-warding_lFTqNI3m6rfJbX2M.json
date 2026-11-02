@@ -1,0 +1,50 @@
+{
+  "_id": "lFTqNI3m6rfJbX2M",
+  "name": "Art of Warding",
+  "type": "art",
+  "img": "systems/chroniclesystem/assets/icons/art.png",
+  "system": {
+    "description": "<p>Turns away unwanted magic. Wards have a Ward Rating that reduces sorcerous Damage and Influence, and a Ward Penalty to all casting they affect (p. 104).</p><p>Ward ratings (rating / penalty): Incidental 1/–1 · Apprentice 2/–1 · Basic 3/–2 · Standard 4/–3 · Adept 5/–1D · Potent 6/–1D · Powerful 7/–2D · Master 8/–2D · Arch-Ward 9/–3D.</p><p><em>Sword Chronicle p. 103. A Sorcerous Benefit (Blood of the Sorcerers, Blood of the Far Isles, Natural Sorcerer or Sorcerous Initiation) grants access.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 103",
+    "tools": "Salts and powders, mirrors and lead seals, protective oils, chalk, chisels and inks for sigils.",
+    "initiation": "Each degree on a folk-ward lasts ten minutes instead of one, and you may work folk-wards for others at Formidable (12).",
+    "resonances": "Protective salts, oils and inscribed sigils.",
+    "workList": [
+      {
+        "name": "Protection"
+      },
+      {
+        "name": "Focus Ward"
+      },
+      {
+        "name": "Warding Marks"
+      },
+      {
+        "name": "Warding Walls"
+      },
+      {
+        "name": "Sorcerer's Bane"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!lFTqNI3m6rfJbX2M"
+}

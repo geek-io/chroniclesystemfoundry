@@ -1,0 +1,61 @@
+{
+  "_id": "7dBBuL9olLfMKP2P",
+  "name": "Maul",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>Bludgeons crush rather than cut: clubs, maces, flails and hammers that smash armor and bone.</p><p><em>Sword Chronicle p. 136; cost Sword Chronicle p. 113.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 136",
+    "weight": 13.0,
+    "quantity": 1,
+    "cost": "80 sd",
+    "specialty": "Fighting:Bludgeons",
+    "training": 0,
+    "damage": "@Athletics+1",
+    "qualities": [
+      {
+        "name": "Bulk",
+        "parameter": "1"
+      },
+      {
+        "name": "Shattering",
+        "parameter": "1"
+      },
+      {
+        "name": "Slow",
+        "parameter": ""
+      },
+      {
+        "name": "Staggering",
+        "parameter": ""
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7dBBuL9olLfMKP2P"
+}

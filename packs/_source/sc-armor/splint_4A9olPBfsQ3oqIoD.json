@@ -1,0 +1,38 @@
+{
+  "_id": "4A9olPBfsQ3oqIoD",
+  "name": "Splint",
+  "type": "armor",
+  "img": "systems/chroniclesystem/assets/icons/armor.png",
+  "system": {
+    "description": "<p>Vertical metal strips around the torso with plates for shoulders, arms and legs.</p><p><em>Sword Chronicle p. 133; cost Sword Chronicle p. 115.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 133",
+    "weight": 50.0,
+    "rating": 7,
+    "penalty": -3,
+    "bulk": 3,
+    "qualities": [],
+    "equipped": 0,
+    "quantity": 1,
+    "cost": "1,000 sd"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4A9olPBfsQ3oqIoD"
+}

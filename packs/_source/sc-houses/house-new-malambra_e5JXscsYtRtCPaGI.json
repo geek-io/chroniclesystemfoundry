@@ -1,0 +1,86 @@
+{
+  "_id": "e5JXscsYtRtCPaGI",
+  "name": "House New Malambra",
+  "type": "house",
+  "img": "icons/svg/castle.svg",
+  "system": {
+    "realm": "Misral",
+    "liege": "",
+    "defense": {
+      "startingValue": 25,
+      "description": "<p>A Misral house of the Breachlands (The Shattered Era).</p><p><em>Sword Chronicle p. 206. Resources are set just below the next category so the Narrator can raise them as the chronicle unfolds.</em></p>",
+      "total": 0
+    },
+    "influence": {
+      "startingValue": 50,
+      "description": "",
+      "total": 0
+    },
+    "lands": {
+      "startingValue": 25,
+      "description": "",
+      "total": 0
+    },
+    "law": {
+      "startingValue": 35,
+      "description": "",
+      "total": 0
+    },
+    "population": {
+      "startingValue": 30,
+      "description": "",
+      "total": 0
+    },
+    "power": {
+      "startingValue": 25,
+      "description": "",
+      "total": 0
+    },
+    "wealth": {
+      "startingValue": 30,
+      "description": "",
+      "total": 0
+    },
+    "historicalEvents": [],
+    "motto": "",
+    "members": {
+      "head": "",
+      "steward": "",
+      "heirs": [],
+      "family": [],
+      "retainers": [],
+      "servants": []
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "House New Malambra",
+    "displayName": 20,
+    "actorLink": true,
+    "disposition": 0,
+    "texture": {
+      "src": "icons/svg/castle.svg"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!e5JXscsYtRtCPaGI"
+}

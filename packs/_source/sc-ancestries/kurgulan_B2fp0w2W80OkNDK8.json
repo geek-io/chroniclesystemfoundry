@@ -1,0 +1,64 @@
+{
+  "_id": "B2fp0w2W80OkNDK8",
+  "name": "Kurgulan",
+  "type": "ancestry",
+  "img": "systems/chroniclesystem/assets/icons/ancestry.png",
+  "system": {
+    "description": "<p>A heavy, hoofed people of the Shattered Era setting (about 350 lbs. on average) who live in huntgroups and closeherds, rarely within houses of other ancestries except some Ziyatul tribes. They age like ogres and cannot have children with the other ancestries.</p><p><em>Sword Chronicle p. 205. Choose two ancestry benefits at character creation (from one ancestry or two); more can be bought with Destiny Points.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 205",
+    "benefitList": [
+      {
+        "name": "Kurgulan Swiftness (mandatory)"
+      },
+      {
+        "name": "Kurgulan Toughness (mandatory)"
+      },
+      {
+        "name": "Blood of the Wasteland"
+      },
+      {
+        "name": "Blood of the Wild"
+      },
+      {
+        "name": "Cadre"
+      },
+      {
+        "name": "Danger Sense"
+      },
+      {
+        "name": "Fast"
+      }
+    ],
+    "rules": "<p>Kurgulan always have Kurgulan Swiftness and Kurgulan Toughness (their two ancestry benefit choices) and the Kurgulan Form and Non-Person flaws. They start with Athletics 4 and Survival 3 but Agility, Stealth and Thievery 1, gain Run, Strength, Resilience and Hunt at 1B, and can never take Contortions, Drive, Ride, Fencing, Breeding, Blend In or Sleight of Hand. Cadre needs Persuasion 3 or Warfare 2 (Command 1B); Danger Sense needs Awareness 2; Fast raises starting Movement to 7 yards. Starting Health is 4 × Endurance.</p>",
+    "ages": {
+      "youth": "0–9",
+      "adolescent": "10–13",
+      "youngAdult": "14–18",
+      "adult": "19–25",
+      "middleAge": "26–40",
+      "old": "41–50",
+      "veryOld": "51–55",
+      "venerable": "56+"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!B2fp0w2W80OkNDK8"
+}

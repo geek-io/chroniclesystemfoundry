@@ -1,0 +1,49 @@
+{
+  "_id": "vIgpuDLOC4oYuxFJ",
+  "name": "Shield, Tower",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>Shields range from small bucklers to tower shields and pavises that stop arrows.</p><p><em>Sword Chronicle p. 136; cost Sword Chronicle p. 113.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 136",
+    "weight": 10.0,
+    "quantity": 1,
+    "cost": "60 sd",
+    "specialty": "Fighting:Shields",
+    "training": 2,
+    "damage": "@Athletics-2",
+    "qualities": [
+      {
+        "name": "Bulk",
+        "parameter": "2"
+      },
+      {
+        "name": "Defensive",
+        "parameter": "+6"
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vIgpuDLOC4oYuxFJ"
+}

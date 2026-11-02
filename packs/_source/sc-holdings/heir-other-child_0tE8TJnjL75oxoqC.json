@@ -1,0 +1,35 @@
+{
+  "_id": "0tE8TJnjL75oxoqC",
+  "name": "Heir: Other Child",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>Status equals the house maximum –3 (minimum 3). Status 2 costs no Influence.</p><p><em>Sword Chronicle p. 73</em></p>",
+    "investment": 5,
+    "buildTime": "",
+    "resource": "influence",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "Sword Chronicle p. 73"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0tE8TJnjL75oxoqC"
+}

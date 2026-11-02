@@ -1,0 +1,48 @@
+{
+  "_id": "zerBAf2GJwLYdP2B",
+  "name": "Attunement",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Anoints a willing person so that one Work, or all the Works of an Art, functions better on them for a week or more. A critical failure leaves them with a thematic drawback for the duration.</p><p><strong>Spell.</strong> Challenging (9) to attune to one Work, Hard (15) to a whole Art; +3 per extra week (up to a month). Touch a willing target: 1–4 degrees give +1, +2, +1B or +1D to Spellcasting or Unleashing with that magic for a week.</p><p><em>Art of Benediction — full rules: Sword Chronicle p. 91.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 91",
+    "art": "Art of Benediction",
+    "workType": "SPELL",
+    "testAbility": "Persuasion",
+    "test": "Persuasion",
+    "learningTime": "3 weeks",
+    "learningDifficulty": 9,
+    "price": "Spent",
+    "resonances": "Specially prepared ointments and unguents (30 silver drachmas).",
+    "spell": {
+      "difficulty": "Challenging (9) to attune to one Work, Hard (15) to a whole Art; +3 per extra week (up to a month).",
+      "notes": "Touch a willing target: 1–4 degrees give +1, +2, +1B or +1D to Spellcasting or Unleashing with that magic for a week."
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "",
+      "invocation": "",
+      "unleashing": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zerBAf2GJwLYdP2B"
+}

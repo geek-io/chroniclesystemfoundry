@@ -1,0 +1,35 @@
+{
+  "_id": "1loSdG0AD6GAYWok",
+  "name": "Port",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>Brings merchant ships and exotic goods. Requires a coastline. +5 on House Fortunes; with a Marketplace, Wealth gains from fortunes become +1d6.</p><p><em>Sword Chronicle p. 79</em></p>",
+    "investment": 10,
+    "buildTime": "3d6 months",
+    "resource": "wealth",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 5,
+    "source": "Sword Chronicle p. 79"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!1loSdG0AD6GAYWok"
+}

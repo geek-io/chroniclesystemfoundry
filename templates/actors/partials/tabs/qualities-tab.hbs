@@ -1,4 +1,25 @@
 <div class="tab flexrow {{tabs.[qualities].cssClass}}" data-group="primary" data-tab="qualities">
+    <section class="ancestries">
+        <header class="header-field">
+            <span>{{localize "CS.sheets.character.ancestries"}}</span>
+        </header>
+        <ol class="qualities-list">
+            {{#each owned.ancestries}}
+                <li class="item draggable quality" data-item-id="{{_id}}">
+                    <div class="quality-label item-name">
+                        <label class="flex3" data-action="toggleDescription">{{name}}</label>
+                        {{#if ../owner}}
+                            <div class='item-controls'>
+                                <button type='button' class='item-delete' data-action="deleteItem" data-tooltip="CS.sheets.generalLabels.delete"><i class='fas fa-trash'></i></button>
+                                <button type='button' class='item-edit' data-action="editItem"><i class='fas fa-edit'></i></button>
+                            </div>
+                        {{/if}}
+                    </div>
+                    <div class="description hidden">{{{enrichedDescription}}}{{{enrichedRules}}}</div>
+                </li>
+            {{/each}}
+        </ol>
+    </section>
     <section class="benefits">
         <header class="header-field">
             <span>{{localize "CS.sheets.character.benefits"}}</span>

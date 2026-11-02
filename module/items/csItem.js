@@ -1,6 +1,7 @@
 import SystemUtils from "../utils/systemUtils.js";
 
-const ICON_TYPES = ["ability", "armor", "benefit", "drawback", "equipment", "event", "holding", "poison", "technique", "weapon"];
+const ICON_TYPES = ["ability", "armor", "benefit", "drawback", "equipment", "event", "holding", "poison", "technique", "weapon",
+    "ancestry", "art", "work", "tradition"];
 
 /**
  * Base item for the Chronicle System.

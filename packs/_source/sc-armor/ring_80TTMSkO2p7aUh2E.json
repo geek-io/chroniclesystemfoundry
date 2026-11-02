@@ -1,0 +1,38 @@
+{
+  "_id": "80TTMSkO2p7aUh2E",
+  "name": "Ring",
+  "type": "armor",
+  "img": "systems/chroniclesystem/assets/icons/armor.png",
+  "system": {
+    "description": "<p>Interlocking metal rings worn over hardened leather or padding.</p><p><em>Sword Chronicle p. 133; cost Sword Chronicle p. 115.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 133",
+    "weight": 20.0,
+    "rating": 4,
+    "penalty": -2,
+    "bulk": 1,
+    "qualities": [],
+    "equipped": 0,
+    "quantity": 1,
+    "cost": "600 sd"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!80TTMSkO2p7aUh2E"
+}

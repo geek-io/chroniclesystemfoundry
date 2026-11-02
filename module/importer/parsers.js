@@ -12,7 +12,8 @@ export const ABILITIES = [
     "Stealth", "Survival", "Thievery", "Warfare", "Will"
 ];
 
-export const ITEM_TYPES = ["ability", "armor", "benefit", "drawback", "equipment", "event", "holding", "poison", "technique", "weapon"];
+export const ITEM_TYPES = ["ability", "armor", "benefit", "drawback", "equipment", "event", "holding", "poison", "technique", "weapon",
+    "ancestry", "art", "work", "tradition"];
 export const ACTOR_TYPES = ["character", "npc", "house"];
 
 /* -------------------------------------------- */
@@ -367,7 +368,8 @@ function simpleItem(type, text) {
 
 /** Column-name synonyms per document field. */
 const COLUMN_ALIASES = {
-    name: ["name", "item", "weapon", "armor", "armour", "benefit", "drawback", "holding", "event", "poison", "technique", "title"],
+    name: ["name", "item", "weapon", "armor", "armour", "benefit", "drawback", "holding", "event", "poison", "technique", "title",
+        "ancestry", "work", "spell", "ritual", "tradition"],
     specialty: ["specialty", "speciality", "skill", "test"],
     ability: ["ability"],
     training: ["training", "train"],
@@ -392,7 +394,14 @@ const COLUMN_ALIASES = {
     frequency: ["frequency"],
     toxicity: ["toxicity"],
     diagnosis: ["diagnosis"],
-    source: ["source", "page", "reference", "ref"]
+    source: ["source", "page", "reference", "ref"],
+    art: ["art", "sorcerous art"],
+    workType: ["work type", "kind"],
+    price: ["price", "destiny", "cost in destiny"],
+    learning: ["learning", "learning time"],
+    learningDifficulty: ["learning difficulty", "difficulty"],
+    resonances: ["resonances", "resonance", "components"],
+    benefits: ["benefits", "ancestry benefits"]
 };
 
 function matchColumn(header) {
@@ -519,6 +528,25 @@ export function buildItem(type, record, extra = [], source = "") {
             break;
         case "poison":
             system = {...base, delivery: record.delivery ?? "", virulence: record.virulence ?? "", frequency: record.frequency ?? "", toxicity: int(record.toxicity), diagnosis: int(record.diagnosis), effects: "", recovery: "", quantity: 1, cost: record.cost ?? "", weight: 0};
+            break;
+        case "work": {
+            const kind = String(record.workType ?? record.categories ?? "").toUpperCase();
+            const testAbility = canonicalAbility(String(record.specialty ?? "").split(/[ ,(]/)[0]) ?? "";
+            system = {...base, art: record.art ?? "", workType: kind.includes("RITUAL") && kind.includes("SPELL") ? "BOTH" : kind.includes("RITUAL") ? "RITUAL" : "SPELL",
+                testAbility, test: record.specialty ?? "", learningTime: record.learning ?? "", learningDifficulty: int(String(record.learningDifficulty ?? "").replace(/\D/g, ""), 9),
+                price: record.price ?? record.cost ?? "", resonances: record.resonances ?? "", spell: {difficulty: "", notes: ""},
+                ritual: {alignmentAbility: "Knowledge", alignment: "", invocation: "", unleashing: ""}};
+            break;
+        }
+        case "ancestry":
+            system = {...base, benefitList: splitList(record.benefits ?? "").map((n) => ({name: n})), rules: "",
+                ages: {youth: "", adolescent: "", youngAdult: "", adult: "", middleAge: "", old: "", veryOld: "", venerable: ""}};
+            break;
+        case "art":
+            system = {...base, tools: "", initiation: "", resonances: record.resonances ?? "", workList: []};
+            break;
+        case "tradition":
+            system = {...base, resonances: record.resonances ?? "", arts: record.art ?? ""};
             break;
         case "ability":
             system = {...base, rating: 2, modifier: 0, specialties: splitList(record.specialty ?? record.qualities ?? "").map((s) => ({name: titleCase(s), rating: 0, modifier: 0}))};

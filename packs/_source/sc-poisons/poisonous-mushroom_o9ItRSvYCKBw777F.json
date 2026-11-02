@@ -1,0 +1,40 @@
+{
+  "_id": "o9ItRSvYCKBw777F",
+  "name": "Poisonous Mushroom",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>Toxic mushrooms or spores: –1D to Athletics every six hours, and –2D Cunning plus –1D Endurance per degree each day. Death if penalty dice equal the ability.</p>",
+    "type": "",
+    "source": "Sword Chronicle p. 118",
+    "quantity": 1,
+    "cost": "25 sd",
+    "delivery": "Ingested or inhaled",
+    "virulence": "5",
+    "frequency": "1/6 hours and 1/day",
+    "toxicity": 2,
+    "diagnosis": 9,
+    "effects": "<p>Virulence 5; Toxicity 2; Frequency 1/6 hours and 1/day; Diagnosis Challenging (9).</p><p>Toxic mushrooms or spores: –1D to Athletics every six hours, and –2D Cunning plus –1D Endurance per degree each day. Death if penalty dice equal the ability.</p>",
+    "recovery": "<p>Cunning penalties fade one die per day; Athletics and Endurance penalties are permanent unless a Destiny Point is burned (then 1d6 days).</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!o9ItRSvYCKBw777F"
+}

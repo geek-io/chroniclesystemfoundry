@@ -1,0 +1,33 @@
+{
+  "_id": "0pKfr1KY0pqm7KXx",
+  "name": "Inspiring",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>One extra command each round in warfare; sacrifice a command to re-roll a Warfare test to issue orders.</p><p><em>Martial. Full rules: Sword Chronicle p. 54.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 54",
+    "categories": "Martial",
+    "requirements": "Warfare 4",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0pKfr1KY0pqm7KXx"
+}

@@ -1,0 +1,237 @@
+{
+  "_id": "HSusobDWfqb45Zms",
+  "name": "Starting Resources: Power",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 8d6 − 2d6 (minimum 1).</p><p><em>Sword Chronicle p. 68</em></p>",
+  "results": [
+    {
+      "_id": "6Ha2sKoXfVoAbIhf",
+      "type": "text",
+      "name": "Powerless; no troops or warrior vassals.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        0,
+        0
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!HSusobDWfqb45Zms.6Ha2sKoXfVoAbIhf"
+    },
+    {
+      "_id": "wBiHGPkid4DpCHJe",
+      "type": "text",
+      "name": "A personal guard, a few veterans and at most a small militia.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!HSusobDWfqb45Zms.wBiHGPkid4DpCHJe"
+    },
+    {
+      "_id": "ul9BzUDSaCSQgylB",
+      "type": "text",
+      "name": "A small force mostly of levied commoners.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        11,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!HSusobDWfqb45Zms.ul9BzUDSaCSQgylB"
+    },
+    {
+      "_id": "RIU1SbuBGTshQzwA",
+      "type": "text",
+      "name": "A modest force with some trained troops and at least one vassal house.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        21,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!HSusobDWfqb45Zms.RIU1SbuBGTshQzwA"
+    },
+    {
+      "_id": "K4jrqTiFC1yYDCAA",
+      "type": "text",
+      "name": "A trained force with cavalry, possibly ships, and two vassal houses.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        31,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!HSusobDWfqb45Zms.K4jrqTiFC1yYDCAA"
+    },
+    {
+      "_id": "6D2acZfExHQUJrfJ",
+      "type": "text",
+      "name": "A large, diverse, competent army with specialists and several vassals.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        41,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!HSusobDWfqb45Zms.6D2acZfExHQUJrfJ"
+    },
+    {
+      "_id": "cTy4bgWLJssKohNs",
+      "type": "text",
+      "name": "A huge force drawn from your lands and many vassals.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!HSusobDWfqb45Zms.cTy4bgWLJssKohNs"
+    },
+    {
+      "_id": "qjvMac1LTtCPAB1g",
+      "type": "text",
+      "name": "Everyone in your culture able to bear arms.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!HSusobDWfqb45Zms.qjvMac1LTtCPAB1g"
+    }
+  ],
+  "formula": "8d6-2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!HSusobDWfqb45Zms"
+}

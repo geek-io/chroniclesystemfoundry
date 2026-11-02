@@ -175,6 +175,15 @@ export class CSCharacterActor extends CSActor {
         ds.fatigue.value = this.getAbilityValue(SystemUtils.localize(K.ENDURANCE));
         ds.fatigue.total = ds.fatigue.value + mod(ds.fatigue);
 
+        // Sorcery Defense (Sword Chronicle p. 87): Cunning + Endurance + Will + Averting bonus.
+        // Every two Sorcerous benefits give a permanent +1 Averting bonus.
+        ds.sorceryDefense ??= {value: 0, modifier: 0};
+        ds.sorceryDefense.averting = this.getPermanentAvertingBonus();
+        ds.sorceryDefense.value = this.getAbilityValue(SystemUtils.localize(K.CUNNING)) +
+            this.getAbilityValue(SystemUtils.localize(K.ENDURANCE)) +
+            this.getAbilityValue(SystemUtils.localize(K.WILL)) + ds.sorceryDefense.averting;
+        ds.sorceryDefense.total = ds.sorceryDefense.value + mod(ds.sorceryDefense);
+
         // Armor rating of the equipped armor, for convenience on the sheet and in macros.
         ds.armorRating.value = this.getModifier(ChronicleSystem.modifiersConstants.DAMAGE_TAKEN).total;
         ds.armorRating.total = ds.armorRating.value + mod(ds.armorRating);
@@ -190,6 +199,12 @@ export class CSCharacterActor extends CSActor {
         movement.bulk = Math.floor(bulkMod.total / 2);
         movement.total = Math.max(movement.base + movement.runBonus - movement.bulk + SystemUtils.int(movement.modifier), 1);
         movement.sprintTotal = movement.total * SystemUtils.int(movement.sprintMultiplier, 4) - movement.bulk;
+    }
+
+    /** +1 Averting bonus for every two benefits with the Sorcerous category. */
+    getPermanentAvertingBonus() {
+        const sorcerous = this.items.filter((i) => i.type === "benefit" && /sorcerous/i.test(String(i.system.categories ?? ""))).length;
+        return Math.floor(sorcerous / 2);
     }
 
     calcIntrigueDefense() {

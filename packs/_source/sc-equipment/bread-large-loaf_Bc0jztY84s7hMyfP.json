@@ -1,0 +1,36 @@
+{
+  "_id": "Bc0jztY84s7hMyfP",
+  "name": "Bread, Large Loaf",
+  "type": "equipment",
+  "img": "systems/chroniclesystem/assets/icons/equipment.png",
+  "system": {
+    "description": "<p><em>Trade Goods — Sword Chronicle p. 109. Coinage (p. 108): copper penny (cp); silver drachma (sd) = 50 cp; gold piece (gp) = 200 sd or 1,000 cp.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 109",
+    "quantity": 1,
+    "cost": "1 cp"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "chroniclesystem": {
+      "category": "Trade Goods"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Bc0jztY84s7hMyfP"
+}

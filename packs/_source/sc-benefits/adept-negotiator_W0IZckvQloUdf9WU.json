@@ -1,0 +1,33 @@
+{
+  "_id": "W0IZckvQloUdf9WU",
+  "name": "Adept Negotiator",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>No Persuasion penalty from your starting disposition while that disposition stays hidden from your opponent.</p><p><em>Social. Full rules: Sword Chronicle p. 47.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 47",
+    "categories": "Social",
+    "requirements": "Deception 3",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!W0IZckvQloUdf9WU"
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "087bgS2120OcVAi2",
+  "name": "Focus Ward",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Narrows existing wards to a single Tradition, Art or Work in exchange for much stronger protection against it.</p><p><strong>Spell.</strong> Sorcerous Aegis: Formidable (12) Cunning. Strengthen a ward already protecting you against one Tradition, Art or Work; it stops protecting against anything else.</p><p><strong>Ritual.</strong> Alignment: Rite of Alignment: Challenging (9) Knowledge, 10 minutes. Invocation: Formidable (12) Cunning, 50 minutes. Unleashing: Hard (15) Will. The Rite of Calibration adjusts existing wards without a price.</p><p><em>Art of Warding — full rules: Sword Chronicle p. 105.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 105",
+    "art": "Art of Warding",
+    "workType": "BOTH",
+    "testAbility": "Cunning",
+    "test": "Cunning",
+    "learningTime": "6 weeks",
+    "learningDifficulty": 15,
+    "price": "Spent, or None (Rite of Calibration)",
+    "resonances": "None (spell), or rare ingredients symbolic of what is defended against (5 gold pieces, rituals).",
+    "spell": {
+      "difficulty": "Sorcerous Aegis: Formidable (12) Cunning.",
+      "notes": "Strengthen a ward already protecting you against one Tradition, Art or Work; it stops protecting against anything else."
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "Rite of Alignment: Challenging (9) Knowledge, 10 minutes.",
+      "invocation": "Formidable (12) Cunning, 50 minutes.",
+      "unleashing": "Hard (15) Will. The Rite of Calibration adjusts existing wards without a price."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!087bgS2120OcVAi2"
+}

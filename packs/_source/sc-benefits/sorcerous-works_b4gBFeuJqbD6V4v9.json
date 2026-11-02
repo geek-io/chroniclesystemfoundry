@@ -1,0 +1,33 @@
+{
+  "_id": "b4gBFeuJqbD6V4v9",
+  "name": "Sorcerous Works",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Learn two Works from Arts you are initiated in, without study or tests.</p><p><em>Sorcerous. Full rules: Sword Chronicle p. 58.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 58",
+    "categories": "Sorcerous",
+    "requirements": "Access to any sorcerous Art",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!b4gBFeuJqbD6V4v9"
+}

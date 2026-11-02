@@ -1,0 +1,35 @@
+{
+  "_id": "CeydnPLcD4uPmGD6",
+  "name": "Marketplace",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>Draws merchants to your community. Requires a small town or larger. +1 extra Wealth whenever House Fortunes raise Wealth.</p><p><em>Sword Chronicle p. 78</em></p>",
+    "investment": 10,
+    "buildTime": "1d6 months",
+    "resource": "wealth",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "Sword Chronicle p. 78"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!CeydnPLcD4uPmGD6"
+}

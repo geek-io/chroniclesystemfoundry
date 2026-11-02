@@ -1,0 +1,33 @@
+{
+  "_id": "IRHmivPNowvU7Frv",
+  "name": "Prophetic Dreams",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>A seer: on a 6 when you sleep you dream. Premonitions give +1D on a test the next day; portents (shaped with a Destiny Point) give a lasting +1D toward bringing the vision about.</p><p><em>Fate. Full rules: Sword Chronicle p. 57.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 57",
+    "categories": "Fate",
+    "requirements": "Will 5",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IRHmivPNowvU7Frv"
+}

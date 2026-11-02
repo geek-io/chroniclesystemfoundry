@@ -1,0 +1,33 @@
+{
+  "_id": "fVIP2eA3Mu4LrgK7",
+  "name": "Cohort",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>A loyal companion character (Status no higher than yours) who earns half your Experience. +2 Combat and Intrigue Defense while adjacent. Lose the benefit if the cohort dies.</p><p><em>Fate. Full rules: Sword Chronicle p. 50.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 50",
+    "categories": "Fate",
+    "requirements": "Status 3",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!fVIP2eA3Mu4LrgK7"
+}

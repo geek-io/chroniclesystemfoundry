@@ -1,0 +1,35 @@
+{
+  "_id": "ufILBqEGtv9rAzGg",
+  "name": "Castle",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>A central keep and several towers joined by walls and a moat. Units defending it gain +5 Defense.</p><p><em>Sword Chronicle p. 72</em></p>",
+    "investment": 40,
+    "buildTime": "96+10d6 months",
+    "resource": "defense",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "Sword Chronicle p. 72"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ufILBqEGtv9rAzGg"
+}

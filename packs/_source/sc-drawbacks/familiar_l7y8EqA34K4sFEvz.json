@@ -1,0 +1,35 @@
+{
+  "_id": "l7y8EqA34K4sFEvz",
+  "name": "Familiar",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>A spirit in animal form that you must keep within 100 yards, healthy and fed with a little of your blood each month. Neglect it and you lose the Benefits bought with this drawback.</p><p><em>Stricture drawback. Full rules: Sword Chronicle p. 61.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 61",
+    "requireSorcerousArt": true,
+    "isAStricture": true,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "Knowledge of a sorcerous Art"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!l7y8EqA34K4sFEvz"
+}

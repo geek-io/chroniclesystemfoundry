@@ -1,0 +1,49 @@
+{
+  "_id": "UxSr75rwhgk7beq0",
+  "name": "Peasant Tool",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>Pole-arms mount axe blades, spikes and hooks on long shafts to keep foes and riders at bay.</p><p><em>Sword Chronicle p. 136; cost Sword Chronicle p. 113.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 136",
+    "weight": 9.0,
+    "quantity": 1,
+    "cost": "10 sd",
+    "specialty": "Fighting:Pole-Arms",
+    "training": 0,
+    "damage": "@Athletics+2",
+    "qualities": [
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      },
+      {
+        "name": "Unwieldy",
+        "parameter": ""
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UxSr75rwhgk7beq0"
+}

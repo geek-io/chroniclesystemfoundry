@@ -1,0 +1,48 @@
+{
+  "_id": "H2PuUkRv8v54vEfA",
+  "name": "Consecration",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Dedicates a place to a purpose: anyone there aligned with it may spend a Destiny Point to gain a chosen non-Sorcerous Benefit for an hour. Lasts until the sorcerer dies or moves it (permanent if a Destiny Point is burned), unless desecrated.</p><p><strong>Ritual.</strong> Alignment: Challenging (9) Knowledge, 1 hour of hymns and chants, aided by an assistant who has the Benefit to be imbued. Invocation: Routine (6) or higher Persuasion; Difficulty and time depend on the area, from a 10-foot chamber (Routine 6, 30 minutes) to a cathedral or keep (Very Hard 18, 12 hours). Failure ruins the rite. Unleashing: Formidable (12) Will. Success also grants the Benefit freely for one day per degree; failure inflicts a drawback on everyone performing the rite.</p><p><em>Art of Benediction — full rules: Sword Chronicle p. 93.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 93",
+    "art": "Art of Benediction",
+    "workType": "RITUAL",
+    "testAbility": "Persuasion",
+    "test": "Persuasion",
+    "learningTime": "12 weeks",
+    "learningDifficulty": 9,
+    "price": "Spent or Burned (sorcerer)",
+    "resonances": "Extensive redecoration with fine materials and symbols (100 gold pieces), at a ritually auspicious time.",
+    "spell": {
+      "difficulty": "",
+      "notes": ""
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "Challenging (9) Knowledge, 1 hour of hymns and chants, aided by an assistant who has the Benefit to be imbued.",
+      "invocation": "Routine (6) or higher Persuasion; Difficulty and time depend on the area, from a 10-foot chamber (Routine 6, 30 minutes) to a cathedral or keep (Very Hard 18, 12 hours). Failure ruins the rite.",
+      "unleashing": "Formidable (12) Will. Success also grants the Benefit freely for one day per degree; failure inflicts a drawback on everyone performing the rite."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!H2PuUkRv8v54vEfA"
+}

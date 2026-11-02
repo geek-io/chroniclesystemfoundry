@@ -1,0 +1,48 @@
+{
+  "_id": "aCyoW9UpYuYntf4n",
+  "name": "Casting",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Glimpses the path ahead for one person: a quick spell for the next week, or The Unfolding Path ritual reaching years ahead.</p><p><strong>Spell.</strong> The Glimpse Ahead: secret Difficulty from Routine (6) for dramatic, life-changing events to Hard (15) for minor ones; +6 to read your own future. Reveals the most significant events of the coming week in general terms, without saying when.</p><p><strong>Ritual.</strong> Alignment: Routine (6) Knowledge, 10 minutes. Invocation: Challenging (9) Awareness for one year ahead, Formidable (12) for five years, Hard (15) for ten; 30 minutes. Failure gives Flaw (Awareness) for a week. Unleashing: Routine (6) or higher Will.</p><p><em>Art of Divination — full rules: Sword Chronicle p. 97.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 97",
+    "art": "Art of Divination",
+    "workType": "BOTH",
+    "testAbility": "Awareness",
+    "test": "Awareness",
+    "learningTime": "4 weeks",
+    "learningDifficulty": 15,
+    "price": "Spent (spell and ritual)",
+    "resonances": "The Method's resonances, plus something belonging to the subject unless they are present.",
+    "spell": {
+      "difficulty": "The Glimpse Ahead: secret Difficulty from Routine (6) for dramatic, life-changing events to Hard (15) for minor ones; +6 to read your own future.",
+      "notes": "Reveals the most significant events of the coming week in general terms, without saying when."
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "Routine (6) Knowledge, 10 minutes.",
+      "invocation": "Challenging (9) Awareness for one year ahead, Formidable (12) for five years, Hard (15) for ten; 30 minutes. Failure gives Flaw (Awareness) for a week.",
+      "unleashing": "Routine (6) or higher Will."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aCyoW9UpYuYntf4n"
+}

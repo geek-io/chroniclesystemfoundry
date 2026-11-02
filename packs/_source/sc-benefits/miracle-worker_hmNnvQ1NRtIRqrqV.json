@@ -1,0 +1,33 @@
+{
+  "_id": "hmNnvQ1NRtIRqrqV",
+  "name": "Miracle Worker",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Add your Education bonus dice to Healing results; a successful diagnosis gives +2B (+1B per degree) on the next treatment.</p><p><em>Ability. Full rules: Sword Chronicle p. 56.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 56",
+    "categories": "Ability",
+    "requirements": "Healing 4",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hmNnvQ1NRtIRqrqV"
+}

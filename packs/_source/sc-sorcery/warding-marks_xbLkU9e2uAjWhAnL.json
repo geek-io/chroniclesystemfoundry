@@ -1,0 +1,48 @@
+{
+  "_id": "xbLkU9e2uAjWhAnL",
+  "name": "Warding Marks",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Tattoos or scars protective sigils onto a subject who is already under a warding ritual, making that protection lasting. See the Warding Marks benefit.</p><p><strong>Ritual.</strong> Alignment: Formidable (12) Cunning, 2 hours. Invocation: Hard (15) Knowledge, 3 hours. Unleashing: Hard (15) Will. The subject keeps a ward from another ritual (usually at reduced strength) as long as the marks endure.</p><p><em>Art of Warding — full rules: Sword Chronicle p. 106.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 106",
+    "art": "Art of Warding",
+    "workType": "RITUAL",
+    "testAbility": "Knowledge",
+    "test": "Knowledge",
+    "learningTime": "6 weeks",
+    "learningDifficulty": 15,
+    "price": "Invested (subject)",
+    "resonances": "Specially crafted inks, pigments and implements (5 gold pieces).",
+    "spell": {
+      "difficulty": "",
+      "notes": ""
+    },
+    "ritual": {
+      "alignmentAbility": "Cunning",
+      "alignment": "Formidable (12) Cunning, 2 hours.",
+      "invocation": "Hard (15) Knowledge, 3 hours.",
+      "unleashing": "Hard (15) Will. The subject keeps a ward from another ritual (usually at reduced strength) as long as the marks endure."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xbLkU9e2uAjWhAnL"
+}

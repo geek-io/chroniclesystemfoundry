@@ -1,0 +1,35 @@
+{
+  "_id": "Sv3Xy7qrHCq7CPH7",
+  "name": "Vassal House",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>A sworn noble family or landed knight (20 for the first, 10 for the second, 5 for each more). Starts Friendly; lost if its disposition falls to Malicious. Vassals roll 5d6 per resource and their Influence cannot exceed yours.</p><p><em>Sword Chronicle p. 75</em></p>",
+    "investment": 20,
+    "buildTime": "",
+    "resource": "power",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "Sword Chronicle p. 75"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Sv3Xy7qrHCq7CPH7"
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "DhCuMVPu1ZZSOe94",
+  "name": "Blood of the Far Isles",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>+2 to Bargain and Intimidate results in intrigues. You are initiated into one sorcerous Tradition and one of its Arts (no Works) and may learn that Art's Works normally.</p><p><em>Ancestry (Elf). Full rules: Sword Chronicle p. 49.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 49",
+    "categories": "Ancestry (Elf)",
+    "requirements": "—",
+    "sorcerousArtAccess": true
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DhCuMVPu1ZZSOe94"
+}

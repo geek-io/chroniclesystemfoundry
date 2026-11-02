@@ -1,0 +1,33 @@
+{
+  "_id": "C1BsXYkDCCte2EnF",
+  "name": "Armor Mastery",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>+1 AR from any armor you wear, and its Bulk counts as 1 lower for Movement.</p><p><em>Ancestry (Dwarf), Martial. Full rules: Sword Chronicle p. 47.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 47",
+    "categories": "Ancestry (Dwarf), Martial",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!C1BsXYkDCCte2EnF"
+}

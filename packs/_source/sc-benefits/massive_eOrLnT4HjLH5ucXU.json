@@ -1,0 +1,33 @@
+{
+  "_id": "eOrLnT4HjLH5ucXU",
+  "name": "Massive",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Wield Two-handed weapons in one hand and ignore their Unwieldy quality.</p><p><em>Ancestry (Human, Ogre). Full rules: Sword Chronicle p. 55.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 55",
+    "categories": "Ancestry (Human, Ogre)",
+    "requirements": "Endurance 5, or Ogre Ancestry and Endurance 3",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eOrLnT4HjLH5ucXU"
+}

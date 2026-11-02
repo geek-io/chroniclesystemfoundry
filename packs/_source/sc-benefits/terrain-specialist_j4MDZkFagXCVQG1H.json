@@ -1,0 +1,33 @@
+{
+  "_id": "j4MDZkFagXCVQG1H",
+  "name": "Terrain Specialist",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>In one terrain, add Education bonus dice to Survival results and ignore Movement penalties. Dwarves: hills or mountains; elves: forests. May be taken more than once.</p><p><em>Ability, Ancestry (Dwarf, Elf). Full rules: Sword Chronicle p. 59.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 59",
+    "categories": "Ability, Ancestry (Dwarf, Elf)",
+    "requirements": "Survival 4, or Dwarf or Elf Ancestry and Survival 3",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!j4MDZkFagXCVQG1H"
+}

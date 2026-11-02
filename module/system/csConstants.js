@@ -33,7 +33,21 @@ CSConstants.Settings = {
     CURRENT_VERSION: "version",
     MODIFIER_DIALOG_AS_DEFAULT: "isModifierDialogDefault",
     SHEET_THEME: "sheetTheme",
-    OCR_LANGUAGE: "ocrLanguage"
+    OCR_LANGUAGE: "ocrLanguage",
+    HOUSE_RESOURCE_FORMULA: "houseResourceFormula"
+};
+
+/** Starting-resource rolls for new houses: SIFRP (7d6, p. 99) or Sword Chronicle (8d6 − 2d6, minimum 1, p. 66). */
+CSConstants.HouseResourceFormulas = {
+    sifrp: {formula: "7d6", label: "CS.settings.houseResourceFormula.choices.sifrp"},
+    swordChronicle: {formula: "8d6 - 2d6", label: "CS.settings.houseResourceFormula.choices.swordChronicle"}
+};
+
+/** Sorcerous Work types (Sword Chronicle p. 91). */
+CSConstants.WorkTypes = {
+    SPELL: "CS.sheets.work.types.spell",
+    RITUAL: "CS.sheets.work.types.ritual",
+    BOTH: "CS.sheets.work.types.both"
 };
 
 CSConstants.SheetThemes = {
@@ -94,5 +108,7 @@ CSConstants.StandardAbilities = [
     "Stealth", "Survival", "Thievery", "Warfare", "Will"
 ];
 
-CSConstants.ItemTypesForCharacters = ["ability", "weapon", "armor", "equipment", "benefit", "drawback", "technique", "poison"];
+CSConstants.ItemTypesForCharacters = ["ability", "weapon", "armor", "equipment", "benefit", "drawback", "technique", "poison", "ancestry", "art", "work", "tradition"];
+/** Item types a character may own several copies of with the same name. */
+CSConstants.StackableItemTypes = ["equipment", "poison", "weapon", "armor"];
 CSConstants.ItemTypesForHouses = ["event", "holding"];

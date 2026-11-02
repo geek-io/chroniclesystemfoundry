@@ -1,0 +1,33 @@
+{
+  "_id": "ToKDZGpz62C09vHO",
+  "name": "Authority",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Your Persuasion penalty from disposition in intrigues is reduced by 2.</p><p><em>Social. Full rules: Sword Chronicle p. 47.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 47",
+    "categories": "Social",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ToKDZGpz62C09vHO"
+}

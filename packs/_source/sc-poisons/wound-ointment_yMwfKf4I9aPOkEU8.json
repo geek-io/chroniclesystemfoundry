@@ -1,0 +1,40 @@
+{
+  "_id": "yMwfKf4I9aPOkEU8",
+  "name": "Wound Ointment",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>Honey, herbs and alcohol for open wounds: +1D (and +1B per extra degree) on the next Endurance test to recover from injuries or wounds, but –1 Athletics per degree.</p>",
+    "type": "",
+    "source": "Sword Chronicle p. 118",
+    "quantity": 1,
+    "cost": "25 sd",
+    "delivery": "Contact",
+    "virulence": "3",
+    "frequency": "1/round",
+    "toxicity": 2,
+    "diagnosis": 3,
+    "effects": "<p>Virulence 3; Toxicity 2; Frequency 1/round; Diagnosis Easy (3).</p><p>Honey, herbs and alcohol for open wounds: +1D (and +1B per extra degree) on the next Endurance test to recover from injuries or wounds, but –1 Athletics per degree.</p>",
+    "recovery": "<p>The Athletics penalty fades 24 hours after application.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yMwfKf4I9aPOkEU8"
+}

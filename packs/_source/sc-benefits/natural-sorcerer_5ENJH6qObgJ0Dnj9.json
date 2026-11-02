@@ -1,0 +1,33 @@
+{
+  "_id": "5ENJH6qObgJ0Dnj9",
+  "name": "Natural Sorcerer",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>You know one sorcerous Work and can learn its Art; +1B to casting that Art's Works. Gain 1 Sorcery Point.</p><p><em>Sorcerous. Full rules: Sword Chronicle p. 56.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 56",
+    "categories": "Sorcerous",
+    "requirements": "Will 4",
+    "sorcerousArtAccess": true
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5ENJH6qObgJ0Dnj9"
+}

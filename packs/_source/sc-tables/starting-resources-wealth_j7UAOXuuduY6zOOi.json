@@ -1,0 +1,237 @@
+{
+  "_id": "j7UAOXuuduY6zOOi",
+  "name": "Starting Resources: Wealth",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 8d6 − 2d6 (minimum 1).</p><p><em>Sword Chronicle p. 68</em></p>",
+  "results": [
+    {
+      "_id": "9lbarB7hWE1Db753",
+      "type": "text",
+      "name": "Destitute.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        0,
+        0
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!j7UAOXuuduY6zOOi.9lbarB7hWE1Db753"
+    },
+    {
+      "_id": "vdbTOdEqLAEqoYxd",
+      "type": "text",
+      "name": "Impoverished; struggling to make ends meet.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!j7UAOXuuduY6zOOi.vdbTOdEqLAEqoYxd"
+    },
+    {
+      "_id": "UM6sX9rgO0EPWc5H",
+      "type": "text",
+      "name": "Poor; able to sustain itself without luxury.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        11,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!j7UAOXuuduY6zOOi.UM6sX9rgO0EPWc5H"
+    },
+    {
+      "_id": "WijnqmbMLfeGcsyA",
+      "type": "text",
+      "name": "Common; enough to get by.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        21,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!j7UAOXuuduY6zOOi.WijnqmbMLfeGcsyA"
+    },
+    {
+      "_id": "eNwhHlFu5EJrSyYg",
+      "type": "text",
+      "name": "Prosperous; living according to its station.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        31,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!j7UAOXuuduY6zOOi.eNwhHlFu5EJrSyYg"
+    },
+    {
+      "_id": "Wdv6fG9lWBT9PKHa",
+      "type": "text",
+      "name": "Affluent; more than it needs.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        41,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!j7UAOXuuduY6zOOi.Wdv6fG9lWBT9PKHa"
+    },
+    {
+      "_id": "FVn0iISEFqF3XtHl",
+      "type": "text",
+      "name": "Rich; wanting for nothing.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!j7UAOXuuduY6zOOi.FVn0iISEFqF3XtHl"
+    },
+    {
+      "_id": "uswu5xvNg7nnDU06",
+      "type": "text",
+      "name": "Decadent; sixty-six-course feasts.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!j7UAOXuuduY6zOOi.uswu5xvNg7nnDU06"
+    }
+  ],
+  "formula": "8d6-2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!j7UAOXuuduY6zOOi"
+}

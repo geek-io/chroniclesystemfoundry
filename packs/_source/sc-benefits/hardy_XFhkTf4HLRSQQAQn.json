@@ -1,0 +1,33 @@
+{
+  "_id": "XFhkTf4HLRSQQAQn",
+  "name": "Hardy",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Ignore one –1 or one –1D on Endurance tests to recover from injuries and wounds.</p><p><em>Ability, Ancestry (Dwarf, Ogre). Full rules: Sword Chronicle p. 54.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 54",
+    "categories": "Ability, Ancestry (Dwarf, Ogre)",
+    "requirements": "Endurance 3 (Stamina 1B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XFhkTf4HLRSQQAQn"
+}

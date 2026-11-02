@@ -1,0 +1,49 @@
+{
+  "_id": "EQTBcn9Xpg6JHuBT",
+  "name": "Whip",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>Brawling covers fists, gauntlets, knives and other close, dirty fighting tools.</p><p><em>Sword Chronicle p. 136; cost Sword Chronicle p. 113.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 136",
+    "weight": 2.0,
+    "quantity": 1,
+    "cost": "5 sd",
+    "specialty": "Fighting:Brawling",
+    "training": 2,
+    "damage": "@Agility-1",
+    "qualities": [
+      {
+        "name": "Entangling",
+        "parameter": ""
+      },
+      {
+        "name": "Reach",
+        "parameter": ""
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EQTBcn9Xpg6JHuBT"
+}

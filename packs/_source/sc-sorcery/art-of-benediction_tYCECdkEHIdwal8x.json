@@ -1,0 +1,47 @@
+{
+  "_id": "tYCECdkEHIdwal8x",
+  "name": "Art of Benediction",
+  "type": "art",
+  "img": "systems/chroniclesystem/assets/icons/art.png",
+  "system": {
+    "description": "<p>Invests people, places and things with magical blessings, preparing them to receive power. Often has religious overtones.</p><p><em>Sword Chronicle p. 91. A Sorcerous Benefit (Blood of the Sorcerers, Blood of the Far Isles, Natural Sorcerer or Sorcerous Initiation) grants access.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 91",
+    "tools": "Censers and rare incenses, feather fans, holy water and sacred oils for anointing.",
+    "initiation": "Add your Persuasion rank to the Alignment results of all Ritual Works you perform.",
+    "resonances": "Incense, ointments, ritual regalia.",
+    "workList": [
+      {
+        "name": "Attunement"
+      },
+      {
+        "name": "Blessing"
+      },
+      {
+        "name": "Consecration"
+      },
+      {
+        "name": "Investiture"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!tYCECdkEHIdwal8x"
+}

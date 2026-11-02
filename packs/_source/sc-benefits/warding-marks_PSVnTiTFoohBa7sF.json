@@ -1,0 +1,33 @@
+{
+  "_id": "PSVnTiTFoohBa7sF",
+  "name": "Warding Marks",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Protective tattoos or scars give you a permanent ward at its lowest rating, until at least half the design is marred.</p><p><em>Fate. Full rules: Sword Chronicle p. 59.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 59",
+    "categories": "Fate",
+    "requirements": "A sorcerer has cast the Warding Marks ritual on you",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PSVnTiTFoohBa7sF"
+}

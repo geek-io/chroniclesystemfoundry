@@ -1,0 +1,33 @@
+{
+  "_id": "Mb61b3TjJzffhcHY",
+  "name": "Cadre",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Gain a veteran squad of ten soldiers that rallies at the start of each of your turns in skirmishes. Lose the benefit and its Destiny Point if the cadre is destroyed.</p><p><em>Fate. Full rules: Sword Chronicle p. 50.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 50",
+    "categories": "Fate",
+    "requirements": "Persuasion 5 or Warfare 4 (Command 2B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Mb61b3TjJzffhcHY"
+}

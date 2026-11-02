@@ -1,0 +1,33 @@
+{
+  "_id": "hagQJZ4TYulFX99j",
+  "name": "Berserker",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Each injury or wound you take lets you make a free attack on an adjacent foe. When wounds would defeat you, keep fighting on Formidable (12) Will tests, up to your Endurance rank in turns.</p><p><em>Ancestry (Ogre), Martial. Full rules: Sword Chronicle p. 48.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 48",
+    "categories": "Ancestry (Ogre), Martial",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hagQJZ4TYulFX99j"
+}

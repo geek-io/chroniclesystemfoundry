@@ -1,0 +1,35 @@
+{
+  "_id": "rPx3aarIIGFFchAh",
+  "name": "Domain: Mountains",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>About one league of mountainous land. Add features to the domain.</p><p>Features (cost added to the domain, p. 74): Coast +3 · Hamlet +10 · Small Town +20 · Large Town +30 · Small City +40 · Large City +50 · Grassland +1 · Island +10 · Road +5 · Ruin +3 · River +3 · Pond +5 · Lake +7 · Light Woods +3 · Dense Woods +5.</p><p><em>Sword Chronicle p. 73</em></p>",
+    "investment": 9,
+    "buildTime": "",
+    "resource": "lands",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "Sword Chronicle p. 73"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rPx3aarIIGFFchAh"
+}

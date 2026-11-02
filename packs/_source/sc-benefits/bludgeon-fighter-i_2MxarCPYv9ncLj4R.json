@@ -1,0 +1,33 @@
+{
+  "_id": "2MxarCPYv9ncLj4R",
+  "name": "Bludgeon Fighter I",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Your bludgeons gain Shattering 1, or +1 to an existing Shattering rating.</p><p><em>Ancestry (Ogre), Martial. Full rules: Sword Chronicle p. 49.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 49",
+    "categories": "Ancestry (Ogre), Martial",
+    "requirements": "Fighting 4 (Bludgeons 2B), or Ogre Ancestry and Fighting 2 (Bludgeons 1B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2MxarCPYv9ncLj4R"
+}

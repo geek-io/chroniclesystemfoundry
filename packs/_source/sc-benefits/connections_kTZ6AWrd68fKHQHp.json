@@ -1,0 +1,33 @@
+{
+  "_id": "kTZ6AWrd68fKHQHp",
+  "name": "Connections",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Spies and informants in one region: +1D on Knowledge tests there. May be taken more than once.</p><p><em>Ability. Full rules: Sword Chronicle p. 50.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 50",
+    "categories": "Ability",
+    "requirements": "Streetwise 1B",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kTZ6AWrd68fKHQHp"
+}

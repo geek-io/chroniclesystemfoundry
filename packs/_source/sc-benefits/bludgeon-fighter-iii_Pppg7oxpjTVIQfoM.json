@@ -1,0 +1,33 @@
+{
+  "_id": "Pppg7oxpjTVIQfoM",
+  "name": "Bludgeon Fighter III",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Sacrifice all bonus dice on a bludgeon attack: with two or more degrees the target is knocked prone, limited to Lesser Actions and takes a wound.</p><p><em>Martial. Full rules: Sword Chronicle p. 49.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 49",
+    "categories": "Martial",
+    "requirements": "Fighting 6 (Bludgeons 4B), Bludgeon Fighter II",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Pppg7oxpjTVIQfoM"
+}

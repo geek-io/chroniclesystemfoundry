@@ -1,0 +1,33 @@
+{
+  "_id": "gwH0eJllUZpigR6e",
+  "name": "Axe Fighter II",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Sacrifice all bonus dice on an axe attack; with two or more degrees the target also takes a wound.</p><p><em>Martial. Full rules: Sword Chronicle p. 48.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 48",
+    "categories": "Martial",
+    "requirements": "Fighting 5 (Axes 3B), Axe Fighter I",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!gwH0eJllUZpigR6e"
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "1Cs2GtrdS6Qdro6S",
+  "name": "Brawler II",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Your fists gain Powerful, and you add your Athletics rank to Fighting results with them.</p><p><em>Martial. Full rules: Sword Chronicle p. 50.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 50",
+    "categories": "Martial",
+    "requirements": "Fighting 4 (Brawling 3B), Brawler I",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!1Cs2GtrdS6Qdro6S"
+}

@@ -1,0 +1,88 @@
+{
+  "_id": "m7eq1H6VdSoNQ5g2",
+  "name": "Ogre",
+  "type": "ancestry",
+  "img": "systems/chroniclesystem/assets/icons/ancestry.png",
+  "system": {
+    "description": "<p>There is no typical ogre: they range from small to enormous, with features strange or beautiful by human standards, and parents do not pass on their particular shape. All share hardiness and stoic determination. Their legends tell of a disaster that drove them from another realm and loosened their form; they treat others as they are treated and define themselves by their community.</p><p><em>Sword Chronicle p. 15. Choose two ancestry benefits at character creation (from one ancestry or two); more can be bought with Destiny Points.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 15",
+    "benefitList": [
+      {
+        "name": "Berserker"
+      },
+      {
+        "name": "Blood of the Beyond"
+      },
+      {
+        "name": "Blood of the Wasteland"
+      },
+      {
+        "name": "Bludgeon Fighter I"
+      },
+      {
+        "name": "Fury"
+      },
+      {
+        "name": "Great Hunter"
+      },
+      {
+        "name": "Hardy"
+      },
+      {
+        "name": "Massive"
+      },
+      {
+        "name": "Night Eyes"
+      },
+      {
+        "name": "Stubborn"
+      },
+      {
+        "name": "Tough"
+      },
+      {
+        "name": "Blood of the Sorcerers"
+      },
+      {
+        "name": "Blood of the Witch-Hunters"
+      },
+      {
+        "name": "Blood of the Wild"
+      },
+      {
+        "name": "Heirloom"
+      }
+    ],
+    "rules": "",
+    "ages": {
+      "youth": "0–9",
+      "adolescent": "10–13",
+      "youngAdult": "14–18",
+      "adult": "19–25",
+      "middleAge": "26–40",
+      "old": "41–50",
+      "veryOld": "51–55",
+      "venerable": "56+"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!m7eq1H6VdSoNQ5g2"
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "QuFmBCOD6UknxO5W",
+  "name": "Scale",
+  "type": "armor",
+  "img": "systems/chroniclesystem/assets/icons/armor.png",
+  "system": {
+    "description": "<p>Small metal scales (or coins) sewn onto a leather jacket and skirt.</p><p><em>Sword Chronicle p. 133; cost Sword Chronicle p. 115.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 133",
+    "weight": 30.0,
+    "rating": 6,
+    "penalty": -3,
+    "bulk": 2,
+    "qualities": [],
+    "equipped": 0,
+    "quantity": 1,
+    "cost": "600 sd"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QuFmBCOD6UknxO5W"
+}

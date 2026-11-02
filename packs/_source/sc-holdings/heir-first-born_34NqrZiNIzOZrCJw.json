@@ -1,0 +1,35 @@
+{
+  "_id": "34NqrZiNIzOZrCJw",
+  "name": "Heir: First-born",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>The first-born child (or as the culture decides). Status equals the house maximum –1 (minimum 3).</p><p><em>Sword Chronicle p. 73</em></p>",
+    "investment": 20,
+    "buildTime": "",
+    "resource": "influence",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "Sword Chronicle p. 73"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!34NqrZiNIzOZrCJw"
+}

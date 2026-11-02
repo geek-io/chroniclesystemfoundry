@@ -1,0 +1,35 @@
+{
+  "_id": "Ey27IFFuunSTqNA3",
+  "name": "Sorcerer's Aura",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>Your power leaks into the world, more blatantly the more Sorcery Points you have: from shivers felt by Sensitives at 1–2 points to spoiled food, frightened animals, failing holy symbols and seers dreaming of your burned-Destiny workings at 4–6+ points.</p><p><em>Sorcerous drawback. Full rules: Sword Chronicle p. 63.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 63",
+    "requireSorcerousArt": true,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "Knowledge of a sorcerous Art"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Ey27IFFuunSTqNA3"
+}

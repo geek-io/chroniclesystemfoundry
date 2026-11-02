@@ -1,0 +1,33 @@
+{
+  "_id": "OLzlyxnB3Q3P48A9",
+  "name": "Pole-Arm Fighter III",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Pin (Greater Action): with two or more degrees on a pole-arm hit, the target cannot move until it beats you in an opposed Athletics test.</p><p><em>Martial. Full rules: Sword Chronicle p. 56.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 56",
+    "categories": "Martial",
+    "requirements": "Fighting 5, Pole-Arm Fighter II",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OLzlyxnB3Q3P48A9"
+}

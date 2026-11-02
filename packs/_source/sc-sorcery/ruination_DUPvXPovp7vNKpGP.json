@@ -1,0 +1,48 @@
+{
+  "_id": "DUPvXPovp7vNKpGP",
+  "name": "Ruination",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Brings everything to dust quickly: destroy an object on the spot, or call the 'House Pox' down on a house's holdings.</p><p><strong>Spell.</strong> Destruction: Difficulty from the object's weight on the Strength table, +1 step for stone or soft metal, +2 for steel; must also beat a wearer's Sorcery Defense. Greater Action at Close Range: the object crumbles to dust, rust and shards.</p><p><strong>Ritual.</strong> Alignment: Disaster: Challenging (9) Knowledge, time varies, placing talismans around the target holding. Invocation: Formidable (12) Will, 3 hours. Unleashing: Formidable (12) Will: ruin falls on a house's holding.</p><p><em>Art of Malediction — full rules: Sword Chronicle p. 103.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 103",
+    "art": "Art of Malediction",
+    "workType": "BOTH",
+    "testAbility": "Will",
+    "test": "Will",
+    "learningTime": "5 weeks",
+    "learningDifficulty": 15,
+    "price": "Spent",
+    "resonances": "None (spell), or a link to the target (ritual).",
+    "spell": {
+      "difficulty": "Destruction: Difficulty from the object's weight on the Strength table, +1 step for stone or soft metal, +2 for steel; must also beat a wearer's Sorcery Defense.",
+      "notes": "Greater Action at Close Range: the object crumbles to dust, rust and shards."
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "Disaster: Challenging (9) Knowledge, time varies, placing talismans around the target holding.",
+      "invocation": "Formidable (12) Will, 3 hours.",
+      "unleashing": "Formidable (12) Will: ruin falls on a house's holding."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DUPvXPovp7vNKpGP"
+}

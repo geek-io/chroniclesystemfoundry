@@ -1,0 +1,237 @@
+{
+  "_id": "NUrwnZi6atGf6G5i",
+  "name": "Starting Resources: Law",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 8d6 − 2d6 (minimum 1). House Fortunes modifier: 0 –20, 1–10 –10, 11–20 –5, 21–30 –2, 31–40 –1, 41–50 +0, 51–60 +1, 61–70 +2, 71+ +5.</p><p><em>Sword Chronicle p. 67</em></p>",
+  "results": [
+    {
+      "_id": "dEiUwQhWaY1pjg2C",
+      "type": "text",
+      "name": "Lawless land where you have no authority.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        0,
+        0
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!NUrwnZi6atGf6G5i.dEiUwQhWaY1pjg2C"
+    },
+    {
+      "_id": "Sj9xVCKFcZagOBfV",
+      "type": "text",
+      "name": "Bandits and raiders cause trouble throughout your lands.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!NUrwnZi6atGf6G5i.Sj9xVCKFcZagOBfV"
+    },
+    {
+      "_id": "XfLM9YrXB0K3geg5",
+      "type": "text",
+      "name": "Banditry troubles the fringes of your lands.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        11,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!NUrwnZi6atGf6G5i.XfLM9YrXB0K3geg5"
+    },
+    {
+      "_id": "e4GhOXFMRptItbsD",
+      "type": "text",
+      "name": "Crime is common but not out of control.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        21,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!NUrwnZi6atGf6G5i.e4GhOXFMRptItbsD"
+    },
+    {
+      "_id": "L2BcY2JBGW0pPMEz",
+      "type": "text",
+      "name": "Strong control; crime is uncommon.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        31,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!NUrwnZi6atGf6G5i.L2BcY2JBGW0pPMEz"
+    },
+    {
+      "_id": "g77FBhY1ygbWikbb",
+      "type": "text",
+      "name": "Crime is rare.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        41,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!NUrwnZi6atGf6G5i.g77FBhY1ygbWikbb"
+    },
+    {
+      "_id": "W9jRUYTgzKpIQmzu",
+      "type": "text",
+      "name": "Almost no crime at all.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!NUrwnZi6atGf6G5i.W9jRUYTgzKpIQmzu"
+    },
+    {
+      "_id": "XjRAgK4G8WvK469x",
+      "type": "text",
+      "name": "No crime in your lands.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!NUrwnZi6atGf6G5i.XjRAgK4G8WvK469x"
+    }
+  ],
+  "formula": "8d6-2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!NUrwnZi6atGf6G5i"
+}

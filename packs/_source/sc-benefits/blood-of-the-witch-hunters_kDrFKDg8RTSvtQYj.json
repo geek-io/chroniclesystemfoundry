@@ -1,0 +1,33 @@
+{
+  "_id": "kDrFKDg8RTSvtQYj",
+  "name": "Blood of the Witch-Hunters",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>You count as a Sensitive, can sense that someone knows sorcerous Works, and may spend your own Destiny Points to cancel those spent on spells against you. You can never take Sorcerous qualities.</p><p><em>Ancestry (Any). Full rules: Sword Chronicle p. 49.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 49",
+    "categories": "Ancestry (Any)",
+    "requirements": "No Sorcerous Qualities",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kDrFKDg8RTSvtQYj"
+}

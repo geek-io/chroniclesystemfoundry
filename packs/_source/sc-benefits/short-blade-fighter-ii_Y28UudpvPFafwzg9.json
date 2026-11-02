@@ -1,0 +1,33 @@
+{
+  "_id": "Y28UudpvPFafwzg9",
+  "name": "Short Blade Fighter II",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Draw a short blade as a Free Action, and add your Short Blades bonus dice to Fighting results with one.</p><p><em>Martial. Full rules: Sword Chronicle p. 57.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 57",
+    "categories": "Martial",
+    "requirements": "Fighting 5, Short Blade Fighter I",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Y28UudpvPFafwzg9"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "f7BISq325XdSH2Gn",
+  "name": "Artisan",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>A master artisan in your service. Requires a hall or larger. Choose one each time: castle-forged weapons, +1 to fortification cover, or +1 to House Fortunes once a month.</p><p><em>Sword Chronicle p. 78</em></p>",
+    "investment": 10,
+    "buildTime": "2d6 months",
+    "resource": "wealth",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "Sword Chronicle p. 78"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!f7BISq325XdSH2Gn"
+}

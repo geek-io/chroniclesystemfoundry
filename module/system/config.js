@@ -56,7 +56,7 @@ Hooks.once("init", async function () {
     DocumentSheetConfig.unregisterSheet(Item, "core", foundry.appv1.sheets.ItemSheet);
     DocumentSheetConfig.registerSheet(Item, CSConstants.SYSTEM_ID, CSItemSheet, {
         label: sheetLabel("CS.sheets.itemSheet"),
-        types: ["armor", "weapon", "equipment", "benefit", "drawback", "poison"],
+        types: ["armor", "weapon", "equipment", "benefit", "drawback", "poison", "ancestry", "art", "work", "tradition"],
         makeDefault: true
     });
     DocumentSheetConfig.registerSheet(Item, CSConstants.SYSTEM_ID, CSAbilityItemSheet, {

@@ -1,0 +1,33 @@
+{
+  "_id": "qTXKNuOLasp3s7Tt",
+  "name": "Blood of the Citadel",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Re-roll 1s (up to your Awareness rank) on Cunning tests to work or appraise metal, stone and gems; +2 passive Endurance against fire and heat; +1B on Warfare tests in fortifications.</p><p><em>Ancestry (Dwarf). Full rules: Sword Chronicle p. 48.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 48",
+    "categories": "Ancestry (Dwarf)",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!qTXKNuOLasp3s7Tt"
+}

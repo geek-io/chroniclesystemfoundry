@@ -1,0 +1,40 @@
+{
+  "_id": "nDQuvn1nwqAnC0zi",
+  "name": "Wolfsbane",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>A burning, numbing herb. Contact gives –1D on Agility and Endurance per degree; swallowed, it attacks Athletics each round and Endurance each hour, and can kill.</p>",
+    "type": "",
+    "source": "Sword Chronicle p. 118",
+    "quantity": 1,
+    "cost": "—",
+    "delivery": "Contact or ingested",
+    "virulence": "3 (contact) / 5 (ingested)",
+    "frequency": "1/round (contact); 1/round and 1/hour (ingested)",
+    "toxicity": 4,
+    "diagnosis": 6,
+    "effects": "<p>Virulence 3 (contact) / 5 (ingested); Toxicity 4; Frequency 1/round (contact); 1/round and 1/hour (ingested); Diagnosis Routine (6).</p><p>A burning, numbing herb. Contact gives –1D on Agility and Endurance per degree; swallowed, it attacks Athletics each round and Endurance each hour, and can kill.</p>",
+    "recovery": "<p>Remove one penalty die per day (contact) or per week (ingested) after it runs its course.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nDQuvn1nwqAnC0zi"
+}

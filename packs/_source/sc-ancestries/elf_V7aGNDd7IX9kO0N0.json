@@ -1,0 +1,85 @@
+{
+  "_id": "V7aGNDd7IX9kO0N0",
+  "name": "Elf",
+  "type": "ancestry",
+  "img": "systems/chroniclesystem/assets/icons/ancestry.png",
+  "system": {
+    "description": "<p>A long-lived people who shape their surroundings gently: their farms look like wild growth and their cities like sculpted woodland. Slightly taller and slimmer than humans, elves often take on the colours of their homeland. The sea elves keep the old mysteries of the deathless realms; the wood elves have come to love the mortal world.</p><p><em>Sword Chronicle p. 15. Choose two ancestry benefits at character creation (from one ancestry or two); more can be bought with Destiny Points.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 15",
+    "benefitList": [
+      {
+        "name": "Accurate"
+      },
+      {
+        "name": "Attractive"
+      },
+      {
+        "name": "Beastfriend"
+      },
+      {
+        "name": "Blood of the Far Isles"
+      },
+      {
+        "name": "Blood of the Wood"
+      },
+      {
+        "name": "Deadly Shot"
+      },
+      {
+        "name": "Great Hunter"
+      },
+      {
+        "name": "Keen Senses"
+      },
+      {
+        "name": "Night Eyes"
+      },
+      {
+        "name": "Terrain Specialist (forests)"
+      },
+      {
+        "name": "Blood of the Sorcerers"
+      },
+      {
+        "name": "Blood of the Witch-Hunters"
+      },
+      {
+        "name": "Blood of the Wild"
+      },
+      {
+        "name": "Heirloom"
+      }
+    ],
+    "rules": "",
+    "ages": {
+      "youth": "0–20",
+      "adolescent": "21–30",
+      "youngAdult": "31–40",
+      "adult": "41–200",
+      "middleAge": "201–400",
+      "old": "401–500",
+      "veryOld": "501–600",
+      "venerable": "601+"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!V7aGNDd7IX9kO0N0"
+}

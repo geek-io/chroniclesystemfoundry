@@ -1,0 +1,36 @@
+{
+  "_id": "XgBDQED4HAWvw0W0",
+  "name": "Courser",
+  "type": "equipment",
+  "img": "systems/chroniclesystem/assets/icons/equipment.png",
+  "system": {
+    "description": "<p>A strong, fast war horse, lighter and cheaper than a destrier; the preferred mount for fighting.</p><p><em>Mounts & Vehicles — Sword Chronicle p. 115. Coinage (p. 108): copper penny (cp); silver drachma (sd) = 50 cp; gold piece (gp) = 200 sd or 1,000 cp.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 115",
+    "quantity": 1,
+    "cost": "600 sd"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "chroniclesystem": {
+      "category": "Mounts & Vehicles"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XgBDQED4HAWvw0W0"
+}

@@ -1,0 +1,19 @@
+<div class="cs-item-sheet flexcol {{cssClass}}">
+    {{> "systems/chroniclesystem/templates/items/partials/header-delete.hbs"}}
+    <main class="sheet-body flexrow">
+        <section class="item-stats">
+            <header class="header-field">
+                <span>{{localize "CS.sheets.generalLabels.details"}}</span>
+            </header>
+            <div class="form-group stacked">
+                <label>{{localize "CS.sheets.tradition.resonances"}}</label>
+                <textarea name="system.resonances" rows="4">{{system.resonances}}</textarea>
+            </div>
+            {{> (csFormGroup) id="system.arts" labelText="CS.sheets.tradition.arts" inputCssClass="medium-field" value=system.arts dataType="String"}}
+            {{> "systems/chroniclesystem/templates/items/partials/source-field.hbs"}}
+        </section>
+        <section class="description">
+            {{> "systems/chroniclesystem/templates/items/partials/description.hbs"}}
+        </section>
+    </main>
+</div>

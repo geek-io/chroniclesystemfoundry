@@ -1,0 +1,32 @@
+{
+  "_id": "ZdQMRHMrGg6k7ZYr",
+  "name": "Thaumaturgy",
+  "type": "tradition",
+  "img": "systems/chroniclesystem/assets/icons/tradition.png",
+  "system": {
+    "description": "<p>Calling on the blessings of the divine to bless, curse and work wonders. Often tied to clergy, though not all priests are wonder-workers, and lay practitioners may be called heretics.</p><p><em>Sorcerous Tradition — Sword Chronicle p. 86. Narrators may define their own Traditions.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 86",
+    "resonances": "Holy symbols, relics, prayers, sacred days and consecrated ground.",
+    "arts": "Any"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ZdQMRHMrGg6k7ZYr"
+}

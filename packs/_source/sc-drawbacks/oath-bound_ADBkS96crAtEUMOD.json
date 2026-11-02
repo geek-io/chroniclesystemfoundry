@@ -1,0 +1,35 @@
+{
+  "_id": "ADBkS96crAtEUMOD",
+  "name": "Oath-Bound",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>A magically binding oath (to a mentor, entity, order, cult or liege). Break it and lose the magic it grants. May be taken more than once.</p><p><em>Stricture drawback. Full rules: Sword Chronicle p. 63.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 63",
+    "requireSorcerousArt": true,
+    "isAStricture": true,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "Knowledge of a sorcerous Art"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ADBkS96crAtEUMOD"
+}

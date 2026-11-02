@@ -1,0 +1,33 @@
+{
+  "_id": "u1yM2hVWkhMCO4OS",
+  "name": "Axe Fighter I",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Sacrifice bonus dice on an axe attack; on a hit the target takes that much extra damage, ignoring AR, at the start of its next turn.</p><p><em>Ancestry (Dwarf), Martial. Full rules: Sword Chronicle p. 48.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 48",
+    "categories": "Ancestry (Dwarf), Martial",
+    "requirements": "Fighting 4 (Axes 2B), or Dwarf Ancestry and Fighting 2 (Axes 1B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!u1yM2hVWkhMCO4OS"
+}

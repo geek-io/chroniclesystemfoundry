@@ -1,0 +1,33 @@
+{
+  "_id": "Bp5uSfqLGbaf4xbK",
+  "name": "Head of House",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>You lead your house: +2 to all Status results. Needs the agreement of the Narrator and players; only one per group.</p><p><em>Fate. Full rules: Sword Chronicle p. 54.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 54",
+    "categories": "Fate",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Bp5uSfqLGbaf4xbK"
+}

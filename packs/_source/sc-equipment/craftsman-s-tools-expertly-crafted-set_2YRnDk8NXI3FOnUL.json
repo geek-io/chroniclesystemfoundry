@@ -1,0 +1,36 @@
+{
+  "_id": "2YRnDk8NXI3FOnUL",
+  "name": "Craftsman's Tools (Expertly crafted set)",
+  "type": "equipment",
+  "img": "systems/chroniclesystem/assets/icons/equipment.png",
+  "system": {
+    "description": "<p>A fine, well-honed set of tools for one trade.</p><p><em>Personal Equipment — Sword Chronicle p. 108. Coinage (p. 108): copper penny (cp); silver drachma (sd) = 50 cp; gold piece (gp) = 200 sd or 1,000 cp.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 108",
+    "quantity": 1,
+    "cost": "100–1,000 sd"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "chroniclesystem": {
+      "category": "Personal Equipment"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2YRnDk8NXI3FOnUL"
+}

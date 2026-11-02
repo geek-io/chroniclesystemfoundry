@@ -1,0 +1,48 @@
+{
+  "_id": "4kusUIXxbttD73ZI",
+  "name": "Blessing",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Lays blessings of purpose on consenting subjects: a spell for one person's task, a convocation for many, or a lifelong anointing for kings, orders and priests.</p><p><strong>Spell.</strong> Formidable (12) for a month; Hard (15) for a season; Heroic (21) for a year. Bless one touched person for a named, achievable task: each degree adds a bonus die they can spend on that task.</p><p><strong>Ritual.</strong> Alignment: Convocational Blessing: Formidable (12) Knowledge, 30 minutes. Anointing: Hard (15) Knowledge, 1 hour, in a consecrated temple after an 8-hour vigil. Invocation: Formidable (12) Persuasion, 1 hour. Convocational: each degree gives every subject a bonus die toward the task. Anointing: each degree lowers the Unleashing Difficulty by 3. Unleashing: Convocational: 6 + 1 per extra subject. Anointing: Very Hard (18); each degree lets a spent Destiny Point once count as burned while serving in the anointed role.</p><p><em>Art of Benediction — full rules: Sword Chronicle p. 92.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 92",
+    "art": "Art of Benediction",
+    "workType": "BOTH",
+    "testAbility": "Persuasion",
+    "test": "Persuasion",
+    "learningTime": "8 weeks",
+    "learningDifficulty": 15,
+    "price": "Spent (spell, Convocational Blessing) or Burned (Ritual of Anointing)",
+    "resonances": "None (spell) or ritual regalia and incenses (1 gold piece).",
+    "spell": {
+      "difficulty": "Formidable (12) for a month; Hard (15) for a season; Heroic (21) for a year.",
+      "notes": "Bless one touched person for a named, achievable task: each degree adds a bonus die they can spend on that task."
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "Convocational Blessing: Formidable (12) Knowledge, 30 minutes. Anointing: Hard (15) Knowledge, 1 hour, in a consecrated temple after an 8-hour vigil.",
+      "invocation": "Formidable (12) Persuasion, 1 hour. Convocational: each degree gives every subject a bonus die toward the task. Anointing: each degree lowers the Unleashing Difficulty by 3.",
+      "unleashing": "Convocational: 6 + 1 per extra subject. Anointing: Very Hard (18); each degree lets a spent Destiny Point once count as burned while serving in the anointed role."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4kusUIXxbttD73ZI"
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "UCCiFVAmHeo3L87B",
+  "name": "Gifted Athlete",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>With one Athletics specialty, half your bonus dice (minimum 1) count as test dice. May be taken more than once.</p><p><em>Ability, Ancestry (Human). Full rules: Sword Chronicle p. 53.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 53",
+    "categories": "Ability, Ancestry (Human)",
+    "requirements": "Athletics 4",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UCCiFVAmHeo3L87B"
+}

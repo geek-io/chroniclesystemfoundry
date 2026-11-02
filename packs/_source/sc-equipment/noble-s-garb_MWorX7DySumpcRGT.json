@@ -1,0 +1,36 @@
+{
+  "_id": "MWorX7DySumpcRGT",
+  "name": "Noble's Garb",
+  "type": "equipment",
+  "img": "systems/chroniclesystem/assets/icons/equipment.png",
+  "system": {
+    "description": "<p>The finest embroidered silks and furs.</p><p><em>Clothing — Sword Chronicle p. 110. Coinage (p. 108): copper penny (cp); silver drachma (sd) = 50 cp; gold piece (gp) = 200 sd or 1,000 cp.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 110",
+    "quantity": 1,
+    "cost": "100–1,000 sd"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "chroniclesystem": {
+      "category": "Clothing"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MWorX7DySumpcRGT"
+}

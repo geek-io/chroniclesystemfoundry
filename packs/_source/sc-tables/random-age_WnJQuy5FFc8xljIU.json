@@ -1,0 +1,237 @@
+{
+  "_id": "WnJQuy5FFc8xljIU",
+  "name": "Random Age",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 3d6 for a random age category. Ages: human / dwarf / elf / ogre (kurgulan as ogre).</p><p><em>Sword Chronicle p. 16</em></p>",
+  "results": [
+    {
+      "_id": "nZEZEIic2nZUGKOL",
+      "type": "text",
+      "name": "Youth (human 0–9, dwarf 0–15, elf 0–20, ogre 0–9)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!WnJQuy5FFc8xljIU.nZEZEIic2nZUGKOL"
+    },
+    {
+      "_id": "hwk3HJ2yiZUsc91O",
+      "type": "text",
+      "name": "Adolescent (human 10–13, dwarf 16–20, elf 21–30, ogre 10–13)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!WnJQuy5FFc8xljIU.hwk3HJ2yiZUsc91O"
+    },
+    {
+      "_id": "HWp5vLgiWpHIQhmX",
+      "type": "text",
+      "name": "Young Adult (human 14–18, dwarf 21–25, elf 31–40, ogre 14–18)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!WnJQuy5FFc8xljIU.HWp5vLgiWpHIQhmX"
+    },
+    {
+      "_id": "ccd7bmuGiJLZcP9O",
+      "type": "text",
+      "name": "Adult (human 19–30, dwarf 26–50, elf 41–200, ogre 19–25)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        7,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!WnJQuy5FFc8xljIU.ccd7bmuGiJLZcP9O"
+    },
+    {
+      "_id": "cSatnf4QPfYv7KT9",
+      "type": "text",
+      "name": "Middle Age (human 31–50, dwarf 51–100, elf 201–400, ogre 26–40)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        12,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!WnJQuy5FFc8xljIU.cSatnf4QPfYv7KT9"
+    },
+    {
+      "_id": "EwG16lFOxIEiUBfx",
+      "type": "text",
+      "name": "Old (human 51–70, dwarf 101–150, elf 401–500, ogre 41–50)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!WnJQuy5FFc8xljIU.EwG16lFOxIEiUBfx"
+    },
+    {
+      "_id": "UxNoH0r4FL41fUbm",
+      "type": "text",
+      "name": "Very Old (human 71–80, dwarf 151–200, elf 501–600, ogre 51–55)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!WnJQuy5FFc8xljIU.UxNoH0r4FL41fUbm"
+    },
+    {
+      "_id": "yomJqBn6WZi9Tz8U",
+      "type": "text",
+      "name": "Venerable (human 81+, dwarf 201+, elf 601+, ogre 56+)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!WnJQuy5FFc8xljIU.yomJqBn6WZi9Tz8U"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!WnJQuy5FFc8xljIU"
+}

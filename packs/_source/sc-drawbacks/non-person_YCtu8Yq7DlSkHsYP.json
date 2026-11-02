@@ -1,0 +1,35 @@
+{
+  "_id": "YCtu8Yq7DlSkHsYP",
+  "name": "Non-Person",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>Among many non-kurgulan your Status counts as 3 lower (1 lower if it comes from a position in a non-kurgulan house); at effective Status 0 or less your oaths and legal protections may be ignored.</p><p><em>Flaw drawback. Full rules: Sword Chronicle p. 205.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 205",
+    "requireSorcerousArt": false,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "Kurgulan only (mandatory)"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YCtu8Yq7DlSkHsYP"
+}

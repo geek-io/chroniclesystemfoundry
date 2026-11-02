@@ -1,0 +1,40 @@
+{
+  "_id": "HcmGx2XLmVurzTsF",
+  "name": "Neurotoxic Venom",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>Venom from snakes and sea creatures: 1 wound per degree. Any injury or wound from it takes away speech and may cause –1D to Endurance (Formidable 12 Endurance test).</p>",
+    "type": "",
+    "source": "Sword Chronicle p. 117",
+    "quantity": 1,
+    "cost": "5–10 gp",
+    "delivery": "Injected",
+    "virulence": "5",
+    "frequency": "1/round",
+    "toxicity": 2,
+    "diagnosis": 9,
+    "effects": "<p>Virulence 5; Toxicity 2; Frequency 1/round; Diagnosis Challenging (9).</p><p>Venom from snakes and sea creatures: 1 wound per degree. Any injury or wound from it takes away speech and may cause –1D to Endurance (Formidable 12 Endurance test).</p>",
+    "recovery": "<p>Injuries and wounds heal normally; the Endurance penalty is permanent unless a Destiny Point is burned (then 2d6 days).</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HcmGx2XLmVurzTsF"
+}

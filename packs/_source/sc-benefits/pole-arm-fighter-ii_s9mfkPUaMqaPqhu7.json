@@ -1,0 +1,33 @@
+{
+  "_id": "s9mfkPUaMqaPqhu7",
+  "name": "Pole-Arm Fighter II",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Pole-arm bonus dice count as test dice when pulling a rider from the saddle; if you fail, you are disarmed.</p><p><em>Martial. Full rules: Sword Chronicle p. 56.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 56",
+    "categories": "Martial",
+    "requirements": "Pole-Arm Fighter I",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!s9mfkPUaMqaPqhu7"
+}

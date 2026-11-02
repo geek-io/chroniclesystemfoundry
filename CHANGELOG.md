@@ -1,5 +1,43 @@
 # Change Log
 
+## 14.0.2 — Sword Chronicle content
+
+Adds the content of *Sword Chronicle: Feudal Fantasy Roleplaying* (Green Ronin, 2020), with new item types for ancestries and sorcery.
+
+### Added
+- **Four new item types:**
+  - **Ancestry**: age categories, the ancestry's benefit options and any special rules.
+  - **Sorcerous Art**: tools, initiation benefit, common resonances and its list of Works.
+  - **Sorcerous Work**: Art, Spell/Ritual/both, test ability, learning time and difficulty, price, resonances, the spellcasting difficulty, and the Alignment, Invocation and Unleashing steps.
+  - **Sorcerous Tradition**: resonances and favoured Arts.
+- **Character sheet:**
+  - The Qualities tab lists a character's ancestries above benefits and drawbacks. Dropping an ancestry also fills the header's Ancestry field.
+  - The Sorcery tab shows Sorcery Defense, Sorcery Points, Traditions, Arts and Works. Each Work has roll buttons for its spell test or its Alignment, Invocation and Unleashing tests.
+  - Older Technique items still appear under "Techniques (legacy)" when a character has any.
+- **Sorcery Defense** is calculated for characters and NPCs: Cunning + Endurance + Will, plus a +1 Averting bonus for every two Sorcerous benefits, plus a modifier.
+- **Sword Chronicle compendiums:** a new "Sword Chronicle" compendium folder with 14 packs and 475 entries:
+  - **Ancestries:** dwarf, elf, human, ogre and kurgulan.
+  - **Benefits:** 128, including the ancestry benefits and the kurgulan benefits.
+  - **Drawbacks:** 45, including Strictures and Sorcerous drawbacks.
+  - **Sorcery:** 6 Traditions, the 4 Arts and 17 Works.
+  - **Weapons:** 58.
+  - **Armor:** 15.
+  - **Goods, clothing, trade goods, mounts and barding:** 77.
+  - **Poisons:** 9.
+  - **Holdings and unit types:** 37.
+  - **Historical events:** 16.
+  - **Houses:** 20 house actors, made up of House Margoth of Graylock and the 19 houses of the Breachlands.
+  - **Narrator characters:** 7.
+  - **Creatures:** 19, including the giant, gryphon and unfallen.
+  - **Roll tables:** 12, covering age, starting status, historical events, House Fortunes and the seven starting resources.
+  - Entries hold the book's statistics with short summaries and page references, not the book's text.
+- **House resource setting:** a world setting chooses the dice for regenerating a house's starting resources: SIFRP's 7d6, or Sword Chronicle's 8d6 − 2d6 (minimum 1).
+- **Importer:** it accepts the new item types, including table columns for a Work's Art, type, price, learning difficulty and resonances.
+- **New icons** for the four new item types.
+
+### Changed
+- The SIFRP compendium generator now only replaces its own pack folders, so both generators can share `packs/_source`. `npm run build:sources` runs both.
+
 ## 14.0.1
 
 Bug fixes from testing 14.0.0.

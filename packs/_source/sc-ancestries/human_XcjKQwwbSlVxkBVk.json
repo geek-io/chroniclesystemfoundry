@@ -1,0 +1,67 @@
+{
+  "_id": "XcjKQwwbSlVxkBVk",
+  "name": "Human",
+  "type": "ancestry",
+  "img": "systems/chroniclesystem/assets/icons/ancestry.png",
+  "system": {
+    "description": "<p>The baseline the other ancestries are compared against, though no less distinctive. Humans wander, settle and conquer, absorb new ideas and build elaborate customs around them; their cultures are often the most politically focused, and many people of every ancestry carry some human heritage.</p><p><em>Sword Chronicle p. 15. Choose two ancestry benefits at character creation (from one ancestry or two); more can be bought with Destiny Points.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 15",
+    "benefitList": [
+      {
+        "name": "Blood of the Ancient Ones"
+      },
+      {
+        "name": "Blood of the Heroes"
+      },
+      {
+        "name": "Gifted Athlete"
+      },
+      {
+        "name": "Massive"
+      },
+      {
+        "name": "Blood of the Sorcerers"
+      },
+      {
+        "name": "Blood of the Witch-Hunters"
+      },
+      {
+        "name": "Blood of the Wild"
+      },
+      {
+        "name": "Heirloom"
+      }
+    ],
+    "rules": "<p>At character creation a human may take any non-ancestry benefit as a human ancestry benefit, as long as they meet its requirements.</p>",
+    "ages": {
+      "youth": "0–9",
+      "adolescent": "10–13",
+      "youngAdult": "14–18",
+      "adult": "19–30",
+      "middleAge": "31–50",
+      "old": "51–70",
+      "veryOld": "71–80",
+      "venerable": "81+"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XcjKQwwbSlVxkBVk"
+}

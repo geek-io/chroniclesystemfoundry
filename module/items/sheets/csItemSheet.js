@@ -1,5 +1,6 @@
 import {applySheetTheme, toggleSheetTheme, mergeArrayFormData} from "../../utils/sheetUtils.js";
 import SystemUtils from "../../utils/systemUtils.js";
+import {CSConstants} from "../../system/csConstants.js";
 
 const {HandlebarsApplicationMixin} = foundry.applications.api;
 const {ItemSheetV2} = foundry.applications.sheets;
@@ -8,7 +9,7 @@ const {ItemSheetV2} = foundry.applications.sheets;
  * Base Chronicle System item sheet (ApplicationV2). The template is picked from the item type.
  */
 export class CSItemSheet extends HandlebarsApplicationMixin(ItemSheetV2) {
-    static ARRAY_FIELDS = ["qualities", "specialties", "features", "arts", "works"];
+    static ARRAY_FIELDS = ["qualities", "specialties", "features", "arts", "works", "benefitList", "workList"];
 
     static DEFAULT_OPTIONS = {
         classes: ["chroniclesystem", "sheet", "item"],
@@ -40,6 +41,8 @@ export class CSItemSheet extends HandlebarsApplicationMixin(ItemSheetV2) {
         specialties: () => ({name: "", rating: 0, modifier: 0}),
         features: () => ({name: "", cost: 0}),
         arts: () => ({name: ""}),
+        benefitList: () => ({name: ""}),
+        workList: () => ({name: ""}),
         works: () => ({
             name: "",
             type: "SPELL",
@@ -69,13 +72,27 @@ export class CSItemSheet extends HandlebarsApplicationMixin(ItemSheetV2) {
         context.specialties = SystemUtils.toArray(item.system.specialties);
         context.features = SystemUtils.toArray(item.system.features);
         context.arts = SystemUtils.toArray(item.system.arts);
+        context.benefitList = SystemUtils.toArray(item.system.benefitList);
+        context.workList = SystemUtils.toArray(item.system.workList);
+        context.workTypes = CSConstants.WorkTypes;
+        context.abilityNames = CSItemSheet.abilityChoices(item.system.testAbility, item.system.ritual?.alignmentAbility);
         const enrich = (value) => SystemUtils.enrich(value, {relativeTo: item, secrets: item.isOwner});
         context.enriched = {
             description: await enrich(item.system.description),
             effects: await enrich(item.system.effects),
-            recovery: await enrich(item.system.recovery)
+            recovery: await enrich(item.system.recovery),
+            rules: await enrich(item.system.rules)
         };
         return context;
+    }
+
+    /** Ability names for the Sorcerous Work selects (the standard 19 plus any custom value already stored). */
+    static abilityChoices(...current) {
+        const names = ["Agility", "Animal Handling", "Athletics", "Awareness", "Cunning", "Deception", "Endurance", "Fighting",
+            "Healing", "Knowledge", "Language", "Marksmanship", "Persuasion", "Status", "Stealth", "Survival", "Thievery",
+            "Warfare", "Will"];
+        for (const c of current) if (c && !names.includes(c)) names.push(c);
+        return Object.fromEntries([["", "—"], ...names.map((n) => [n, n])]);
     }
 
     /** @inheritDoc */

@@ -1,0 +1,35 @@
+{
+  "_id": "nJBST56n5LzwHXZE",
+  "name": "Flaw",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>–1D on tests with one ability, which also counts as 1 lower for passive results and derived values. Typical names: Clumsy (Agility), Unsteady (Aim), Sedentary (Athletics), Obtuse (Awareness), Frail (Endurance), Inept (Fighting), Dullard, Uncultured (Knowledge), Illiterate (Language), Shy (Persuasion), Obvious (Stealth), Pampered (Survival), Brash (Will), Cruel (Animal Handling), Wretched (Status), Unsubtle (Thievery), Coward (Warfare).</p><p><em>Flaw drawback. Full rules: Sword Chronicle p. 61.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 61",
+    "requireSorcerousArt": false,
+    "isAStricture": false,
+    "isAFlaw": true,
+    "flawAttribute": "",
+    "requirements": "—"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nJBST56n5LzwHXZE"
+}

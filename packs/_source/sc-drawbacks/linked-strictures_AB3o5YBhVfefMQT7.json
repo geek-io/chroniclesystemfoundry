@@ -1,0 +1,35 @@
+{
+  "_id": "AB3o5YBhVfefMQT7",
+  "name": "Linked Strictures",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>Links two Strictures: breaking one breaks all linked Strictures, and the magic bought with this drawback is lost too. May be taken more than once.</p><p><em>Stricture drawback. Full rules: Sword Chronicle p. 62.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 62",
+    "requireSorcerousArt": true,
+    "isAStricture": true,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "Two Stricture drawbacks"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!AB3o5YBhVfefMQT7"
+}

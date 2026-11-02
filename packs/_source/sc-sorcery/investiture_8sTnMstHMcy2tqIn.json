@@ -1,0 +1,48 @@
+{
+  "_id": "8sTnMstHMcy2tqIn",
+  "name": "Investiture",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Imbues an item with power aligned to a task, practice or philosophy: a temporary Telesma or permanent Regalia that often becomes a house or order's sacred relic.</p><p><strong>Spell.</strong> Investiture of Telesma: Challenging (9) for +1 to test totals, Hard (15) for +1B or a quality, Heroic (21) for +1D or a Benefit. Ten minutes of chanting. Grants +1 to one ability's tests toward the declared purpose for a week; extra degrees add +1 or another week. Failure ruins the item.</p><p><strong>Ritual.</strong> Alignment: Challenging (9) Knowledge, 1 hour cleansing the space and item. Invocation: Persuasion, 3 hours, Difficulty by bonus as for Telesma. Failure ends the rite harmlessly. Unleashing: Hard (15) Will. Success permanently invests the item (Investiture of Regalia) and each degree makes it harder to break; failure destroys the item and wounds the sorcerer.</p><p><em>Art of Benediction — full rules: Sword Chronicle p. 94.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 94",
+    "art": "Art of Benediction",
+    "workType": "BOTH",
+    "testAbility": "Persuasion",
+    "test": "Persuasion",
+    "learningTime": "5 weeks",
+    "learningDifficulty": 9,
+    "price": "Spent (spell) or Burned (ritual)",
+    "resonances": "An unbroken item of good quality (spell); an item worth 100+ gold plus 2 gold of consumables (ritual).",
+    "spell": {
+      "difficulty": "Investiture of Telesma: Challenging (9) for +1 to test totals, Hard (15) for +1B or a quality, Heroic (21) for +1D or a Benefit.",
+      "notes": "Ten minutes of chanting. Grants +1 to one ability's tests toward the declared purpose for a week; extra degrees add +1 or another week. Failure ruins the item."
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "Challenging (9) Knowledge, 1 hour cleansing the space and item.",
+      "invocation": "Persuasion, 3 hours, Difficulty by bonus as for Telesma. Failure ends the rite harmlessly.",
+      "unleashing": "Hard (15) Will. Success permanently invests the item (Investiture of Regalia) and each degree makes it harder to break; failure destroys the item and wounds the sorcerer."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8sTnMstHMcy2tqIn"
+}

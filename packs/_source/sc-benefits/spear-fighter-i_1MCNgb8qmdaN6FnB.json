@@ -1,0 +1,33 @@
+{
+  "_id": "1MCNgb8qmdaN6FnB",
+  "name": "Spear Fighter I",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Haft Strike (Greater Action): if your spear attack misses, strike another foe in reach with the haft for Athletics –1 damage.</p><p><em>Martial. Full rules: Sword Chronicle p. 58.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 58",
+    "categories": "Martial",
+    "requirements": "Fighting 3 (Spears 1B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!1MCNgb8qmdaN6FnB"
+}

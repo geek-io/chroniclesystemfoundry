@@ -1,0 +1,49 @@
+{
+  "_id": "enmrtbaALFCpISio",
+  "name": "Dagger",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>Short blades are daggers and stilettos, easy to hide and quick to find gaps in armor.</p><p><em>Sword Chronicle p. 136; cost Sword Chronicle p. 113.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 136",
+    "weight": 1.0,
+    "quantity": 1,
+    "cost": "20 sd",
+    "specialty": "Fighting:Short Blades",
+    "training": 0,
+    "damage": "@Agility-2",
+    "qualities": [
+      {
+        "name": "Defensive",
+        "parameter": "+1"
+      },
+      {
+        "name": "Off-hand",
+        "parameter": "+1"
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!enmrtbaALFCpISio"
+}

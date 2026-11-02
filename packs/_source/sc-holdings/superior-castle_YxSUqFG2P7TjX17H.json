@@ -1,0 +1,35 @@
+{
+  "_id": "YxSUqFG2P7TjX17H",
+  "name": "Superior Castle",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>A massive stronghold of towers and buildings behind a steep curtain wall, likely moated. Units defending it gain +10 Defense. Requires a land holding.</p><p><em>Sword Chronicle p. 71</em></p>",
+    "investment": 50,
+    "buildTime": "144+10d6 months",
+    "resource": "defense",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "Sword Chronicle p. 71"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YxSUqFG2P7TjX17H"
+}

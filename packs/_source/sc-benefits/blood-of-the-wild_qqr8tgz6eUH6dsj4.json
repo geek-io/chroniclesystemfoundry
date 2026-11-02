@@ -1,0 +1,33 @@
+{
+  "_id": "qqr8tgz6eUH6dsj4",
+  "name": "Blood of the Wild",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Add Athletics rank to passive Endurance against environmental hazards. Characters of higher Status can never simply compel you; they must win an intrigue.</p><p><em>Ancestry (Any). Full rules: Sword Chronicle p. 49.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 49",
+    "categories": "Ancestry (Any)",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!qqr8tgz6eUH6dsj4"
+}

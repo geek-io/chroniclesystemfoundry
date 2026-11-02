@@ -1,0 +1,48 @@
+{
+  "_id": "5jwZo7xu3sg0WZRg",
+  "name": "Sorcerer's Bane",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Curses another sorcerer so that every target of their magic counts as protected by a ward, even willing ones.</p><p><strong>Spell.</strong> Knowledge test; Difficulty by the Ward Rating imposed (see the Sorcerer's Bane Difficulty table). Each degree lasts one week.</p><p><em>Art of Warding — full rules: Sword Chronicle p. 107.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 107",
+    "art": "Art of Warding",
+    "workType": "SPELL",
+    "testAbility": "Knowledge",
+    "test": "Knowledge",
+    "learningTime": "12 weeks",
+    "learningDifficulty": 18,
+    "price": "Spent",
+    "resonances": "None.",
+    "spell": {
+      "difficulty": "Knowledge test; Difficulty by the Ward Rating imposed (see the Sorcerer's Bane Difficulty table).",
+      "notes": "Each degree lasts one week."
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "",
+      "invocation": "",
+      "unleashing": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5jwZo7xu3sg0WZRg"
+}

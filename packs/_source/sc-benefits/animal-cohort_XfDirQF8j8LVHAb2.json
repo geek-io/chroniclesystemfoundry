@@ -1,0 +1,33 @@
+{
+  "_id": "XfDirQF8j8LVHAb2",
+  "name": "Animal Cohort",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>A loyal animal (dog, eagle, horse, puma, raven or wolf) fights beside you: +1D on Fighting tests while it is next to you or your foe. Lose the benefit and its Destiny Point if it dies.</p><p><em>Fate. Full rules: Sword Chronicle p. 47.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 47",
+    "categories": "Fate",
+    "requirements": "Animal Handling 3 (Train 1B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XfDirQF8j8LVHAb2"
+}

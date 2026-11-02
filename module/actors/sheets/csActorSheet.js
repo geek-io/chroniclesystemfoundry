@@ -1,6 +1,7 @@
 import {ChronicleSystem} from "../../system/ChronicleSystem.js";
 import {applySheetTheme, toggleSheetTheme, mergeArrayFormData} from "../../utils/sheetUtils.js";
 import SystemUtils from "../../utils/systemUtils.js";
+import {CSConstants} from "../../system/csConstants.js";
 
 const {HandlebarsApplicationMixin} = foundry.applications.api;
 const {ActorSheetV2} = foundry.applications.sheets;
@@ -110,8 +111,7 @@ export class CSActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
             return null;
         }
         // Abilities, qualities etc. are unique by name; weapons and gear may be carried more than once.
-        const stackable = ["weapon", "armor", "equipment", "poison"];
-        if (!stackable.includes(item.type)) {
+        if (!CSConstants.StackableItemTypes.includes(item.type)) {
             const existing = this.actor.items.find((i) => i.type === item.type && i.name === item.name);
             if (existing) return existing;
         }

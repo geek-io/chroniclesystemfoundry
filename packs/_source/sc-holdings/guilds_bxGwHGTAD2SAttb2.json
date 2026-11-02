@@ -1,0 +1,35 @@
+{
+  "_id": "bxGwHGTAD2SAttb2",
+  "name": "Guilds",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>Organizations that set prices and quality. Requires a small town or larger. Household members get 10% off goods in your lands.</p><p><em>Sword Chronicle p. 78</em></p>",
+    "investment": 15,
+    "buildTime": "2d6 months",
+    "resource": "wealth",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 0,
+    "source": "Sword Chronicle p. 78"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bxGwHGTAD2SAttb2"
+}

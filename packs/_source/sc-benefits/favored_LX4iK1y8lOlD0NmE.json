@@ -1,0 +1,33 @@
+{
+  "_id": "LX4iK1y8lOlD0NmE",
+  "name": "Favored",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>+1B on Persuasion tests with one social group (nobles, commoners, soldiers, a faith, a trade...).</p><p><em>Social. Full rules: Sword Chronicle p. 52.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 52",
+    "categories": "Social",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LX4iK1y8lOlD0NmE"
+}

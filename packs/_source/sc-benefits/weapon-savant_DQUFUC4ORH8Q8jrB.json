@@ -1,0 +1,33 @@
+{
+  "_id": "DQUFUC4ORH8Q8jrB",
+  "name": "Weapon Savant",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Use any weapon without its training penalty.</p><p><em>Martial. Full rules: Sword Chronicle p. 60.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 60",
+    "categories": "Martial",
+    "requirements": "Agility 4, Cunning 4, Fighting 5",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DQUFUC4ORH8Q8jrB"
+}

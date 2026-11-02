@@ -1,0 +1,33 @@
+{
+  "_id": "jSB6orRSQijcNyjT",
+  "name": "Artist",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Practise an art form to earn coin (about 10 silver a week, more with a Cunning test); may give +1D on Persuasion with admirers of your work.</p><p><em>Ability. Full rules: Sword Chronicle p. 47.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 47",
+    "categories": "Ability",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!jSB6orRSQijcNyjT"
+}

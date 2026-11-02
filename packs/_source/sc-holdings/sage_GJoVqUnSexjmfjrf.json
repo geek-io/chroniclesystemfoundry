@@ -1,0 +1,35 @@
+{
+  "_id": "GJoVqUnSexjmfjrf",
+  "name": "Sage",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>A learned advisor joins the household (player or Narrator character). Requires Influence 20+. +3 on House Fortunes.</p><p><em>Sword Chronicle p. 79</em></p>",
+    "investment": 10,
+    "buildTime": "1d6 months",
+    "resource": "wealth",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 3,
+    "source": "Sword Chronicle p. 79"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!GJoVqUnSexjmfjrf"
+}

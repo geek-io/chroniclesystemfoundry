@@ -1,0 +1,33 @@
+{
+  "_id": "bLvyiQ8rY0ANminP",
+  "name": "Kurgulan Toughness",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Health is 4 × Endurance; natural AR 1 that stacks with armor and ignores Piercing; Staggering needs two degrees to cost you a Greater Action.</p><p><em>Ancestry (Kurgulan). Full rules: Sword Chronicle p. 205.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 205",
+    "categories": "Ancestry (Kurgulan)",
+    "requirements": "Kurgulan only (mandatory)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bLvyiQ8rY0ANminP"
+}

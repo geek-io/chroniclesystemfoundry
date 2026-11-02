@@ -1,0 +1,48 @@
+{
+  "_id": "xNEV5dMzrpYZA8pW",
+  "name": "Ensorcell",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Bewitches heart and mind in intrigues: attack the lower of Intrigue or Sorcery Defense, use Will in place of Persuasion or Deception, and Will in place of Status for fast intrigues.</p><p><strong>Spell.</strong> Bewitching, Seeming or Terror: Greater Action, Spellcasting against Sorcery Defense. Each degree adds +1 Influence with certain techniques; failure turns the target against you.</p><p><strong>Ritual.</strong> Alignment: Web of Influence: Challenging (9) Knowledge, 1 hour. Invocation: Formidable (12) Will, 1 hour. Unleashing: Will against the target's Sorcery Defense: a lasting bewitchment woven into a chosen intrigue.</p><p><em>Art of Malediction — full rules: Sword Chronicle p. 102.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 102",
+    "art": "Art of Malediction",
+    "workType": "BOTH",
+    "testAbility": "Will",
+    "test": "Will",
+    "learningTime": "5 weeks",
+    "learningDifficulty": 15,
+    "price": "Spent, Invested",
+    "resonances": "None (spell), or a link to the target (ritual).",
+    "spell": {
+      "difficulty": "Bewitching, Seeming or Terror: Greater Action, Spellcasting against Sorcery Defense.",
+      "notes": "Each degree adds +1 Influence with certain techniques; failure turns the target against you."
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "Web of Influence: Challenging (9) Knowledge, 1 hour.",
+      "invocation": "Formidable (12) Will, 1 hour.",
+      "unleashing": "Will against the target's Sorcery Defense: a lasting bewitchment woven into a chosen intrigue."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xNEV5dMzrpYZA8pW"
+}

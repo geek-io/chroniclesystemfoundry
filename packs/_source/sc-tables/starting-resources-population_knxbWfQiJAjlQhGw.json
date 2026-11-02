@@ -1,0 +1,237 @@
+{
+  "_id": "knxbWfQiJAjlQhGw",
+  "name": "Starting Resources: Population",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 8d6 − 2d6 (minimum 1). House Fortunes modifier: 0 –10, 1–10 –5, 11–20 +0, 21–30 +1, 31–40 +3, 41–50 +1, 51–60 +0, 61–70 –5, 71+ –10.</p><p><em>Sword Chronicle p. 67</em></p>",
+  "results": [
+    {
+      "_id": "UDaFurarXlcre4dV",
+      "type": "text",
+      "name": "Barren; no one lives under your rule.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        0,
+        0
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!knxbWfQiJAjlQhGw.UDaFurarXlcre4dV"
+    },
+    {
+      "_id": "DbhwOmC31WsNClc7",
+      "type": "text",
+      "name": "Thinly populated tiny settlements.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!knxbWfQiJAjlQhGw.DbhwOmC31WsNClc7"
+    },
+    {
+      "_id": "kf4ojwaauX1DytDu",
+      "type": "text",
+      "name": "A small population, nothing larger than a small town.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        11,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!knxbWfQiJAjlQhGw.kf4ojwaauX1DytDu"
+    },
+    {
+      "_id": "xPhB4FkDFE5wTPis",
+      "type": "text",
+      "name": "Typical: farmsteads and hamlets, perhaps a couple of small towns.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        21,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!knxbWfQiJAjlQhGw.xPhB4FkDFE5wTPis"
+    },
+    {
+      "_id": "oWJ05HtqXYxCBNX4",
+      "type": "text",
+      "name": "Modest: at least one town and several hamlets.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        31,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!knxbWfQiJAjlQhGw.oWJ05HtqXYxCBNX4"
+    },
+    {
+      "_id": "0GRIwcPSgcPeIU9k",
+      "type": "text",
+      "name": "Large: a large town or many smaller ones.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        41,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!knxbWfQiJAjlQhGw.0GRIwcPSgcPeIU9k"
+    },
+    {
+      "_id": "M707cz5HYonqMIEN",
+      "type": "text",
+      "name": "Immense numbers live under your protection.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!knxbWfQiJAjlQhGw.M707cz5HYonqMIEN"
+    },
+    {
+      "_id": "bReqysRwKLGt1z21",
+      "type": "text",
+      "name": "Your whole culture, and more, are your subjects.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!knxbWfQiJAjlQhGw.bReqysRwKLGt1z21"
+    }
+  ],
+  "formula": "8d6-2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!knxbWfQiJAjlQhGw"
+}

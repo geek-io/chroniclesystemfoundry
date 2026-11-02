@@ -7,3 +7,4 @@ node_modules/
 packs/*/LOCK
 packs/*/LOG
 packs/*/LOG.old
+__pycache__/

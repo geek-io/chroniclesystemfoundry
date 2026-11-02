@@ -1,0 +1,33 @@
+{
+  "_id": "opQcLa4LXQdzLroW",
+  "name": "Treacherous",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Add your Cunning rank to Deception results in intrigues.</p><p><em>Social. Full rules: Sword Chronicle p. 59.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 59",
+    "categories": "Social",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!opQcLa4LXQdzLroW"
+}

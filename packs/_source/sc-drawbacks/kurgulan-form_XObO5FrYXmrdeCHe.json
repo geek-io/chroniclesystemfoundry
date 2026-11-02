@@ -1,0 +1,35 @@
+{
+  "_id": "XObO5FrYXmrdeCHe",
+  "name": "Kurgulan Form",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>Your armor costs twice as much (more outside kurgulan lands), and the Narrator may raise other prices or impose penalties on tasks your body suits poorly.</p><p><em>Flaw drawback. Full rules: Sword Chronicle p. 205.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 205",
+    "requireSorcerousArt": false,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "Kurgulan only (mandatory)"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XObO5FrYXmrdeCHe"
+}

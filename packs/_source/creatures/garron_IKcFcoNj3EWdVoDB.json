@@ -45,6 +45,10 @@
       "armorRating": {
         "value": 0,
         "modifier": 0
+      },
+      "sorceryDefense": {
+        "value": 0,
+        "modifier": 0
       }
     },
     "wounds": [],

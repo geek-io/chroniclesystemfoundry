@@ -1,0 +1,33 @@
+{
+  "_id": "FYhLs1nuc7beHXcd",
+  "name": "Hail of Steel",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Thrown weapons gain the Fast quality in your hands.</p><p><em>Martial. Full rules: Sword Chronicle p. 53.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 53",
+    "categories": "Martial",
+    "requirements": "Marksmanship 4 (Thrown 2B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FYhLs1nuc7beHXcd"
+}

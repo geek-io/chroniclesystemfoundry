@@ -1,0 +1,237 @@
+{
+  "_id": "wcASiB9CHZpo4m1B",
+  "name": "Starting Resources: Influence",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 8d6 − 2d6 (minimum 1). Influence also sets the house's maximum Status (0–10: 2, 11–20: 3, 21–40: 4, 41–50: 5, 51–60: 6, 61–70: 7, 71+: 8).</p><p><em>Sword Chronicle p. 67</em></p>",
+  "results": [
+    {
+      "_id": "xWUik1A5EdY03fDa",
+      "type": "text",
+      "name": "Erased from all records; no one speaks the name.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        0,
+        0
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!wcASiB9CHZpo4m1B.xWUik1A5EdY03fDa"
+    },
+    {
+      "_id": "GWboMbyzSfFjGYly",
+      "type": "text",
+      "name": "A minor landed knight or equivalent.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!wcASiB9CHZpo4m1B.GWboMbyzSfFjGYly"
+    },
+    {
+      "_id": "eg4fxJVxZtg5mOyC",
+      "type": "text",
+      "name": "A greater landed knight or equivalent.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        11,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!wcASiB9CHZpo4m1B.eg4fxJVxZtg5mOyC"
+    },
+    {
+      "_id": "HQxhhfjQJ3RVtK1A",
+      "type": "text",
+      "name": "A small minor house.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        21,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!wcASiB9CHZpo4m1B.HQxhhfjQJ3RVtK1A"
+    },
+    {
+      "_id": "7hkAWyyr6bAvC001",
+      "type": "text",
+      "name": "A minor house.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        31,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!wcASiB9CHZpo4m1B.7hkAWyyr6bAvC001"
+    },
+    {
+      "_id": "XxkyGvHISAAaqBts",
+      "type": "text",
+      "name": "A powerful minor house with a colourful history.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        41,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!wcASiB9CHZpo4m1B.XxkyGvHISAAaqBts"
+    },
+    {
+      "_id": "cO9QEEpTwDAkCs7M",
+      "type": "text",
+      "name": "A great house.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!wcASiB9CHZpo4m1B.cO9QEEpTwDAkCs7M"
+    },
+    {
+      "_id": "k3VJdXm9GYKpug9V",
+      "type": "text",
+      "name": "Royal or imperial influence.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!wcASiB9CHZpo4m1B.k3VJdXm9GYKpug9V"
+    }
+  ],
+  "formula": "8d6-2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!wcASiB9CHZpo4m1B"
+}

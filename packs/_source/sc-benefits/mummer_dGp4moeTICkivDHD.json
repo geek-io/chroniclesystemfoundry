@@ -1,0 +1,33 @@
+{
+  "_id": "dGp4moeTICkivDHD",
+  "name": "Mummer",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Perform for coin: a Persuasion test (usually Challenging 9) earns 1d6 silver plus 1 per extra degree; a critical failure gives –5 to performing until your next success.</p><p><em>Ability. Full rules: Sword Chronicle p. 56.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 56",
+    "categories": "Ability",
+    "requirements": "Persuasion 3",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dGp4moeTICkivDHD"
+}

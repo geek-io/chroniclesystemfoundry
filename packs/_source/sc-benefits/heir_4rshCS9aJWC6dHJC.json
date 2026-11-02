@@ -1,0 +1,33 @@
+{
+  "_id": "4rshCS9aJWC6dHJC",
+  "name": "Heir",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Next in line to rule: +1 to all Status results. Becomes Head of House if the head falls. Needs the group's agreement.</p><p><em>Fate. Full rules: Sword Chronicle p. 54.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 54",
+    "categories": "Fate",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4rshCS9aJWC6dHJC"
+}

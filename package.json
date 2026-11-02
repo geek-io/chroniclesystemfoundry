@@ -1,10 +1,10 @@
 {
   "name": "chroniclesystem",
-  "version": "14.0.1",
+  "version": "14.0.2",
   "private": true,
   "description": "Chronicle System (Unofficial) for Foundry VTT v14",
   "scripts": {
-    "build:sources": "python3 tools/sifrp-data/build.py packs/_source",
+    "build:sources": "python3 tools/sifrp-data/build.py packs/_source && python3 tools/sword-chronicle/build.py packs/_source",
     "build:packs": "node tools/compile-packs.mjs",
     "build": "npm run build:sources && npm run build:packs",
     "lint": "eslint module"

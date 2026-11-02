@@ -1,0 +1,32 @@
+{
+  "_id": "YwkogkrQpHZLP5AF",
+  "name": "Rune-craft",
+  "type": "tradition",
+  "img": "systems/chroniclesystem/assets/icons/tradition.png",
+  "system": {
+    "description": "<p>Naming and letter magic: written symbols and their deeper meanings speak to creation in a language of power.</p><p><em>Sorcerous Tradition — Sword Chronicle p. 86. Narrators may define their own Traditions.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 86",
+    "resonances": "Carved or inked runes, true names, inscribed tablets and staves.",
+    "arts": "Any"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YwkogkrQpHZLP5AF"
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "8NenSMCujdDpuytJ",
+  "name": "Astrology",
+  "type": "tradition",
+  "img": "systems/chroniclesystem/assets/icons/tradition.png",
+  "system": {
+    "description": "<p>Reading the stars and planets and their sway over Destiny; workings are timed to celestial alignments.</p><p><em>Sorcerous Tradition — Sword Chronicle p. 86. Narrators may define their own Traditions.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 86",
+    "resonances": "Horoscopes, star charts, auspicious hours and planetary symbols.",
+    "arts": "Any"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8NenSMCujdDpuytJ"
+}

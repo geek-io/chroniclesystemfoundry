@@ -1,0 +1,159 @@
+{
+  "_id": "VtKugFPhw4s72Rwm",
+  "name": "Starting Status",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 2d6 for a random starting Status and position. Values in brackets are for a default house; noble Status never drops below 3.</p><p><em>Sword Chronicle p. 17</em></p>",
+  "results": [
+    {
+      "_id": "YUTmnCL3PpfwV3OG",
+      "type": "text",
+      "name": "House maximum –4 (2): house retainer, hired sword, freeman. No limit on positions.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!VtKugFPhw4s72Rwm.YUTmnCL3PpfwV3OG"
+    },
+    {
+      "_id": "uk5zFcJclcxvFAR2",
+      "type": "text",
+      "name": "House maximum –3 (3): oath-sworn sword, guardsman, squire. 32 positions.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!VtKugFPhw4s72Rwm.uk5zFcJclcxvFAR2"
+    },
+    {
+      "_id": "QPa0iKu41u10y6A5",
+      "type": "text",
+      "name": "House maximum –2 (4): ranking household member, sage, junior priest, landed knight, noble bastard. 16 positions.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!VtKugFPhw4s72Rwm.QPa0iKu41u10y6A5"
+    },
+    {
+      "_id": "ZkRSQEiN5CgGbjXm",
+      "type": "text",
+      "name": "House maximum –1 (5): herald, ward, courtier, advisor, lesser heirs and spouses. 8 positions.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!VtKugFPhw4s72Rwm.ZkRSQEiN5CgGbjXm"
+    },
+    {
+      "_id": "wNzIkKTCB2qcoTGC",
+      "type": "text",
+      "name": "House maximum (6): lord of the house, respected heirs, spouses, offspring. 4 positions.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!VtKugFPhw4s72Rwm.wNzIkKTCB2qcoTGC"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!VtKugFPhw4s72Rwm"
+}

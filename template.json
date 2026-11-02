@@ -48,6 +48,10 @@
           "armorRating": {
             "value": 0,
             "modifier": 0
+          },
+          "sorceryDefense": {
+            "value": 0,
+            "modifier": 0
           }
         },
         "wounds": [],
@@ -185,7 +189,11 @@
       "event",
       "holding",
       "technique",
-      "poison"
+      "poison",
+      "ancestry",
+      "art",
+      "work",
+      "tradition"
     ],
     "templates": {
       "physicalItem": {
@@ -315,6 +323,62 @@
       "arts": [],
       "scales": "",
       "works": []
+    },
+    "ancestry": {
+      "templates": [
+        "itemDescription"
+      ],
+      "benefitList": [],
+      "rules": "",
+      "ages": {
+        "youth": "",
+        "adolescent": "",
+        "youngAdult": "",
+        "adult": "",
+        "middleAge": "",
+        "old": "",
+        "veryOld": "",
+        "venerable": ""
+      }
+    },
+    "art": {
+      "templates": [
+        "itemDescription"
+      ],
+      "tools": "",
+      "initiation": "",
+      "resonances": "",
+      "workList": []
+    },
+    "work": {
+      "templates": [
+        "itemDescription"
+      ],
+      "art": "",
+      "workType": "SPELL",
+      "testAbility": "",
+      "test": "",
+      "learningTime": "",
+      "learningDifficulty": 9,
+      "price": "",
+      "resonances": "",
+      "spell": {
+        "difficulty": "",
+        "notes": ""
+      },
+      "ritual": {
+        "alignmentAbility": "Knowledge",
+        "alignment": "",
+        "invocation": "",
+        "unleashing": ""
+      }
+    },
+    "tradition": {
+      "templates": [
+        "itemDescription"
+      ],
+      "resonances": "",
+      "arts": ""
     }
   }
 }

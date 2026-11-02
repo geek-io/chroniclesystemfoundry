@@ -1,0 +1,61 @@
+{
+  "_id": "PAIADcqOuhDfZgRe",
+  "name": "Pike",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>Spears and lances are the commonest arms of infantry and the charge of the heavy horse.</p><p><em>Sword Chronicle p. 136; cost Sword Chronicle p. 113.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 136",
+    "weight": 9.0,
+    "quantity": 1,
+    "cost": "80 sd",
+    "specialty": "Fighting:Spears",
+    "training": 0,
+    "damage": "@Athletics+2",
+    "qualities": [
+      {
+        "name": "Impale",
+        "parameter": ""
+      },
+      {
+        "name": "Set for Charge",
+        "parameter": ""
+      },
+      {
+        "name": "Slow",
+        "parameter": ""
+      },
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      },
+      {
+        "name": "Unwieldy",
+        "parameter": ""
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PAIADcqOuhDfZgRe"
+}

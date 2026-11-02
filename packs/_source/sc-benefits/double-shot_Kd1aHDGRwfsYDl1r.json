@@ -1,0 +1,33 @@
+{
+  "_id": "Kd1aHDGRwfsYDl1r",
+  "name": "Double Shot",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Greater Action: make two Marksmanship attacks at –1D each, against one target or two adjacent targets.</p><p><em>Martial. Full rules: Sword Chronicle p. 51.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 51",
+    "categories": "Martial",
+    "requirements": "Marksmanship 5 (Bows 3B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Kd1aHDGRwfsYDl1r"
+}

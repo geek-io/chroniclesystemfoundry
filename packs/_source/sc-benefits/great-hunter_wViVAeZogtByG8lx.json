@@ -1,0 +1,33 @@
+{
+  "_id": "wViVAeZogtByG8lx",
+  "name": "Great Hunter",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Add Survival rank to Fighting and Marksmanship results against animals; one bonus die counts as a test die when hunting.</p><p><em>Ability, Ancestry (Elf, Ogre). Full rules: Sword Chronicle p. 53.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 53",
+    "categories": "Ability, Ancestry (Elf, Ogre)",
+    "requirements": "Survival 4, or Elf or Ogre Ancestry and Survival 3",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wViVAeZogtByG8lx"
+}

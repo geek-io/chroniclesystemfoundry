@@ -1,0 +1,40 @@
+{
+  "_id": "pK8rHFsAtf2GYerQ",
+  "name": "Opium, Large Dose",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>As opium, but the victim takes –3 to all tests and a successful attack means 12 hours plus 1 per degree of sleep.</p>",
+    "type": "",
+    "source": "Sword Chronicle p. 117",
+    "quantity": 1,
+    "cost": "500 sd",
+    "delivery": "Ingested or inhaled",
+    "virulence": "6",
+    "frequency": "1/minute",
+    "toxicity": 1,
+    "diagnosis": 3,
+    "effects": "<p>Virulence 6; Toxicity 1; Frequency 1/minute; Diagnosis Easy (3).</p><p>As opium, but the victim takes –3 to all tests and a successful attack means 12 hours plus 1 per degree of sleep.</p>",
+    "recovery": "<p>The painkilling effect lasts 8 hours.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pK8rHFsAtf2GYerQ"
+}

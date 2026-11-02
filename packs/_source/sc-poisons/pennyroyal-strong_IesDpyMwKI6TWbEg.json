@@ -1,0 +1,40 @@
+{
+  "_id": "IesDpyMwKI6TWbEg",
+  "name": "Pennyroyal, Strong",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>As the mild dose, plus –2 Health and a further –1 Health per two degrees.</p>",
+    "type": "",
+    "source": "Sword Chronicle p. 118",
+    "quantity": 1,
+    "cost": "10 sd",
+    "delivery": "Ingested",
+    "virulence": "5",
+    "frequency": "1/hour and 1/2 hours",
+    "toxicity": 2,
+    "diagnosis": 6,
+    "effects": "<p>Virulence 5; Toxicity 2; Frequency 1/hour and 1/2 hours; Diagnosis Routine (6).</p><p>As the mild dose, plus –2 Health and a further –1 Health per two degrees.</p>",
+    "recovery": "<p>Penalties fade after 24 hours.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IesDpyMwKI6TWbEg"
+}

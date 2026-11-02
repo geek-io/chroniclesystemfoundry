@@ -1,0 +1,835 @@
+{
+  "_id": "voZmrdrz552YQ9bk",
+  "name": "House Fortunes",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Find the steward's Status test result (Stewardship bonus dice and holding modifiers apply) on this table. The default roll is only a placeholder: draw the row that matches your actual result.</p><p><em>Sword Chronicle p. 83</em></p>",
+  "results": [
+    {
+      "_id": "oZC2m22SdYFNlFCX",
+      "type": "text",
+      "name": "Disaster: plague, a lord's disfavour, a disgraced ally. Reduce one resource by 1–6, or two by 1–3.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        0,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.oZC2m22SdYFNlFCX"
+    },
+    {
+      "_id": "DBNkB6M2yFtDemXD",
+      "type": "text",
+      "name": "Curse: brigands, bad weather, blight, desertion or lawlessness. Reduce one resource by 1–3, or two by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.DBNkB6M2yFtDemXD"
+    },
+    {
+      "_id": "AfytnbGKxTr2Ns3H",
+      "type": "text",
+      "name": "Decline: lost land, weaker defenses, sickness. Reduce one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.AfytnbGKxTr2Ns3H"
+    },
+    {
+      "_id": "ezd7mfUseqggVJSV",
+      "type": "text",
+      "name": "Disaster: plague, a lord's disfavour, a disgraced ally. Reduce one resource by 1–6, or two by 1–3.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.ezd7mfUseqggVJSV"
+    },
+    {
+      "_id": "bK0ULP5qE9vIw4wP",
+      "type": "text",
+      "name": "Growth: a gift of land, more people or a better economy. Raise one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.bK0ULP5qE9vIw4wP"
+    },
+    {
+      "_id": "ABeLGB4PppRnWRcd",
+      "type": "text",
+      "name": "Decline: lost land, weaker defenses, sickness. Reduce one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.ABeLGB4PppRnWRcd"
+    },
+    {
+      "_id": "8EtJmO2A2pCB2HCi",
+      "type": "text",
+      "name": "Growth: a gift of land, more people or a better economy. Raise one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.8EtJmO2A2pCB2HCi"
+    },
+    {
+      "_id": "ZC0112mu0LTzr6zT",
+      "type": "text",
+      "name": "Curse: brigands, bad weather, blight, desertion or lawlessness. Reduce one resource by 1–3, or two by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.ZC0112mu0LTzr6zT"
+    },
+    {
+      "_id": "UcFwEIbrBSHKB2m8",
+      "type": "text",
+      "name": "Decline: lost land, weaker defenses, sickness. Reduce one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.UcFwEIbrBSHKB2m8"
+    },
+    {
+      "_id": "B1oNw9OSwPLM9fRc",
+      "type": "text",
+      "name": "Growth: a gift of land, more people or a better economy. Raise one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.B1oNw9OSwPLM9fRc"
+    },
+    {
+      "_id": "7GWj7duP6CHvrgBF",
+      "type": "text",
+      "name": "Boon: a windfall, royal favour, alliance or profitable marriage. Raise one resource by 1–6, or two by 1–3.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.7GWj7duP6CHvrgBF"
+    },
+    {
+      "_id": "gXtNGpF2Kn2Wd83w",
+      "type": "text",
+      "name": "Decline: lost land, weaker defenses, sickness. Reduce one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.gXtNGpF2Kn2Wd83w"
+    },
+    {
+      "_id": "xfMFddEWaLWyUZ1g",
+      "type": "text",
+      "name": "Blessing: a minor upturn such as a useful ally or a notable invitation. Raise one resource by 1–3, or two by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.xfMFddEWaLWyUZ1g"
+    },
+    {
+      "_id": "6lteK45xqJQwRpZY",
+      "type": "text",
+      "name": "Growth: a gift of land, more people or a better economy. Raise one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.6lteK45xqJQwRpZY"
+    },
+    {
+      "_id": "nGvSfIY9pjoyXdg0",
+      "type": "text",
+      "name": "Curse: brigands, bad weather, blight, desertion or lawlessness. Reduce one resource by 1–3, or two by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.nGvSfIY9pjoyXdg0"
+    },
+    {
+      "_id": "THjJfKWdLLlvlA3i",
+      "type": "text",
+      "name": "Decline: lost land, weaker defenses, sickness. Reduce one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.THjJfKWdLLlvlA3i"
+    },
+    {
+      "_id": "M97EMRXcxlUZUK1s",
+      "type": "text",
+      "name": "Blessing: a minor upturn such as a useful ally or a notable invitation. Raise one resource by 1–3, or two by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.M97EMRXcxlUZUK1s"
+    },
+    {
+      "_id": "3160eEuDOw0isP0r",
+      "type": "text",
+      "name": "Curse: brigands, bad weather, blight, desertion or lawlessness. Reduce one resource by 1–3, or two by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.3160eEuDOw0isP0r"
+    },
+    {
+      "_id": "B1xd1k2HQEFzPHUb",
+      "type": "text",
+      "name": "Blessing: a minor upturn such as a useful ally or a notable invitation. Raise one resource by 1–3, or two by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.B1xd1k2HQEFzPHUb"
+    },
+    {
+      "_id": "aa9WsBwIHj6mgRjl",
+      "type": "text",
+      "name": "Growth: a gift of land, more people or a better economy. Raise one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        21,
+        22
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.aa9WsBwIHj6mgRjl"
+    },
+    {
+      "_id": "wBOUyA2dcryJEPDr",
+      "type": "text",
+      "name": "Curse: brigands, bad weather, blight, desertion or lawlessness. Reduce one resource by 1–3, or two by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.wBOUyA2dcryJEPDr"
+    },
+    {
+      "_id": "UajL6yaIrUqNGqgi",
+      "type": "text",
+      "name": "Growth: a gift of land, more people or a better economy. Raise one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        24,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.UajL6yaIrUqNGqgi"
+    },
+    {
+      "_id": "4p5r6uErrNUP8Cnf",
+      "type": "text",
+      "name": "Blessing: a minor upturn such as a useful ally or a notable invitation. Raise one resource by 1–3, or two by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        26,
+        27
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.4p5r6uErrNUP8Cnf"
+    },
+    {
+      "_id": "Gw8MGSMlL9x4izMa",
+      "type": "text",
+      "name": "Boon: a windfall, royal favour, alliance or profitable marriage. Raise one resource by 1–6, or two by 1–3.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.Gw8MGSMlL9x4izMa"
+    },
+    {
+      "_id": "fbJNB0Ft10dsUDlF",
+      "type": "text",
+      "name": "Curse: brigands, bad weather, blight, desertion or lawlessness. Reduce one resource by 1–3, or two by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.fbJNB0Ft10dsUDlF"
+    },
+    {
+      "_id": "jZSMhhBrz2MfPn93",
+      "type": "text",
+      "name": "Blessing: a minor upturn such as a useful ally or a notable invitation. Raise one resource by 1–3, or two by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        30,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.jZSMhhBrz2MfPn93"
+    },
+    {
+      "_id": "4DUFtHkE1v1zs7rV",
+      "type": "text",
+      "name": "Growth: a gift of land, more people or a better economy. Raise one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        31,
+        34
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.4DUFtHkE1v1zs7rV"
+    },
+    {
+      "_id": "J2Qsr0GOfUydTZ73",
+      "type": "text",
+      "name": "Blessing: a minor upturn such as a useful ally or a notable invitation. Raise one resource by 1–3, or two by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.J2Qsr0GOfUydTZ73"
+    },
+    {
+      "_id": "lY0lCHcjyiGMUaNi",
+      "type": "text",
+      "name": "Boon: a windfall, royal favour, alliance or profitable marriage. Raise one resource by 1–6, or two by 1–3.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.lY0lCHcjyiGMUaNi"
+    },
+    {
+      "_id": "Xo6uDaPAK2rSQ87L",
+      "type": "text",
+      "name": "Growth: a gift of land, more people or a better economy. Raise one resource by 1.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        37,
+        41
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.Xo6uDaPAK2rSQ87L"
+    },
+    {
+      "_id": "sDeIhDxQAXEuPiLX",
+      "type": "text",
+      "name": "Boon: a windfall, royal favour, alliance or profitable marriage. Raise one resource by 1–6, or two by 1–3.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        42,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!voZmrdrz552YQ9bk.sDeIhDxQAXEuPiLX"
+    }
+  ],
+  "formula": "2d6+18",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!voZmrdrz552YQ9bk"
+}

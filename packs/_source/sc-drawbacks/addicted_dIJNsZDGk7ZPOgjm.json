@@ -1,0 +1,35 @@
+{
+  "_id": "dIJNsZDGk7ZPOgjm",
+  "name": "Addicted",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>In troubling situations, pass a Challenging (9) Will test or turn to your addiction until something pulls you away.</p><p><em>Full rules: Sword Chronicle p. 60.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 60",
+    "requireSorcerousArt": false,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "—"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dIJNsZDGk7ZPOgjm"
+}

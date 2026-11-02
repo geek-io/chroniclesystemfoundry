@@ -1,0 +1,33 @@
+{
+  "_id": "F1yK51SC4KzN9BBX",
+  "name": "Magnetic",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Defeating someone with Charm improves their disposition by a number of steps equal to your Charm bonus dice (minimum 2).</p><p><em>Social. Full rules: Sword Chronicle p. 55.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 55",
+    "categories": "Social",
+    "requirements": "Attractive or Charismatic",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!F1yK51SC4KzN9BBX"
+}

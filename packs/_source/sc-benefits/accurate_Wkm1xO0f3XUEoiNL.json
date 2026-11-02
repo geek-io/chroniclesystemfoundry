@@ -1,0 +1,33 @@
+{
+  "_id": "Wkm1xO0f3XUEoiNL",
+  "name": "Accurate",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>+1D on Marksmanship tests against a target behind cover.</p><p><em>Ancestry (Elf), Martial. Full rules: Sword Chronicle p. 47.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 47",
+    "categories": "Ancestry (Elf), Martial",
+    "requirements": "Marksmanship 4, or Elf Ancestry and Marksmanship 2",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Wkm1xO0f3XUEoiNL"
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "bOBhnkU6t5VvJrGP",
+  "name": "Respected",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Opponents take –1D on Incite, Intimidate and Taunt tests against you.</p><p><em>Social. Full rules: Sword Chronicle p. 57.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 57",
+    "categories": "Social",
+    "requirements": "Reputation 2B",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bOBhnkU6t5VvJrGP"
+}

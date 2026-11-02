@@ -1,0 +1,237 @@
+{
+  "_id": "x5BaEjL8O0Hc3HC8",
+  "name": "Starting Resources: Defense",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 8d6 − 2d6 (minimum 1) for the resource and read the description.</p><p><em>Sword Chronicle p. 66</em></p>",
+  "results": [
+    {
+      "_id": "FJLZkhHuGjmWyBqE",
+      "type": "text",
+      "name": "Desolate ruined land with no defensible structures or roads.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        0,
+        0
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!x5BaEjL8O0Hc3HC8.FJLZkhHuGjmWyBqE"
+    },
+    {
+      "_id": "DYv0hDX6qHnE8dCn",
+      "type": "text",
+      "name": "Mostly wilderness with unprotected pockets of civilization, one or two roads or a minor stronghold.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!x5BaEjL8O0Hc3HC8.DYv0hDX6qHnE8dCn"
+    },
+    {
+      "_id": "HZRkwGD07kfQqZdF",
+      "type": "text",
+      "name": "Some cultivation, a keep or small stronghold, a few roads, rivers or ports.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        11,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!x5BaEjL8O0Hc3HC8.HZRkwGD07kfQqZdF"
+    },
+    {
+      "_id": "91dJH6M6aUKfBjup",
+      "type": "text",
+      "name": "Defensible, with at least one fortified town or castle; roads, likely rivers or ports.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        21,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!x5BaEjL8O0Hc3HC8.91dJH6M6aUKfBjup"
+    },
+    {
+      "_id": "Bk0tmN5l1MY6Fuq9",
+      "type": "text",
+      "name": "Good defenses: almost certainly a castle and other strong points, or naturally defensive terrain.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        31,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!x5BaEjL8O0Hc3HC8.Bk0tmN5l1MY6Fuq9"
+    },
+    {
+      "_id": "K4jazrDxfCrY7FJu",
+      "type": "text",
+      "name": "Excellent defenses combining fortifications and defensible terrain.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        41,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!x5BaEjL8O0Hc3HC8.K4jazrDxfCrY7FJu"
+    },
+    {
+      "_id": "Pdu4U1DWyCa7MVql",
+      "type": "text",
+      "name": "Extraordinary defenses that make attacking these lands very costly.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!x5BaEjL8O0Hc3HC8.Pdu4U1DWyCa7MVql"
+    },
+    {
+      "_id": "YLW0APSp58qm2ias",
+      "type": "text",
+      "name": "Among the greatest defenses in the world.",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "weight": 1,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!x5BaEjL8O0Hc3HC8.YLW0APSp58qm2ias"
+    }
+  ],
+  "formula": "8d6-2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!x5BaEjL8O0Hc3HC8"
+}

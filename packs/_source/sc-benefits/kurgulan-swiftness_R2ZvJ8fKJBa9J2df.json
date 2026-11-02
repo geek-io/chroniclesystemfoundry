@@ -1,0 +1,33 @@
+{
+  "_id": "R2ZvJ8fKJBa9J2df",
+  "name": "Kurgulan Swiftness",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Base Movement 6 yards, and unarmed hoof attacks deal Athletics –1 damage.</p><p><em>Ancestry (Kurgulan). Full rules: Sword Chronicle p. 205.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 205",
+    "categories": "Ancestry (Kurgulan)",
+    "requirements": "Kurgulan only (mandatory)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!R2ZvJ8fKJBa9J2df"
+}

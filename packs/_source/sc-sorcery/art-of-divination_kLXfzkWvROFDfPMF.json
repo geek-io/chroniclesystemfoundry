@@ -1,0 +1,47 @@
+{
+  "_id": "kLXfzkWvROFDfPMF",
+  "name": "Art of Divination",
+  "type": "art",
+  "img": "systems/chroniclesystem/assets/icons/art.png",
+  "system": {
+    "description": "<p>Draws aside the veils of space and time to grant knowledge. Each Divination Work is learned with a Method (Gazing, Hieroscopy, Omens, Oneiromancy & Trances, Somatomancy, Sortilege). Learning a new Method takes three months. Successful divinations grant Insights and Insight Dice (p. 97).</p><p><em>Sword Chronicle p. 95. A Sorcerous Benefit (Blood of the Sorcerers, Blood of the Far Isles, Natural Sorcerer or Sorcerous Initiation) grants access.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 95",
+    "tools": "Whatever the Method needs: mirrors, flames, bones, cards, entrails or nothing at all.",
+    "initiation": "Add your Knowledge rank to all Awareness test totals.",
+    "resonances": "The Method's medium, and something belonging to the subject.",
+    "workList": [
+      {
+        "name": "Casting"
+      },
+      {
+        "name": "Dowsing"
+      },
+      {
+        "name": "Reading"
+      },
+      {
+        "name": "Vision"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kLXfzkWvROFDfPMF"
+}

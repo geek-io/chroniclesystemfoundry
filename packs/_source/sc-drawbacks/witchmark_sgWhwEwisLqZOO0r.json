@@ -1,0 +1,35 @@
+{
+  "_id": "sgWhwEwisLqZOO0r",
+  "name": "Witchmark",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>A visible mark betrays you as a sorcerer; Sensitives detect you and your magic at –3 Difficulty.</p><p><em>Sorcerous drawback. Full rules: Sword Chronicle p. 64.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 64",
+    "requireSorcerousArt": true,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "Knowledge of a sorcerous Art"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sgWhwEwisLqZOO0r"
+}

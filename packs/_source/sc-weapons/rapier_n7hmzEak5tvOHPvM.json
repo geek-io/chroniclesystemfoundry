@@ -1,0 +1,49 @@
+{
+  "_id": "n7hmzEak5tvOHPvM",
+  "name": "Rapier",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>Fencing weapons are light, quick blades with protective hilts, favoured by duellists.</p><p><em>Sword Chronicle p. 136; cost Sword Chronicle p. 113.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 136",
+    "weight": 3.0,
+    "quantity": 1,
+    "cost": "800 sd",
+    "specialty": "Fighting:Fencing",
+    "training": 1,
+    "damage": "@Agility",
+    "qualities": [
+      {
+        "name": "Defensive",
+        "parameter": "+1"
+      },
+      {
+        "name": "Fast",
+        "parameter": ""
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!n7hmzEak5tvOHPvM"
+}

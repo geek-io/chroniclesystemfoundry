@@ -1,0 +1,35 @@
+{
+  "_id": "tCx0GelvH6L9CTKm",
+  "name": "Taboo",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>A forbidden behaviour tied to your culture or Tradition, such as never eating stag meat. May be taken more than once.</p><p><em>Stricture drawback. Full rules: Sword Chronicle p. 64.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 64",
+    "requireSorcerousArt": false,
+    "isAStricture": true,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "—"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!tCx0GelvH6L9CTKm"
+}

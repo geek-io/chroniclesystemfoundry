@@ -1,0 +1,48 @@
+{
+  "_id": "rzKOYDkUyVJM2srL",
+  "name": "Curse",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Twists fate against a victim, from a brief evil-eye hex to lasting rites of cursing. Folk blame curses for every misfortune, so beware the torch-bearing mob.</p><p><strong>Spell.</strong> Hex: Spellcasting at Close Range against the target's Sorcery Defense. The target gains a non-Sorcerous drawback of your choice for a short time.</p><p><strong>Ritual.</strong> Alignment: Rite of Cursing: Challenging (9) Knowledge, 1 hour (a greater rite: Formidable 12). Invocation: Formidable (12) Will, 3 to 5 hours. Unleashing: Will against the target's Sorcery Defense; longer and crueller curses need Destiny invested or burned.</p><p><em>Art of Malediction — full rules: Sword Chronicle p. 101.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 101",
+    "art": "Art of Malediction",
+    "workType": "BOTH",
+    "testAbility": "Will",
+    "test": "Will",
+    "learningTime": "5 weeks",
+    "learningDifficulty": 15,
+    "price": "Spent, Invested or Burned",
+    "resonances": "None (spell), or a link to the target (ritual).",
+    "spell": {
+      "difficulty": "Hex: Spellcasting at Close Range against the target's Sorcery Defense.",
+      "notes": "The target gains a non-Sorcerous drawback of your choice for a short time."
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "Rite of Cursing: Challenging (9) Knowledge, 1 hour (a greater rite: Formidable 12).",
+      "invocation": "Formidable (12) Will, 3 to 5 hours.",
+      "unleashing": "Will against the target's Sorcery Defense; longer and crueller curses need Destiny invested or burned."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rzKOYDkUyVJM2srL"
+}

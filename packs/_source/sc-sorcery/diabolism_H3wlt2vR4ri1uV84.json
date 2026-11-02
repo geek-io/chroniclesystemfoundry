@@ -1,0 +1,32 @@
+{
+  "_id": "H3wlt2vR4ri1uV84",
+  "name": "Diabolism",
+  "type": "tradition",
+  "img": "systems/chroniclesystem/assets/icons/tradition.png",
+  "system": {
+    "description": "<p>Sinister sorcery of blood sacrifice and pacts with evil spirits in exchange for forbidden lore.</p><p><em>Sorcerous Tradition — Sword Chronicle p. 86. Narrators may define their own Traditions.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 86",
+    "resonances": "Blood, sacrifices, sealed pacts and the names of spirits.",
+    "arts": "Any"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!H3wlt2vR4ri1uV84"
+}

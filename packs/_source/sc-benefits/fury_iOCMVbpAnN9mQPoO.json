@@ -1,0 +1,33 @@
+{
+  "_id": "iOCMVbpAnN9mQPoO",
+  "name": "Fury",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Furious Attack (Greater Action): a Fighting attack at –2D that deals +4 base damage if it hits.</p><p><em>Ancestry (Ogre), Martial. Full rules: Sword Chronicle p. 53.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 53",
+    "categories": "Ancestry (Ogre), Martial",
+    "requirements": "Athletics 4 (Strength 2B)",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!iOCMVbpAnN9mQPoO"
+}

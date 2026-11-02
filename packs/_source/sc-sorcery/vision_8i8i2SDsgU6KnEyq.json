@@ -1,0 +1,48 @@
+{
+  "_id": "8i8i2SDsgU6KnEyq",
+  "name": "Vision",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>The rarest divination: lays bare the past and future of organizations, cities and nations (never an individual's future). Can grant Prophetic Alignment to those who share the vision.</p><p><strong>Ritual.</strong> Alignment: Formidable (12) Knowledge, 1 hour. Invocation: Challenging (9) Awareness, 5 hours; harder for distant or obscure subjects. Unleashing: Formidable (12) Will. The player asks the Narrator questions about the fate of a group, city or nation.</p><p><em>Art of Divination — full rules: Sword Chronicle p. 99.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 99",
+    "art": "Art of Divination",
+    "workType": "RITUAL",
+    "testAbility": "Awareness",
+    "test": "Awareness",
+    "learningTime": "4 weeks",
+    "learningDifficulty": 15,
+    "price": "Spent or Burned",
+    "resonances": "The Method's resonances plus ritual ingredients (3 gold pieces).",
+    "spell": {
+      "difficulty": "",
+      "notes": ""
+    },
+    "ritual": {
+      "alignmentAbility": "Knowledge",
+      "alignment": "Formidable (12) Knowledge, 1 hour.",
+      "invocation": "Challenging (9) Awareness, 5 hours; harder for distant or obscure subjects.",
+      "unleashing": "Formidable (12) Will. The player asks the Narrator questions about the fate of a group, city or nation."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8i8i2SDsgU6KnEyq"
+}

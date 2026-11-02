@@ -2,7 +2,7 @@
   "id": "chroniclesystem",
   "title": "Chronicle System (Unofficial)",
   "description": "An implementation of Green Ronin's Chronicle System, used by A Song of Ice and Fire Roleplaying (SIFRP) and Sword Chronicle. Updated for Foundry VTT v14 by the Geek IO Dev Team.",
-  "version": "14.0.1",
+  "version": "14.0.2",
   "compatibility": {
     "minimum": "13.346",
     "verified": "14.368"
@@ -105,6 +105,27 @@
         ]
       },
       "weapon": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "ancestry": {
+        "htmlFields": [
+          "description",
+          "rules"
+        ]
+      },
+      "art": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "work": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "tradition": {
         "htmlFields": [
           "description"
         ]
@@ -279,6 +300,174 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "sc-ancestries",
+      "label": "SC Ancestries",
+      "path": "packs/sc-ancestries",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-benefits",
+      "label": "SC Benefits",
+      "path": "packs/sc-benefits",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-drawbacks",
+      "label": "SC Drawbacks",
+      "path": "packs/sc-drawbacks",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-sorcery",
+      "label": "SC Sorcery: Traditions, Arts & Works",
+      "path": "packs/sc-sorcery",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-weapons",
+      "label": "SC Weapons",
+      "path": "packs/sc-weapons",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-armor",
+      "label": "SC Armor",
+      "path": "packs/sc-armor",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-equipment",
+      "label": "SC Goods, Clothing & Mounts",
+      "path": "packs/sc-equipment",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-poisons",
+      "label": "SC Poisons",
+      "path": "packs/sc-poisons",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-holdings",
+      "label": "SC Holdings & Units",
+      "path": "packs/sc-holdings",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-events",
+      "label": "SC Historical Events",
+      "path": "packs/sc-events",
+      "type": "Item",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-houses",
+      "label": "SC Houses",
+      "path": "packs/sc-houses",
+      "type": "Actor",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-narrator-characters",
+      "label": "SC Narrator Characters",
+      "path": "packs/sc-narrator-characters",
+      "type": "Actor",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-creatures",
+      "label": "SC Creatures",
+      "path": "packs/sc-creatures",
+      "type": "Actor",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sc-tables",
+      "label": "SC Tables",
+      "path": "packs/sc-tables",
+      "type": "RollTable",
+      "system": "chroniclesystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -330,6 +519,58 @@
             "narrator-characters",
             "creatures",
             "tables"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sword Chronicle",
+      "sorting": "m",
+      "color": "#5b2a2a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Characters & Ancestry",
+          "sorting": "m",
+          "packs": [
+            "sc-ancestries",
+            "sc-benefits",
+            "sc-drawbacks"
+          ]
+        },
+        {
+          "name": "Sorcery",
+          "sorting": "m",
+          "packs": [
+            "sc-sorcery"
+          ]
+        },
+        {
+          "name": "Equipment",
+          "sorting": "m",
+          "packs": [
+            "sc-weapons",
+            "sc-armor",
+            "sc-equipment",
+            "sc-poisons"
+          ]
+        },
+        {
+          "name": "Houses",
+          "sorting": "m",
+          "packs": [
+            "sc-houses",
+            "sc-holdings",
+            "sc-events"
+          ]
+        },
+        {
+          "name": "Narrator",
+          "sorting": "m",
+          "packs": [
+            "sc-narrator-characters",
+            "sc-creatures",
+            "sc-tables"
           ]
         }
       ]

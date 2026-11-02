@@ -1,0 +1,35 @@
+{
+  "_id": "PmoXDA2nAS75FFxV",
+  "name": "Obligation",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>A required behaviour tied to your Tradition, such as never refusing a host's food. May be taken more than once.</p><p><em>Stricture drawback. Full rules: Sword Chronicle p. 63.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 63",
+    "requireSorcerousArt": true,
+    "isAStricture": true,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "Knowledge of a sorcerous Art"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PmoXDA2nAS75FFxV"
+}

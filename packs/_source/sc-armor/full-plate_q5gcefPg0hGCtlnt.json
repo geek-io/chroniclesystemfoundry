@@ -1,0 +1,38 @@
+{
+  "_id": "q5gcefPg0hGCtlnt",
+  "name": "Full Plate",
+  "type": "armor",
+  "img": "systems/chroniclesystem/assets/icons/armor.png",
+  "system": {
+    "description": "<p>A full harness of fitted steel plate from helm to sabatons, buckled over a padded doublet.</p><p><em>Sword Chronicle p. 133; cost Sword Chronicle p. 115.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 133",
+    "weight": 50.0,
+    "rating": 10,
+    "penalty": -6,
+    "bulk": 3,
+    "qualities": [],
+    "equipped": 0,
+    "quantity": 1,
+    "cost": "3,000 sd"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!q5gcefPg0hGCtlnt"
+}

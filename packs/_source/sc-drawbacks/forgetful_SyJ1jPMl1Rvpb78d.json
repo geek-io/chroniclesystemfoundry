@@ -1,0 +1,35 @@
+{
+  "_id": "SyJ1jPMl1Rvpb78d",
+  "name": "Forgetful",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>Re-roll every 6 on Cunning tests and keep the second roll.</p><p><em>Full rules: Sword Chronicle p. 62.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 62",
+    "requireSorcerousArt": false,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "—"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!SyJ1jPMl1Rvpb78d"
+}

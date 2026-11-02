@@ -1,0 +1,35 @@
+{
+  "_id": "QGDEjnCf2TuUD6p8",
+  "name": "Ward",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>Fostered with another house as a hostage or pact: Status from your birth house, –1D on Persuasion with both houses, and your life is forfeit if your birth house strikes your hosts.</p><p><em>Full rules: Sword Chronicle p. 64.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 64",
+    "requireSorcerousArt": false,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "—"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QGDEjnCf2TuUD6p8"
+}

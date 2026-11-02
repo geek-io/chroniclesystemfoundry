@@ -1,0 +1,38 @@
+{
+  "_id": "APeD5rQqRoH5F3BU",
+  "name": "Robes, Vestments",
+  "type": "armor",
+  "img": "systems/chroniclesystem/assets/icons/armor.png",
+  "system": {
+    "description": "<p>Heavy robes of burlap or homespun that offer a little protection.</p><p><em>Sword Chronicle p. 133; cost Sword Chronicle p. 115.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 133",
+    "weight": 20.0,
+    "rating": 1,
+    "penalty": 0,
+    "bulk": 1,
+    "qualities": [],
+    "equipped": 0,
+    "quantity": 1,
+    "cost": "3 sd"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!APeD5rQqRoH5F3BU"
+}

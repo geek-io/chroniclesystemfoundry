@@ -1,0 +1,35 @@
+{
+  "_id": "tTz5ep1nELw8HbmQ",
+  "name": "Temple",
+  "type": "holding",
+  "img": "systems/chroniclesystem/assets/icons/holding.png",
+  "system": {
+    "description": "<p>A temple and a priest of a local faith. Requires a hall or larger, or a small town or larger. +3 on House Fortunes.</p><p><em>Sword Chronicle p. 79</em></p>",
+    "investment": 15,
+    "buildTime": "12+2d6 months",
+    "resource": "wealth",
+    "features": [],
+    "fortuneDice": "",
+    "fortuneModifier": 3,
+    "source": "Sword Chronicle p. 79"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!tTz5ep1nELw8HbmQ"
+}

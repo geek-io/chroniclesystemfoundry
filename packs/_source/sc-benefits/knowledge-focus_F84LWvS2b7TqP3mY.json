@@ -1,0 +1,33 @@
+{
+  "_id": "F84LWvS2b7TqP3mY",
+  "name": "Knowledge Focus",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Bonus dice count as test dice in one field (alchemy, architecture, astronomy, geography, heraldry, history and legends, magic, nature, religion or the underworld). May be taken more than once.</p><p><em>Ability. Full rules: Sword Chronicle p. 54.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 54",
+    "categories": "Ability",
+    "requirements": "Knowledge 4",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!F84LWvS2b7TqP3mY"
+}

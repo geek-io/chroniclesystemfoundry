@@ -1,0 +1,48 @@
+{
+  "_id": "E2hrOzvkyx2FaOgV",
+  "name": "Protection",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Protects against magic of all kinds: an instant gesture for yourself, or a 30-minute ritual that wards others.</p><p><strong>Spell.</strong> The Warding Gesture: Routine (6) Incidental 1/–1, Formidable (12) Apprentice 2/–1, Very Hard (18) Basic 3/–2, Heroic (24) Standard 4/–3. A gesture wards you for one minute; you may choose a weaker ward to limit the penalty on your own casting.</p><p><strong>Ritual.</strong> Alignment: Challenging (9) Cunning, 10 minutes applying salts, oils and powders. Invocation: Challenging (9) Knowledge, 20 minutes. Unleashing: Formidable (12) or higher Will; the result sets the ward's strength.</p><p><em>Art of Warding — full rules: Sword Chronicle p. 104.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 104",
+    "art": "Art of Warding",
+    "workType": "BOTH",
+    "testAbility": "Cunning",
+    "test": "Cunning (spell) or Knowledge (ritual)",
+    "learningTime": "4 weeks",
+    "learningDifficulty": 9,
+    "price": "Spent (subject)",
+    "resonances": "None (spell), or protective salts and oils (35 silver drachmas, ritual).",
+    "spell": {
+      "difficulty": "The Warding Gesture: Routine (6) Incidental 1/–1, Formidable (12) Apprentice 2/–1, Very Hard (18) Basic 3/–2, Heroic (24) Standard 4/–3.",
+      "notes": "A gesture wards you for one minute; you may choose a weaker ward to limit the penalty on your own casting."
+    },
+    "ritual": {
+      "alignmentAbility": "Cunning",
+      "alignment": "Challenging (9) Cunning, 10 minutes applying salts, oils and powders.",
+      "invocation": "Challenging (9) Knowledge, 20 minutes.",
+      "unleashing": "Formidable (12) or higher Will; the result sets the ward's strength."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!E2hrOzvkyx2FaOgV"
+}

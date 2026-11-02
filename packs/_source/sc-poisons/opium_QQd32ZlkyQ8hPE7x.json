@@ -1,0 +1,40 @@
+{
+  "_id": "QQd32ZlkyQ8hPE7x",
+  "name": "Opium",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>Poppy sap drunk or smoked. It halves penalties from injuries and wounds; a successful attack knocks the victim out for 6 hours plus 1 per degree.</p>",
+    "type": "",
+    "source": "Sword Chronicle p. 117",
+    "quantity": 1,
+    "cost": "200 sd",
+    "delivery": "Ingested or inhaled",
+    "virulence": "4",
+    "frequency": "1/minute",
+    "toxicity": 1,
+    "diagnosis": 3,
+    "effects": "<p>Virulence 4; Toxicity 1; Frequency 1/minute; Diagnosis Easy (3).</p><p>Poppy sap drunk or smoked. It halves penalties from injuries and wounds; a successful attack knocks the victim out for 6 hours plus 1 per degree.</p>",
+    "recovery": "<p>The painkilling effect lasts 8 hours.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QQd32ZlkyQ8hPE7x"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "FqlE6bTeP1uGawSI",
+  "name": "Woodsman's Axe",
+  "type": "weapon",
+  "img": "systems/chroniclesystem/assets/icons/weapon.png",
+  "system": {
+    "description": "<p>Axes cleave armor and shields, from the farmer's woodsman's axe to the warrior's longaxe.</p><p><em>Sword Chronicle p. 136; cost Sword Chronicle p. 113.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 136",
+    "weight": 6.0,
+    "quantity": 1,
+    "cost": "40 sd",
+    "specialty": "Fighting:Axes",
+    "training": 0,
+    "damage": "@Athletics+1",
+    "qualities": [
+      {
+        "name": "Two-handed",
+        "parameter": ""
+      }
+    ],
+    "reach": "",
+    "equipped": 0,
+    "range": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FqlE6bTeP1uGawSI"
+}

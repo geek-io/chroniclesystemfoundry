@@ -1,0 +1,33 @@
+{
+  "_id": "1RIRdOTtRq92Ww5Y",
+  "name": "Keen Senses",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>Re-roll 1s (up to your Notice bonus dice) when testing to notice; add Cunning rank to passive Awareness.</p><p><em>Ability, Ancestry (Elf). Full rules: Sword Chronicle p. 54.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 54",
+    "categories": "Ability, Ancestry (Elf)",
+    "requirements": "Awareness 4, or Elf Ancestry and Awareness 3",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!1RIRdOTtRq92Ww5Y"
+}

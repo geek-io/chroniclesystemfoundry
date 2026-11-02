@@ -1,0 +1,33 @@
+{
+  "_id": "JNlMNNRNKpZry3w6",
+  "name": "Dexterous",
+  "type": "benefit",
+  "img": "systems/chroniclesystem/assets/icons/benefit.png",
+  "system": {
+    "description": "<p>On Agility tests, re-roll 1s up to the bonus dice in the most fitting specialty (minimum 1).</p><p><em>Ability. Full rules: Sword Chronicle p. 51.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 51",
+    "categories": "Ability",
+    "requirements": "—",
+    "sorcerousArtAccess": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JNlMNNRNKpZry3w6"
+}

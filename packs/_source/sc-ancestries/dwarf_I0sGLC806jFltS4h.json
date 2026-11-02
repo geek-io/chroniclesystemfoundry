@@ -1,0 +1,88 @@
+{
+  "_id": "I0sGLC806jFltS4h",
+  "name": "Dwarf",
+  "type": "ancestry",
+  "img": "systems/chroniclesystem/assets/icons/ancestry.png",
+  "system": {
+    "description": "<p>A hardy, broad and often bearded people, a foot or two shorter than humans, who dig their homes into mountains or raise stone citadels. Dwarven culture prizes artisanship and concrete achievement over social niceties; master smiths may count among the nobility.</p><p><em>Sword Chronicle p. 15. Choose two ancestry benefits at character creation (from one ancestry or two); more can be bought with Destiny Points.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 15",
+    "benefitList": [
+      {
+        "name": "Armor Mastery"
+      },
+      {
+        "name": "Averting Adept"
+      },
+      {
+        "name": "Axe Fighter I"
+      },
+      {
+        "name": "Blood of the Citadel"
+      },
+      {
+        "name": "Blood of the Mountains"
+      },
+      {
+        "name": "Evaluation"
+      },
+      {
+        "name": "Hardy"
+      },
+      {
+        "name": "Magic Resistance"
+      },
+      {
+        "name": "Night Eyes"
+      },
+      {
+        "name": "Stubborn"
+      },
+      {
+        "name": "Terrain Specialist (hills or mountains)"
+      },
+      {
+        "name": "Blood of the Sorcerers"
+      },
+      {
+        "name": "Blood of the Witch-Hunters"
+      },
+      {
+        "name": "Blood of the Wild"
+      },
+      {
+        "name": "Heirloom"
+      }
+    ],
+    "rules": "",
+    "ages": {
+      "youth": "0–15",
+      "adolescent": "16–20",
+      "youngAdult": "21–25",
+      "adult": "26–50",
+      "middleAge": "51–100",
+      "old": "101–150",
+      "veryOld": "151–200",
+      "venerable": "201+"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!I0sGLC806jFltS4h"
+}

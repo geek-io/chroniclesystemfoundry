@@ -1,0 +1,32 @@
+{
+  "_id": "hST5zPF8l24ekQjA",
+  "name": "Witchery",
+  "type": "tradition",
+  "img": "systems/chroniclesystem/assets/icons/tradition.png",
+  "system": {
+    "description": "<p>The wort-cunning and folk magic of common people, both respected and feared, and often persecuted by nobles and priests.</p><p><em>Sorcerous Tradition — Sword Chronicle p. 86. Narrators may define their own Traditions.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 86",
+    "resonances": "Herbs, locks of hair, hearth fires, the phases of the moon.",
+    "arts": "Any"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hST5zPF8l24ekQjA"
+}

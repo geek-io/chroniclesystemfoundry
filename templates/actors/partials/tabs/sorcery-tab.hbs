@@ -1,20 +1,109 @@
 <div class="tab {{tabs.[sorcery].cssClass}}" data-group="primary" data-tab="sorcery">
     <section class="sorcery">
-        <header class="header-field">
-            <span>Sorcery Points</span>
-        </header>
-        <section class="sorcery-points flexrow">
-            <section class="">
-            </section>
-            <section class="">
-            </section>
-            <section class="flexrow">
-                {{> (csFormGroup) labelText="Current:" id="system.sorceryPoints.current" value=character.sorceryPoints.current inputCssClass="small-field" placeHolder="Current" dataType="Number" }}
-                {{> (csFormGroup) labelText="Max:" id="system.sorceryPoints.max" value=character.sorceryPoints.max inputCssClass="small-field" placeHolder="Max" dataType="Number" }}
-            </section>
+        <section class="sorcery-stats flexrow">
+            <div class="sorcery-stat">
+                <header class="header-field"><span>{{localize "CS.sheets.character.sorceryDefense"}}</span></header>
+                <div class="sorcery-defense flexrow">
+                    <span class="stat-value" data-tooltip="{{localize "CS.sheets.character.averting"}}: +{{character.derivedStats.sorceryDefense.averting}}">{{character.derivedStats.sorceryDefense.total}}</span>
+                    {{> (csFormGroup) labelText="CS.sheets.generalLabels.modifier" id="system.derivedStats.sorceryDefense.modifier" value=character.derivedStats.sorceryDefense.modifier inputCssClass="small-field" dataType="Number"}}
+                </div>
+            </div>
+            <div class="sorcery-stat">
+                <header class="header-field"><span>{{localize "CS.sheets.character.sorceryPoints"}}</span></header>
+                <div class="sorcery-points flexrow">
+                    {{> (csFormGroup) labelText="CS.sheets.generalLabels.current" id="system.sorceryPoints.current" value=character.sorceryPoints.current inputCssClass="small-field" dataType="Number"}}
+                    {{> (csFormGroup) labelText="CS.sheets.generalLabels.max" id="system.sorceryPoints.max" value=character.sorceryPoints.max inputCssClass="small-field" dataType="Number"}}
+                </div>
+            </div>
         </section>
+
+        {{#if owned.traditions.length}}
+            <header class="header-field"><span>{{localize "CS.sheets.character.traditions"}}</span></header>
+            <ol class="qualities-list sorcery-list">
+                {{#each owned.traditions}}
+                    <li class="item draggable quality" data-item-id="{{_id}}">
+                        <div class="quality-label item-name">
+                            <label class="flex3" data-action="toggleDescription">{{name}}</label>
+                            {{#if ../owner}}
+                                <div class='item-controls'>
+                                    <button type='button' class='item-delete' data-action="deleteItem" data-tooltip="CS.sheets.generalLabels.delete"><i class='fas fa-trash'></i></button>
+                                    <button type='button' class='item-edit' data-action="editItem"><i class='fas fa-edit'></i></button>
+                                </div>
+                            {{/if}}
+                        </div>
+                        <div class="description hidden">{{{enrichedDescription}}}{{#if system.resonances}}<p><strong>{{localize "CS.sheets.tradition.resonances"}}:</strong> {{system.resonances}}</p>{{/if}}</div>
+                    </li>
+                {{/each}}
+            </ol>
+        {{/if}}
+
+        <header class="header-field"><span>{{localize "CS.sheets.character.arts"}}</span></header>
+        <ol class="qualities-list sorcery-list">
+            {{#each owned.arts}}
+                <li class="item draggable quality" data-item-id="{{_id}}">
+                    <div class="quality-label item-name">
+                        <label class="flex3" data-action="toggleDescription">{{name}}</label>
+                        {{#if ../owner}}
+                            <div class='item-controls'>
+                                <button type='button' class='item-delete' data-action="deleteItem" data-tooltip="CS.sheets.generalLabels.delete"><i class='fas fa-trash'></i></button>
+                                <button type='button' class='item-edit' data-action="editItem"><i class='fas fa-edit'></i></button>
+                            </div>
+                        {{/if}}
+                    </div>
+                    <div class="description hidden">
+                        {{{enrichedDescription}}}
+                        {{#if system.initiation}}<p><strong>{{localize "CS.sheets.art.initiation"}}:</strong> {{system.initiation}}</p>{{/if}}
+                        {{#if system.resonances}}<p><strong>{{localize "CS.sheets.art.resonances"}}:</strong> {{system.resonances}}</p>{{/if}}
+                    </div>
+                </li>
+            {{/each}}
+        </ol>
+
+        <header class="header-field"><span>{{localize "CS.sheets.character.works"}}</span></header>
+        <ol class="works-list list">
+            <li class="list-header flexrow">
+                <div class="field flex2">{{localize "CS.sheets.generalLabels.name"}}</div>
+                <div class="field size100 center">{{localize "CS.sheets.work.type"}}</div>
+                <div class="field flex2 center">{{localize "CS.sheets.work.roll"}}</div>
+                <div class="field size100 center">{{localize "CS.sheets.work.price"}}</div>
+                <div class="item-controls"></div>
+            </li>
+            {{#each owned.works}}
+                <li class="item draggable work" data-item-id="{{_id}}">
+                    <div class="flexrow work-row">
+                        <div class="field flex2 work-name" data-action="toggleDescription"><a><b>{{name}}</b></a>{{#if system.art}}<div class="work-art">{{system.art}}</div>{{/if}}</div>
+                        <div class="field size100 center">{{localize typeLabel}}</div>
+                        <div class="field flex2 flexrow work-rolls">
+                            {{#if hasSpell}}
+                                <a class="rollable" data-action="roll" data-roll="ability:{{spellAbility}}" data-tooltip="{{system.spell.difficulty}}"><i class="fas fa-dice-d6"></i> {{localize "CS.sheets.work.spell"}}</a>
+                            {{/if}}
+                            {{#if hasRitual}}
+                                <a class="rollable" data-action="roll" data-roll="ability:{{alignmentAbility}}" data-tooltip="{{system.ritual.alignment}}">{{localize "CS.sheets.work.alignment"}}</a>
+                                <a class="rollable" data-action="roll" data-roll="ability:{{invocationAbility}}" data-tooltip="{{system.ritual.invocation}}">{{localize "CS.sheets.work.invocation"}}</a>
+                                <a class="rollable" data-action="roll" data-roll="ability:{{unleashingAbility}}" data-tooltip="{{system.ritual.unleashing}}">{{localize "CS.sheets.work.unleashing"}}</a>
+                            {{/if}}
+                        </div>
+                        <div class="field size100 center work-price">{{system.price}}</div>
+                        {{#if ../owner}}
+                            <div class='item-controls'>
+                                <button type='button' class='item-delete' data-action="deleteItem" data-tooltip="CS.sheets.generalLabels.delete"><i class='fas fa-trash'></i></button>
+                                <button type='button' class='item-edit' data-action="editItem"><i class='fas fa-edit'></i></button>
+                            </div>
+                        {{/if}}
+                    </div>
+                    <div class="description hidden">
+                        <p class="work-meta"><strong>{{localize "CS.sheets.work.test"}}:</strong> {{system.test}} · <strong>{{localize "CS.sheets.work.learning"}}:</strong> {{system.learningTime}} ({{system.learningDifficulty}}){{#if system.resonances}} · <strong>{{localize "CS.sheets.work.resonances"}}:</strong> {{system.resonances}}{{/if}}</p>
+                        {{{enrichedDescription}}}
+                    </div>
+                </li>
+            {{else}}
+                <li class="empty-note">{{localize "CS.sheets.character.noWorks"}}</li>
+            {{/each}}
+        </ol>
+
+        {{#if owned.techniques.length}}
         <header class="header-field">
-            <span>{{localize "CS.sheets.character.techniques"}}</span>
+            <span>{{localize "CS.sheets.character.legacyTechniques"}}</span>
         </header>
         <ol class="techniques-list list">
             <li class="list-header">
@@ -71,5 +160,6 @@
                 {{/each}}
             {{/each}}
         </ol>
+        {{/if}}
     </section>
 </div>

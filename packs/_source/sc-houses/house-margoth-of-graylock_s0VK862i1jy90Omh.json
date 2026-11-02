@@ -1,0 +1,643 @@
+{
+  "_id": "s0VK862i1jy90Omh",
+  "name": "House Margoth of Graylock",
+  "type": "house",
+  "img": "icons/svg/castle.svg",
+  "system": {
+    "realm": "Northern coast, by Siren Bay",
+    "liege": "The Aglam Emperor",
+    "defense": {
+      "startingValue": 25,
+      "description": "<p>Lord Saith Margoth (50), Lord of Graylock; Vice-Lord Kethring (44), his spouse; Sage Pyrad, from the East; Dame Vanari (42), household knight and master-at-arms. 5 Influence is kept in reserve. Total House Fortune modifier –2 (Law –5, Population +0, Sage +3).</p><p><em>The worked example house of Chapter 5 (Sword Chronicle p. 82).</em></p>",
+      "total": 0
+    },
+    "influence": {
+      "startingValue": 36,
+      "description": "",
+      "total": 0
+    },
+    "lands": {
+      "startingValue": 39,
+      "description": "",
+      "total": 0
+    },
+    "law": {
+      "startingValue": 17,
+      "description": "",
+      "total": 0
+    },
+    "population": {
+      "startingValue": 19,
+      "description": "",
+      "total": 0
+    },
+    "power": {
+      "startingValue": 20,
+      "description": "",
+      "total": 0
+    },
+    "wealth": {
+      "startingValue": 17,
+      "description": "",
+      "total": 0
+    },
+    "historicalEvents": [],
+    "motto": "",
+    "members": {
+      "head": "",
+      "steward": "",
+      "heirs": [],
+      "family": [],
+      "retainers": [],
+      "servants": []
+    }
+  },
+  "items": [
+    {
+      "_id": "g7zV4KPfvBtBZOeU",
+      "name": "Scandal",
+      "type": "event",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "system": {
+        "description": "<p>A bastard, a failed conspiracy or another disgrace still haunts the family.</p><p><em>Historical Events table roll 14 (Sword Chronicle p. 69).</em></p><p>The house was founded by a noble bastard, born of scandal.</p>",
+        "formulas": {
+          "defense": "",
+          "influence": "-1d6",
+          "lands": "-1d6",
+          "law": "",
+          "population": "",
+          "power": "-1d6",
+          "wealth": ""
+        },
+        "modifiers": {
+          "defense": 0,
+          "influence": -6,
+          "lands": -3,
+          "law": 0,
+          "population": 0,
+          "power": -5,
+          "wealth": 0
+        },
+        "playerChoice": false,
+        "numberOfChoices": 0,
+        "bonusToChoices": "",
+        "source": "Sword Chronicle p. 69"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.sc-events.Item.FjMhg3P4vOAYyYnq",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.g7zV4KPfvBtBZOeU"
+    },
+    {
+      "_id": "UkSBIilt87MBeoO9",
+      "name": "Glory",
+      "type": "event",
+      "img": "systems/chroniclesystem/assets/icons/event.png",
+      "system": {
+        "description": "<p>One famous ancestor's victory or heroism raised the family's standing.</p><p><em>Historical Events table roll 10 (Sword Chronicle p. 69).</em></p><p>The house distinguished itself in a rebellion against the founder's own birth house, winning legitimacy.</p>",
+        "formulas": {
+          "defense": "+1d6",
+          "influence": "+1d6",
+          "lands": "",
+          "law": "+1d6",
+          "population": "",
+          "power": "+1d6",
+          "wealth": ""
+        },
+        "modifiers": {
+          "defense": 5,
+          "influence": 5,
+          "lands": 0,
+          "law": 1,
+          "population": 0,
+          "power": 2,
+          "wealth": 0
+        },
+        "playerChoice": false,
+        "numberOfChoices": 0,
+        "bonusToChoices": "",
+        "source": "Sword Chronicle p. 69"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.chroniclesystem.sc-events.Item.xnlBnUslYlvSwmhD",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.UkSBIilt87MBeoO9"
+    },
+    {
+      "_id": "sMZriiHnICoTdiiQ",
+      "name": "Graylock (Hall)",
+      "type": "holding",
+      "img": "systems/chroniclesystem/assets/icons/holding.png",
+      "system": {
+        "description": "<p>The family seat.</p>",
+        "investment": 20,
+        "buildTime": "",
+        "resource": "defense",
+        "features": [],
+        "fortuneDice": "",
+        "fortuneModifier": 0,
+        "source": "Sword Chronicle p. 82"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.sMZriiHnICoTdiiQ"
+    },
+    {
+      "_id": "gxdZO2Z0rlI0tNCd",
+      "name": "Skyseek Spire (Tower)",
+      "type": "holding",
+      "img": "systems/chroniclesystem/assets/icons/holding.png",
+      "system": {
+        "description": "<p>A watchtower in another domain.</p>",
+        "investment": 10,
+        "buildTime": "",
+        "resource": "defense",
+        "features": [],
+        "fortuneDice": "",
+        "fortuneModifier": 0,
+        "source": "Sword Chronicle p. 82"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.gxdZO2Z0rlI0tNCd"
+    },
+    {
+      "_id": "moe9IGcWQJfGkLuZ",
+      "name": "Heir: First-born",
+      "type": "holding",
+      "img": "systems/chroniclesystem/assets/icons/holding.png",
+      "system": {
+        "description": "",
+        "investment": 20,
+        "buildTime": "",
+        "resource": "influence",
+        "features": [],
+        "fortuneDice": "",
+        "fortuneModifier": 0,
+        "source": "Sword Chronicle p. 82"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.moe9IGcWQJfGkLuZ"
+    },
+    {
+      "_id": "xGdyl9hhVttfmf7a",
+      "name": "Heir: Second Child (Daughter)",
+      "type": "holding",
+      "img": "systems/chroniclesystem/assets/icons/holding.png",
+      "system": {
+        "description": "",
+        "investment": 10,
+        "buildTime": "",
+        "resource": "influence",
+        "features": [],
+        "fortuneDice": "",
+        "fortuneModifier": 0,
+        "source": "Sword Chronicle p. 82"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.xGdyl9hhVttfmf7a"
+    },
+    {
+      "_id": "sSKL54EAXpbHXbFG",
+      "name": "Domain: Forested Coastline with Hamlet",
+      "type": "holding",
+      "img": "systems/chroniclesystem/assets/icons/holding.png",
+      "system": {
+        "description": "<p>Plains on Siren Bay.</p>",
+        "investment": 3,
+        "buildTime": "",
+        "resource": "lands",
+        "features": [
+          {
+            "name": "Light Woods",
+            "cost": 3
+          },
+          {
+            "name": "Coast",
+            "cost": 3
+          },
+          {
+            "name": "Hamlet",
+            "cost": 10
+          }
+        ],
+        "fortuneDice": "",
+        "fortuneModifier": 0,
+        "source": "Sword Chronicle p. 82"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.sSKL54EAXpbHXbFG"
+    },
+    {
+      "_id": "7q77JBtH4PxDlkhj",
+      "name": "Domain: Woodland",
+      "type": "holding",
+      "img": "systems/chroniclesystem/assets/icons/holding.png",
+      "system": {
+        "description": "<p>Inland woods.</p>",
+        "investment": 3,
+        "buildTime": "",
+        "resource": "lands",
+        "features": [
+          {
+            "name": "Light Woods",
+            "cost": 3
+          }
+        ],
+        "fortuneDice": "",
+        "fortuneModifier": 0,
+        "source": "Sword Chronicle p. 82"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.7q77JBtH4PxDlkhj"
+    },
+    {
+      "_id": "FF5vrvrnqKvpFr4K",
+      "name": "Domain: Woodland (Stream)",
+      "type": "holding",
+      "img": "systems/chroniclesystem/assets/icons/holding.png",
+      "system": {
+        "description": "<p>Inland woods with a stream for small boats and irrigation.</p>",
+        "investment": 3,
+        "buildTime": "",
+        "resource": "lands",
+        "features": [
+          {
+            "name": "Light Woods",
+            "cost": 3
+          },
+          {
+            "name": "Stream",
+            "cost": 1
+          }
+        ],
+        "fortuneDice": "",
+        "fortuneModifier": 0,
+        "source": "Sword Chronicle p. 82"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.FF5vrvrnqKvpFr4K"
+    },
+    {
+      "_id": "ySe9fWTiLrTZqQZy",
+      "name": "Domain: Grassland with Ruin",
+      "type": "holding",
+      "img": "systems/chroniclesystem/assets/icons/holding.png",
+      "system": {
+        "description": "<p>An old holding of ancient elves.</p>",
+        "investment": 0,
+        "buildTime": "",
+        "resource": "lands",
+        "features": [
+          {
+            "name": "Grassland",
+            "cost": 1
+          },
+          {
+            "name": "Ruin",
+            "cost": 3
+          }
+        ],
+        "fortuneDice": "",
+        "fortuneModifier": 0,
+        "source": "Sword Chronicle p. 82"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.ySe9fWTiLrTZqQZy"
+    },
+    {
+      "_id": "JBZRKSjD2ruOJiBs",
+      "name": "Household Guard (Trained Garrison)",
+      "type": "holding",
+      "img": "systems/chroniclesystem/assets/icons/holding.png",
+      "system": {
+        "description": "<p>Discipline Easy (3) at home, Challenging (9) away; Awareness 3, Endurance 3, Fighting 3.</p>",
+        "investment": 5,
+        "buildTime": "",
+        "resource": "power",
+        "features": [],
+        "fortuneDice": "",
+        "fortuneModifier": 0,
+        "source": "Sword Chronicle p. 82"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.JBZRKSjD2ruOJiBs"
+    },
+    {
+      "_id": "ZBUf57Ax20YhzoMM",
+      "name": "Commoners on Foot (Green Peasant Levies)",
+      "type": "holding",
+      "img": "systems/chroniclesystem/assets/icons/holding.png",
+      "system": {
+        "description": "<p>Discipline Formidable (12); Awareness 3; Population –2.</p>",
+        "investment": 1,
+        "buildTime": "",
+        "resource": "power",
+        "features": [],
+        "fortuneDice": "",
+        "fortuneModifier": 0,
+        "source": "Sword Chronicle p. 82"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.ZBUf57Ax20YhzoMM"
+    },
+    {
+      "_id": "Sr8DXyNRhVCy2XaX",
+      "name": "Fleet (Green Warship)",
+      "type": "holding",
+      "img": "systems/chroniclesystem/assets/icons/holding.png",
+      "system": {
+        "description": "<p>Discipline Formidable (12); Awareness 3.</p>",
+        "investment": 11,
+        "buildTime": "",
+        "resource": "power",
+        "features": [],
+        "fortuneDice": "",
+        "fortuneModifier": 0,
+        "source": "Sword Chronicle p. 82"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.Sr8DXyNRhVCy2XaX"
+    },
+    {
+      "_id": "JnGavornl96pGFCa",
+      "name": "Sage",
+      "type": "holding",
+      "img": "systems/chroniclesystem/assets/icons/holding.png",
+      "system": {
+        "description": "<p>Sage Pyrad, from the East.</p>",
+        "investment": 10,
+        "buildTime": "",
+        "resource": "wealth",
+        "features": [],
+        "fortuneDice": "",
+        "fortuneModifier": 3,
+        "source": "Sword Chronicle p. 82"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "chroniclesystem",
+        "systemVersion": "14.0.2",
+        "createdTime": 1793638800000,
+        "modifiedTime": 1793638800000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!s0VK862i1jy90Omh.JnGavornl96pGFCa"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "House Margoth of Graylock",
+    "displayName": 20,
+    "actorLink": true,
+    "disposition": 0,
+    "texture": {
+      "src": "icons/svg/castle.svg"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!s0VK862i1jy90Omh"
+}

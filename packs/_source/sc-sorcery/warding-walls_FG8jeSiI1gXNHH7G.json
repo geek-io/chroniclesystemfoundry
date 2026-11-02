@@ -1,0 +1,48 @@
+{
+  "_id": "FG8jeSiI1gXNHH7G",
+  "name": "Warding Walls",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Extends a building's shelter to magic: a quick Hearth-Ward for a room or cottage, or a permanent Sanctum ritual for a whole structure.</p><p><strong>Spell.</strong> Hearth-Ward: Cunning test against the chosen ward level; one small building or chamber up to 50 feet. Each degree protects the structure for an hour.</p><p><strong>Ritual.</strong> Alignment: Sanctum: Challenging (9) Cunning, time by area. Invocation: Routine (6) or higher Knowledge, 3 hours. Unleashing: Formidable (12) or higher Will, by the ward strength sought: a lasting sanctum.</p><p><em>Art of Warding — full rules: Sword Chronicle p. 106.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 106",
+    "art": "Art of Warding",
+    "workType": "BOTH",
+    "testAbility": "Cunning",
+    "test": "Cunning (spell), Knowledge (ritual)",
+    "learningTime": "8 weeks",
+    "learningDifficulty": 18,
+    "price": "Spent (spell) or Burned (ritual)",
+    "resonances": "Incenses and protective oils (30 silver drachmas), or occult inlays and seals over doors and windows (varies).",
+    "spell": {
+      "difficulty": "Hearth-Ward: Cunning test against the chosen ward level; one small building or chamber up to 50 feet.",
+      "notes": "Each degree protects the structure for an hour."
+    },
+    "ritual": {
+      "alignmentAbility": "Cunning",
+      "alignment": "Sanctum: Challenging (9) Cunning, time by area.",
+      "invocation": "Routine (6) or higher Knowledge, 3 hours.",
+      "unleashing": "Formidable (12) or higher Will, by the ward strength sought: a lasting sanctum."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FG8jeSiI1gXNHH7G"
+}

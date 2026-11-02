@@ -1,0 +1,64 @@
+<div class="cs-item-sheet flexcol {{cssClass}}">
+    {{> "systems/chroniclesystem/templates/items/partials/header-delete.hbs"}}
+    <main class="sheet-body flexrow">
+        <section class="item-stats">
+            <header class="header-field">
+                <span>{{localize "CS.sheets.generalLabels.details"}}</span>
+            </header>
+            {{> (csFormGroup) id="system.art" labelText="CS.sheets.work.art" inputCssClass="medium-field" value=system.art dataType="String"}}
+            <div class="form-group">
+                <label>{{localize "CS.sheets.work.type"}}</label>
+                <select name="system.workType" class="medium-field">
+                    {{selectOptions workTypes selected=system.workType localize=true}}
+                </select>
+            </div>
+            <div class="form-group">
+                <label>{{localize "CS.sheets.work.testAbility"}}</label>
+                <select name="system.testAbility" class="medium-field">
+                    {{selectOptions abilityNames selected=system.testAbility}}
+                </select>
+            </div>
+            {{> (csFormGroup) id="system.test" labelText="CS.sheets.work.test" inputCssClass="medium-field" value=system.test dataType="String"}}
+            {{> (csFormGroup) id="system.learningTime" labelText="CS.sheets.work.learningTime" inputCssClass="medium-field" value=system.learningTime dataType="String"}}
+            {{> (csFormGroup) id="system.learningDifficulty" labelText="CS.sheets.work.learningDifficulty" inputCssClass="small-field" value=system.learningDifficulty dataType="Number"}}
+            {{> (csFormGroup) id="system.price" labelText="CS.sheets.work.price" inputCssClass="medium-field" value=system.price dataType="String"}}
+            <div class="form-group stacked">
+                <label>{{localize "CS.sheets.work.resonances"}}</label>
+                <textarea name="system.resonances" rows="2">{{system.resonances}}</textarea>
+            </div>
+            {{#unless (eq system.workType "RITUAL")}}
+                <header class="header-field"><span>{{localize "CS.sheets.work.spell"}}</span></header>
+                {{> (csFormGroup) id="system.spell.difficulty" labelText="CS.sheets.work.spellDifficulty" inputCssClass="medium-field" value=system.spell.difficulty dataType="String"}}
+                <div class="form-group stacked">
+                    <label>{{localize "CS.sheets.work.spellNotes"}}</label>
+                    <textarea name="system.spell.notes" rows="2">{{system.spell.notes}}</textarea>
+                </div>
+            {{/unless}}
+            {{#unless (eq system.workType "SPELL")}}
+                <header class="header-field"><span>{{localize "CS.sheets.work.ritual"}}</span></header>
+                <div class="form-group">
+                    <label>{{localize "CS.sheets.work.alignmentAbility"}}</label>
+                    <select name="system.ritual.alignmentAbility" class="medium-field">
+                        {{selectOptions abilityNames selected=system.ritual.alignmentAbility}}
+                    </select>
+                </div>
+                <div class="form-group stacked">
+                    <label>{{localize "CS.sheets.work.alignment"}}</label>
+                    <textarea name="system.ritual.alignment" rows="2">{{system.ritual.alignment}}</textarea>
+                </div>
+                <div class="form-group stacked">
+                    <label>{{localize "CS.sheets.work.invocation"}}</label>
+                    <textarea name="system.ritual.invocation" rows="2">{{system.ritual.invocation}}</textarea>
+                </div>
+                <div class="form-group stacked">
+                    <label>{{localize "CS.sheets.work.unleashing"}}</label>
+                    <textarea name="system.ritual.unleashing" rows="2">{{system.ritual.unleashing}}</textarea>
+                </div>
+            {{/unless}}
+            {{> "systems/chroniclesystem/templates/items/partials/source-field.hbs"}}
+        </section>
+        <section class="description">
+            {{> "systems/chroniclesystem/templates/items/partials/description.hbs"}}
+        </section>
+    </main>
+</div>

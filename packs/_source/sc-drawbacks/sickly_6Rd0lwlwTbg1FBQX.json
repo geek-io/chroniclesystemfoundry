@@ -1,0 +1,35 @@
+{
+  "_id": "6Rd0lwlwTbg1FBQX",
+  "name": "Sickly",
+  "type": "drawback",
+  "img": "systems/chroniclesystem/assets/icons/drawback.png",
+  "system": {
+    "description": "<p>–1D on Endurance tests to resist hazards and ailments.</p><p><em>Full rules: Sword Chronicle p. 63.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 63",
+    "requireSorcerousArt": false,
+    "isAStricture": false,
+    "isAFlaw": false,
+    "flawAttribute": "",
+    "requirements": "—"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6Rd0lwlwTbg1FBQX"
+}

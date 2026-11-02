@@ -81,6 +81,16 @@ const registerSystemSettings = () => {
         type: String,
         default: "eng"
     });
+
+    game.settings.register(S.SYSTEM_NAME, S.HOUSE_RESOURCE_FORMULA, {
+        name: "CS.settings.houseResourceFormula.name",
+        hint: "CS.settings.houseResourceFormula.hint",
+        scope: "world",
+        config: true,
+        type: String,
+        choices: Object.fromEntries(Object.entries(CSConstants.HouseResourceFormulas).map(([k, v]) => [k, v.label])),
+        default: "sifrp"
+    });
 };
 
 export default registerSystemSettings;

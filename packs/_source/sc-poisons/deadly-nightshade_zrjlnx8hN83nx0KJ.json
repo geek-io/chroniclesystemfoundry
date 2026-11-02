@@ -1,0 +1,40 @@
+{
+  "_id": "zrjlnx8hN83nx0KJ",
+  "name": "Deadly Nightshade",
+  "type": "poison",
+  "img": "systems/chroniclesystem/assets/icons/poison.png",
+  "system": {
+    "description": "<p>Toxic berries of a dark shrub. One attack each minute gives –1D to Cunning (more with degrees); another each hour gives –2D to Endurance. If penalty dice equal the ability's rank, the victim dies.</p>",
+    "type": "",
+    "source": "Sword Chronicle p. 116",
+    "quantity": 1,
+    "cost": "100 sd",
+    "delivery": "Ingested",
+    "virulence": "4",
+    "frequency": "1/minute and 1/hour",
+    "toxicity": 2,
+    "diagnosis": 6,
+    "effects": "<p>Virulence 4; Toxicity 2; Frequency 1/minute and 1/hour; Diagnosis Routine (6).</p><p>Toxic berries of a dark shrub. One attack each minute gives –1D to Cunning (more with degrees); another each hour gives –2D to Endurance. If penalty dice equal the ability's rank, the victim dies.</p>",
+    "recovery": "<p>After it runs its course, a Challenging (9) Endurance test each week removes one penalty die per degree.</p>",
+    "weight": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zrjlnx8hN83nx0KJ"
+}

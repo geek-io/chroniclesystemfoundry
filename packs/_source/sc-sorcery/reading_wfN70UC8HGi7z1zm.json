@@ -1,0 +1,48 @@
+{
+  "_id": "wfN70UC8HGi7z1zm",
+  "name": "Reading",
+  "type": "work",
+  "img": "systems/chroniclesystem/assets/icons/work.png",
+  "system": {
+    "description": "<p>Looks at who a subject is and what in their past brought them here: background events, qualities, goals, motivations, virtues, vices and relationships.</p><p><strong>Spell.</strong> Flash of Insight. A quick, subtle reading of who someone is now; only sorcerers trained in the same Method notice it.</p><p><strong>Ritual.</strong> Alignment: Reading the Spirit: Challenging (9) Awareness, 10 minutes. Invocation: Formidable (12) Knowledge, one hour. Unleashing: Challenging (9) Will. Degrees from Invocation and Unleashing become Insights and Insight Dice about the subject.</p><p><em>Art of Divination — full rules: Sword Chronicle p. 99.</em></p>",
+    "type": "",
+    "source": "Sword Chronicle p. 99",
+    "art": "Art of Divination",
+    "workType": "BOTH",
+    "testAbility": "Awareness",
+    "test": "Awareness (spell), Knowledge (ritual)",
+    "learningTime": "3 weeks",
+    "learningDifficulty": 9,
+    "price": "None (spell), Spent (ritual)",
+    "resonances": "The Method's resonances.",
+    "spell": {
+      "difficulty": "Flash of Insight.",
+      "notes": "A quick, subtle reading of who someone is now; only sorcerers trained in the same Method notice it."
+    },
+    "ritual": {
+      "alignmentAbility": "Awareness",
+      "alignment": "Reading the Spirit: Challenging (9) Awareness, 10 minutes.",
+      "invocation": "Formidable (12) Knowledge, one hour.",
+      "unleashing": "Challenging (9) Will. Degrees from Invocation and Unleashing become Insights and Insight Dice about the subject."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "chroniclesystem",
+    "systemVersion": "14.0.2",
+    "createdTime": 1793638800000,
+    "modifiedTime": 1793638800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wfN70UC8HGi7z1zm"
+}

@@ -383,10 +383,10 @@ COLLECTION = {"Item": "items", "Actor": "actors", "RollTable": "tables"}
 DOC_TYPE = {"abilities": "Item", "weapons": "Item", "armor": "Item", "equipment": "Item", "poisons": "Item", "benefits": "Item",
             "drawbacks": "Item", "holdings": "Item", "events": "Item", "archetypes": "Actor", "pregenerated-characters": "Actor",
             "narrator-characters": "Actor", "creatures": "Actor", "tables": "RollTable"}
-if os.path.isdir(OUT):
-    shutil.rmtree(OUT)
 counts = {}
 for pack, docs in PACKS.items():
+    # Only replace this script's own packs, so other generators (tools/sword-chronicle) can share packs/_source.
+    shutil.rmtree(os.path.join(OUT, pack), ignore_errors=True)
     os.makedirs(os.path.join(OUT, pack), exist_ok=True)
     coll = COLLECTION[DOC_TYPE[pack]]
     for doc in docs:
