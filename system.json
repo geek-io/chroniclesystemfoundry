@@ -2,7 +2,7 @@
   "id": "chroniclesystem",
   "title": "Chronicle System (Unofficial)",
   "description": "An implementation of Green Ronin's Chronicle System, used by A Song of Ice and Fire Roleplaying (SIFRP) and Sword Chronicle. Updated for Foundry VTT v14 by the Geek IO Dev Team.",
-  "version": "14.0.0",
+  "version": "14.0.1",
   "compatibility": {
     "minimum": "13.346",
     "verified": "14.368"

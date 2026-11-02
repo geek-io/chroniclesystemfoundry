@@ -1,6 +1,6 @@
 {
   "name": "chroniclesystem",
-  "version": "14.0.0",
+  "version": "14.0.1",
   "private": true,
   "description": "Chronicle System (Unofficial) for Foundry VTT v14",
   "scripts": {
