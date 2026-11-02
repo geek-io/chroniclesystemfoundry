@@ -22,7 +22,7 @@ const MODES = {
 export class CSImporter extends HandlebarsApplicationMixin(ApplicationV2) {
     constructor(options = {}) {
         super(options);
-        this.state = {
+        this.importState = {
             mode: options.mode ?? "auto",
             text: options.text ?? "",
             actorType: "npc",
@@ -63,7 +63,7 @@ export class CSImporter extends HandlebarsApplicationMixin(ApplicationV2) {
     /** @inheritDoc */
     async _prepareContext(options) {
         const context = await super._prepareContext(options);
-        const s = this.state;
+        const s = this.importState;
         const itemTypes = Object.fromEntries(Parsers.ITEM_TYPES.map((t) => [t, `TYPES.Item.${t}`]));
         const packs = game.packs.filter((p) => !p.locked && ["Actor", "Item"].includes(p.documentName));
         const destinations = {world: "CS.importer.destinationWorld"};
@@ -121,7 +121,7 @@ export class CSImporter extends HandlebarsApplicationMixin(ApplicationV2) {
 
     static async #onSubmit(event, form, formData) {
         const data = formData.object;
-        const s = this.state;
+        const s = this.importState;
         for (const key of ["text", "actorType", "itemType", "destination", "folder", "source", "pages"]) {
             if (key in data) s[key] = data[key];
         }
@@ -131,7 +131,7 @@ export class CSImporter extends HandlebarsApplicationMixin(ApplicationV2) {
     }
 
     _setProgress(message) {
-        this.state.progress = message;
+        this.importState.progress = message;
         const el = this.element?.querySelector(".progress");
         if (el) el.textContent = message;
     }
@@ -141,20 +141,20 @@ export class CSImporter extends HandlebarsApplicationMixin(ApplicationV2) {
     /* -------------------------------------------- */
 
     static #onSetMode(event, target) {
-        this.state.mode = target.dataset.mode;
-        this.state.parsed = null;
+        this.importState.mode = target.dataset.mode;
+        this.importState.parsed = null;
         this.render();
     }
 
     static #onClear() {
-        Object.assign(this.state, {text: "", parsed: null, progress: ""});
+        Object.assign(this.importState, {text: "", parsed: null, progress: ""});
         this.render();
     }
 
     static #onExample(event, target) {
-        this.state.text = EXAMPLES[target.dataset.example] ?? "";
-        this.state.mode = target.dataset.mode ?? this.state.mode;
-        this.state.parsed = null;
+        this.importState.text = EXAMPLES[target.dataset.example] ?? "";
+        this.importState.mode = target.dataset.mode ?? this.importState.mode;
+        this.importState.parsed = null;
         this.render();
     }
 
@@ -165,27 +165,27 @@ export class CSImporter extends HandlebarsApplicationMixin(ApplicationV2) {
     static async #onPreview() {
         this.#syncFormState();
         try {
-            this.state.parsed = this.parse(this.state.text);
+            this.importState.parsed = this.parse(this.importState.text);
         } catch (err) {
             LOGGER.error("Importer parse failed", err);
-            this.state.parsed = {actors: [], items: [], warnings: [err.message]};
+            this.importState.parsed = {actors: [], items: [], warnings: [err.message]};
         }
         this.render();
     }
 
     static async #onImport() {
         this.#syncFormState();
-        if (!this.state.parsed) this.state.parsed = this.parse(this.state.text);
-        const {actors, items} = this.state.parsed;
+        if (!this.importState.parsed) this.importState.parsed = this.parse(this.importState.text);
+        const {actors, items} = this.importState.parsed;
         if (!actors.length && !items.length) {
             ui.notifications.warn("CS.importer.nothingToImport", {localize: true});
             return;
         }
         try {
             const created = await CSImporter.createDocuments({actors, items}, {
-                pack: this.state.destination === "world" ? null : this.state.destination,
-                folder: this.state.folder,
-                linkCompendium: this.state.linkCompendium,
+                pack: this.importState.destination === "world" ? null : this.importState.destination,
+                folder: this.importState.folder,
+                linkCompendium: this.importState.linkCompendium,
                 onProgress: (msg) => this._setProgress(msg)
             });
             ui.notifications.info(game.i18n.format("CS.importer.done", {count: created.length}));
@@ -213,7 +213,7 @@ export class CSImporter extends HandlebarsApplicationMixin(ApplicationV2) {
      * @returns {{actors: object[], items: object[], warnings: string[]}}
      */
     parse(text) {
-        const s = this.state;
+        const s = this.importState;
         let mode = s.mode;
         if (mode === "auto") mode = Parsers.detectFormat(text);
         const source = s.source;
@@ -247,28 +247,28 @@ export class CSImporter extends HandlebarsApplicationMixin(ApplicationV2) {
             if (name.endsWith(".pdf")) {
                 this._setProgress(game.i18n.localize("CS.importer.readingPdf"));
                 const text = await extractPdfText(await file.arrayBuffer(), {
-                    pages: this.state.pages,
-                    ocr: this.state.ocr,
+                    pages: this.importState.pages,
+                    ocr: this.importState.ocr,
                     language: game.settings.get(CSConstants.Settings.SYSTEM_NAME, CSConstants.Settings.OCR_LANGUAGE),
                     onProgress: (msg) => this._setProgress(msg)
                 });
-                this.state.text = text;
+                this.importState.text = text;
             } else if (/\.(png|jpe?g|webp|gif|bmp|tiff?)$/.test(name)) {
                 this._setProgress(game.i18n.localize("CS.importer.runningOcr"));
-                this.state.text = await ocrImage(file, {
+                this.importState.text = await ocrImage(file, {
                     language: game.settings.get(CSConstants.Settings.SYSTEM_NAME, CSConstants.Settings.OCR_LANGUAGE),
                     onProgress: (msg) => this._setProgress(msg)
                 });
             } else {
-                this.state.text = await file.text();
-                if (name.endsWith(".json")) this.state.mode = "json";
-                else if (/\.(csv|tsv)$/.test(name)) this.state.mode = "table";
+                this.importState.text = await file.text();
+                if (name.endsWith(".json")) this.importState.mode = "json";
+                else if (/\.(csv|tsv)$/.test(name)) this.importState.mode = "table";
             }
-            this.state.parsed = null;
-            this.state.progress = game.i18n.format("CS.importer.loaded", {name: file.name});
+            this.importState.parsed = null;
+            this.importState.progress = game.i18n.format("CS.importer.loaded", {name: file.name});
         } catch (err) {
             LOGGER.error("Could not read file", err);
-            this.state.progress = game.i18n.format("CS.importer.failed", {error: err.message});
+            this.importState.progress = game.i18n.format("CS.importer.failed", {error: err.message});
         }
         this.render();
     }

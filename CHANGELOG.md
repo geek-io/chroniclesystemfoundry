@@ -51,6 +51,7 @@ Port of the system to Foundry VTT v14 (also runs on v13.346+), plus a content im
 - The migration from 0.3.0 referenced an undefined variable. Migrations now stop and report if one fails.
 - Sheet tabs: long labels such as "Combat and Intrigue" wrapped onto two lines with oversized line spacing, making that tab taller than the rest. Tab labels now stay on one line, tabs size to their label and share the row evenly, and on very narrow sheets whole tabs move to a second row.
 - The actor and item name in sheet headers (character, NPC, house and all item sheets) inherited Foundry's large heading size and spilled out of the header. It now uses a fixed size that fits the header, and long names are cut off with "…".
+- The importer didn't open on Foundry v14 ("Cannot set property state of #<ApplicationV2> which has only a getter"). v14's ApplicationV2 has its own read-only `state` property, and the importer stored its form data under the same name; it now uses `importState`.
 
 ### Migration
 - Opening a world on 14.0.0 converts list fields that older versions saved as index-keyed objects back into arrays. Back up your world first: Foundry can't downgrade a world once v14 has opened it.
